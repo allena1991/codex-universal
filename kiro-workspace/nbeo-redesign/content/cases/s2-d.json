@@ -1,0 +1,508 @@
+[
+ {
+  "id": "S2-31", "session": 2, "n": 31,
+  "domain": "Systemic health",
+  "title": "Vision that dropped like a blind for four minutes",
+  "stem": "A 71-year-old man has had three episodes of painless loss of vision OD in 10 days, each a grey curtain falling from above, lasting about four minutes, with full recovery. He smokes 20 a day. BP 168/94. No jaw claudication, no scalp tenderness, ESR 12 mm/h. BVA 20/25 both eyes, pupils equal with no RAPD. A bright refractile plaque lies at an arteriolar bifurcation OD. A right carotid bruit is audible.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Giant cell arteritis with transient visual loss"},
+     {"t": "Retinal transient ischaemic attack from carotid embolism", "correct": true},
+     {"t": "Retinal migraine with recurrent monocular aura"},
+     {"t": "Ocular ischaemic syndrome from carotid occlusion"},
+     {"t": "Transient obscurations from raised intracranial pressure"}
+    ],
+    "short": "Retinal TIA, carotid embolic source",
+    "why": "Painless monocular loss lasting minutes with full recovery, repeated three times, with a refractile plaque at a bifurcation and an ipsilateral bruit, is embolic retinal ischaemia from the carotid.",
+    "dis": [
+     {"refs": [0], "label": "Giant cell arteritis", "tempting": "It is the transient loss that must never be missed, and he is the right age for it.", "ruled": "ESR 12 with no jaw claudication, scalp tenderness or systemic symptoms."},
+     {"refs": [2], "label": "Retinal migraine", "tempting": "Brief stereotyped episodes with complete recovery fit its description well.", "ruled": "First episodes at 71, with a visible plaque and a bruit, are embolic."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three steps belong in the first 24 hours?",
+    "options": [
+     {"t": "Same-day carotid duplex ultrasound of both sides", "correct": true},
+     {"t": "Aspirin 300 mg today, then a maintenance antiplatelet", "correct": true},
+     {"t": "Same-day referral to a transient ischaemic attack clinic", "correct": true},
+     {"t": "Carotid duplex booked as an outpatient in four weeks"},
+     {"t": "Oral prednisolone 60 mg daily while the ESR is repeated"},
+     {"t": "A second antihypertensive today, with review in a month"}
+    ],
+    "short": "Same-day duplex, aspirin, TIA clinic",
+    "why": "Stroke risk peaks in the days after a retinal TIA, so imaging, antiplatelet cover and specialist assessment all happen today. The benefit of surgery falls sharply after the first two weeks.",
+    "dis": [
+     {"refs": [4], "label": "Oral prednisolone", "tempting": "Covering for arteritis feels like the cautious move in a man of 71.", "ruled": "ESR 12 with no cranial symptoms, and steroid does nothing to an embolus."},
+     {"refs": [3, 5], "label": "Duplex in four weeks, BP", "tempting": "Both are correct actions at the tempo of a routine vascular review.", "ruled": "The window for endarterectomy is measured in days. Four weeks wastes it."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "Duplex shows 78% stenosis of the right internal carotid. What is the most appropriate management?",
+    "options": [
+     {"t": "Antiplatelet and statin alone, with duplex repeated in six months"},
+     {"t": "Endarterectomy within two weeks, with antiplatelet and a statin", "correct": true},
+     {"t": "Dual antiplatelet therapy for 90 days, then reassessment"},
+     {"t": "Carotid stenting deferred until a further episode occurs"},
+     {"t": "Warfarin to an INR of 2 to 3, with no surgical referral"}
+    ],
+    "short": "Endarterectomy within two weeks",
+    "why": "Symptomatic stenosis of 70 to 99% carries a high early stroke risk, and the gain from surgery is largest inside two weeks of the last event. Antiplatelet and statin run alongside, not instead.",
+    "dis": [
+     {"refs": [0], "label": "Medical therapy alone", "tempting": "Drugs carry no operative risk and the eye looks normal today.", "ruled": "At 78% and symptomatic, the stroke risk exceeds the risk of operating."},
+     {"refs": [4], "label": "Warfarin", "tempting": "Anticoagulation sounds stronger than an antiplatelet for stopping emboli.", "ruled": "This is platelet debris from plaque, not thrombus from a fibrillating atrium."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which source best explains the refractile plaque seen OD?",
+    "options": [
+     {"t": "Cholesterol embolus from an ulcerated carotid plaque", "correct": true},
+     {"t": "Calcific embolus from a stenosed aortic valve"},
+     {"t": "Platelet-fibrin embolus from atrial fibrillation"},
+     {"t": "Talc embolus from intravenous drug use"},
+     {"t": "Lipid deposit from untreated hypertriglyceridaemia"}
+    ],
+    "short": "Cholesterol embolus from the carotid plaque",
+    "why": "A bright yellow refractile fleck lodged at a bifurcation is cholesterol shed from an ulcerated plaque. The bruit places the source in the ipsilateral carotid rather than the heart.",
+    "dis": [
+     {"refs": [1], "label": "Calcific, valvular", "tempting": "Cardiac emboli are the other classic cause of transient monocular loss.", "ruled": "Calcific emboli are chalky white and dull, and they sit more proximally."},
+     {"refs": [2], "label": "Platelet-fibrin embolus", "tempting": "Fibrillation is common at 71 and does throw emboli to the retina.", "ruled": "Platelet emboli are dull grey and pass within minutes. This one persists."}
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "He asks whether he may keep driving to work. What is the correct advice and record?",
+    "options": [
+     {"t": "Advise him to stop driving now, notify the authority, and record it", "correct": true},
+     {"t": "Advise him to stop driving only once the surgery has been booked"},
+     {"t": "Tell him the practice will notify the licensing authority on his behalf"},
+     {"t": "Leave driving to the vascular clinic and make no entry now"},
+     {"t": "No restriction, since acuity is 20/25 and the field is full"}
+    ],
+    "short": "Stop driving now, he notifies, advice recorded",
+    "why": "Three events in 10 days make him unfit to drive from today, and the duty to notify the licensing authority rests with the licence holder. The advice and his response are entered at this visit.",
+    "dis": [
+     {"refs": [2], "label": "Practice notifies for him", "tempting": "It feels like the protective act, and the risk to other road users is real.", "ruled": "Notification is his duty. Disclosure follows only if he drives on regardless."},
+     {"refs": [4], "label": "No restriction", "tempting": "He sees 20/25 and the eye is entirely normal between the attacks.", "ruled": "The hazard is a sudden loss at the wheel, not his acuity in the chair."}
+    ]
+   }
+  ],
+  "rules": "If monocular loss lasted minutes and recovered fully, call it a retinal TIA and image the carotids the same day. If symptomatic stenosis reaches 70%, refer for surgery within two weeks."
+ },
+
+ {
+  "id": "S2-32", "session": 2, "n": 32,
+  "domain": "Glaucoma",
+  "title": "The eye that took a squash ball twenty years ago",
+  "stem": "A 44-year-old man was struck in the right eye by a squash ball at 24 and told nothing was broken. He has no symptoms now. IOP 30 OD, 15 OS, CCT 545 &micro;m both eyes. Gonioscopy OD: a wide ciliary band over four clock hours, torn iris processes, focal meshwork pigment, angle open elsewhere. OS unremarkable. Sphincter tears and a focal lens opacity OD. C/D 0.8 with an inferior notch OD, 0.4 OS. Superior arcuate defect OD.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Primary open angle glaucoma, markedly asymmetrical"},
+     {"t": "Pigmentary glaucoma from iris chafing on the lens"},
+     {"t": "Angle recession glaucoma in the injured eye", "correct": true},
+     {"t": "Pseudoexfoliative glaucoma of unilateral onset"},
+     {"t": "Ghost cell glaucoma from an old vitreous bleed"}
+    ],
+    "short": "Angle recession glaucoma OD",
+    "why": "A wide band of ciliary body over four clock hours with torn iris processes is a recessed angle, and the sphincter tears and focal lens opacity date it to the injury. The fellow eye is normal.",
+    "dis": [
+     {"refs": [0], "label": "Asymmetrical POAG", "tempting": "Open angles with a notched disc and arcuate loss is its usual picture.", "ruled": "Primary disease does not recess the ciliary band or tear iris processes."},
+     {"refs": [3], "label": "Pseudoexfoliation", "tempting": "It is the commonest cause of a genuinely unilateral high pressure.", "ruled": "No flakes on the pupil margin or capsule, and the pigment is focal."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings date the disease to the old injury rather than to primary glaucoma?",
+    "options": [
+     {"t": "A band of ciliary body visible over four clock hours", "correct": true},
+     {"t": "Torn iris processes at the recessed angle", "correct": true},
+     {"t": "Sphincter tears with a focal lens opacity OD", "correct": true},
+     {"t": "Intraocular pressure of 30 mmHg in that eye"},
+     {"t": "Cup-disc ratio 0.8 with an inferior notch OD"},
+     {"t": "Central corneal thickness of 545 &micro;m"}
+    ],
+    "short": "Recessed band, torn processes, sphincter tears",
+    "why": "Only the structural scars carry a date: a recessed ciliary band, torn processes, and a torn sphincter beside a focal lens opacity. The other findings measure severity, not mechanism.",
+    "dis": [
+     {"refs": [3, 4], "label": "Pressure and cupping", "tempting": "They are the abnormal numbers, and they are what drives the treatment.", "ruled": "Both occur in primary disease, so neither dates the damage to 20 years ago."},
+     {"refs": [5], "label": "Corneal thickness", "tempting": "Thickness corrects the pressure reading, which makes it feel diagnostic.", "ruled": "545 &micro;m is average, and it says nothing about why this angle is damaged."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate first-line treatment for the pressure OD?",
+    "options": [
+     {"t": "Topical prostaglandin analogue OD, review at four weeks", "correct": true},
+     {"t": "Selective laser trabeculoplasty to the recessed angle OD"},
+     {"t": "Topical pilocarpine 2% four times daily to that eye"},
+     {"t": "Trabeculectomy with mitomycin C in the right eye now"},
+     {"t": "Oral acetazolamide 250 mg four times daily, long term"}
+    ],
+    "short": "Topical prostaglandin OD, review at four weeks",
+    "why": "A notched disc with a matching arcuate defect needs the pressure down, and a prostaglandin gives the largest single-agent reduction. Medical therapy comes before laser or a filtering operation.",
+    "dis": [
+     {"refs": [1], "label": "Laser trabeculoplasty", "tempting": "It is a standard first line where the meshwork is open and visible.", "ruled": "A traumatised meshwork answers laser poorly and unpredictably."},
+     {"refs": [3], "label": "Trabeculectomy now", "tempting": "Established field loss at 30 mmHg looks like a surgical problem.", "ruled": "He has had no medical trial. Surgery is not the opening move here."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which finding at review would most justify escalating treatment?",
+    "options": [
+     {"t": "IOP 24 mmHg with nerve fibre layer thinning progressing OD", "correct": true},
+     {"t": "IOP 24 mmHg with the disc and field unchanged over a year"},
+     {"t": "IOP 19 mmHg with conjunctival hyperaemia and lash growth"},
+     {"t": "IOP 30 mmHg recorded once on a day he missed the drop"},
+     {"t": "A pressure difference of 9 mmHg between the two eyes"}
+    ],
+    "short": "Progressive thinning at 24 mmHg",
+    "why": "Escalation follows progression rather than a number. Structural loss continuing at 24 mmHg means the target is too high for this nerve, while a stable disc at the same pressure means it is not.",
+    "dis": [
+     {"refs": [1], "label": "Stable at 24 mmHg", "tempting": "24 sits above the usual target, so treating the number feels safer.", "ruled": "A nerve holding steady for a year says the current target is working."},
+     {"refs": [3], "label": "Spike after a missed dose", "tempting": "A reading of 30 on treatment reads as outright failure of the drop.", "ruled": "An unmedicated pressure measures adherence, not the regimen."}
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "He drives to work. What is the correct position on his licence?",
+    "options": [
+     {"t": "Assessment rests on the binocular field, so he drives on for now", "correct": true},
+     {"t": "Any glaucoma diagnosis must be notified to the authority at once"},
+     {"t": "A monocular arcuate defect disqualifies him until pressure is controlled"},
+     {"t": "He may drive while his treated pressure stays below 21 mmHg"},
+     {"t": "Driving is his own affair, so nothing is advised or recorded"}
+    ],
+    "short": "Binocular field decides, advice recorded",
+    "why": "Fitness turns on the binocular field, and a full fellow field covers this arcuate defect. He is told the position, formally field tested if the defect spreads, and the advice is recorded.",
+    "dis": [
+     {"refs": [1], "label": "Notify at once", "tempting": "The word glaucoma sounds notifiable in and of itself.", "ruled": "One eye affected with a full fellow field does not meet the test."},
+     {"refs": [3], "label": "Pressure under 21 mmHg", "tempting": "21 is the number patients remember, so it feels like the threshold.", "ruled": "Licensing is decided on field and acuity, never on a pressure reading."}
+    ]
+   }
+  ],
+  "rules": "If one eye alone runs a high pressure, gonioscope both angles before naming the disease. If a wide ciliary band is seen, expect a poor answer to trabeculoplasty and monitor for life."
+ },
+
+ {
+  "id": "S2-33", "session": 2, "n": 33,
+  "domain": "Glaucoma",
+  "title": "Both eyes blurred a week after a new tablet",
+  "stem": "A 34-year-old woman began topiramate for migraine 11 days ago, raised to 50 mg twice daily four days ago. Both eyes blurred over 36 hours, with brow ache. Refraction has moved from -1.00 to -4.50 D in each eye. BVA 20/40 each. IOP 42 OD, 40 OS. Corneas hazy, chambers shallow centrally and peripherally, iris plane flat with no bombe, angles closed on gonioscopy in both eyes. Lenses clear. B-scan shows annular choroidal elevation.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Acute primary angle closure in both eyes at once"},
+     {"t": "Topiramate effusion with secondary angle closure", "correct": true},
+     {"t": "Plateau iris syndrome presenting acutely in both eyes"},
+     {"t": "Phacomorphic closure from an intumescent lens"},
+     {"t": "Posner-Schlossman syndrome with bilateral spikes"}
+    ],
+    "short": "Drug-induced ciliochoroidal effusion",
+    "why": "Simultaneous bilateral closure, a 3.50 D myopic shift, shallowing at the centre as well as the periphery, and annular choroidal elevation place the block behind the iris. The drug started 11 days ago.",
+    "dis": [
+     {"refs": [0], "label": "Primary angle closure", "tempting": "The pressures, the haze and the closed angles are identical to it.", "ruled": "Primary closure takes one eye at a time and shifts no refraction."},
+     {"refs": [3], "label": "Phacomorphic closure", "tempting": "A lens moving forward does shallow a chamber and close an angle.", "ruled": "Both lenses are clear, and both eyes closed together in 36 hours."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three steps belong in the first 24 hours?",
+    "options": [
+     {"t": "Stop the topiramate today and tell the prescriber", "correct": true},
+     {"t": "Topical aqueous suppressants with atropine 1%", "correct": true},
+     {"t": "Topical prednisolone to settle the ciliary effusion", "correct": true},
+     {"t": "Bilateral laser peripheral iridotomy at this session"},
+     {"t": "Topical pilocarpine 2% hourly to both eyes"},
+     {"t": "Argon laser peripheral iridoplasty to both eyes"}
+    ],
+    "short": "Stop the drug, aqueous suppression, atropine, steroid",
+    "why": "The block sits behind the iris, so the drug comes out, the ciliary body is relaxed and aqueous is suppressed while the effusion settles. The diaphragm falls back over days and the angles reopen.",
+    "dis": [
+     {"refs": [3], "label": "Laser iridotomy", "tempting": "Closed angles at 40 mmHg is the textbook indication for a hole.", "ruled": "There is no pupil block to relieve, so the angle stays shut afterwards."},
+     {"refs": [4, 5], "label": "Pilocarpine, iridoplasty", "tempting": "Both pull peripheral iris out of the angle in other closures.", "ruled": "Miotics rotate the ciliary body further forward and worsen this one."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "The pressure is 34 mmHg at six hours. What is the next step?",
+    "options": [
+     {"t": "Add oral acetazolamide and a hyperosmotic, keeping the cycloplegic", "correct": true},
+     {"t": "Perform laser peripheral iridotomy in both eyes now"},
+     {"t": "Add pilocarpine 2% hourly to both eyes and review"},
+     {"t": "Arrange urgent lens extraction for the eye with the higher pressure"},
+     {"t": "Paracentesis of both anterior chambers at the slit lamp"}
+    ],
+    "short": "Acetazolamide and a hyperosmotic, atropine kept",
+    "why": "Medical control buys the days the effusion needs once the drug is withdrawn. Nothing here calls for a hole in the iris or the loss of a clear lens, and both act on a mechanism that is absent.",
+    "dis": [
+     {"refs": [1], "label": "Iridotomy now", "tempting": "A pressure of 34 on maximal drops reads as failure needing laser.", "ruled": "The angle is shut by forward rotation, which an iridotomy leaves intact."},
+     {"refs": [3], "label": "Lens extraction", "tempting": "Removing the lens does deepen a crowded anterior segment for good.", "ruled": "These lenses are clear and the mechanism resolves in days regardless."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism explains the myopic shift?",
+    "options": [
+     {"t": "Anterior rotation of the ciliary body and lens", "correct": true},
+     {"t": "Osmotic swelling of the lens raising its refractive index"},
+     {"t": "Corneal oedema steepening the anterior corneal curvature"},
+     {"t": "Ciliary muscle spasm driving an accommodative response"},
+     {"t": "Axial elongation under a sustained high pressure"}
+    ],
+    "short": "Forward lens movement on a rotated ciliary body",
+    "why": "Fluid in the supraciliary space rotates the ciliary body forward and slackens the zonule, so the lens moves anteriorly and thickens. The eye turns myopic and the chamber shallows across its width.",
+    "dis": [
+     {"refs": [1], "label": "Lens swelling", "tempting": "Lens hydration is a real cause of acute myopia in hyperglycaemia.", "ruled": "These lenses are clear, and swelling would not lift the choroid."},
+     {"refs": [3], "label": "Ciliary spasm", "tempting": "Spasm gives myopia and brow ache, and both are present here.", "ruled": "Spasm closes no angle and produces no annular choroidal elevation."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which single finding most reliably separates this closure from primary angle closure?",
+    "options": [
+     {"t": "A central chamber as shallow as the periphery", "correct": true},
+     {"t": "Intraocular pressure above 40 mmHg in each eye"},
+     {"t": "Corneal oedema with acuity reduced to 20/40"},
+     {"t": "A closed angle on gonioscopy in both eyes"},
+     {"t": "Brow ache with blurring over the last 36 hours"}
+    ],
+    "short": "Central as well as peripheral shallowing",
+    "why": "Pupil block bows the peripheral iris and leaves central depth near normal. Uniform shallowing with a myopic shift means the whole lens-iris diaphragm has come forward, which is a different disease.",
+    "dis": [
+     {"refs": [1], "label": "Pressure above 40", "tempting": "The height of the pressure feels like a measure of the mechanism.", "ruled": "Both mechanisms reach the forties, so the number separates nothing."},
+     {"refs": [2, 3], "label": "Oedema, closed angle", "tempting": "These are the findings that name an angle closure in the first place.", "ruled": "Shared by both, and neither says what pushed the iris forward."}
+    ]
+   }
+  ],
+  "rules": "If both angles close at once with a myopic shift, stop the new drug and look behind the iris. If the chamber is shallow centrally as well as peripherally, an iridotomy will not open it.",
+  "pair": {
+   "this": "Drug-induced ciliochoroidal effusion",
+   "vs": "Acute primary angle closure",
+   "rows": [
+    ["Laterality", "Both eyes within hours of each other", "One eye now, the fellow eye at risk later"],
+    ["Chamber", "Shallow centrally and peripherally", "Shallow peripherally, central depth near normal"],
+    ["Refraction", "Myopic shift of 2 to 4 D", "No shift once the corneal oedema clears"],
+    ["Iridotomy", "Angle stays closed afterwards", "Angle opens and the attack breaks"]
+   ],
+   "decider": "A myopic shift with uniform shallowing in both eyes means the ciliary body has rotated forward. Stop the drug, cycloplege and suppress aqueous, and do not cut an iridotomy for it."
+  }
+ },
+
+ {
+  "id": "S2-34", "session": 2, "n": 34,
+  "domain": "Glaucoma",
+  "title": "Pressure that climbed again after a laser hole",
+  "stem": "A 42-year-old woman had bilateral laser iridotomies 14 months ago for appositional closure. Refraction +0.75 both eyes, BVA 20/20 each. IOP 15 OD, 30 OS. Both iridotomies are patent on retroillumination, the iris plane flat, central chamber depth normal. Indentation gonioscopy OS shows a double hump, angle closed to the meshwork over three quadrants. OD closes on dark provocation. Ciliary processes sit anteriorly on ultrasound.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Incomplete iridotomy with residual pupil block"},
+     {"t": "Plateau iris syndrome persisting after iridotomy", "correct": true},
+     {"t": "Malignant glaucoma with aqueous misdirection"},
+     {"t": "Chronic angle closure with peripheral synechiae"},
+     {"t": "Pigment dispersion from chafing at the laser edge"}
+    ],
+    "short": "Plateau iris syndrome after iridotomy",
+    "why": "Appositional closure with a rising pressure despite two patent iridotomies, a flat iris with normal central depth, a double hump on indentation, and anteriorly placed ciliary processes define plateau iris.",
+    "dis": [
+     {"refs": [0], "label": "Residual pupil block", "tempting": "Closure after a laser suggests the hole is too small or has sealed.", "ruled": "Both holes transilluminate and the central chamber depth is normal."},
+     {"refs": [2], "label": "Malignant glaucoma", "tempting": "It too closes an angle in an eye that already has a patent iridotomy.", "ruled": "It follows filtering surgery and shallows the chamber centrally."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings show that pupil block is not the mechanism?",
+    "options": [
+     {"t": "Both iridotomies are patent on retroillumination", "correct": true},
+     {"t": "Normal central chamber depth with a flat iris", "correct": true},
+     {"t": "A double hump at the angle on indentation", "correct": true},
+     {"t": "Intraocular pressure of 30 mmHg in the left eye"},
+     {"t": "The angle closes on dark provocation OD"},
+     {"t": "Refraction of +0.75 in both eyes"}
+    ],
+    "short": "Patent holes, flat iris, double hump",
+    "why": "A patent hole removes block, and its signature, a bowed iris over a shallow centre, is absent. The double hump shows ciliary processes holding the peripheral iris against the meshwork instead.",
+    "dis": [
+     {"refs": [3, 5], "label": "Pressure and refraction", "tempting": "One is the abnormal number, the other the classic closure risk factor.", "ruled": "Neither locates the block, and +0.75 argues against a crowded eye."},
+     {"refs": [4], "label": "Closure in the dark", "tempting": "It proves the angle does close, which is the worry in front of you.", "ruled": "It shows that closure happens, not what pushes the iris forward."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate treatment for the closure OS?",
+    "options": [
+     {"t": "Argon laser iridoplasty OS with a pressure-lowering drop", "correct": true},
+     {"t": "Repeat the iridotomy OS with a larger opening"},
+     {"t": "Trabeculectomy with mitomycin C in the left eye"},
+     {"t": "Clear lens extraction in the left eye this month"},
+     {"t": "Observation with gonioscopy and imaging repeated in six months"}
+    ],
+    "short": "Iridoplasty OS with a pressure-lowering drop",
+    "why": "Iridoplasty contracts peripheral iris stroma and pulls it out of the angle, which is the only laser that treats this configuration. A drop holds the pressure while the angle is reopened.",
+    "dis": [
+     {"refs": [1], "label": "A second iridotomy", "tempting": "Another hole feels logical when the first one did not hold the angle.", "ruled": "The hole is patent, so a second changes nothing about the ciliary body."},
+     {"refs": [2], "label": "Trabeculectomy", "tempting": "30 mmHg after a laser that failed looks like a surgical eye.", "ruled": "Filtration is for uncontrolled damage, not an angle that can be opened."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "How should the right eye be managed?",
+    "options": [
+     {"t": "Regular gonioscopy, treating on a pressure rise or synechiae", "correct": true},
+     {"t": "Prophylactic iridoplasty OD at the same session as the left eye"},
+     {"t": "Long-term topical pilocarpine 1% to the right eye"},
+     {"t": "Repeat the iridotomy OD, since the angle still closes"},
+     {"t": "Discharge to routine care, with no further gonioscopy"}
+    ],
+    "short": "Gonioscopy on a schedule, treat on change",
+    "why": "This eye holds 15 mmHg with no synechiae, so it is followed with the test that shows apposition. Treatment is triggered by a pressure rise or new adhesions, not by the configuration alone.",
+    "dis": [
+     {"refs": [1], "label": "Iridoplasty both eyes", "tempting": "The configuration is bilateral, so treating both looks consistent.", "ruled": "No pressure rise and no synechiae here. There is nothing yet to treat."},
+     {"refs": [4], "label": "Discharge", "tempting": "15 mmHg with 20/20 and a patent iridotomy reads as a normal eye.", "ruled": "An angle that closes in the dark needs gonioscopy, not discharge."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "She is offered a systemic anticholinergic for bladder symptoms. What is correct?",
+    "options": [
+     {"t": "Tell the prescriber that dilation can close her angles", "correct": true},
+     {"t": "No precaution is needed now that the iridotomies are patent"},
+     {"t": "Refuse the tablet until a trabeculectomy has been done"},
+     {"t": "Add pilocarpine while she takes the tablet, then stop it"},
+     {"t": "Reassure her, since only eye drops dilate enough to matter"}
+    ],
+    "short": "Warn the prescriber, dilation can close the angle",
+    "why": "A patent iridotomy removes pupil block but not plateau configuration, so a dilated pupil still crowds the angle. The prescriber needs that before the first tablet, not after the attack.",
+    "dis": [
+     {"refs": [1], "label": "No precaution needed", "tempting": "The iridotomy is the treatment everyone associates with angle closure.", "ruled": "It prevents block alone, and this angle closes without any block."},
+     {"refs": [4], "label": "Only drops matter", "tempting": "Topical drugs reach the iris directly, which sounds like the greater risk.", "ruled": "Systemic anticholinergics dilate the pupil as effectively as a drop."}
+    ]
+   }
+  ],
+  "rules": "If an angle still closes with a patent iridotomy, a flat iris and normal central depth, the block sits at the iris root. Treat the configuration with iridoplasty, and warn about dilation.",
+  "pair": {
+   "this": "Plateau iris syndrome",
+   "vs": "Residual pupil block",
+   "rows": [
+    ["Iridotomy", "Patent, and the angle closes anyway", "Small, sealed or absent on retroillumination"],
+    ["Iris contour", "Flat plane with a sudden peripheral rise", "Bowed forward from the pupil outward"],
+    ["Central depth", "Normal for the eye", "Shallow, and it deepens once the hole works"],
+    ["Indentation", "Double hump over the ciliary processes", "Angle opens smoothly and stays open"]
+   ],
+   "decider": "A patent iridotomy with a flat iris and normal central depth means the ciliary body holds the angle shut. The answer is iridoplasty or lens extraction, never a second hole."
+  }
+ },
+
+ {
+  "id": "S2-35", "session": 2, "n": 35,
+  "domain": "Glaucoma",
+  "title": "The screening result he does not want to act on",
+  "stem": "A community programme screened 1000 adults over 60 for glaucoma, in a population where the prevalence is 4%. The instrument has a sensitivity of 90% and a specificity of 85%. A 63-year-old man screens positive: IOP 25 OD, 24 OS, cup-disc 0.7 both eyes, a brother with glaucoma. He has capacity, declines referral and further testing today, and asks for a copy of his record to take elsewhere.",
+  "items": [
+   {
+    "type": "basic",
+    "q": "What is the positive predictive value of a positive screen in this population?",
+    "options": [
+     {"t": "20%, so four in five positive screens are false", "correct": true},
+     {"t": "90%, the share of true cases the test detects"},
+     {"t": "85%, the share of healthy people it clears"},
+     {"t": "About 99%, since very few cases are missed"},
+     {"t": "4%, since that is the prevalence in the group"}
+    ],
+    "short": "20%",
+    "why": "Of 1000 screened, 40 have disease and 36 are detected, while 144 of the 960 healthy screen positive. That makes 180 positives, of which 36 are true, so 36 divided by 180 gives 20%.",
+    "dis": [
+     {"refs": [1], "label": "90%, the sensitivity", "tempting": "Sensitivity is the figure quoted for the test, so it reads as its accuracy.", "ruled": "Sensitivity looks forward from disease, not back from a positive result."},
+     {"refs": [4], "label": "4%, the prevalence", "tempting": "It is the other number in the stem, and the disease is genuinely rare.", "ruled": "A positive result moves his probability from 4% up to 20%."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "The same test is used in a clinic where prevalence is 20%. Which two statements are correct?",
+    "options": [
+     {"t": "The positive predictive value rises to about 60%", "correct": true},
+     {"t": "Sensitivity and specificity are unchanged", "correct": true},
+     {"t": "The negative predictive value rises to about 99%"},
+     {"t": "False positives per 1000 screened rise to 200"},
+     {"t": "Specificity rises because fewer positives are false"},
+     {"t": "The positive predictive value stays at about 20%"}
+    ],
+    "short": "PPV rises to 60%, the test itself unchanged",
+    "why": "At 20% prevalence, 200 of 1000 have disease and 180 are detected, while 120 of the 800 healthy screen positive. So 180 of 300 positives are true. The instrument has not changed at all.",
+    "dis": [
+     {"refs": [2], "label": "NPV rises to 99%", "tempting": "A better positive value at higher prevalence sounds like it lifts both.", "ruled": "More disease means more missed cases, so the negative value falls to 97%."},
+     {"refs": [3, 4], "label": "200 false positives", "tempting": "Both follow from treating prevalence as a property of the instrument.", "ruled": "With 800 healthy people, false positives fall to 120, and 85% is fixed."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "legal",
+    "q": "He declines referral and further testing. What must be done today?",
+    "options": [
+     {"t": "Record what was explained, the risks accepted, and his decision", "correct": true},
+     {"t": "Record that he refused and close the episode as declined"},
+     {"t": "Ask him to sign a waiver releasing the practice from liability"},
+     {"t": "Refer him anyway, since a positive screen obliges a referral"},
+     {"t": "Involve his brother, who already understands the family risk"}
+    ],
+    "short": "Document the explanation, the risk and the refusal",
+    "why": "A refusal is valid when a person with capacity has been told what the test is for and what untreated disease costs. What makes it informed is the record of that exchange, and an open door back.",
+    "dis": [
+     {"refs": [2], "label": "Signed waiver", "tempting": "A signature looks like the strongest protection the practice can hold.", "ruled": "Liability cannot be signed away, and a form is not a conversation."},
+     {"refs": [3], "label": "Refer him anyway", "tempting": "The clinical risk is real, and referral feels like the safe default.", "ruled": "Acting against the refusal of a competent adult is the greater wrong."}
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "He asks for a copy of his record to take to another practice. What is correct?",
+    "options": [
+     {"t": "Give him a copy within the statutory period", "correct": true},
+     {"t": "Send it to the other practice only, and not to him"},
+     {"t": "Withhold the screening images as practice property"},
+     {"t": "Charge for the copy and release it once it is paid"},
+     {"t": "Refuse until he accepts the referral he has declined"}
+    ],
+    "short": "A copy to him, inside the statutory period",
+    "why": "The file belongs to the practice and the information in it belongs to him, so a person with capacity may have a copy on request. The original, including the refusal entry, stays on file.",
+    "dis": [
+     {"refs": [1], "label": "Clinician to clinician", "tempting": "A transfer between professionals feels tidier and more secure.", "ruled": "He is entitled to his own record, and he decides where it goes next."},
+     {"refs": [4], "label": "Refuse until he agrees", "tempting": "It reads as leverage that might yet protect his sight.", "ruled": "Access to a record is not conditional on accepting treatment."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate clinical plan at this visit?",
+    "options": [
+     {"t": "Offer fields and disc imaging here, with a written plan", "correct": true},
+     {"t": "Start a prostaglandin analogue today on the screening result"},
+     {"t": "Repeat the screening test in twelve months and do nothing now"},
+     {"t": "Discharge him with advice to return if his vision changes"},
+     {"t": "Write to his physician asking for the referral to be made"}
+    ],
+    "short": "Definitive testing offered here, then review",
+    "why": "A positive screen is not a diagnosis, and four in five are false, so fields and imaging come before any drop. Offering the tests he will accept keeps him in view and dates the next decision.",
+    "dis": [
+     {"refs": [1], "label": "Start a prostaglandin", "tempting": "25 mmHg with a 0.7 cup looks like enough to justify treating now.", "ruled": "Treating on a screen commits him to therapy for an unmade diagnosis."},
+     {"refs": [2], "label": "Rescreen in a year", "tempting": "A year is a reasonable interval for following a glaucoma suspect.", "ruled": "He holds an untested positive result and a family history, not a clearance."}
+    ]
+   }
+  ],
+  "rules": "If a screen is positive, work out the positive predictive value before acting on it. If a person with capacity refuses, record what was explained, what was refused, and the review offered."
+ }
+]

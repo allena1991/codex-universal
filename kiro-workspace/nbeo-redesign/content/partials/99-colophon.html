@@ -1,0 +1,40 @@
+<!--
+label: Colophon
+part: Part 10 / Colophon
+foot: Colophon &middot; {{PG}}
+-->
+<h2>How this was made</h2>
+<p class="lede" style="margin-top:7px">Recorded because the previous edition's defects were invisible to its reader, and because a claim you cannot check is worth less than a method you can.</p>
+
+<h3>Build</h3>
+<table class="lined tight">
+  <tbody>
+    <tr><th style="width:1.5in">Content</th><td>Cases are structured data. Each item carries its options with the correct one flagged in place, an explanation, and a distractor table naming what makes each wrong option tempting and the finding that rules it out.</td></tr>
+    <tr><th>Answer letters</th><td>Generated after authoring, to an even distribution with no run longer than three and every letter live in both sessions. Options are rotated rather than shuffled, so ordered options stay ordered.</td></tr>
+    <tr><th>Layout</th><td>Every page is a fixed letter-sized box. A cost model estimates the height of each block and packs content into sheets, and a headless browser then measures the real render and fails the build if any page is clipped.</td></tr>
+    <tr><th>Numbering</th><td>Page numbers, the table of contents, both case indexes and the printed answer key are all generated after layout, so they cannot drift away from the content.</td></tr>
+    <tr><th>Print</th><td>Printed through the browser's own engine at letter size with the document owning its page geometry. The exported file is then checked for page count, page box and embedded fonts.</td></tr>
+  </tbody>
+</table>
+
+<h3>Typography</h3>
+<table class="lined tight">
+  <tbody>
+    <tr><th style="width:1.5in">Display</th><td>Instrument Serif, for the page titles only.</td></tr>
+    <tr><th>Text</th><td>Spectral at 10.5 point, down to 8 point in the distractor tables and nowhere smaller. Chosen because it has static weights: the print engine silently substitutes a fallback for variable-axis fonts, which loses the body face in the exported file without any warning on screen.</td></tr>
+    <tr><th>Labels and numbers</th><td>IBM Plex Mono, for anything that has to be scanned rather than read.</td></tr>
+    <tr><th>One deliberate exception</th><td>The Greek delta in prism notation is set in a fallback face, in both weights, because Spectral has no Greek coverage. That was established by exporting the file with the character removed and comparing the embedded fonts. The alternative was to write prism notation incorrectly.</td></tr>
+    <tr><th>Colour</th><td>Petrol keys structure and navigation, red keys danger and prohibition, ochre keys a caution or a rule to memorise. Red is never used decoratively, so a red strip on a page always means the same thing.</td></tr>
+  </tbody>
+</table>
+
+<h3>Known limits of this edition</h3>
+<table class="lined tight">
+  <tbody>
+    <tr><th style="width:1.5in">Unconfirmed figures</th><td>Per-domain item ranges and item-type percentage bands are transcribed from the prior edition. The official Content Matrix resolves but was not machine-read for this build. Both are marked unconfirmed wherever they appear.</td></tr>
+    <tr><th>Clinical simplification</th><td>Drug figures are exam anchors. Verify labelling, dose, interactions and local law before treating anybody.</td></tr>
+    <tr><th>Independence</th><td>Every case, option, rationale, table and diagram is original. Nothing reproduces secure NBEO items or copyrighted case images. This is an independent resource, not endorsed by NBEO, and no resource can guarantee a passing score.</td></tr>
+  </tbody>
+</table>
+
+<p class="tiny" style="margin-top:12px">Built {{DATE}}. {{NPAGES}} pages, {{NRECORDS}} cases, {{NITEMS}} items.</p>

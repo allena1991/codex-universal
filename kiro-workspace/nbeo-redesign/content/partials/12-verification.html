@@ -1,0 +1,34 @@
+<!--
+label: Verification
+part: Part 1 / Verification
+foot: Verification &middot; {{PG}}
+-->
+<h2>What is checked,<br>and what is not</h2>
+  <p class="lede" style="margin-top:9px">A guide that labels its own uncertainty is more useful than one that asserts it was verified. Every factual claim carries one of three states.</p>
+
+  <h3>Verification table</h3>
+  <table class="lined">
+    <thead><tr><th>Claim</th><th style="width:0.95in">State</th><th style="width:2.3in">Basis</th></tr></thead>
+    <tbody>
+      <tr><td>350 items, presented as cases of 3-6 items</td><td><span class="status ok">Verified</span></td><td>NBEO exam page, fetched 15 Aug 2026</td></tr>
+      <tr><td>Two sessions of 175 items, 3.5 hours each</td><td><span class="status ok">Verified</span></td><td>NBEO exam page</td></tr>
+      <tr><td>Approximately 120 TMOD items, separate breakout decision</td><td><span class="status ok">Verified</span></td><td>NBEO exam page</td></tr>
+      <tr><td>Delivered at Pearson centres; tutorial being updated</td><td><span class="status ok">Verified</span></td><td>NBEO exam page</td></tr>
+      <tr><td>Per-domain item ranges, 17 domains</td><td><span class="status unconf">Unconfirmed</span></td><td>Transcribed from prior edition. Content Matrix PDF resolves but was not machine-read</td></tr>
+      <tr><td>Item-type percentage bands</td><td><span class="status unconf">Unconfirmed</span></td><td>As above</td></tr>
+      <tr><td>Deep link to the Pearson tutorial</td><td><span class="status bad">Removed</span></td><td>URL did not resolve; reach it from the exam page</td></tr>
+    </tbody>
+  </table>
+
+  <h3>The defect this edition exists to fix</h3>
+  <table>
+    <thead><tr><th>Answer key</th><th style="width:1.1in">Session 1</th><th style="width:1.1in">Session 2</th><th style="width:1in">Both</th></tr></thead>
+    <tbody>
+      <tr><th>Single-answer items</th><td class="num">161</td><td class="num">172</td><td class="num">333</td></tr>
+      <tr><th>Correct answer was A</th><td class="num">67.1%</td><td class="num">95.3%</td><td class="num">81.7%</td></tr>
+      <tr><th>Longest run of one letter</th><td class="num">30</td><td class="num">140</td><td class="num">-</td></tr>
+      <tr><th>Letters never correct</th><td class="num">E</td><td class="num">D, E</td><td class="num">E</td></tr>
+    </tbody>
+  </table>
+  <div class="callout"><b>What that meant in practice</b>Answering A to every single-answer item scored 272/333, about 82%, without reading one stem. Session 2 alone scored 95%. The two sessions were also biased by different amounts, so a Session 1 score could not be compared with a Session 2 score, which broke the guide's own repair-and-confirm workflow.</div>
+  <div class="note"><b>Rebuild rule, auditable</b>Each letter A to E is correct on 18-22% of single-answer items in each session, no letter repeats more than three times consecutively, all five letters appear in both sessions, and option length is matched within each item. The build fails if any of that breaks. Re-run <span class="mono">tools/build.py --audit</span> after any edit to the bank.</div>

@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "S2-01", "session": 2, "n": 1,
+  "domain": "Accommodation, vergence, oculomotor",
+  "title": "Distance blur that arrived in the middle of exam term",
+  "stem": "A 19-year-old student has six weeks of variable distance blur after ten-hour revision days, with frontal headache and near print that stays sharp. Dry subjective -1.75 DS each eye, BVA 20/20. Cyclopentolate 1% retinoscopy gives +0.25 DS each eye. Distance retinoscopy fluctuates, pupils 3 mm in room light, push-up near point 6 cm, NRA +0.75 D, PRA -3.50 D, 6 &Delta; esophoria at 40 cm.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Axial myopia of -1.75 D, newly manifest"},
+     {"t": "Pseudomyopia from accommodative spasm", "correct": true},
+     {"t": "Uncorrected latent hyperopia at distance"},
+     {"t": "Convergence excess with esophoria at near"},
+     {"t": "Early keratoconus with variable retinoscopy"}
+    ],
+    "short": "Pseudomyopia from accommodative spasm",
+    "why": "Cyclopentolate leaves +0.25 D, so the -1.75 D is ciliary tone and not axial length. An NRA of +0.75 D, a 6 cm near point and a fluctuating reflex with 3 mm pupils are sustained overaction.",
+    "dis": [
+     {"refs": [0], "label": "Axial myopia", "tempting": "Six weeks of blur in a student reads as the myopia everyone expects.", "ruled": "Axial myopia does not vanish under cycloplegia. The plus reading settles it."},
+     {"refs": [2], "label": "Latent hyperopia", "tempting": "Cycloplegia does uncover plus, which is what happened here.", "ruled": "Latent hyperopia blurs near before distance, and her manifest was minus."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings separate accommodative spasm from axial myopia?",
+    "options": [
+     {"t": "Cycloplegic refraction of +0.25 D in each eye", "correct": true},
+     {"t": "Distance acuity of 20/20 through -1.75 D"},
+     {"t": "NRA reduced to +0.75 D at 40 cm", "correct": true},
+     {"t": "Fluctuating distance retinoscopy with 3 mm pupils", "correct": true},
+     {"t": "Equal refraction in the right and left eye"},
+     {"t": "Symptoms that began during ten-hour revision days"}
+    ],
+    "short": "Cycloplegic plus, low NRA, fluctuating reflex",
+    "why": "Only measurements that move with ciliary tone can separate the two. Plus under cycloplegia, a reduced NRA and a fluctuating reflex with miosis all move. Acuity and symmetry do not.",
+    "dis": [
+     {"refs": [1], "label": "20/20 through -1.75 D", "tempting": "The minus lens works, which is exactly why it gets dispensed.", "ruled": "Both conditions read 20/20 through the minus, so it separates nothing."},
+     {"refs": [4, 5], "label": "Symmetry, revision history", "tempting": "Both fit the story of a student who worked too long and too close.", "ruled": "History raises the suspicion, and symmetry is common to both."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management?",
+    "options": [
+     {"t": "Dispense -1.75 DS both eyes and review the refraction in six months"},
+     {"t": "Withhold the minus, prescribe a +1.00 D add and facility therapy", "correct": true},
+     {"t": "Dispense a partial -1.00 DS both eyes with a near break routine"},
+     {"t": "Atropine 1% both eyes for two weeks with a full-time distance add"},
+     {"t": "Cyclopentolate 1% nightly for a week, then repeat the dry refraction"}
+    ],
+    "short": "No minus, a +1.00 add, facility therapy",
+    "why": "There is no refractive error to correct, so the lenses treat the spasm: plus at near unloads accommodation while facility work restores relaxation. Dispensed minus feeds the spasm.",
+    "dis": [
+     {"refs": [0], "label": "Dispense -1.75 DS", "tempting": "It gives instant clear distance vision and she leaves happy.", "ruled": "Minus lenses drive more accommodation, so the spasm deepens and recurs."},
+     {"refs": [3], "label": "Atropine for two weeks", "tempting": "Paralysing the ciliary muscle does break a spasm, and quickly.", "ruled": "Two weeks of atropine costs all of her near vision in an exam term."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "At eight weeks the dry refraction is +0.25 DS both eyes and NRA is +2.00 D. What now?",
+    "options": [
+     {"t": "Taper the +1.00 add over a month and keep facility work going", "correct": true},
+     {"t": "Stop the add and the exercises today, and discharge her"},
+     {"t": "Continue the +1.00 add full time and review in a year"},
+     {"t": "Prescribe +0.25 DS for distance so the plus is never lost"},
+     {"t": "Repeat the cycloplegic refraction every three months and hold the add"}
+    ],
+    "short": "Taper the add, keep the facility work",
+    "why": "The refraction and the NRA have normalised, so the add has done its work and comes off gradually while the exercises hold the gain. Abrupt withdrawal is when spasm returns.",
+    "dis": [
+     {"refs": [1], "label": "Stop and discharge", "tempting": "The numbers are normal, so the episode looks finished.", "ruled": "Relapse in the same term is common. Taper, and keep a review."},
+     {"refs": [2], "label": "Add full time for a year", "tempting": "It worked, and leaving it alone risks nothing in the short run.", "ruled": "A permanent add at 19 teaches the eye to stop relaxing at all."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Her near point is 6 cm. What amplitude is that, against the Hofstetter mean at 19?",
+    "fixed_order": true,
+    "options": [
+     {"t": "6.0 D, well below the mean of 12.8 D"},
+     {"t": "10.25 D, the minimum expected at 19"},
+     {"t": "12.8 D, exactly the mean for her age"},
+     {"t": "16.7 D, above the mean of 12.8 D", "correct": true},
+     {"t": "20.6 D, above the maximum expected at 19"}
+    ],
+    "short": "16.7 D, above the 12.8 D mean at 19",
+    "why": "Amplitude is the reciprocal of the near point in metres: 1 / 0.06 = 16.7 D. The Hofstetter mean is 18.5 - 0.3 &times; 19 = 12.8 D, so she over-accommodates rather than running short.",
+    "dis": [
+     {"refs": [0], "label": "6.0 D", "tempting": "It copies the 6 in the near point straight into dioptres.", "ruled": "Six centimetres is 0.06 m, and 1 / 0.06 is 16.7 D, not 6."},
+     {"refs": [2], "label": "12.8 D, the mean", "tempting": "It is the correct Hofstetter mean, so it looks like the answer.", "ruled": "The mean is the comparison, not her measurement of 16.7 D."}
+    ]
+   }
+  ],
+  "rules": "If the minus disappears under cycloplegia, the ciliary muscle wrote the prescription. Do not dispense it: unload the near task and train relaxation.",
+  "pair": {
+   "this": "Pseudomyopia",
+   "vs": "Axial myopia",
+   "rows": [
+    ["Cycloplegic refraction", "Plano or plus: the minus disappears", "The minus stays, within 0.50 D of the dry result"],
+    ["NRA and PRA", "NRA low, PRA full", "Both near the norms for age"],
+    ["Retinoscopy", "Fluctuates, with pupils at 3 mm", "Steady reflex, pupils normal for the room"],
+    ["On minus lenses", "Symptoms worsen and the minus grows", "Blur settles, and it stays settled"]
+   ],
+   "decider": "A cycloplegic refraction that comes back plano or plus in a young patient who reads for ten hours a day is spasm, whatever the dry retinoscopy says. Do not dispense the minus."
+  }
+ },
+
+ {
+  "id": "S2-02", "session": 2, "n": 2,
+  "domain": "Ametropia",
+  "title": "Print in one eye that looks smaller and further away",
+  "stem": "A 34-year-old teacher collects new spectacles, OD -1.00 DS and OS -5.50 DS at a 12 mm vertex, 20/20 each eye. Her old pair was OD -1.00 DS, OS -3.00 DS. Since the change she has frontal headache after 20 minutes of marking, print in the left eye that looks smaller and set back, and she misjudges the bottom step. Cover test 2 &Delta; exophoria at 40 cm, motility full, both fundi normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely explanation for her symptoms?",
+    "options": [
+     {"t": "Aniseikonia from correcting 4.50 D of anisometropia", "correct": true},
+     {"t": "Decompensated exophoria from the increased minus"},
+     {"t": "An incorrect cylinder axis in the left lens"},
+     {"t": "A vertex distance error in the left lens"},
+     {"t": "A decentred left lens inducing unwanted prism"}
+    ],
+    "short": "Aniseikonia across 4.50 D of anisometropia",
+    "why": "Full correction of a 4.50 D difference at 12 mm makes the left image markedly smaller. This is a size error, not a focus error, which is why acuity is 20/20 and the step is misjudged.",
+    "dis": [
+     {"refs": [1], "label": "Decompensated exophoria", "tempting": "2 &Delta; of exophoria with headache after 20 minutes fits the pattern.", "ruled": "2 &Delta; at near is physiological, and prism would not shrink one image."},
+     {"refs": [3, 4], "label": "Vertex error, decentration", "tempting": "Both are real dispensing faults that follow a big power change.", "ruled": "Either would blur or double the image, not scale one eye down."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "At about 1.5% of image size per dioptre, what aniseikonia does 4.50 D predict?",
+    "fixed_order": true,
+    "options": [
+     {"t": "About 1.1%"},
+     {"t": "About 2.3%"},
+     {"t": "About 4.5%"},
+     {"t": "About 6.8%", "correct": true},
+     {"t": "About 13.5%"}
+    ],
+    "short": "About 6.8%, past the usual 3% limit",
+    "why": "The spectacle plane costs roughly 1.5% per dioptre: 4.50 &times; 1.5 = 6.8%. Most patients tolerate about 3%, so 6.8% predicts the symptoms she reports at 20 minutes.",
+    "dis": [
+     {"refs": [2], "label": "About 4.5%", "tempting": "It reads the dioptres straight off as percent, which is close.", "ruled": "1% per dioptre understates the spectacle plane by about a third."},
+     {"refs": [4], "label": "About 13.5%", "tempting": "It doubles the rate to 3% per dioptre, quoted for thick lenses.", "ruled": "The working figure at the spectacle plane is about 1.5% per dioptre."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three changes reduce the size difference?",
+    "options": [
+     {"t": "Fit contact lenses, moving the correction to the cornea", "correct": true},
+     {"t": "Cut the vertex distance of the left lens to 8 mm", "correct": true},
+     {"t": "Order the left lens on a steeper base curve, thicker at the centre", "correct": true},
+     {"t": "Increase the vertex distance of the left lens to 16 mm"},
+     {"t": "Under-correct the left eye by 1.50 D of the minus"},
+     {"t": "Split 2 &Delta; base in between the two lenses"}
+    ],
+    "short": "Contacts, a shorter vertex, a steeper base OS",
+    "why": "Spectacle magnification is a shape factor and a power factor. A minus lens closer to the eye, or on the cornea, minifies less, and a steeper, thicker front surface magnifies more.",
+    "dis": [
+     {"refs": [3], "label": "A longer vertex", "tempting": "Vertex distance is the right variable, and one direction must work.", "ruled": "Further out, a minus lens minifies more, so the gap widens."},
+     {"refs": [4], "label": "Under-correct by 1.50 D", "tempting": "Cutting the power difference does cut the size difference.", "ruled": "It buys 2% of size at the cost of 1.50 D of blur in the worse eye."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "She wants to try contact lenses. What is the most appropriate plan?",
+    "options": [
+     {"t": "Fit both eyes in contact lenses and keep the spectacles for backup", "correct": true},
+     {"t": "Fit the left eye alone and leave the right eye uncorrected"},
+     {"t": "Fit the right eye alone and leave the left lens in the frame"},
+     {"t": "Order iseikonic spectacles first, before any contact lens trial is arranged"},
+     {"t": "Keep the spectacles and add a 1.5% size lens on the left"}
+    ],
+    "short": "Contact lenses in both eyes, spectacles kept",
+    "why": "At the corneal plane the predicted size difference falls to roughly a quarter of the spectacle figure, near 1.5%. Both eyes have to move together, or the difference is rebuilt.",
+    "dis": [
+     {"refs": [1], "label": "Left eye only", "tempting": "Only the left eye needs the large correction, so it looks efficient.", "ruled": "The right eye still needs -1.00 D, and she is left with unequal blur."},
+     {"refs": [3], "label": "Iseikonic spectacles first", "tempting": "It is the textbook answer to a measured size difference.", "ruled": "Iseikonic lenses are thick, costly and slower than a lens trial."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which test most directly measures the size difference she describes?",
+    "options": [
+     {"t": "Direct comparison with an aniseikonia plate set", "correct": true},
+     {"t": "Maddox rod with a graded prism bar at 6 m"},
+     {"t": "Worth four dot at 33 cm in dim illumination"},
+     {"t": "Titmus stereoacuity, graded circles at 40 cm"},
+     {"t": "Base-in to blur, break and recovery at near"}
+    ],
+    "short": "Direct comparison aniseikonia plates",
+    "why": "Aniseikonia is a difference in perceived size, so it is measured by showing a half field to each eye and asking which is larger. Phoria, fusion and stereo tests measure alignment.",
+    "dis": [
+     {"refs": [3], "label": "Stereoacuity", "tempting": "Stereopsis does fall as aniseikonia rises, so the number moves.", "ruled": "It records a consequence, and it moves for a dozen other reasons."},
+     {"refs": [1, 2], "label": "Maddox rod, Worth four dot", "tempting": "Both are quick binocular tests she would pass or fail today.", "ruled": "One measures phoria and one measures fusion. Neither compares size."}
+    ]
+   }
+  ],
+  "rules": "If a new prescription corrects more than 2 D of anisometropia, predict about 1.5% of aniseikonia per dioptre, and move the correction to the cornea before rebuilding the lens."
+ },
+
+ {
+  "id": "S2-03", "session": 2, "n": 3,
+  "domain": "Ophthalmic optics and spectacles",
+  "title": "A line of print that separates in her new lenses",
+  "stem": "A 58-year-old librarian has ten days in her first progressive lenses: OD +1.25 DS, OS +3.25 DS, add +2.25, at a 14 mm vertex. Distance is comfortable, but at 40 cm the line of print separates vertically after a minute. Covering either eye leaves the print single. Reading gaze falls 10 mm below the distance optical centres. Cover test 1 &Delta; hyperphoria at 6 m, 3 &Delta; at 40 cm, motility full.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely cause of the vertical separation at near?",
+    "options": [
+     {"t": "Induced vertical prism from 2.00 D of anisometropia", "correct": true},
+     {"t": "A decompensating right hyperphoria in her fifties"},
+     {"t": "Fitting crosses set 3 mm too low in both lenses"},
+     {"t": "A progressive corridor too narrow for her task"},
+     {"t": "The addition over-plussed by +0.50 D for 40 cm"}
+    ],
+    "short": "Vertical imbalance from anisometropia",
+    "why": "Reading 10 mm below the optical centres of lenses that differ by 2.00 D induces unequal base-up prism. That is why the two lines separate at near while distance stays comfortable.",
+    "dis": [
+     {"refs": [1], "label": "Decompensating hyperphoria", "tempting": "There is a measured 3 &Delta; hyperphoria at near to point at.", "ruled": "It appears in these lenses at the reading point, and not without them."},
+     {"refs": [3], "label": "A narrow corridor", "tempting": "Corridor width is the usual complaint in a first progressive.", "ruled": "A narrow corridor blurs and swims. It does not split print vertically."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "By Prentice rule, what vertical imbalance does reading 10 mm below the centres induce?",
+    "fixed_order": true,
+    "options": [
+     {"t": "0.5 &Delta;"},
+     {"t": "1.25 &Delta;"},
+     {"t": "2.0 &Delta;", "correct": true},
+     {"t": "3.25 &Delta;"},
+     {"t": "4.5 &Delta;"}
+    ],
+    "short": "2.0 &Delta; of vertical imbalance at 40 cm",
+    "why": "Prentice: prism equals decentration in cm times power. Right 1.0 &times; 1.25 = 1.25 &Delta; base up, left 1.0 &times; 3.25 = 3.25 &Delta; base up, so the imbalance is 2.0 &Delta;.",
+    "dis": [
+     {"refs": [3], "label": "3.25 &Delta;", "tempting": "It is the left eye's prism, the larger of the two figures.", "ruled": "The symptom comes from the difference between the eyes, not one lens."},
+     {"refs": [4], "label": "4.5 &Delta;", "tempting": "It adds the two prisms instead of subtracting them.", "ruled": "Both are base up, so they partly cancel: 3.25 - 1.25 = 2.0 &Delta;."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three changes reduce the imbalance without altering her distance correction?",
+    "options": [
+     {"t": "Conventional slab-off on the right lens, the less plus of the pair", "correct": true},
+     {"t": "Single vision readers with the centres at her reading position", "correct": true},
+     {"t": "A shorter corridor design, cutting the drop to the near zone", "correct": true},
+     {"t": "A deeper frame, giving more lens below the optical centres"},
+     {"t": "Reduce the addition from +2.25 to +1.75 D"},
+     {"t": "Split 2 &Delta; base out between the two lenses"}
+    ],
+    "short": "Slab-off right, separate readers, short corridor",
+    "why": "The imbalance is proportional to the power difference and to how far below the centres she reads. Slab-off cancels it in the reading zone, readers move the centres, a short corridor cuts the drop.",
+    "dis": [
+     {"refs": [3], "label": "A deeper frame", "tempting": "More lens below the centre sounds like more room to read in.", "ruled": "Reading further below the centres multiplies the prism, not reduces it."},
+     {"refs": [5], "label": "2 &Delta; base out", "tempting": "The magnitude is right, and prism is the right family of answer.", "ruled": "The imbalance is vertical. Horizontal prism does nothing to it."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What should be checked before any lens is remade?",
+    "options": [
+     {"t": "Monocular centration and fitting heights in the frame as worn", "correct": true},
+     {"t": "Corneal topography of both eyes for irregular astigmatism"},
+     {"t": "The addition, by re-measuring her amplitude of accommodation"},
+     {"t": "Stereoacuity and fusion ranges through the finished lenses"},
+     {"t": "Lens material and coatings against the original order"}
+    ],
+    "short": "Centration and heights, in the frame as worn",
+    "why": "A height error of 3 mm changes the induced imbalance by 0.6 &Delta;, since 0.3 cm &times; 2.00 D = 0.6 &Delta;. The fit is verified as worn before a slab-off is ordered on the wrong lens.",
+    "dis": [
+     {"refs": [2], "label": "Re-measure the addition", "tempting": "The add is the other new number in a first progressive, and it is high.", "ruled": "A wrong add blurs at 40 cm. It cannot separate print vertically."},
+     {"refs": [1], "label": "Corneal topography", "tempting": "Irregular astigmatism does cause monocular doubling of print.", "ruled": "Her doubling is binocular: it clears when either eye is covered."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "She asks for lined bifocals instead. Which segment choice limits the imbalance?",
+    "options": [
+     {"t": "A round top before the left eye and a flat top before the right", "correct": true},
+     {"t": "Flat top 28 segments in both lenses, set 2 mm higher on the left"},
+     {"t": "Executive segments in both lenses, with the line at the centres"},
+     {"t": "A round top before the right eye and a flat top before the left"},
+     {"t": "Flat top 35 segments in both lenses, set as low as the frame allows"}
+    ],
+    "short": "Dissimilar segments, round top on the left",
+    "why": "Reading above the optical centre of a round top adds base-down prism in front of the more plus left eye, offsetting its excess base up. A flat top centre sits near the reading point and adds little.",
+    "dis": [
+     {"refs": [3], "label": "Round top on the right", "tempting": "It is the right technique, applied to the other eye of the pair.", "ruled": "Base down is needed where the base up is largest, in the left lens."},
+     {"refs": [1], "label": "Matched flat tops, raised", "tempting": "Raising one segment does move where she reads in that lens.", "ruled": "The distance powers still differ, so the imbalance survives the change."}
+    ]
+   }
+  ],
+  "rules": "If anisometropia passes 1.50 D, work out the Prentice prism at the reading point before dispensing. If the imbalance passes about 1.5 &Delta;, plan slab-off or separate readers."
+ },
+
+ {
+  "id": "S2-04", "session": 2, "n": 4,
+  "domain": "Contact lenses",
+  "title": "Vision that clears for a second after every blink",
+  "stem": "A 27-year-old is fitted with a monthly toric soft lens OD. Spectacle refraction -3.25 -1.75 x 170, BVA 20/20. Through the lens acuity is 20/40, clearing to 20/25 for a second after each blink. The lens centres well, moves 0.3 mm and is comfortable. Its 6 o'clock scribe mark settles 20&deg; to the practitioner's right after every blink, back to the same place within 3 seconds. Over-refraction +0.25 -0.75 x 25.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely cause of the reduced acuity?",
+    "options": [
+     {"t": "Consistent rotational mislocation of the lens cylinder", "correct": true},
+     {"t": "Residual astigmatism from the lens front surface"},
+     {"t": "Lens flexure over a flat fit with excessive lens movement"},
+     {"t": "A lipid film that breaks up between blinks"},
+     {"t": "Cylinder power ordered 0.50 D too low"}
+    ],
+    "short": "Rotational mislocation of 20 degrees",
+    "why": "A well centred lens moving 0.3 mm, with a mark that returns to the same 20&deg; after every blink, is stable but mislocated. A cross cylinder over-refraction is the signature of a rotated cylinder.",
+    "dis": [
+     {"refs": [3], "label": "A lipid film", "tempting": "Vision that clears with a blink usually means the tear film.", "ruled": "A film clears after the blink then blurs slowly, and leaves no cylinder."},
+     {"refs": [2], "label": "Flexure over a flat fit", "tempting": "Flexure is a real cause of residual cylinder in a soft toric.", "ruled": "Movement is 0.3 mm with good centration, so the lens is not loose."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Applying LARS, which axis should be ordered?",
+    "fixed_order": true,
+    "options": [
+     {"t": "-3.25 -1.75 x 10"},
+     {"t": "-3.25 -1.75 x 30"},
+     {"t": "-3.25 -1.75 x 130"},
+     {"t": "-3.25 -1.75 x 150", "correct": true},
+     {"t": "-3.25 -1.75 x 170"}
+    ],
+    "short": "-3.25 -1.75 x 150 ordered",
+    "why": "Left add, right subtract. The mark sits 20&deg; to the right, so 170 - 20 = 150. Ordering 150 lets the lens rotate 20&deg; right on the eye and land its cylinder on the 170 meridian.",
+    "dis": [
+     {"refs": [4], "label": "Axis 170", "tempting": "It repeats the spectacle axis, where the cylinder belongs on the eye.", "ruled": "It is the axis already failing, because the lens does not sit at 170."},
+     {"refs": [0], "label": "Axis 10", "tempting": "It adds 20&deg; to 170, the right arithmetic in the wrong direction.", "ruled": "Adding is for rotation to the left. This mark sits to the right."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three steps suit a lens that mislocates the same way after every blink?",
+    "options": [
+     {"t": "Re-order with the axis compensated by LARS", "correct": true},
+     {"t": "Try a different stabilisation design, such as peri-ballast", "correct": true},
+     {"t": "Re-check the fit and steepen the base curve if it rides loose", "correct": true},
+     {"t": "Raise the cylinder power to overcome the residual astigmatism"},
+     {"t": "Drop to the spherical equivalent of -4.00 DS"},
+     {"t": "Add a lubricant every two hours for the fluctuation"}
+    ],
+    "short": "LARS axis, new stabilisation, re-check the fit",
+    "why": "Repeatable mislocation can be compensated in the order, and a change of design or fit stops it recurring. Extra cylinder and lubricants do nothing about where the cylinder sits.",
+    "dis": [
+     {"refs": [3], "label": "More cylinder power", "tempting": "The over-refraction shows cylinder, so more cylinder looks logical.", "ruled": "A misplaced axis needs rotating, not strengthening. This adds error."},
+     {"refs": [4], "label": "Spherical equivalent", "tempting": "It removes the axis problem, and some patients do accept it.", "ruled": "It leaves 1.75 D of cylinder uncorrected, so 20/40 stays 20/40."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "basic",
+    "q": "About how much residual cylinder does a 20&deg; mislocation of a -1.75 D cylinder leave?",
+    "fixed_order": true,
+    "options": [
+     {"t": "0.30 D"},
+     {"t": "0.60 D", "correct": true},
+     {"t": "0.90 D"},
+     {"t": "1.20 D"},
+     {"t": "1.75 D"}
+    ],
+    "short": "About 0.60 D, at an oblique axis",
+    "why": "Residual cylinder is 2C sin(&theta;/2): 2 &times; 1.75 &times; sin 10&deg; = 0.61 D, lying obliquely. That is the -0.75 D cross cylinder the over-refraction picked up at 25.",
+    "dis": [
+     {"refs": [4], "label": "1.75 D", "tempting": "It assumes a rotated cylinder counts as an uncorrected one.", "ruled": "At 20&deg; most of the cylinder still works. Only the cross part is left."},
+     {"refs": [3], "label": "1.20 D", "tempting": "It scales by 20/30, a proportion that sounds reasonable enough.", "ruled": "The relation is 2C sin(&theta;/2), not a linear share of the axis error."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "At aftercare the mark sits 20&deg; right on one blink and 10&deg; left on the next. What now?",
+    "options": [
+     {"t": "Change to another stabilisation design, or fit rigid", "correct": true},
+     {"t": "Compensate the axis by the average of the two positions"},
+     {"t": "Order both axes and let her alternate between them"},
+     {"t": "Add -0.50 D of sphere to sharpen the average image"},
+     {"t": "Continue in the same lens and review in three months"}
+    ],
+    "short": "Change the stabilisation, or fit rigid",
+    "why": "LARS only works on a lens that mislocates by the same amount every time. Variable rotation means the design is not holding, so the design changes rather than the axis on the order.",
+    "dis": [
+     {"refs": [1], "label": "Average the two positions", "tempting": "Averaging is how every other unstable measurement is handled.", "ruled": "It leaves the cylinder wrong in both positions, by 15&deg; either way."},
+     {"refs": [2], "label": "Two lenses, alternating", "tempting": "It covers both positions, so one lens is always right.", "ruled": "She cannot tell which is in, and rotation varies within a single day."}
+    ]
+   }
+  ],
+  "rules": "If a toric lens mislocates by the same amount after every blink, compensate the ordered axis: left add, right subtract. If the mislocation varies, change the stabilisation, not the axis."
+ },
+
+ {
+  "id": "S2-05", "session": 2, "n": 5,
+  "domain": "Contact lenses",
+  "title": "A rigid lens that rides high and drops on down gaze",
+  "stem": "A 31-year-old is fitted with a rigid lens OD. Keratometry 42.50 @ 180 and 43.50 @ 090, spectacle refraction -4.25 -1.00 x 180 at 12 mm, BVA 20/20. The diagnostic lens is 8.20 mm base curve, 9.4 mm diameter, -2.75 D, and over-refraction is plano at 20/25. It rides 2 mm high, moves 3 mm on a blink, and fluorescein shows central bearing, mid-peripheral pooling and standing edge clearance.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What does this fluorescein pattern and lens behaviour indicate?",
+    "options": [
+     {"t": "A flat fit, with apical bearing and excess edge clearance", "correct": true},
+     {"t": "A steep fit, with central pooling and a sealed, immobile edge"},
+     {"t": "An alignment fit, with even clearance throughout"},
+     {"t": "A lens decentred by a low riding upper lid"},
+     {"t": "A warped lens with an irregular front surface"}
+    ],
+    "short": "A flat fit with apical bearing",
+    "why": "At 8.20 mm the lens is 337.5 / 8.20 = 41.16 D, which is 1.34 D flatter than the flat meridian. It bears on the apex, pools mid-peripherally, and the lid catches the lifted edge and carries it up.",
+    "dis": [
+     {"refs": [1], "label": "A steep fit", "tempting": "Central pooling with apical clearance is the pattern learnt first.", "ruled": "The centre bears here, the edge stands off, and the lens rides high."},
+     {"refs": [2], "label": "An alignment fit", "tempting": "Comfort and 20/25 suggest the lens is doing its job well enough.", "ruled": "An aligned lens moves 1 to 2 mm and shows no apical touch at all."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "The lens is refitted 0.25 mm steeper, at 7.95 mm. What power should be ordered?",
+    "fixed_order": true,
+    "options": [
+     {"t": "-2.75 D"},
+     {"t": "-3.25 D"},
+     {"t": "-4.00 D", "correct": true},
+     {"t": "-4.75 D"},
+     {"t": "-5.50 D"}
+    ],
+    "short": "-4.00 D on a 7.95 mm base curve",
+    "why": "337.5 / 8.20 = 41.16 D and 337.5 / 7.95 = 42.45 D, so the new lens is 1.29 D steeper. Steeper add minus: -2.75 - 1.25 = -4.00 D.",
+    "dis": [
+     {"refs": [0], "label": "-2.75 D", "tempting": "It keeps the power that gave a plano over-refraction on the eye.", "ruled": "A steeper lens adds a plus tear lens, so the power has to go minus."},
+     {"refs": [4], "label": "-5.50 D", "tempting": "It doubles the compensation, which feels safe with a steeper lens.", "ruled": "The base curve moved 1.29 D, so the power moves 1.25 D, not 2.75 D."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "How does a rigid lens correct her 1.00 D of corneal astigmatism?",
+    "options": [
+     {"t": "The tear lens fills the flatter meridian, leaving a spherical surface", "correct": true},
+     {"t": "The lens flexes on to the cornea and takes up its toricity"},
+     {"t": "The rigid back surface flattens the steep corneal meridian over hours of wear"},
+     {"t": "The lens front surface carries a compensating cylinder"},
+     {"t": "Aberration in the tear layer cancels the corneal cylinder"}
+    ],
+    "short": "The tear lens neutralises corneal cylinder",
+    "why": "Tears fill the space between a spherical rigid back surface and a toric cornea, replacing the corneal surface optically. The 1.00 D of corneal cylinder disappears with no cylinder in the lens.",
+    "dis": [
+     {"refs": [1], "label": "Lens flexure", "tempting": "Flexure is real, and it is why soft lenses fail to mask cylinder.", "ruled": "A rigid lens resists flexure. That is what makes the tear lens work."},
+     {"refs": [2], "label": "Corneal flattening", "tempting": "Rigid lenses can mould a cornea, as orthokeratology shows.", "ruled": "Moulding is a complication of the fit, not the optical mechanism."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "At six weeks there is grade 2 staining at 3 and 9 o'clock, with an incomplete blink. What now?",
+    "options": [
+     {"t": "Increase the diameter and reduce edge lift, with blink training", "correct": true},
+     {"t": "Reduce the diameter so the lens clears the limbus with more room to move"},
+     {"t": "Flatten the base curve to lift the lens off the apex"},
+     {"t": "Add a topical antibiotic and a bandage lens for a week"},
+     {"t": "Move to overnight wear so the surface stays covered"}
+    ],
+    "short": "Larger diameter, less edge lift, blink training",
+    "why": "Staining at 3 and 9 o'clock is desiccation where the lid never covers the surface. A larger lens with a lower edge, plus a complete blink, restores the tear layer over the exposed cornea.",
+    "dis": [
+     {"refs": [1], "label": "A smaller diameter", "tempting": "Less lens on the eye sounds like less mechanical insult to it.", "ruled": "A smaller lens leaves more cornea exposed, so the staining worsens."},
+     {"refs": [4], "label": "Overnight wear", "tempting": "A covered surface cannot dry out while she is asleep.", "ruled": "Closed eye wear in a rigid lens risks oedema and infection instead."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "After six hours out of lenses the refraction is -3.00 -1.75 x 015 with distorted mires. Which two findings favour warpage?",
+    "options": [
+     {"t": "The axis has rotated 15&deg; where the lens bore on the apex", "correct": true},
+     {"t": "The change reverses over two weeks out of lenses", "correct": true},
+     {"t": "Pachymetry reads 452 &micro;m with the thin point displaced"},
+     {"t": "Retinoscopy shows a scissors reflex centrally"},
+     {"t": "Corneal sensation is reduced in that eye"}
+    ],
+    "short": "Axis rotation at the bearing site, then reversal",
+    "why": "Warpage follows the mechanics: the axis shifts where the lens bore, and the cornea returns to baseline out of lenses. Thinning with a displaced apex belongs to ectasia instead.",
+    "dis": [
+     {"refs": [2], "label": "Thin point 452 &micro;m", "tempting": "Thinning is measurable, and it is the thing everyone fears here.", "ruled": "A displaced thin point at 452 &micro;m argues for ectasia, not moulding."},
+     {"refs": [3, 4], "label": "Scissors reflex, sensation", "tempting": "Both look like fine print from an irregular cornea workup.", "ruled": "One suggests ectasia and the other suggests herpetic disease."}
+    ],
+    "format": "multi"
+   }
+  ],
+  "rules": "If a rigid lens bears on the apex and rides high, steepen it and add minus, quarter for quarter. If the refraction and the mires change out of lenses, suspect warpage.",
+  "pair": {
+   "this": "Flat rigid fit",
+   "vs": "Steep rigid fit",
+   "rows": [
+    ["Fluorescein centre", "Dark apical touch", "A central pool of fluorescein"],
+    ["Edge", "Wide standing clearance, bubbles", "Sealed edge, minimal clearance"],
+    ["Position and movement", "Rides high, moves 3 mm or more", "Rides central to low, barely moves"],
+    ["Vision", "Clears for a moment after a blink", "Blurs after the blink, clears between"]
+   ],
+   "decider": "Read the apex first. Bearing means the lens is flatter than the cornea, so steepen it and add minus. Central pooling means steeper, so flatten it and add plus."
+  }
+ },
+
+ {
+  "id": "S2-06", "session": 2, "n": 6,
+  "domain": "Low vision",
+  "title": "Doorways he cannot find once the light goes",
+  "stem": "A 42-year-old carpenter has trouble finding doorways after dusk, going back to his teens, and now catches furniture indoors. BVA 20/60 OD, 20/70 OS with -2.50 DS. Goldmann fields measure 12&deg; horizontally in each eye. Mid-peripheral bone spicule pigment, waxy disc pallor, narrowed arterioles, early posterior subcapsular lens change. Rod responses are non-detectable, cone flicker reduced. He reads 2 M print at 25 cm.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Rod-cone dystrophy of the retinitis pigmentosa spectrum", "correct": true},
+     {"t": "Cone-rod dystrophy with peripheral pigment"},
+     {"t": "Choroideremia with mid-peripheral atrophy"},
+     {"t": "Gyrate atrophy with raised plasma ornithine"},
+     {"t": "Vitamin A deficiency retinopathy after bowel resection surgery"}
+    ],
+    "short": "Rod-cone dystrophy, RP spectrum",
+    "why": "Night blindness from his teens, a 12&deg; field, non-detectable rod responses with cones still working, and mid-peripheral spicules with waxy pallor are the rod-cone sequence.",
+    "dis": [
+     {"refs": [1], "label": "Cone-rod dystrophy", "tempting": "Acuity is already 20/60, so the cones are plainly involved too.", "ruled": "Cone-rod disease takes acuity and colour first, and spares the field."},
+     {"refs": [2], "label": "Choroideremia", "tempting": "It gives night blindness and mid-peripheral change in a man.", "ruled": "Its atrophy bares choroidal vessels and white sclera, not spicules."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "He reads 2 M at 25 cm. What equivalent power puts 1 M print within reach?",
+    "fixed_order": true,
+    "options": [
+     {"t": "+2.00 D at 50 cm"},
+     {"t": "+4.00 D at 25 cm"},
+     {"t": "+5.00 D at 20 cm"},
+     {"t": "+6.00 D at 16.7 cm"},
+     {"t": "+8.00 D at 12.5 cm", "correct": true}
+    ],
+    "short": "+8.00 D, reading at 12.5 cm",
+    "why": "He needs twice the magnification 25 cm gives: 1 / 0.25 = 4.00 D, and 4.00 &times; 2 = 8.00 D. The working distance follows, since 1 / 8 = 0.125 m, so the page comes to 12.5 cm.",
+    "dis": [
+     {"refs": [1], "label": "+4.00 D at 25 cm", "tempting": "It is the dioptric equivalent of the distance he already uses.", "ruled": "It reproduces 2 M print. Halving print size needs double the power."},
+     {"refs": [3], "label": "+6.00 D at 16.7 cm", "tempting": "It is more power than he has now, so the print does get smaller.", "ruled": "1.5 times the power reaches 1.3 M print. The figure needed is 8.00 D."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in the first low vision plan?",
+    "options": [
+     {"t": "Orientation and mobility referral for the 12&deg; field", "correct": true},
+     {"t": "A +8.00 D add with strong task lighting for 1 M print", "correct": true},
+     {"t": "Genetic testing with counselling for him and his family", "correct": true},
+     {"t": "A 4x spectacle telescope as his main reading device"},
+     {"t": "40 &Delta; Fresnel prisms on both lenses to widen the field"},
+     {"t": "A reversed 3x telescope worn full time for mobility"}
+    ],
+    "short": "Mobility, a +8.00 add with light, genetics",
+    "why": "The field costs him mobility, the acuity costs him print, and the diagnosis carries inheritance. Each is met directly: training, an add with light, and testing that gates future therapy.",
+    "dis": [
+     {"refs": [4], "label": "40 &Delta; Fresnel prisms", "tempting": "Peripheral prisms genuinely help field loss, in hemianopia.", "ruled": "They shift a field rather than widen a 12&deg; ring, and they blur it."},
+     {"refs": [5], "label": "Reversed 3x telescope", "tempting": "Minification does put more of the room inside a 12&deg; field.", "ruled": "It cuts 20/60 to 20/180. It is a spotting device, not worn full time."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "basic",
+    "q": "Why did his night vision fail years before his acuity?",
+    "options": [
+     {"t": "Rod loss begins in the mid periphery, where rods are densest", "correct": true},
+     {"t": "Cone loss at the fovea spreads outward to the rods"},
+     {"t": "Pigment epithelium pump failure detaches the rod outer segments"},
+     {"t": "Cone photopigment regenerates too slowly in dim light"},
+     {"t": "Bipolar cells fail to pass the rod signal onward"}
+    ],
+    "short": "Rods die first, and rods are peripheral",
+    "why": "In rod-cone disease the rods degenerate first, and rod density peaks about 20&deg; from fixation. Scotopic vision and the mid-peripheral field go long before the cone-rich fovea.",
+    "dis": [
+     {"refs": [4], "label": "Bipolar transmission", "tempting": "It is the mechanism of congenital stationary night blindness.", "ruled": "That is stationary from birth, with a normal fundus and full field."},
+     {"refs": [3], "label": "Slow cone regeneration", "tempting": "Dark adaptation is slow, so a pigment cycle fault fits loosely.", "ruled": "Cones do not carry scotopic vision, and his cone responses remain."}
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "His state requires 20/40 and 110&deg; of field to drive, and he drives daily. What is the duty?",
+    "options": [
+     {"t": "Record the field, tell him he is below the standard, advise stopping, and report as required", "correct": true},
+     {"t": "Ask him to raise it himself at licence renewal, and take no action today"},
+     {"t": "Refer for on-road assessment before saying anything about the licence"},
+     {"t": "Restrict him to daylight driving close to home, noted in the record"},
+     {"t": "Withhold the field result from the record until the retinal specialist confirms the diagnosis"}
+    ],
+    "short": "Measure, tell him, advise stopping, report",
+    "why": "A 12&deg; field is far under 110&deg;, so the finding is not borderline. The duty is to measure, to tell him plainly, to advise against driving, and to record and report as the state requires.",
+    "dis": [
+     {"refs": [2], "label": "On-road assessment first", "tempting": "Functional testing sounds fairer than a number on a chart.", "ruled": "No road test rewrites a 12&deg; field against a 110&deg; standard."},
+     {"refs": [3], "label": "A daylight restriction", "tempting": "It keeps some independence, and dusk is when he struggles most.", "ruled": "The field fails in daylight too, and only the state sets restrictions."}
+    ]
+   }
+  ],
+  "rules": "If night blindness comes years before the acuity falls, test the field and the rods, not just the chart. If the field is under the driving standard, record it, say so, and report as required.",
+  "pair": {
+   "this": "Rod-cone dystrophy",
+   "vs": "Cone-rod dystrophy",
+   "rows": [
+    ["First symptom", "Night blindness, then field loss", "Glare, poor acuity, colour confusion"],
+    ["Field", "Mid-peripheral ring, then tunnel", "Central scotoma with a full periphery"],
+    ["Electroretinography", "Rod responses go first", "Cone and flicker responses go first"],
+    ["Fundus", "Mid-peripheral spicules, waxy pallor", "Macular atrophy, often a bull's eye"]
+   ],
+   "decider": "Ask which failed first, the dark or the detail. Rods first means field and mobility work. Cones first means magnification, glare control and colour advice."
+  }
+ },
+
+ {
+  "id": "S2-07", "session": 2, "n": 7,
+  "domain": "Accommodation, vergence, oculomotor",
+  "title": "Print that gives up twenty minutes into the evening",
+  "stem": "A 23-year-old graduate student has three months of blur and frontal ache after 20 minutes of reading, worse each evening and absent at distance. Cycloplegic refraction +0.75 DS each eye, BVA 20/20. Push-up amplitude 4.50 D OD and 4.75 D OS. Accommodative facility 3 cycles per minute with &plusmn;2.00 flippers, failing on the minus. MEM lag +1.25 D. NPC 7 cm. Near phoria 4 &Delta; exophoria. No medication.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Accommodative insufficiency, both eyes", "correct": true},
+     {"t": "Ill-sustained accommodation with a normal amplitude"},
+     {"t": "Convergence insufficiency with a near exophoria"},
+     {"t": "Latent hyperopia, uncorrected at near"},
+     {"t": "Accommodative infacility with a normal amplitude"}
+    ],
+    "short": "Accommodative insufficiency",
+    "why": "An amplitude of 4.50 D at 23 is under half the expected floor, with a +1.25 D lag and facility failing on minus. Distance is clear and the NPC is 7 cm, so accommodation is the deficit.",
+    "dis": [
+     {"refs": [1], "label": "Ill-sustained accommodation", "tempting": "Symptoms build after 20 minutes, which is what fatigue looks like.", "ruled": "Ill-sustained accommodation starts from a normal amplitude. Hers is 4.50 D."},
+     {"refs": [2], "label": "Convergence insufficiency", "tempting": "Near symptoms with an exophoria is the commonest pairing taught.", "ruled": "An NPC of 7 cm and 4 &Delta; of exophoria will not carry these symptoms."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which further finding would make this a systemic problem rather than a functional one?",
+    "options": [
+     {"t": "A tonic pupil with light-near dissociation and vermiform movement", "correct": true},
+     {"t": "A 4 &Delta; exophoria that rises to 8 &Delta; by the evening"},
+     {"t": "A dynamic retinoscopy lag that measures +1.75 D"},
+     {"t": "Facility of 2 cycles per minute, still failing on minus"},
+     {"t": "Symptoms that clear away completely over a two-week summer holiday"}
+    ],
+    "short": "A tonic pupil with light-near dissociation",
+    "why": "Accommodation runs on the same parasympathetic pathway as the pupil, so a tonic pupil localises the lesion to the ciliary ganglion. The other findings only grade the same deficit.",
+    "dis": [
+     {"refs": [1], "label": "Exophoria by evening", "tempting": "Worsening through the day suggests fatigue, and so myasthenia.", "ruled": "A phoria drifting 4 &Delta; by evening is ordinary in a symptomatic reader."},
+     {"refs": [3], "label": "Facility of 2 cpm", "tempting": "A worse number looks like worse disease, so it looks significant.", "ruled": "It measures the same accommodation more severely, not a new mechanism."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate treatment?",
+    "options": [
+     {"t": "A +1.00 D near add with amplitude and facility therapy", "correct": true},
+     {"t": "A +2.50 D near add worn for all near work"},
+     {"t": "6 &Delta; base in split between the lenses at near"},
+     {"t": "Pencil push-ups to a small target held 5 cm from the nose"},
+     {"t": "Full time +0.75 DS, with review in six months"}
+    ],
+    "short": "A +1.00 add with accommodative therapy",
+    "why": "The add makes 40 cm reachable now, and therapy raises the amplitude so the add can come off later. A large add or prism treats neither the amplitude nor the facility.",
+    "dis": [
+     {"refs": [1], "label": "A +2.50 D add", "tempting": "More plus makes reading easier still, and she is symptomatic now.", "ruled": "It fixes her at 40 cm and removes the stimulus therapy depends on."},
+     {"refs": [2], "label": "6 &Delta; base in at near", "tempting": "Base in relieves a near exophoria, which she does have.", "ruled": "4 &Delta; of exophoria is not the problem, and prism adds no accommodation."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "At eight weeks the amplitude is 8.50 D and facility 9 cycles per minute. What now?",
+    "options": [
+     {"t": "Taper the add and keep the facility exercises going", "correct": true},
+     {"t": "Stop everything today and discharge her from care"},
+     {"t": "Continue the +1.00 add unchanged for another year"},
+     {"t": "Increase the add to +1.50 D to protect the gain"},
+     {"t": "Refer for imaging, since 8.50 D is still below par"}
+    ],
+    "short": "Taper the add, continue facility work",
+    "why": "8.50 D is close to the 9.25 D floor for her age and the facility is normal, so the add is withdrawn while the exercises consolidate. Stopping both at once is when symptoms return.",
+    "dis": [
+     {"refs": [1], "label": "Stop and discharge", "tempting": "The numbers are nearly normal and she feels well, so it looks done.", "ruled": "Gains fade if the exercises stop at the same moment as the add."},
+     {"refs": [4], "label": "Imaging now", "tempting": "8.50 D is still under the Hofstetter floor of 9.25 D at 23 years.", "ruled": "An amplitude that answers to therapy is functional. Imaging adds nothing."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which two statements about her amplitude are correct?",
+    "options": [
+     {"t": "The Hofstetter minimum at 23 years is 9.25 D", "correct": true},
+     {"t": "Push-up measurement over-reads the true amplitude", "correct": true},
+     {"t": "Minus lens amplitude reads higher than push-up"},
+     {"t": "4.50 D is within normal limits at her age"},
+     {"t": "An amplitude of 4.50 D at 23 is early presbyopia"}
+    ],
+    "short": "Minimum 9.25 D, and push-up over-reads",
+    "why": "The Hofstetter minimum is 15 - 0.25 &times; 23 = 9.25 D, so 4.50 D is under half of it. Push-up over-reads, because blur is tolerated and the target grows as it comes closer.",
+    "dis": [
+     {"refs": [2], "label": "Minus lens reads higher", "tempting": "Both tests measure amplitude, so the direction is a coin toss.", "ruled": "Minus lenses minify and remove proximal cues, so they read lower."},
+     {"refs": [3, 4], "label": "Normal, or presbyopia", "tempting": "One excuses the number and the other explains it away by age.", "ruled": "9.25 D is the floor at 23, and presbyopia at 23 needs a cause."}
+    ],
+    "format": "multi"
+   }
+  ],
+  "rules": "If near blur comes with an amplitude below 15 - 0.25 &times; age, treat the accommodation and not the phoria. If it fell suddenly, look for a drug, a pupil or a systemic cause."
+ },
+
+ {
+  "id": "S2-08", "session": 2, "n": 8,
+  "domain": "Accommodation, vergence, oculomotor",
+  "title": "Print that doubles at twenty minutes and clears on looking up",
+  "stem": "A 29-year-old accountant has two months of frontal headache and print that doubles after 20 minutes, clearing when he looks up. Refraction +0.75 DS each eye, worn, BVA 20/20. PD 6.0 cm. Cover test 2 &Delta; esophoria at 6 m and 12 &Delta; esophoria at 40 cm. Through +1.00 D over the near correction the near deviation falls to 5 &Delta;. NPC 5 cm, amplitude 9.00 D, base in at 40 cm blur 6, break 10.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Convergence excess esophoria with a high AC/A", "correct": true},
+     {"t": "Basic esophoria, equal at distance and near"},
+     {"t": "Divergence insufficiency of adult onset"},
+     {"t": "Latent hyperopia driving convergence at near"},
+     {"t": "A partly recovered right sixth nerve palsy"}
+    ],
+    "short": "Convergence excess, high AC/A",
+    "why": "The near deviation exceeds the distance deviation by 10 &Delta;, and a +1.00 D lens removes 7 &Delta; of it, which is accommodative convergence. A base-in break of 10 &Delta; explains the symptoms.",
+    "dis": [
+     {"refs": [1], "label": "Basic esophoria", "tempting": "There is esophoria at both distances, so the label fits loosely.", "ruled": "Basic esophoria differs by under 5 &Delta;. His differs by 10 &Delta;."},
+     {"refs": [2], "label": "Divergence insufficiency", "tempting": "Adult esophoria with diplopia is its classic presentation.", "ruled": "That is worse at distance. His deviation is far worse at 40 cm."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "With a PD of 6.0 cm, what is the calculated AC/A ratio?",
+    "fixed_order": true,
+    "options": [
+     {"t": "4 &Delta;/D"},
+     {"t": "7 &Delta;/D"},
+     {"t": "10 &Delta;/D", "correct": true},
+     {"t": "12 &Delta;/D"},
+     {"t": "16 &Delta;/D"}
+    ],
+    "short": "10 &Delta;/D by calculation",
+    "why": "AC/A = PD + m(near - distance), esophoria positive: 6 + 0.4(12 - 2) = 10 &Delta;/D. The gradient through the +1.00 lens is 12 - 5 = 7 &Delta;/D, lower because proximal drive is excluded.",
+    "dis": [
+     {"refs": [1], "label": "7 &Delta;/D", "tempting": "It is the gradient ratio, worked correctly from the +1.00 lens.", "ruled": "The item asks for the calculated ratio, which includes the PD term."},
+     {"refs": [0], "label": "4 &Delta;/D", "tempting": "It is 0.4 &times; 10, the near term of the formula on its own.", "ruled": "The PD in centimetres has to be added: 6 + 4, not 4 alone."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in first line management?",
+    "options": [
+     {"t": "A +1.00 D near addition worked into his prescription", "correct": true},
+     {"t": "Base-in fusional vergence therapy at 40 cm", "correct": true},
+     {"t": "A longer working distance with a break every 20 minutes", "correct": true},
+     {"t": "6 &Delta; base out split between the two lenses"},
+     {"t": "Bilateral medial rectus recession within the year"},
+     {"t": "Atropine 1% at weekends to relax accommodation"}
+    ],
+    "short": "A plus add, base-in therapy, task change",
+    "why": "A high AC/A means plus at near buys vergence directly. Training the base-in range and cutting the near demand attack the same imbalance from the other side.",
+    "dis": [
+     {"refs": [3], "label": "6 &Delta; base out", "tempting": "Prism is standard for a symptomatic phoria, and 6 &Delta; looks apt.", "ruled": "Base out adds to an esophoria. Relieving prism here is base in."},
+     {"refs": [4], "label": "Medial rectus recession", "tempting": "The near angle is large, so surgery looks like the definitive fix.", "ruled": "A comitant phoria answering to a +1.00 lens is not a surgical problem."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "Through the +1.00 add he is comfortable at 40 cm but blurred at his 65 cm screen. What now?",
+    "options": [
+     {"t": "Set an intermediate power for 65 cm and re-check the eso through it", "correct": true},
+     {"t": "Raise the add to +2.00 D so that both working distances are covered"},
+     {"t": "Add 4 &Delta; base in for screen work only, keeping the add"},
+     {"t": "Return to single vision +0.75 and treat with therapy alone"},
+     {"t": "Keep the add and move the screen in to 40 cm to match it"}
+    ],
+    "short": "An intermediate power set for 65 cm",
+    "why": "The add has to match the distance he works at, and the deviation is re-measured through whatever power is prescribed. Demand at 65 cm is 1.54 D, not the 2.50 D of 40 cm.",
+    "dis": [
+     {"refs": [1], "label": "Raise the add to +2.00", "tempting": "More plus relieves more esophoria, and it worked at 40 cm.", "ruled": "It blurs 65 cm further, since the focus then lands near 50 cm."},
+     {"refs": [4], "label": "Move the screen to 40 cm", "tempting": "It matches the add he already tolerates, at no extra cost at all.", "ruled": "It raises demand from 1.54 D to 2.50 D, which is what hurts."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding would send him for imaging rather than more lenses?",
+    "options": [
+     {"t": "Esophoria larger at 6 m than at 40 cm, with slow abduction", "correct": true},
+     {"t": "Near esophoria rising to 16 &Delta; by the end of the working day"},
+     {"t": "A base-in break at 40 cm of only 8 &Delta;"},
+     {"t": "A gradient AC/A that measures 7 &Delta;/D"},
+     {"t": "Symptoms that disappear entirely at the weekend"}
+    ],
+    "short": "Distance eso above near, with slow abduction",
+    "why": "A sixth nerve reverses the pattern: the deviation grows at distance and abducting saccades slow. Everything else here is a comitant near excess that answers to plus.",
+    "dis": [
+     {"refs": [1], "label": "Near eso rising to 16 &Delta;", "tempting": "A bigger number late in the day reads like decompensation.", "ruled": "It is the same near excess, fatigued. The distance to near pattern holds."},
+     {"refs": [3], "label": "Gradient of 7 &Delta;/D", "tempting": "It differs from the calculated 10, so it looks like an inconsistency.", "ruled": "Gradient runs below calculated by design, since proximal drive is out."}
+    ]
+   }
+  ],
+  "rules": "If the near deviation exceeds the distance deviation by more than 5 &Delta;, the AC/A is high: try plus at near before any prism. If distance eso exceeds near eso, think sixth nerve."
+ },
+
+ {
+  "id": "S2-09", "session": 2, "n": 9,
+  "domain": "Accommodation, vergence, oculomotor",
+  "title": "Double across the road, single across the table",
+  "stem": "A 71-year-old has four months of horizontal doubling that appears only in the distance, worse when tired and at night on the road, with no pain. Refraction +2.00 DS each eye, BVA 20/25 each. Cover test 10 &Delta; esophoria at 6 m and 2 &Delta; at 40 cm, the same in right and left gaze and on head tilt. Abduction is full with normal saccadic velocity. No ptosis, no fatigue on upgaze, no proptosis, pupils equal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Age-related divergence insufficiency", "correct": true},
+     {"t": "A bilateral sixth nerve palsy, partly recovered"},
+     {"t": "Ocular myasthenia with a variable esodeviation"},
+     {"t": "Thyroid eye disease with tight medial recti"},
+     {"t": "Decompensated childhood esophoria"}
+    ],
+    "short": "Divergence insufficiency, age related",
+    "why": "A comitant esodeviation 8 &Delta; larger at distance than at near, with full abduction and normal saccadic velocity at 71, is a divergence problem rather than a nerve or muscle one.",
+    "dis": [
+     {"refs": [1], "label": "Sixth nerve palsy", "tempting": "Distance esotropia with diplopia is exactly how one presents.", "ruled": "A palsy is incomitant, with slowed abduction. Both are normal here."},
+     {"refs": [2], "label": "Ocular myasthenia", "tempting": "Doubling worse when tired is the phrase that names myasthenia.", "ruled": "No ptosis, no fatigue on upgaze, and the deviation does not vary."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which imaging finding would confirm the mechanism?",
+    "options": [
+     {"t": "Inferior sag of the lateral rectus with a degenerated LR-SR band", "correct": true},
+     {"t": "Enhancement of the sixth nerve in the prepontine cistern"},
+     {"t": "Enlarged medial recti with tendon sparing throughout the coronal views"},
+     {"t": "An empty sella with distended optic nerve sheaths"},
+     {"t": "Thickened muscle tendons with orbital fat stranding"}
+    ],
+    "short": "A sagging lateral rectus, degenerated band",
+    "why": "The band between lateral and superior rectus degenerates with age, so the lateral rectus sags and its pulling direction drops. That is the anatomy behind a comitant distance esodeviation.",
+    "dis": [
+     {"refs": [1], "label": "Sixth nerve enhancement", "tempting": "It would prove the diagnosis everyone worries about first.", "ruled": "That needs an incomitant deviation with slow abduction to look for."},
+     {"refs": [2], "label": "Enlarged medial recti", "tempting": "Thyroid disease is a real cause of adult esodeviation.", "ruled": "There are no lid signs, no proptosis and no limitation of ductions."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Distance eso is 10 &Delta; and near eso 2 &Delta;. What base-out prism should be ground in?",
+    "fixed_order": true,
+    "options": [
+     {"t": "4 &Delta; in total"},
+     {"t": "6 &Delta; in total", "correct": true},
+     {"t": "8 &Delta; in total"},
+     {"t": "10 &Delta; in total"},
+     {"t": "12 &Delta; in total"}
+    ],
+    "short": "6 &Delta; base out, 3 &Delta; in each lens",
+    "why": "Prescribe about two thirds of the deviation: 10 &Delta; &times; 0.6 = 6 &Delta;, split as 3 &Delta; base out each eye, then confirm that fusion holds at 40 cm, where the eso is only 2 &Delta;.",
+    "dis": [
+     {"refs": [3], "label": "10 &Delta; in total", "tempting": "Full correction of the measured angle looks like the honest answer.", "ruled": "It leaves 8 &Delta; of base out at near, where he deviates only 2 &Delta;."},
+     {"refs": [0], "label": "4 &Delta; in total", "tempting": "Under-prescribing prism feels safer than over-prescribing it.", "ruled": "It leaves 6 &Delta; uncorrected at distance, which is where he doubles."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "In the prism he reads with discomfort at 40 cm. What is the best solution?",
+    "options": [
+     {"t": "A separate distance pair carrying the prism, with plain readers", "correct": true},
+     {"t": "Reduce the prism until both working distances are equally tolerable"},
+     {"t": "A 15 &Delta; Fresnel prism across the whole of each lens"},
+     {"t": "Refer for bilateral medial rectus recession this year"},
+     {"t": "Botulinum toxin to both medial recti, repeated as needed"}
+    ],
+    "short": "Prism in a distance-only pair",
+    "why": "The deviation is 10 &Delta; at distance and 2 &Delta; at near, so one prism cannot serve both. Two pairs match the prism to the deviation at each working distance.",
+    "dis": [
+     {"refs": [1], "label": "Reduce the prism", "tempting": "A compromise usually works when two distances disagree.", "ruled": "It gives him diplopia at distance and discomfort at near, together."},
+     {"refs": [3], "label": "Medial rectus recession", "tempting": "Surgery for divergence insufficiency is real, and it is durable.", "ruled": "It follows prism failure or a large angle, not a first prescription."}
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "He drives daily and asks whether he may carry on. Which three duties apply today?",
+    "options": [
+     {"t": "Record the deviation, the prism prescribed and the advice given", "correct": true},
+     {"t": "Tell him not to drive until the prism controls the diplopia", "correct": true},
+     {"t": "Follow the state rule on reporting a driver with diplopia", "correct": true},
+     {"t": "Certify him as fit, since his near vision is single"},
+     {"t": "Leave the driving question to his primary care doctor"},
+     {"t": "Give no advice until imaging excludes a sixth nerve"}
+    ],
+    "short": "Record it, advise stopping, report as required",
+    "why": "Uncontrolled distance diplopia is the driving hazard, so the duty is to advise against driving until it is controlled, to document that advice, and to report where the state requires it.",
+    "dis": [
+     {"refs": [3], "label": "Certify him as fit", "tempting": "Single near vision and 20/25 read as a pass on the numbers.", "ruled": "Distance doubling is what matters on the road, and it is present."},
+     {"refs": [5], "label": "Wait for imaging", "tempting": "Deferring until the cause is known feels cautious and correct.", "ruled": "The hazard exists today, whatever a scan shows next month."}
+    ],
+    "format": "multi"
+   }
+  ],
+  "rules": "If a comitant esodeviation is larger at distance than at near in an older patient with full abduction, prism it. If it is incomitant, or abduction is slow, image the sixth nerve.",
+  "pair": {
+   "this": "Divergence insufficiency",
+   "vs": "Bilateral sixth nerve palsy",
+   "rows": [
+    ["Comitance", "The same in right and left gaze", "Grows in the field of the weak muscle"],
+    ["Abduction", "Full, with normal saccadic velocity", "Limited, with slowed abducting saccades"],
+    ["Distance and near", "Eso at distance, near almost straight", "Eso at both, worse at distance"],
+    ["Course", "Months, stable, no other signs", "Days to weeks, often with other signs"]
+   ],
+   "decider": "Comitance and saccadic velocity decide it. Full, equal abduction in an older patient means prism. Slow abduction or an incomitant angle means imaging."
+  }
+ },
+
+ {
+  "id": "S2-10", "session": 2, "n": 10,
+  "domain": "Amblyopia and strabismus",
+  "title": "An eye that swings out in bright sun",
+  "stem": "A 5-year-old girl has had an outward drift of the left eye since she was three, seen when she is tired or unwell and in bright sun, where she screws up that eye. She never reports doubling. Cycloplegic refraction +0.75 DS each eye, acuity 20/25 each on a crowded test, PD 5.4 cm. Cover test: intermittent alternating exotropia 25 &Delta; at 6 m and 12 &Delta; at 40 cm, manifest about half the visit. Stereoacuity 40 seconds when aligned.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Intermittent exotropia, divergence excess pattern", "correct": true},
+     {"t": "Intermittent exotropia, convergence weakness pattern"},
+     {"t": "Constant exotropia with alternating suppression"},
+     {"t": "Congenital exotropia with a large stable angle"},
+     {"t": "Sensory exotropia from poor acuity on the left"}
+    ],
+    "short": "Intermittent exotropia, divergence excess",
+    "why": "The deviation is 13 &Delta; larger at distance than at near, it alternates, and it is manifest half the visit with 40 seconds of stereoacuity when straight. Equal acuity excludes a sensory cause.",
+    "dis": [
+     {"refs": [1], "label": "Convergence weakness", "tempting": "It is the other pattern of the same disease, so it feels like a toss-up.", "ruled": "That pattern is larger at near. Hers is 25 &Delta; far and 12 &Delta; near."},
+     {"refs": [2], "label": "Constant exotropia", "tempting": "Manifest half the visit sounds close to constant to a parent.", "ruled": "She realigns with 40 seconds of stereopsis, which a constant XT loses."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in the first plan?",
+    "options": [
+     {"t": "Score control at each visit on a standard scale", "correct": true},
+     {"t": "Overminus lenses of -2.00 D to recruit convergence", "correct": true},
+     {"t": "Part-time occlusion of the preferred eye as a trial", "correct": true},
+     {"t": "12 &Delta; base in ground into her spectacles full time"},
+     {"t": "Bilateral lateral rectus recession within the month"},
+     {"t": "Full-time occlusion of the left eye until it straightens"}
+    ],
+    "short": "Control score, overminus, part-time patching",
+    "why": "Control, not the size of the angle, drives management in intermittent exotropia, so it is scored at every visit. Overminus and part-time occlusion are the levers while acuity is equal.",
+    "dis": [
+     {"refs": [3], "label": "12 &Delta; base in full time", "tempting": "Base in does relieve an exodeviation, and the size looks right.", "ruled": "Full-time relieving prism trains her to accept the angle, not to fuse."},
+     {"refs": [5], "label": "Full-time occlusion", "tempting": "Patching is the treatment her parents have already heard about.", "ruled": "Acuity is equal, so full-time occlusion risks the fusion she still has."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "Which change over the next year most supports referral for surgery?",
+    "options": [
+     {"t": "Manifest most of the day, with stereoacuity down to 200 seconds", "correct": true},
+     {"t": "The distance angle measures 30 &Delta; on two consecutive visits"},
+     {"t": "Her parents report more drifting in the hour before bed"},
+     {"t": "The near angle rises to 24 &Delta; after 30 minutes of patching"},
+     {"t": "Squinting in sunlight has become noticeably more frequent"}
+    ],
+    "short": "Poor control with falling stereoacuity",
+    "why": "Surgery follows loss of control and loss of binocular function, not the size of the angle. Manifest most of the day with stereoacuity dropping is the deterioration that counts.",
+    "dis": [
+     {"refs": [1], "label": "30 &Delta; at distance", "tempting": "A bigger angle looks like a stronger case for operating soon.", "ruled": "Angle size alone predicts neither deterioration nor the outcome."},
+     {"refs": [3], "label": "24 &Delta; on patching", "tempting": "The number jumps, which looks like the disease progressing.", "ruled": "That unmasks the true near angle. It is a measurement, not a change."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "After 30 minutes of occlusion the near angle measures 24 &Delta;. What does that show?",
+    "options": [
+     {"t": "Proximal fusion was masking the true near angle", "correct": true},
+     {"t": "A high AC/A ratio is driving the distance angle"},
+     {"t": "The exotropia has decompensated to a constant one"},
+     {"t": "A secondary convergence insufficiency has developed"},
+     {"t": "Accommodative convergence has failed at near"}
+    ],
+    "short": "Tenacious proximal fusion, now unmasked",
+    "why": "With a PD of 5.4 cm the AC/A falls from 5.4 + 0.4(25 - 12) = 10.6 to 5.4 + 0.4(25 - 24) = 5.8 &Delta;/D. The distance excess was proximal fusion at near, not a high AC/A.",
+    "dis": [
+     {"refs": [1], "label": "A high AC/A", "tempting": "A distance angle twice the near angle is the classic hint for it.", "ruled": "Once the near angle is unmasked the AC/A is 5.8 &Delta;/D, which is normal."},
+     {"refs": [2], "label": "Decompensation", "tempting": "A larger measured angle reads naturally as a squint getting worse.", "ruled": "The near angle was always 24 &Delta;. Occlusion only revealed it."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "How should the surgical numbers be set?",
+    "options": [
+     {"t": "On the post-occlusion near angle of 24 &Delta;", "correct": true},
+     {"t": "On the distance angle of 25 &Delta; alone"},
+     {"t": "On the office near angle of 12 &Delta;"},
+     {"t": "On the average of the distance and near angles"},
+     {"t": "On the near angle, with a medial rectus resection added"}
+    ],
+    "short": "On the unmasked near angle of 24 &Delta;",
+    "why": "Occlusion removes the fusional convergence that hid part of the deviation, so 24 &Delta; at near and 25 &Delta; at distance are the true, nearly equal, angles to operate on.",
+    "dis": [
+     {"refs": [2], "label": "The office near angle", "tempting": "It is the number measured in clinic without any manipulation.", "ruled": "It is 12 &Delta; short of the truth, so the surgery under-corrects her."},
+     {"refs": [4], "label": "An added resection", "tempting": "It looks like a way to cover a distance to near difference.", "ruled": "Once unmasked, the difference is 1 &Delta;. There is nothing to cover."}
+    ]
+   }
+  ],
+  "rules": "If the near angle in an exotropia is smaller than the distance angle, patch one eye for 30 minutes and measure again. Plan the surgery on the larger angle."
+ }
+]

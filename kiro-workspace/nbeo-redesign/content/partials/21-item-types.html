@@ -1,0 +1,56 @@
+<!--
+label: Item types
+part: Part 2 / Item types
+foot: Item types &middot; {{PG}}
+-->
+<h2>Where the marks are</h2>
+<p class="lede" style="margin-top:7px">Four item types, weighted very unevenly. Every item here is tagged, and the score sheets total by tag.</p>
+
+<h3>Item-type weighting and this manual's allocation</h3>
+<table class="lined">
+  <thead><tr><th>Item type</th><th style="width:0.78in">Band</th><th style="width:0.86in">Here</th><th>What it actually asks</th></tr></thead>
+  <tbody>
+    <tr><th>Treatment and management</th><td class="num">40-57%</td><td class="num">{{ALLOC:treatment}}</td><td>Choice, mechanism, dose, schedule, duration, follow-up, education, escalation.</td></tr>
+    <tr><th>Diagnosis</th><td class="num">26-34%</td><td class="num">{{ALLOC:diagnosis}}</td><td>Most likely diagnosis, the supporting or missing datum, the next test.</td></tr>
+    <tr><th>Basic science, applied</th><td class="num">11-17%</td><td class="num">{{ALLOC:basic}}</td><td>Anatomy, physiology, microbiology, optics, pharmacology, tied to this patient.</td></tr>
+    <tr><th>Law, ethics, public health</th><td class="num">4-10%</td><td class="num">{{ALLOC:legal}}</td><td>Duty, consent, refusal, records, delegation, telehealth, screening arithmetic.</td></tr>
+  </tbody>
+</table>
+<p class="tiny" style="margin-top:4px">Bands transcribed, marked unconfirmed on page {{PGREF:verify}}. The right-hand column is the real allocation across {{NITEMS}} items and {{DOMAINS}} domains, counted at build time. {{ALLOC:multi}} items are all-or-none, a format rather than a type.</p>
+
+<h3>Two item formats, two disciplines</h3>
+<div class="grid2">
+  <div class="card">
+    <div class="ct"><b>Single answer</b><span>one of five</span></div>
+    <dl>
+      <dt>Read</dt><dd>The question before the options. Decide what you think, then look.</dd>
+      <dt>Compare</dt><dd>Options in pairs. The pair differing on one variable shows what is tested.</dd>
+      <dt>Commit</dt><dd>Once. Changed management answers usually move to the more cautious wrong option.</dd>
+    </dl>
+    <div class="trap"><dt>Trap</dt><dd>Length is not a signal in this manual. Correct options are the longest in roughly a fifth of items, which is chance.</dd></div>
+  </div>
+  <div class="card">
+    <div class="ct"><b>Select all that apply</b><span>all or none</span></div>
+    <dl>
+      <dt>Count</dt><dd>Underline the requested number before reading the options.</dd>
+      <dt>Judge</dt><dd>Each option alone, true or false for this patient.</dd>
+      <dt>Prefer</dt><dd>Patient-specific over merely true.</dd>
+      <dt>Score</dt><dd>Every correct choice and no incorrect choice. A partial set earns zero.</dd>
+    </dl>
+    <div class="trap"><dt>Trap</dt><dd>Findings that prove the diagnosis are not the same as findings that measure organ function. Read which the item wants.</dd></div>
+  </div>
+</div>
+
+<h3>What a complete management answer contains</h3>
+<table class="lined tight">
+  <tbody>
+    <tr><th style="width:1.5in">Immediate action</th><td>What happens in the next minutes, before any prescription.</td></tr>
+    <tr><th>Agent and route</th><td>Drug or procedure, form, concentration, site of action.</td></tr>
+    <tr><th>Dose and duration</th><td>Loading and maintenance, frequency, taper, stop point.</td></tr>
+    <tr><th>Contraindication</th><td>The host factor in the stem that changes the choice.</td></tr>
+    <tr><th>Follow-up interval</th><td>A number, not as needed. Often the only difference between two options.</td></tr>
+    <tr><th>Measurable response</th><td>What you will remeasure to know it worked.</td></tr>
+    <tr><th>Escalation trigger</th><td>What failure looks like, and what you do then.</td></tr>
+  </tbody>
+</table>
+<div class="callout"><b>How this is examined</b>Wrong options are right actions in the wrong order, right drugs at the wrong interval, or plans missing the contraindication the stem planted. An option with no interval and no failure trigger is incomplete.</div>

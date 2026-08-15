@@ -1,0 +1,1186 @@
+[
+ {
+  "id": "S1-31",
+  "session": 1,
+  "n": 31,
+  "domain": "Ophthalmic optics and spectacles",
+  "title": "Clearer when the frame slides down her nose",
+  "stem": "A 24-year-old returns three days after collecting new spectacles: distance vision is less crisp than in her old pair and a dull brow ache builds through the afternoon. Subjective refraction two weeks earlier, in a trial frame at a 14 mm vertex, was -12.00 DS each eye giving 20/20. The dispensed frame sits at 9 mm. Acuity is now 20/25 each eye, and clearer when she slides the frame down her nose. Corneae, motility and fundi are normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What best explains the reduced acuity and the brow ache?",
+    "options": [
+     {
+      "t": "Over-minus at the shorter vertex distance of the dispensed frame",
+      "correct": true
+     },
+     {
+      "t": "Excess pantoscopic tilt introducing unwanted oblique astigmatism"
+     },
+     {
+      "t": "Base-in prism from optical centres set wider than her pupils"
+     },
+     {
+      "t": "Accommodative insufficiency unmasked by a full distance correction"
+     },
+     {
+      "t": "Aniseikonia between the two high-powered lenses"
+     }
+    ],
+    "short": "Over-minus from a shorter dispensed vertex",
+    "why": "A minus lens moved closer to the eye gains effective minus power, so -12.00 specified at 14 mm is too strong at 9 mm. Sliding the frame out restores the refracting vertex and the acuity.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Pantoscopic tilt",
+      "tempting": "Tilt does induce cylinder, and it grows fast with lens power.",
+      "ruled": "Tilt-induced blur does not clear when the frame slides away from the eye."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Aniseikonia",
+      "tempting": "Magnification effects are real at -12.00 and cause asthenopia.",
+      "ruled": "Both eyes carry the same power, so the two retinal images match in size."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which power at the 9 mm plane focuses this eye as -12.00 DS did at 14 mm?",
+    "fixed_order": true,
+    "options": [
+     {
+      "t": "-13.00 DS"
+     },
+     {
+      "t": "-12.50 DS"
+     },
+     {
+      "t": "-12.00 DS"
+     },
+     {
+      "t": "-11.25 DS",
+      "correct": true
+     },
+     {
+      "t": "-10.25 DS"
+     }
+    ],
+    "short": "-11.25 DS at the 9 mm vertex",
+    "why": "The lens sits 5 mm closer, so it needs less minus: F = -12.00 / (1 + 0.005 &times; 12.00) = -11.32 D, which is -11.25 to the nearest quarter dioptre.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "-13.00 DS",
+      "tempting": "It assumes a shorter vertex needs more minus, the commoner reflex.",
+      "ruled": "Closer to the eye a minus lens gains effective power, so it needs less."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "-10.25 DS",
+      "tempting": "It is the right arithmetic for the corneal plane, a contact lens power.",
+      "ruled": "The lens plane here is 9 mm, not 0 mm, so only 5 mm of the shift applies."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which two features separate over-minus from an under-corrected refraction here?",
+    "format": "multi",
+    "options": [
+     {
+      "t": "Acuity improves as the frame slides away from the eye",
+      "correct": true
+     },
+     {
+      "t": "Brow ache that builds with sustained near and distance work",
+      "correct": true
+     },
+     {
+      "t": "The refraction was performed at a 14 mm vertex"
+     },
+     {
+      "t": "Best acuity of 20/25 in each eye"
+     },
+     {
+      "t": "Both eyes carry the same spherical power"
+     },
+     {
+      "t": "The old spectacles were more comfortable"
+     }
+    ],
+    "short": "Clearer with the frame out, plus accommodative ache",
+    "why": "Under-correction does not improve as the lens moves out, and it does not force accommodation. Both features here are the signature of too much minus in front of an eye working to clear it.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "14 mm refracting vertex",
+      "tempting": "It is where the error starts, so it feels like the key finding.",
+      "ruled": "It gives the mechanism, not the direction the error runs in."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Acuity 20/25",
+      "tempting": "Reduced acuity is the presenting complaint and is genuinely abnormal.",
+      "ruled": "Over-minus and under-correction both blur distance by a similar amount."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate action?",
+    "options": [
+     {
+      "t": "Remake both lenses at -11.25 DS for the 9 mm vertex",
+      "correct": true
+     },
+     {
+      "t": "Adjust the pads to hold the frame at the 14 mm refracting vertex"
+     },
+     {
+      "t": "Order aspheric lenses of the same power to cut edge distortion"
+     },
+     {
+      "t": "Prescribe a +0.75 D reading addition for the brow ache"
+     },
+     {
+      "t": "Reassure her that she will adapt, and review in four weeks"
+     }
+    ],
+    "short": "Remake at -11.25 DS for the fitted vertex",
+    "why": "The frame was measured correctly, the power was not. Respecifying the power for the plane it will be worn at keeps the short vertex, which a high myope wants for field and magnification.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Hold the frame at 14 mm",
+      "tempting": "It restores the conditions the refraction was measured under.",
+      "ruled": "It gives away the field and the reduced minification a short vertex buys."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Reading addition",
+      "tempting": "The ache is accommodative, and an add relieves accommodative strain.",
+      "ruled": "It leaves the distance power wrong and asks a 24-year-old to stop accommodating."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "She asks about soft contact lenses. Which trial power fits this refraction?",
+    "fixed_order": true,
+    "options": [
+     {
+      "t": "-12.00 D"
+     },
+     {
+      "t": "-11.25 D"
+     },
+     {
+      "t": "-10.75 D"
+     },
+     {
+      "t": "-10.25 D",
+      "correct": true
+     },
+     {
+      "t": "-9.50 D"
+     }
+    ],
+    "short": "-10.25 D at the corneal plane",
+    "why": "At the cornea the whole 14 mm applies: F = -12.00 / (1 + 0.014 &times; 12.00) = -10.27 D. Order -10.25 and check the over-refraction on the eye.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "-12.00 D",
+      "tempting": "Copying the spectacle power is quick and works at low powers.",
+      "ruled": "At -12.00 it over-minuses by about 1.75 D at the corneal plane."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "-11.25 D",
+      "tempting": "It is the right compensation, but for the spectacle plane at 9 mm.",
+      "ruled": "A contact lens sits at the cornea, so the full 14 mm shift applies."
+     }
+    ]
+   }
+  ],
+  "rules": "If a high power is dispensed at a vertex other than the one it was refracted at, respecify the power for the plane it will be worn at. If the lens moves closer, minus needs less minus."
+ },
+ {
+  "id": "S1-32",
+  "session": 1,
+  "n": 32,
+  "domain": "Contact lenses",
+  "title": "Gritty red eye on waking in a lens wearer",
+  "stem": "A 22-year-old soft lens wearer slept in her monthly lenses for two nights and woke with a gritty red right eye and mild watering. Discomfort eased within an hour of removing the lens. VA 20/20. A single 0.6 mm grey-white infiltrate lies 2 mm inside the temporal limbus with faint punctate stain over it, the cornea between it and the limbus is clear, injection is sectoral, the chamber is quiet and lid margins are clean.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Early bacterial keratitis of the peripheral cornea"
+     },
+     {
+      "t": "Contact lens peripheral ulcer, sterile",
+      "correct": true
+     },
+     {
+      "t": "Staphylococcal marginal keratitis from lid disease"
+     },
+     {
+      "t": "Herpes simplex stromal keratitis, first episode"
+     },
+     {
+      "t": "Early Acanthamoeba keratitis from tap water rinsing"
+     }
+    ],
+    "short": "Sterile contact lens peripheral ulcer",
+    "why": "A small peripheral infiltrate, clear cornea between it and the limbus, a quiet chamber, normal acuity and relief on lens removal is a hypersensitivity response, not an invading organism.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Bacterial keratitis",
+      "tempting": "Any infiltrate in a wearer who slept in lenses could be microbial.",
+      "ruled": "Microbial ulcers are painful, central or paracentral, and the chamber reacts."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Marginal keratitis",
+      "tempting": "The lesion sits peripherally, where staph hypersensitivity lands.",
+      "ruled": "Lid margins are clean and there is no blepharitis to drive the reaction."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings argue for a sterile infiltrate rather than microbial keratitis?",
+    "format": "multi",
+    "options": [
+     {
+      "t": "Clear cornea between the infiltrate and the limbus",
+      "correct": true
+     },
+     {
+      "t": "An epithelial stain smaller than the infiltrate beneath it",
+      "correct": true
+     },
+     {
+      "t": "An anterior chamber without cells or flare",
+      "correct": true
+     },
+     {
+      "t": "Symptoms that began overnight in the lens"
+     },
+     {
+      "t": "Sectoral rather than diffuse conjunctival injection"
+     },
+     {
+      "t": "Best corrected acuity of 20/20 in that eye"
+     }
+    ],
+    "short": "Clear limbal zone, small stain, quiet chamber",
+    "why": "A sterile infiltrate is an immune response to lens-borne antigen: the epithelium stays largely intact, the stroma reacts locally, and the chamber stays quiet. Microbial invasion breaks all three.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Overnight onset",
+      "tempting": "Sleeping in lenses precedes both sterile and microbial disease.",
+      "ruled": "Timing names the risk factor, not which of the two followed it."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Acuity 20/20",
+      "tempting": "Preserved acuity feels reassuring and argues against infection.",
+      "ruled": "A peripheral microbial ulcer can also spare the visual axis on day one."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management today?",
+    "options": [
+     {
+      "t": "Stop lens wear, broad-spectrum antibiotic four times daily, review in 24 hours",
+      "correct": true
+     },
+     {
+      "t": "Stop lens wear, unpreserved lubricants only, review in one week"
+     },
+     {
+      "t": "Scrape for culture now and start hourly fortified antibiotics through the night"
+     },
+     {
+      "t": "Topical dexamethasone four times daily and refitting in a daily disposable"
+     },
+     {
+      "t": "Cyclopentolate, a pressure pad overnight, review in 48 hours"
+     }
+    ],
+    "short": "Stop lenses, antibiotic cover, review at 24 hours",
+    "why": "Removing the antigen source is the treatment. Cover is prophylactic while a small peripheral infiltrate is watched, and the 24-hour review is what separates a settling sterile lesion from an ulcer.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Lubricants, one week",
+      "tempting": "Sterile infiltrates do settle on lens removal alone.",
+      "ruled": "A week is too long to wait to find out the first diagnosis was wrong."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Steroid and a refit",
+      "tempting": "Suppressing an immune infiltrate treats the mechanism directly.",
+      "ruled": "Steroid without cover, and a lens back on a cornea not yet proven sterile."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "At review the next day, which change most requires culture and intensive therapy?",
+    "options": [
+     {
+      "t": "Injection has spread to all four quadrants, the infiltrate unchanged at 0.6 mm"
+     },
+     {
+      "t": "Infiltrate now 1.8 mm and denser, epithelial defect wider than it, 1+ cells",
+      "correct": true
+     },
+     {
+      "t": "Symptoms are worse but the infiltrate is fainter and the stain has gone"
+     },
+     {
+      "t": "A second 0.4 mm infiltrate has appeared in the same peripheral quadrant"
+     },
+     {
+      "t": "Acuity has dropped to 20/30 from lid oedema and tear film debris"
+     }
+    ],
+    "short": "Bigger, denser, defect wider than infiltrate, cells",
+    "why": "Size, density, an epithelial break larger than the infiltrate beneath it, and any chamber reaction are the microbial markers. Progression on cover is the other indication to scrape.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "A second small infiltrate",
+      "tempting": "New lesions sound like spread, and satellites suggest fungus.",
+      "ruled": "Multiple small peripheral infiltrates are the usual sterile pattern."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Injection now diffuse",
+      "tempting": "The eye looks angrier, which is what the patient reports.",
+      "ruled": "Injection tracks irritation. The infiltrate and the chamber have not moved."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "She asks for her lens prescription today, to reorder online. What is the right response?",
+    "options": [
+     {
+      "t": "Release it, since the fitting was verified and completed last year"
+     },
+     {
+      "t": "Record that lens wear is unsafe until the cornea heals, and defer release",
+      "correct": true
+     },
+     {
+      "t": "Release it with a written caution not to wear lenses until the eye settles"
+     },
+     {
+      "t": "Decline any further lens supply and move her to spectacles permanently"
+     },
+     {
+      "t": "Send her to another practitioner to decide about the prescription"
+     }
+    ],
+    "short": "Defer release, record that wear is unsafe",
+    "why": "The duty to hand over a lens prescription runs from a completed fitting on a healthy eye. An active corneal infiltrate makes that lens the wrong device today, and the record has to say so.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Release with a caution",
+      "tempting": "It respects the release duty while passing on the clinical advice.",
+      "ruled": "The supplier dispenses the power, not the caveat, and lenses arrive in days."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Release as requested",
+      "tempting": "A verified fitting on file reads like a settled entitlement.",
+      "ruled": "The entitlement is to a valid prescription, and validity turns on the eye today."
+     }
+    ]
+   }
+  ],
+  "rules": "If an infiltrate is small, peripheral, with a clear limbal zone and a quiet chamber, treat it as sterile and review at 24 hours. If it grows or the chamber reacts, culture it.",
+  "pair": {
+   "this": "Sterile contact lens infiltrate",
+   "vs": "Microbial keratitis",
+   "rows": [
+    [
+     "Pain",
+     "Gritty, eases within an hour of lens removal",
+     "Severe, out of proportion, persists after removal"
+    ],
+    [
+     "Site",
+     "Peripheral, with a clear zone to the limbus",
+     "Central or paracentral, no clear zone"
+    ],
+    [
+     "Epithelium",
+     "Intact, or a stain smaller than the infiltrate",
+     "Defect wider than the infiltrate beneath it"
+    ],
+    [
+     "Chamber",
+     "Quiet, no cells",
+     "Cells, flare, sometimes a hypopyon"
+    ]
+   ],
+   "decider": "An epithelial defect larger than the infiltrate under it, or any anterior chamber reaction, moves the eye to culture and hourly therapy whatever the size of the lesion."
+  }
+ },
+ {
+  "id": "S1-33",
+  "session": 1,
+  "n": 33,
+  "domain": "Low vision",
+  "title": "The post she can no longer read",
+  "stem": "A 79-year-old retired teacher with geographic atrophy reads headlines but not her post. Best corrected acuity is 20/125 each eye, stable over a year. She reads 1.6 M print at 25 cm slowly and cannot hold a line of text. Amsler shows a dense scotoma just to the right of fixation in the better eye. Both hands have a mild resting tremor. She still drives locally in daylight. Her kitchen has one ceiling light.",
+  "items": [
+   {
+    "type": "basic",
+    "q": "By Kestenbaum's rule, which add starts her on 1 M print, and at what working distance?",
+    "fixed_order": true,
+    "options": [
+     {
+      "t": "+4.00 D at 25 cm"
+     },
+     {
+      "t": "+5.00 D at 20 cm"
+     },
+     {
+      "t": "+6.25 D at 16 cm",
+      "correct": true
+     },
+     {
+      "t": "+8.00 D at 12.5 cm"
+     },
+     {
+      "t": "+10.00 D at 10 cm"
+     }
+    ],
+    "short": "+6.25 D add, working at 16 cm",
+    "why": "Kestenbaum: the starting add is the reciprocal of the acuity fraction, so 125/20 = 6.25 D. Its focal distance is 1/6.25 = 0.16 m, and the page has to be held there.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "+10.00 D at 10 cm",
+      "tempting": "It is the familiar answer, but for 20/200 rather than 20/125.",
+      "ruled": "The reciprocal of 125/20 is 6.25, not 10."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "+4.00 D at 25 cm",
+      "tempting": "It matches the 25 cm she already uses and feels comfortable.",
+      "ruled": "+4.00 magnifies too little to bring 1.6 M performance down to 1 M."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding best explains why she cannot hold a line of print?",
+    "options": [
+     {
+      "t": "The scotoma sits to the right of fixation, over the text ahead",
+      "correct": true
+     },
+     {
+      "t": "Contrast sensitivity is reduced across all spatial frequencies"
+     },
+     {
+      "t": "Illumination at the page is far below the level she needs"
+     },
+     {
+      "t": "Her acuity reserve for 1 M print is smaller than 2 to 1"
+     },
+     {
+      "t": "Uncorrected astigmatism blurs the smaller letters most"
+     }
+    ],
+    "short": "Scotoma to the right of fixation",
+    "why": "Letter acuity measures one target at a time. A scotoma on the side the eye is moving into hides the next word, so saccades land in the blind area and the line is lost.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Acuity reserve",
+      "tempting": "Too small a reserve does slow reading, and hers is modest.",
+      "ruled": "Reserve limits speed and endurance, not the ability to track a line."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Poor illumination",
+      "tempting": "One ceiling light is genuinely inadequate for atrophy.",
+      "ruled": "Light raises contrast and comfort, but it cannot fill a scotoma."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which two measures will do most for sustained reading of 1 M print?",
+    "format": "multi",
+    "options": [
+     {
+      "t": "Bring a directable task lamp close to the page",
+      "correct": true
+     },
+     {
+      "t": "Train eccentric viewing to move the scotoma off the text",
+      "correct": true
+     },
+     {
+      "t": "Add a yellow tint to raise apparent contrast"
+     },
+     {
+      "t": "Fit a 3x hand magnifier held at arm's length"
+     },
+     {
+      "t": "Supply an anti-reflection coating on her spectacles"
+     }
+    ],
+    "short": "Task lighting at the page, eccentric viewing",
+    "why": "Atrophy needs light on the page, and a scotoma over the incoming text needs a new preferred locus. Both act on what limits her, unlike a coating, a tint, or a lens held out of focus.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Yellow tint",
+      "tempting": "Tints are popular and can cut glare on a bright page.",
+      "ruled": "They also cut light reaching a retina that needs more of it."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "3x hand magnifier",
+      "tempting": "3x is close to the magnification the arithmetic asks for.",
+      "ruled": "Held at arm's length it is out of focus, and her tremor moves it."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which device suits reading her post at the kitchen table?",
+    "options": [
+     {
+      "t": "An illuminated stand magnifier at a fixed focal height",
+      "correct": true
+     },
+     {
+      "t": "An illuminated hand magnifier held at its focal distance"
+     },
+     {
+      "t": "A +6.25 D half-eye pair used at her habitual 25 cm"
+     },
+     {
+      "t": "A 6x monocular telescope braced against the brow"
+     },
+     {
+      "t": "A closed-circuit magnifier sited in the sitting room"
+     }
+    ],
+    "short": "Illuminated stand magnifier",
+    "why": "A stand magnifier holds the lens at its focal distance for her, which a resting tremor cannot do with a hand-held lens, and its own light supplies what one ceiling fitting does not.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Hand magnifier",
+      "tempting": "It is portable, cheap, and the usual first device offered.",
+      "ruled": "A resting tremor moves the lens off its focal distance continuously."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "+6.25 D at 25 cm",
+      "tempting": "The add is the one the arithmetic gives, and the habit is hers.",
+      "ruled": "A +6.25 D lens focuses at 16 cm. At 25 cm the print is still blurred."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "She mentions that she still drives locally. What is the duty here?",
+    "options": [
+     {
+      "t": "Tell her she is below the acuity standard, record it, and cite her duty to notify",
+      "correct": true
+     },
+     {
+      "t": "Notify the licensing authority the same day without discussing it with her"
+     },
+     {
+      "t": "Advise her to limit driving to daylight and familiar routes, and review in a year"
+     },
+     {
+      "t": "Leave the question to her family doctor, who holds the wider record"
+     },
+     {
+      "t": "Note the acuity in the record and raise driving at the next visit"
+     }
+    ],
+    "short": "State the standard, document, name the duty to notify",
+    "why": "The consultation is where this is settled: a plain statement that she is below the standard, the advice not to drive, her response, and who must notify. The record of that talk is the evidence.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Notify without telling her",
+      "tempting": "Reporting duties exist and other road users are genuinely at risk.",
+      "ruled": "Notification never precedes telling the patient, whoever has to do it."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Daylight, familiar routes",
+      "tempting": "It sounds proportionate and preserves her independence.",
+      "ruled": "An acuity below the standard is below it in daylight on a known road."
+     }
+    ]
+   }
+  ],
+  "rules": "If letter acuity is better than reading performance, look for the scotoma and the lighting before adding magnification. If acuity is below the driving standard, say so in the consultation."
+ },
+ {
+  "id": "S1-34",
+  "session": 1,
+  "n": 34,
+  "domain": "Perceptual function and colour vision",
+  "title": "Both eyes, dimmer colours and harder print",
+  "stem": "A 58-year-old man in month four of treatment for pulmonary tuberculosis reports six weeks of dimmer colours and harder print. He weighs 60 kg and takes ethambutol 1500 mg daily with rifampicin, isoniazid and pyrazinamide; eGFR is 42. Best corrected acuity 20/40 OD and 20/50 OS. Ishihara 2 of 17 plates each eye. No RAPD. Discs and maculae look normal. Fields show symmetric central depression.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Ethambutol toxic optic neuropathy",
+      "correct": true
+     },
+     {
+      "t": "Bilateral simultaneous demyelinating optic neuritis"
+     },
+     {
+      "t": "Nutritional optic neuropathy of B12 deficiency"
+     },
+     {
+      "t": "Autosomal dominant optic atrophy presenting late"
+     },
+     {
+      "t": "Occult macular dystrophy with central loss"
+     }
+    ],
+    "short": "Ethambutol toxic optic neuropathy",
+    "why": "1500 mg for 60 kg is 25 mg/kg, and an eGFR of 42 slows clearance. Symmetric central depression, colour loss out of proportion to acuity, and no RAPD fit a dose-related toxic insult.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "B12 deficiency",
+      "tempting": "It produces the same painless, symmetric, central colour loss.",
+      "ruled": "The dose here is 25 mg/kg with reduced clearance, which explains it."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Optic neuritis",
+      "tempting": "Acquired colour loss with reduced acuity is the classic teaching set.",
+      "ruled": "Neuritis is painful, usually unilateral, and gives an RAPD."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "By K&ouml;llner's rule, which colour loss pairs with disease at this site?",
+    "options": [
+     {
+      "t": "Red-green loss, because optic nerve disease affects it first",
+      "correct": true
+     },
+     {
+      "t": "Blue-yellow loss, because outer retinal disease affects it first"
+     },
+     {
+      "t": "Blue-yellow loss, because the S cones are the sparsest type"
+     },
+     {
+      "t": "Total loss of hue, because all three cone classes fail together"
+     },
+     {
+      "t": "Red-green loss, because the L and M genes lie on one chromosome"
+     }
+    ],
+    "short": "Red-green loss, from optic nerve disease",
+    "why": "K&ouml;llner's rule pairs outer retinal disease with blue-yellow loss and optic nerve disease with red-green loss. Glaucoma and dominant optic atrophy are the standing exceptions.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Blue-yellow, outer retina",
+      "tempting": "It is the other half of the rule, stated correctly.",
+      "ruled": "The maculae are normal and the field loss is central and symmetric."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Red-green, gene linkage",
+      "tempting": "It reaches the right answer through a real piece of genetics.",
+      "ruled": "Gene arrangement explains inherited defects, not acquired ones."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {
+      "t": "Speak to the treating physician today to stop ethambutol",
+      "correct": true
+     },
+     {
+      "t": "Reduce ethambutol to 15 mg/kg and reassess in three months"
+     },
+     {
+      "t": "Start high-dose oral steroid and repeat the fields in a month"
+     },
+     {
+      "t": "Start hydroxocobalamin and a B-complex, and review in six weeks"
+     },
+     {
+      "t": "Repeat colour vision in four weeks before contacting anyone"
+     }
+    ],
+    "short": "Stop ethambutol today, through the prescriber",
+    "why": "Toxicity is dose and duration dependent, and recovery turns on how fast the drug goes. Stopping is the physician's decision, so the call happens today, with the dose per kg and the eGFR.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Reduce to 15 mg/kg",
+      "tempting": "Toxicity is dose related, so a lower dose looks like the fix.",
+      "ruled": "No dose is safe once the nerve is affected, and three months is too long."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Recheck in four weeks",
+      "tempting": "Confirming progression before acting feels careful.",
+      "ruled": "Four more weeks of the drug is four more weeks of loss."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which two actions belong in the plan once the drug is stopped?",
+    "format": "multi",
+    "options": [
+     {
+      "t": "Written communication to the prescriber with the dose per kg and eGFR",
+      "correct": true
+     },
+     {
+      "t": "Recorded acuity, colour and threshold fields now and at six weeks",
+      "correct": true
+     },
+     {
+      "t": "Genetic testing for OPA1 before accepting the diagnosis"
+     },
+     {
+      "t": "Monthly full-field electroretinography until recovery"
+     },
+     {
+      "t": "A course of oral hydroxocobalamin while the nerve recovers"
+     }
+    ],
+    "short": "Write to the prescriber, and fix a measured baseline",
+    "why": "The two jobs are to close the loop with the prescriber in writing and to fix a measurable baseline. Recovery is judged against recorded acuity, colour and fields, not against recall.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Hydroxocobalamin",
+      "tempting": "Vitamin repletion is standard in nutritional optic neuropathy.",
+      "ruled": "This is a drug effect. There is no deficiency here to replace."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Monthly ERG",
+      "tempting": "It sounds like objective monitoring of the visual pathway.",
+      "ruled": "The ERG measures retina. The lesion here is in the optic nerve."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which further finding would move the diagnosis away from drug toxicity?",
+    "options": [
+     {
+      "t": "A dense RAPD with pain on movement of one eye",
+      "correct": true
+     },
+     {
+      "t": "Bitemporal wedge defects on threshold fields"
+     },
+     {
+      "t": "Temporal disc pallor appearing at three months"
+     },
+     {
+      "t": "Ishihara errors on every plate in both eyes"
+     },
+     {
+      "t": "A further fall in eGFR from 42 to 35"
+     }
+    ],
+    "short": "Unilateral RAPD with pain on eye movement",
+    "why": "Toxic neuropathy is symmetric and painless, so an RAPD means the two nerves are unequally affected and pain points at inflammation. Pallor, dense colour loss and worse renal function all fit toxicity.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Temporal disc pallor",
+      "tempting": "A new abnormal sign after months reads like a different disease.",
+      "ruled": "Pallor is the late appearance of the toxic insult already described."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Bitemporal wedges",
+      "tempting": "Bitemporal loss usually means compression at the chiasm.",
+      "ruled": "Ethambutol has a known chiasmal pattern with bitemporal defects."
+     }
+    ]
+   }
+  ],
+  "rules": "If colour and central field fall symmetrically with no RAPD, check every drug against weight and renal function. If a dose exceeds 15 mg/kg, the drug is the diagnosis until it is stopped.",
+  "pair": {
+   "this": "Ethambutol optic neuropathy",
+   "vs": "Nutritional optic neuropathy",
+   "rows": [
+    [
+     "Onset",
+     "Weeks to months into a dose above 15 mg/kg",
+     "Months to years of poor diet or alcohol"
+    ],
+    [
+     "Fields",
+     "Central depression, sometimes bitemporal",
+     "Central or centrocaecal scotomata"
+    ],
+    [
+     "Deciding test",
+     "Dose per kg, with renal function",
+     "B12, folate, red cell thiamine"
+    ],
+    [
+     "Course",
+     "Improves over months once the drug goes",
+     "Improves with repletion, not withdrawal"
+    ]
+   ],
+   "decider": "The weight-based dose read against renal function separates them, and it is the one thing that can be acted on the same day. Both need the blood tests, only one needs a drug stopped."
+  }
+ },
+ {
+  "id": "S1-35",
+  "session": 1,
+  "n": 35,
+  "domain": "Emergencies and trauma",
+  "title": "The after-hours call about flashes and floaters",
+  "stem": "An after-hours call. A 61-year-old, -8.00 D myopic and pseudophakic four months, describes six hours of new floaters and arcing flashes in the right eye, with no shadow and no pain. She declines to be seen before a family wedding in four days. A practice audit of 200 such callers found 30 with a tear or detachment; the phone protocol flagged 27 of the 30 and 27 of the other 170.",
+  "items": [
+   {
+    "type": "treatment",
+    "q": "What should be arranged on this call?",
+    "options": [
+     {
+      "t": "A dilated fundus examination with indentation today",
+      "correct": true
+     },
+     {
+      "t": "A dilated examination at the practice within two weeks"
+     },
+     {
+      "t": "Emergency department attendance tonight for a B-scan"
+     },
+     {
+      "t": "Reassurance that this follows surgery, with routine review"
+     },
+     {
+      "t": "Bed rest with the head still, and a call back in 48 hours"
+     }
+    ],
+    "short": "Dilated examination with indentation today",
+    "why": "Photopsia with new floaters is a symptomatic vitreous detachment, and axial myopia with recent surgery raises the odds of a tear. Only a dilated peripheral view with indentation settles it.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Within two weeks",
+      "tempting": "It books a proper examination, and most of these are uncomplicated.",
+      "ruled": "A tear is treatable while the retina is attached, and that window is days."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Emergency department",
+      "tempting": "It matches the urgency and gets her seen out of hours.",
+      "ruled": "What she needs is dilated indentation, not an ultrasound scan."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "From the audit, what is the chance that a flagged caller has a tear or detachment?",
+    "fixed_order": true,
+    "options": [
+     {
+      "t": "10%"
+     },
+     {
+      "t": "15%"
+     },
+     {
+      "t": "50%",
+      "correct": true
+     },
+     {
+      "t": "84%"
+     },
+     {
+      "t": "90%"
+     }
+    ],
+    "short": "50%, one flagged call in two",
+    "why": "Flagged calls are 27 true and 27 false, so 27/54 = 50%. Sensitivity 27/30 = 90% and specificity 143/170 = 84% describe the protocol; what a flag means also depends on prevalence.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "90%",
+      "tempting": "It is the sensitivity, the figure the protocol is sold on.",
+      "ruled": "Sensitivity is the hit rate among those with disease, not among those flagged."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "15%",
+      "tempting": "It is the prevalence, which sounds like the base rate answer.",
+      "ruled": "Prevalence is the chance before the protocol ran, not after a flag."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "Which three features make her decision to wait an informed refusal?",
+    "format": "multi",
+    "options": [
+     {
+      "t": "She can restate in her own words what delay may cost",
+      "correct": true
+     },
+     {
+      "t": "The specific risk of a detachment was named, not implied",
+      "correct": true
+     },
+     {
+      "t": "She was told what change should make her call back at once",
+      "correct": true
+     },
+     {
+      "t": "A signed waiver of liability is held on file"
+     },
+     {
+      "t": "Her daughter agreed that waiting was reasonable"
+     },
+     {
+      "t": "The notes were written up the following morning"
+     }
+    ],
+    "short": "Understanding, the named risk, return criteria",
+    "why": "A refusal is informed when the patient has capacity, hears the specific consequence, and knows what would change the plan. A signature and a relative's view add nothing to any of the three.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Signed waiver",
+      "tempting": "A signature looks like the document that settles the question.",
+      "ruled": "A waiver does not transfer the consequences of inadequate advice."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Notes written next day",
+      "tempting": "The file is what the episode is judged on, so its timing feels central.",
+      "ruled": "When the note was typed says nothing about what she was told."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "She still declines. What must the record show?",
+    "options": [
+     {
+      "t": "The risks named, her refusal, the earliest appointment offered, and return criteria",
+      "correct": true
+     },
+     {
+      "t": "That the patient declined advice, with the date and time of the call"
+     },
+     {
+      "t": "A letter discharging her from the practice for refusing urgent care"
+     },
+     {
+      "t": "Her signature on a refusal form, to be collected at the next visit"
+     },
+     {
+      "t": "A note to her family doctor recording that the call was made"
+     }
+    ],
+    "short": "Risks named, refusal, offer, return criteria",
+    "why": "The entry has to show that the choice was informed and that the door stays open: what was disclosed, what she decided, the soonest slot offered, and the symptoms that mean she calls at once.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Patient declined",
+      "tempting": "It is true, brief, and what busy after-hours notes usually say.",
+      "ruled": "It records the outcome without the disclosure that makes it defensible."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Discharge letter",
+      "tempting": "Refusing urgent advice feels like a breakdown of the relationship.",
+      "ruled": "Abandoning a patient mid-episode creates the liability it tries to avoid."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "She calls on day three with a shadow in the upper nasal field. What now?",
+    "options": [
+     {
+      "t": "Same-day vitreoretinal referral, treating it as a detachment",
+      "correct": true
+     },
+     {
+      "t": "Dilated examination at the practice the next morning"
+     },
+     {
+      "t": "Reassurance that a shadow follows a large floater load"
+     },
+     {
+      "t": "Bed rest with the eye positioned, and referral in 48 hours"
+     },
+     {
+      "t": "Repeat the phone protocol and act on whether it flags"
+     }
+    ],
+    "short": "Same-day vitreoretinal referral",
+    "why": "A field defect after days of photopsia means retina is off until proved otherwise, and macula-on repair is time critical. A superior nasal shadow places the break inferiorly and temporally.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Practice, next morning",
+      "tempting": "It gets her the dilated examination she should have had on day one.",
+      "ruled": "The examination is no longer the question. A field defect needs a surgeon."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Repeat the protocol",
+      "tempting": "The protocol is the practice's agreed triage tool for these calls.",
+      "ruled": "Triage tools sort symptoms. A field defect has already answered it."
+     }
+    ]
+   }
+  ],
+  "rules": "If photopsia comes with new floaters, examine dilated with indentation within a day. If a refusal is reasoned, record the risk named, the offer made, and what should bring the patient back."
+ }
+]
