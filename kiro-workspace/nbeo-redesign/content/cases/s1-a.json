@@ -1,0 +1,1021 @@
+[
+ {
+  "id": "S1-01", "session": 1, "n": 1,
+  "domain": "Lids, lacrimal, adnexa, orbit",
+  "title": "The swollen eyelid that hurts to move",
+  "stem": "A 13-year-old boy has three days of worsening left eyelid swelling and frontal headache, after a week of purulent nasal discharge. Temperature 38.4 &deg;C. BVA 20/20 OD, 20/40 OS. Mild left RAPD, red saturation 60% OS, 3 mm proptosis, tense chemosis, painful restriction of elevation and abduction. IOP 17 OD, 27 OS. Cornea clear, chamber quiet, fundus normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Preseptal cellulitis with reactive chemosis"},
+     {"t": "Idiopathic orbital inflammatory syndrome"},
+     {"t": "Cavernous sinus thrombosis complicating sinusitis"},
+     {"t": "Orbital cellulitis of ethmoid sinus origin", "correct": true},
+     {"t": "Orbital rhabdomyosarcoma with secondary inflammation"}
+    ],
+    "short": "Orbital cellulitis, ethmoid origin",
+    "why": "Proptosis, painful restricted motility, RAPD, reduced colour and acuity, and raised IOP all place the disease behind the septum. Fever with a week of purulent rhinorrhoea names the source.",
+    "dis": [
+     {"refs": [2], "label": "Cavernous sinus thrombosis", "tempting": "The correct escalation of this infection, and it also gives proptosis and chemosis.", "ruled": "Signs stay strictly unilateral, with no multiple cranial neuropathy and no V1-V2 loss."},
+     {"refs": [0], "label": "Preseptal cellulitis", "tempting": "The visible finding is a swollen lid, and preseptal disease is commoner at this age.", "ruled": "Preseptal disease spares acuity, pupil, colour, motility and globe position."},
+     {"refs": [4], "label": "Rhabdomyosarcoma", "tempting": "Rapid proptosis in a child is the classic teaching phrase for it.", "ruled": "Fever and purulent sinus disease over three days fit infection, not tumour."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings measure optic nerve function, rather than supporting the infective diagnosis?",
+    "options": [
+     {"t": "Temperature 38.4 &deg;C"},
+     {"t": "Left relative afferent pupillary defect", "correct": true},
+     {"t": "Red saturation reduced to 60% OS", "correct": true},
+     {"t": "Purulent nasal discharge for one week"},
+     {"t": "Intraocular pressure 27 mmHg OS"},
+     {"t": "Best corrected acuity 20/40 OS", "correct": true}
+    ],
+    "short": "RAPD, red desaturation, reduced acuity",
+    "why": "The item asks for afferent function, not for evidence of infection. An RAPD, dyschromatopsia and reduced best acuity each measure optic nerve conduction directly.",
+    "dis": [
+     {"refs": [4], "label": "IOP 27 mmHg", "tempting": "It is genuinely abnormal, and orbital pressure is what threatens the nerve.", "ruled": "It measures orbital pressure, not conduction. Normalising it proves nothing."},
+     {"refs": [0, 3], "label": "Fever, purulent discharge", "tempting": "They confirm infection and drive the diagnosis.", "ruled": "Neither measures the eye. A febrile child can have a normal afferent system."}
+    ],
+    "format": "multi"
+   },
+
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {"t": "Oral amoxicillin-clavulanate, nasal decongestant, review in 24 hours"},
+     {"t": "Same-day referral for contrast CT, intravenous antibiotics, ophthalmology and ENT", "correct": true},
+     {"t": "Outpatient MRI within 48 hours, then decide about admission"},
+     {"t": "Intravenous antibiotics booked for the morning, oral cover overnight"},
+     {"t": "Oral corticosteroid with a topical antibiotic to settle the swelling"}
+    ],
+    "short": "Same-day referral, contrast CT, IV antibiotics",
+    "why": "Orbital cellulitis with afferent dysfunction threatens the eye and, through intracranial extension, life. Imaging, intravenous therapy and surgical availability are arranged together, today.",
+    "dis": [
+     {"refs": [3], "label": "IV antibiotics tomorrow", "tempting": "It sees that intravenous therapy is needed and feels like a fair compromise.", "ruled": "The overnight delay is where vision goes. The decision point is the RAPD, now."},
+     {"refs": [2], "label": "Outpatient MRI in 48 hours", "tempting": "MRI is the better soft-tissue study, so it reads as the more thorough answer.", "ruled": "Contrast CT answers today's questions faster: sinus, collection, apex, bone."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which anatomic route most commonly explains this presentation?",
+    "options": [
+     {"t": "Direct spread across the lamina papyracea from the ethmoid sinus", "correct": true},
+     {"t": "Retrograde thrombophlebitis through valveless facial and orbital veins"},
+     {"t": "Extension through the optic canal from the sphenoid sinus"},
+     {"t": "Ascending infection along the nasolacrimal duct from the inferior meatus"},
+     {"t": "Haematogenous seeding of the orbit from an occult bacteraemia"}
+    ],
+    "short": "Lamina papyracea, from the ethmoid",
+    "why": "The medial orbital wall is paper-thin and perforated by vessels, which makes contiguous ethmoid spread the usual route and explains why abduction and elevation fail first.",
+    "dis": [
+     {"refs": [1], "label": "Valveless venous spread", "tempting": "A real mechanism, and how mid-face infection reaches the cavernous sinus.", "ruled": "Not the usual route from sinusitis, and it does not localise medially."},
+     {"refs": [2], "label": "Optic canal, sphenoid", "tempting": "Sphenoid disease is dangerous and sits against the orbital apex.", "ruled": "Rare in children, and it would show apical signs before medial restriction."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "He is admitted on intravenous antibiotics. Which change over 18 hours most supports drainage?",
+    "options": [
+     {"t": "Temperature settles after two doses while the lid oedema persists"},
+     {"t": "CT shows a 4 mm medial subperiosteal collection, acuity improving"},
+     {"t": "Acuity falls to 20/80 with worse colour and an abscess crowding the apex", "correct": true},
+     {"t": "Blood cultures grow an organism fully sensitive to current therapy"},
+     {"t": "Chemosis increases while pupil, colour and acuity stay unchanged"}
+    ],
+    "short": "Falling function with an apical abscess",
+    "why": "Drainage is driven by function and location, not by the presence of a collection. Falling afferent function with apical involvement is the indication, as is failure to improve on adequate therapy.",
+    "dis": [
+     {"refs": [1], "label": "Abscess, function improving", "tempting": "An abscess on imaging feels like a surgical finding by definition.", "ruled": "Small medial collections often resolve on antibiotics. Imaging does not decide."},
+     {"refs": [4], "label": "Chemosis increasing", "tempting": "It looks like deterioration in front of you.", "ruled": "Surface swelling with unchanged afferent function is no reason to open an orbit."}
+    ]
+   }
+  ],
+  "rules": "If lid swelling comes with any change in acuity, colour, pupil, motility or globe position, treat it as orbital until imaging says otherwise. If function falls, drain.",
+  "pair": {
+   "this": "Orbital cellulitis",
+   "vs": "Cavernous sinus thrombosis",
+   "rows": [
+    ["Laterality", "Unilateral, stays unilateral", "Crosses to the other eye within hours to days"],
+    ["Cranial nerves", "Motility limited by swelling and pain", "III, IV, VI and V1-V2 out of proportion to swelling"],
+    ["Pupil", "RAPD if the apex is crowded", "RAPD plus a poorly reactive mid-dilated pupil"],
+    ["Systemic", "Fever with sinus disease", "Fever, rigors, obtunded, meningism"]
+   ],
+   "decider": "Bilateral signs, or multiple cranial neuropathies out of proportion to orbital swelling, mean cavernous sinus and neurosurgical admission rather than orbital drainage."
+  }
+ },
+
+ {
+  "id": "S1-02", "session": 1, "n": 2,
+  "domain": "Contact lenses",
+  "title": "The pain that woke a lens wearer at four in the morning",
+  "stem": "A 24-year-old woman wears monthly silicone hydrogel lenses, sleeps in them twice a week, and tops up the solution in her case rather than discarding it. Pain, photophobia and green discharge for 36 hours OS. BVA 20/25 OD, 20/200 OS. A 2.2 mm paracentral epithelial defect over a dense stromal infiltrate, 1.2 mm hypopyon, circumlimbal injection, stromal oedema. IOP 14 OD, 11 OS.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Contact lens induced sterile peripheral ulcer"},
+     {"t": "Pseudomonas keratitis related to overnight wear", "correct": true},
+     {"t": "Adenoviral keratitis with subepithelial infiltrates"},
+     {"t": "Acanthamoeba keratitis in a topping-up lens user"},
+     {"t": "Marginal staphylococcal hypersensitivity keratitis"}
+    ],
+    "short": "Pseudomonas keratitis, overnight wear",
+    "why": "A large epithelial defect over a dense suppurative infiltrate, with hypopyon and mucopurulent discharge inside 36 hours, is bacterial. Sleeping in lenses and topped-up solution point to Pseudomonas.",
+    "dis": [
+     {"refs": [0], "label": "Sterile CLPU", "tempting": "Also lens related, also painful, and commoner than infection in this group.", "ruled": "CLPU is small, peripheral, without hypopyon, and the epithelium stays intact."},
+     {"refs": [3], "label": "Acanthamoeba keratitis", "tempting": "Poor solution hygiene is the classic risk factor quoted for it.", "ruled": "Onset in 36 hours with hypopyon and pus is too fast and too suppurative."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three steps belong in the first hour of management?",
+    "options": [
+     {"t": "Corneal scrape for Gram stain and culture before drops start", "correct": true},
+     {"t": "Hourly topical fluoroquinolone monotherapy, day and night", "correct": true},
+     {"t": "Send the lens, case and solution for culture as well", "correct": true},
+     {"t": "Topical dexamethasone four times daily to limit scarring"},
+     {"t": "Topical antifungal cover pending microscopy results"},
+     {"t": "Pressure patch after cycloplegia for pain relief"}
+    ],
+    "short": "Scrape and culture, hourly quinolone, lens culture",
+    "why": "Culture is taken before the first drop, because therapy sterilises the plate within hours. Hourly fluoroquinolone covers Pseudomonas, and lens, case and solution often grow the same organism.",
+    "dis": [
+     {"refs": [3], "label": "Topical steroid now", "tempting": "Scarring is the long-term risk, and steroid does reduce stromal infiltrate.", "ruled": "Steroid before the organism is known and controlled invites rapid melt."},
+     {"refs": [4, 5], "label": "Antifungal, patching", "tempting": "Both feel cautious: broad cover, and comfort for a very painful eye.", "ruled": "No fungal risk factor here, and patching an infected cornea incubates it."}
+    ],
+    "format": "multi"
+   },
+
+   {
+    "type": "treatment",
+    "q": "She is reviewed at 48 hours. Which finding most justifies changing therapy?",
+    "options": [
+     {"t": "The infiltrate is denser with 0.4 mm more stromal thinning", "correct": true},
+     {"t": "Culture grows Pseudomonas aeruginosa fully sensitive to ciprofloxacin"},
+     {"t": "Pain is worse although the epithelial defect has shrunk by half"},
+     {"t": "The hypopyon has settled and the anterior chamber is quieter"},
+     {"t": "Injection persists and she complains of stinging on the drops"}
+    ],
+    "short": "Progressive thinning despite hourly cover",
+    "why": "Response is judged on infiltrate density, defect size and thinning, not on symptoms or the sensitivity report. Progressive thinning on adequate cover means fortified drops and a perforation plan.",
+    "dis": [
+     {"refs": [1], "label": "Sensitive on culture", "tempting": "It confirms the drug choice, which reads like the decision point.", "ruled": "Sensitivity in a dish says nothing about the cornea in front of you."},
+     {"refs": [2], "label": "Worse pain, smaller defect", "tempting": "Pain is what she reports, so it feels like the outcome measure.", "ruled": "Pain lags healing. A defect halving on hourly drops is progress."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which addition best manages her pain and anterior chamber reaction?",
+    "options": [
+     {"t": "Topical cyclopentolate 1% twice daily with oral analgesia", "correct": true},
+     {"t": "Topical ketorolac four times daily with oral analgesia"},
+     {"t": "Subconjunctival gentamicin with topical anaesthetic"},
+     {"t": "Topical atropine 1% twice daily and a bandage lens"},
+     {"t": "Oral prednisolone 40 mg daily for three days"}
+    ],
+    "short": "Cycloplegia plus oral analgesia",
+    "why": "Cycloplegia relieves ciliary spasm and limits synechiae without touching epithelial healing or host defence. Analgesia is oral, because topical anaesthetic delays healing and masks progression.",
+    "dis": [
+     {"refs": [2], "label": "Subconjunctival gentamicin", "tempting": "It puts potent Gram-negative cover straight at the site.", "ruled": "Hourly drops already give high corneal levels, and this adds needle risk."},
+     {"refs": [1], "label": "Topical NSAID", "tempting": "It treats pain and inflammation without steroid, which sounds safe.", "ruled": "Topical NSAIDs are linked to melt in a cornea that is already thinning."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which organism factor best explains the speed of stromal destruction?",
+    "options": [
+     {"t": "Secreted proteases and elastase that digest stromal collagen", "correct": true},
+     {"t": "Biofilm formation on the lens surface and in the storage case"},
+     {"t": "Endotoxin release driving neutrophil chemotaxis into the stroma"},
+     {"t": "Adhesion to compromised epithelium through pili and flagella"},
+     {"t": "Cyst formation that resists disinfection by the solution"}
+    ],
+    "short": "Secreted proteases digest collagen",
+    "why": "Pseudomonas secretes proteases and elastase that cleave stromal collagen directly, which is why melting is measured in hours. Biofilm and adhesion explain how it arrived, not the speed.",
+    "dis": [
+     {"refs": [1], "label": "Biofilm on lens and case", "tempting": "Biofilm is why topping up solution fails, and it is genuinely present.", "ruled": "It explains inoculation and persistence, not the rate of stromal loss."},
+     {"refs": [4], "label": "Cyst formation", "tempting": "Resistance to disinfection fits the hygiene history exactly.", "ruled": "Cysts are an amoebic feature, and cysts do not lyse collagen."}
+    ]
+   }
+  ],
+  "rules": "If a lens wearer has a stromal infiltrate under an epithelial defect, scrape and culture before the first drop. If thinning progresses on hourly cover, fortify and plan for perforation."
+ },
+
+ {
+  "id": "S1-03", "session": 1, "n": 3,
+  "domain": "Cornea and refractive surgery",
+  "title": "The eye that has been red twice before",
+  "stem": "A 41-year-old man has four days of watering, mild photophobia and blur OD, and two similar episodes in the past two years. BVA 20/40 OD. A branching epithelial lesion with terminal bulbs stains with fluorescein, its bed stains faintly with rose bengal, corneal sensation is reduced OD, and two small anterior stromal opacities remain from an earlier episode. Chamber quiet, IOP 16 both eyes.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Herpes zoster pseudodendritic keratopathy"},
+     {"t": "Herpes simplex epithelial keratitis, recurrent", "correct": true},
+     {"t": "Healing abrasion with a dendritic epithelial ridge"},
+     {"t": "Acanthamoeba radial keratoneuritis, early"},
+     {"t": "Thygeson superficial punctate keratitis"}
+    ],
+    "short": "Recurrent HSV epithelial keratitis",
+    "why": "A branching lesion with terminal bulbs, an ulcer bed that stains with rose bengal, reduced sensation and old anterior stromal scars from earlier episodes make recurrent herpes simplex the answer.",
+    "dis": [
+     {"refs": [0], "label": "Zoster pseudodendrite", "tempting": "Zoster also gives a raised branching lesion with reduced sensation.", "ruled": "Pseudodendrites are heaped mucus with no terminal bulbs and no ulcer bed."},
+     {"refs": [2], "label": "Healing abrasion", "tempting": "Healing epithelium forms ridges that can look dendritic on staining.", "ruled": "A healing ridge has no terminal bulbs, and it does not recur three times."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate treatment now?",
+    "options": [
+     {"t": "Topical ganciclovir 0.15% gel five times daily", "correct": true},
+     {"t": "Topical ganciclovir gel with dexamethasone twice daily"},
+     {"t": "Oral aciclovir 400 mg twice daily as sole therapy"},
+     {"t": "Preservative-free lubricants and review in one week"},
+     {"t": "Topical chloramphenicol with a bandage contact lens"}
+    ],
+    "short": "Topical ganciclovir gel, five times daily",
+    "why": "Live virus in the epithelium needs an antiviral at treatment dose until the lesion heals. Steroid on a live dendrite drives geographic ulceration, and lubricants do nothing to the virus.",
+    "dis": [
+     {"refs": [1], "label": "Antiviral plus steroid", "tempting": "Steroid limits the scarring his earlier episodes plainly caused.", "ruled": "Steroid belongs to stromal disease. On a dendrite it enlarges the ulcer."},
+     {"refs": [2], "label": "Oral aciclovir alone", "tempting": "Oral dosing avoids drop toxicity and reaches the ganglion too.", "ruled": "400 mg twice daily is the prophylactic dose, not a treatment dose."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "At two weeks the epithelium is intact but acuity is 20/60 with central stromal haze and cells, and no keratic precipitates. What has happened?",
+    "options": [
+     {"t": "Antiviral epithelial toxicity with pseudodendrites"},
+     {"t": "Herpetic stromal keratitis without ulceration", "correct": true},
+     {"t": "Neurotrophic keratopathy from lost sensation"},
+     {"t": "Herpetic endotheliitis with secondary oedema"},
+     {"t": "Bacterial superinfection of a healed dendrite"}
+    ],
+    "short": "Herpetic stromal keratitis, non-necrotising",
+    "why": "Stromal haze with chamber cells appearing after the epithelium has healed is an immune stromal reaction, not live epithelial virus. No defect and no precipitates place the disease in the stroma.",
+    "dis": [
+     {"refs": [3], "label": "Endotheliitis", "tempting": "Stromal thickening with a chamber reaction is close to its picture.", "ruled": "Endotheliitis needs keratic precipitates under the oedema. There are none."},
+     {"refs": [0], "label": "Antiviral toxicity", "tempting": "Two weeks of gel five times daily does cause punctate toxicity.", "ruled": "Toxicity is epithelial and stains. This haze sits under an intact surface."}
+    ]
+   },
+
+   {
+    "type": "treatment",
+    "q": "Which regimen is most appropriate for this stage?",
+    "options": [
+     {"t": "Topical prednisolone with antiviral cover, slow taper", "correct": true},
+     {"t": "Topical prednisolone hourly without antiviral cover"},
+     {"t": "Oral aciclovir 400 mg five times daily as sole therapy"},
+     {"t": "Topical ganciclovir gel five times daily as sole therapy"},
+     {"t": "Topical ciclosporin 0.05% twice daily as sole therapy"}
+    ],
+    "short": "Steroid under antiviral cover, slow taper",
+    "why": "Immune stromal disease needs steroid, and steroid needs antiviral cover to stop epithelial recurrence. Rapid withdrawal produces the rebound that scars the visual axis.",
+    "dis": [
+     {"refs": [1], "label": "Steroid, no cover", "tempting": "It treats the immune stroma, which is what is costing him vision.", "ruled": "Unopposed steroid reactivates epithelial virus and risks geographic ulcer."},
+     {"refs": [3], "label": "Antiviral alone", "tempting": "It cleared the dendrite, so continuing it feels consistent.", "ruled": "Antiviral does not touch the immune infiltrate driving the stromal haze."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which two statements about latency and recurrence are correct?",
+    "options": [
+     {"t": "Latent virus resides in the trigeminal ganglion", "correct": true},
+     {"t": "Recurrence follows reactivation and axonal transport", "correct": true},
+     {"t": "Recurrence reflects fresh exogenous reinfection"},
+     {"t": "Corneal sensation recovers fully between episodes"},
+     {"t": "Latency is maintained in corneal stromal keratocytes"}
+    ],
+    "short": "Ganglionic latency, axonal reactivation",
+    "why": "Herpes simplex persists in the trigeminal ganglion and travels down ophthalmic axons when reactivated. Recurrence is endogenous, and sensory loss accumulates with each episode.",
+    "dis": [
+     {"refs": [2], "label": "Exogenous reinfection", "tempting": "Repeat episodes suggest repeat exposure, as with conjunctivitis.", "ruled": "Recurrence is reactivation of the patient's own latent virus."},
+     {"refs": [3, 4], "label": "Sensation, keratocytes", "tempting": "Both sound reasonable: nerves recover, keratocytes host stromal disease.", "ruled": "Sensory loss is cumulative, and latency is ganglionic rather than corneal."}
+    ],
+    "format": "multi"
+   }
+  ],
+  "rules": "If a branching epithelial lesion has terminal bulbs, treat live virus and hold the steroid. If stromal haze appears after the epithelium heals, add steroid only under antiviral cover."
+ },
+ {
+  "id": "S1-04", "session": 1, "n": 4,
+  "domain": "Cornea and refractive surgery",
+  "title": "Pain out of proportion to the slit lamp findings",
+  "stem": "A 27-year-old man rinses his monthly lenses under the tap and swims in them. Three weeks of worsening OS pain, now severe and disturbing sleep, with photophobia and blur. Two courses of topical antiviral and one of a fluoroquinolone have not helped. BVA 20/80 OS. Patchy anterior stromal infiltrates in an incomplete ring, radial perineural infiltrates, epithelial pseudodendrites, limbitis. IOP 18 both eyes.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Herpes simplex stromal keratitis, unresponsive"},
+     {"t": "Acanthamoeba keratitis from tap water exposure", "correct": true},
+     {"t": "Fungal keratitis with feathery stromal extension"},
+     {"t": "Atypical mycobacterial keratitis after lens trauma"},
+     {"t": "Pseudomonas keratitis, partially treated"}
+    ],
+    "short": "Acanthamoeba keratitis",
+    "why": "Pain far beyond the visible signs for three weeks, radial perineural infiltrates, a partial ring infiltrate and failure of antiviral and antibacterial therapy in a tap-rinsing swimmer name the amoeba.",
+    "dis": [
+     {"refs": [0], "label": "HSV stromal keratitis", "tempting": "Pseudodendrites and a chronic course took two clinicians there already.", "ruled": "Simplex gives neither radial perineural infiltrates nor a ring in weeks."},
+     {"refs": [2], "label": "Fungal keratitis", "tempting": "Also indolent, also unmoved by antibacterials, also lens related.", "ruled": "Water exposure without vegetable trauma, and no feathery satellite edges."}
+    ]
+   },
+
+   {
+    "type": "diagnosis",
+    "q": "Which three findings most strongly separate this from herpes simplex?",
+    "options": [
+     {"t": "Radial perineural stromal infiltrates", "correct": true},
+     {"t": "Pain far in excess of the slit lamp signs", "correct": true},
+     {"t": "An incomplete ring infiltrate in the stroma", "correct": true},
+     {"t": "Reduced corneal sensation in the affected eye"},
+     {"t": "Epithelial irregularity with pseudodendrites"},
+     {"t": "A unilateral red eye with photophobia"}
+    ],
+    "short": "Perineural infiltrates, pain, ring infiltrate",
+    "why": "Radial keratoneuritis, a ring infiltrate and pain out of proportion are amoebic. Reduced sensation, pseudodendrites and unilateral photophobia occur in both and separate nothing.",
+    "dis": [
+     {"refs": [3], "label": "Reduced sensation", "tempting": "Sensory loss is the herpetic sign every candidate learns first.", "ruled": "Both diseases blunt sensation, so it cannot tell them apart."},
+     {"refs": [4, 5], "label": "Pseudodendrites, redness", "tempting": "Pseudodendrites are why the antiviral was started twice already.", "ruled": "Amoebic epithelium mimics dendrites, and redness is common to both."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate initial treatment?",
+    "options": [
+     {"t": "Topical polyhexanide and propamidine, hourly at first", "correct": true},
+     {"t": "Hourly fortified vancomycin and amikacin drops"},
+     {"t": "Topical prednisolone with the antiviral continued"},
+     {"t": "Therapeutic penetrating keratoplasty within the fortnight"},
+     {"t": "Oral itraconazole with topical natamycin drops"}
+    ],
+    "short": "Hourly biguanide with a diamidine",
+    "why": "A biguanide is the agent that kills cysts, and a diamidine added to it covers trophozoites. Intensive hourly dosing in the first days decides whether the ring resolves.",
+    "dis": [
+     {"refs": [2], "label": "Steroid plus antiviral", "tempting": "It was the working diagnosis, and steroid does settle the limbitis.", "ruled": "Steroid raises amoebic load and delays cure. Treat the organism first."},
+     {"refs": [3], "label": "Early keratoplasty", "tempting": "Medical therapy is long and the eye is deteriorating week by week.", "ruled": "Grafting an active amoebic cornea recurs in the graft. Treat first."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "At six weeks the infiltrate has cleared but a sterile ring inflammation persists with acuity 20/100. What now?",
+    "options": [
+     {"t": "Add topical steroid, continuing the biguanide", "correct": true},
+     {"t": "Stop the biguanide and start topical steroid"},
+     {"t": "Add oral voriconazole to the biguanide"},
+     {"t": "Restart hourly propamidine for two weeks"},
+     {"t": "Proceed to therapeutic keratoplasty this month"}
+    ],
+    "short": "Steroid added, biguanide continued",
+    "why": "Inflammation persisting after the organism is controlled is immune, and steroid settles it. The biguanide continues because steroid can wake residual cysts.",
+    "dis": [
+     {"refs": [1], "label": "Steroid, cover stopped", "tempting": "The infiltrate has cleared, so the anti-amoebic looks finished.", "ruled": "Cysts survive months. Steroid without cover produces relapse."},
+     {"refs": [4], "label": "Keratoplasty now", "tempting": "20/100 with a scarred axis looks like a surgical problem.", "ruled": "Graft an inflamed eye and it fails. Wait for quiescence."}
+    ]
+   },
+
+   {
+    "type": "basic",
+    "q": "Which property of the organism explains why treatment runs for months?",
+    "options": [
+     {"t": "The cyst wall resists drugs and disinfectants", "correct": true},
+     {"t": "Trophozoites divide faster than epithelium heals"},
+     {"t": "It forms biofilm on the corneal surface"},
+     {"t": "It survives inside keratocytes as a latent form"},
+     {"t": "It seeds the trigeminal nerve and reactivates later"}
+    ],
+    "short": "The cyst wall resists drugs",
+    "why": "The double-walled cyst is dormant and poorly permeable, so it outlives short courses and multipurpose solutions. Cure means outlasting cysts, not merely clearing trophozoites.",
+    "dis": [
+     {"refs": [3], "label": "Intracellular latency", "tempting": "Chronicity and relapse feel like an intracellular hiding place.", "ruled": "The amoeba is extracellular. It hides in a cyst, not in a cell."},
+     {"refs": [4], "label": "Nerve seeding", "tempting": "Radial perineural infiltrates make the nerves look like a reservoir.", "ruled": "That infiltrate is inflammation around nerves, not neural latency."}
+    ]
+   }
+  ],
+  "rules": "If a lens wearer has pain out of proportion to the signs and no response to antiviral or antibacterial therapy, scrape for amoeba. If steroid is added later, keep the biguanide running.",
+  "pair": {
+   "this": "Acanthamoeba keratitis",
+   "vs": "Herpes simplex stromal keratitis",
+   "rows": [
+    ["Pain", "Severe, out of proportion to the signs", "Proportionate, often modest"],
+    ["Infiltrate", "Radial perineural, then an incomplete ring", "Diffuse or disciform central haze"],
+    ["On antivirals", "Unchanged or worse over weeks", "Settles, then recurs on withdrawal"],
+    ["Risk factor", "Tap water, swimming, poor lens hygiene", "Previous cold sore or previous dendrite"]
+   ],
+   "decider": "Radial perineural infiltrates or a ring infiltrate in a lens wearer exposed to water outweigh any pseudodendrite. Scrape and culture for amoeba before more steroid goes in."
+  }
+ },
+ {
+  "id": "S1-05", "session": 1, "n": 5,
+  "domain": "Cornea and refractive surgery",
+  "title": "The teenager whose glasses change at every visit",
+  "stem": "A 17-year-old boy with atopic eczema rubs his eyes daily. Over 14 months OD refraction moved from -2.75 -1.50 x 175 to -4.00 -3.25 x 160, BVA 20/25. Tomography OD: maximum keratometry 51.8 D, up 1.9 D over those 14 months, thinnest point 442 &micro;m, inferior steepening with a displaced thin point. OS Kmax 46.2 D, unchanged. No scarring, no oedema, endothelium normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Which finding establishes progression?",
+    "options": [
+     {"t": "Cylinder has increased by 1.75 D with axis rotation"},
+     {"t": "Maximum keratometry has risen 1.9 D in 14 months", "correct": true},
+     {"t": "The thinnest point measures 442 &micro;m"},
+     {"t": "Inferior steepening with a displaced thin point"},
+     {"t": "Best corrected acuity is still 20/25 in that eye"}
+    ],
+    "short": "Kmax up 1.9 D over 14 months",
+    "why": "Progression is a documented change in corneal shape, most reliably a rise in maximum keratometry with thinning. Refraction varies with fit and effort, and one thin reading is not a change.",
+    "dis": [
+     {"refs": [2], "label": "Thinnest point 442 &micro;m", "tempting": "A thin cornea is the hallmark of the disease and looks like severity.", "ruled": "One measurement is a state, not a change. Progression needs two dates."},
+     {"refs": [4], "label": "Acuity still 20/25", "tempting": "Preserved vision reads as reassurance that nothing has moved.", "ruled": "Acuity holds until the axis distorts. It lags shape by many months."}
+    ]
+   },
+
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management?",
+    "options": [
+     {"t": "Epithelium-off cross-linking OD, monitor OS", "correct": true},
+     {"t": "Rigid gas permeable fitting OD, no cross-linking"},
+     {"t": "Cross-linking of both eyes at the same session"},
+     {"t": "Repeat tomography in 12 months, then decide"},
+     {"t": "Intrastromal ring segments OD with spectacles"}
+    ],
+    "short": "Cross-link the progressing eye, watch the other",
+    "why": "Cross-linking is indicated by documented progression, and this eye has it at 17 with 442 &micro;m of tissue. The fellow eye is stable, so it is monitored rather than treated.",
+    "dis": [
+     {"refs": [1], "label": "Rigid lens only", "tempting": "A rigid lens restores the acuity he actually came about.", "ruled": "A lens corrects the shape, it does not stop the shape changing."},
+     {"refs": [3], "label": "Review in 12 months", "tempting": "Watchful waiting sounds proportionate in a young seeing eye.", "ruled": "He is already progressing. Another year of steepening costs tissue."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which two factors would defer standard epithelium-off cross-linking?",
+    "options": [
+     {"t": "Stromal thickness under 400 &micro;m after debridement", "correct": true},
+     {"t": "Active atopic keratoconjunctivitis with lid disease", "correct": true},
+     {"t": "Maximum keratometry above 50 D"},
+     {"t": "Age 17 rather than over 18"},
+     {"t": "Apical scarring visible on the slit lamp"},
+     {"t": "Corrected acuity better than 20/30"}
+    ],
+    "short": "Stroma under 400 &micro;m, active atopic disease",
+    "why": "The standard protocol needs 400 &micro;m of stroma after debridement to protect the endothelium, and an inflamed atopic surface heals badly. A high Kmax and young age argue for treating, not waiting.",
+    "dis": [
+     {"refs": [3], "label": "Age 17", "tempting": "Consent and cooperation make young age feel like a reason to wait.", "ruled": "Young eyes progress fastest. Age brings the treatment forward."},
+     {"refs": [2, 5], "label": "Kmax 50 D, good acuity", "tempting": "Both read like thresholds: too steep to treat, too good to risk.", "ruled": "Neither defers anything. Documented progression is the indication."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "diagnosis",
+    "q": "Three months after treatment acuity is 20/60 with central stromal haze and no epithelial defect. What is the most likely cause?",
+    "options": [
+     {"t": "Microbial keratitis after epithelial removal"},
+     {"t": "Expected post-cross-linking stromal haze", "correct": true},
+     {"t": "Continued progression despite treatment"},
+     {"t": "Endothelial decompensation from irradiation"},
+     {"t": "Sterile infiltrate from the bandage lens"}
+    ],
+    "short": "Expected cross-linking haze",
+    "why": "Haze at the demarcation line peaks in the first months and clears over a year as acuity recovers. An intact epithelium with no pain and no cells argues against infection and against decompensation.",
+    "dis": [
+     {"refs": [0], "label": "Microbial keratitis", "tempting": "Debridement plus a bandage lens is a real route to infection.", "ruled": "Infection brings pain, a defect and cells. None of the three is present."},
+     {"refs": [3], "label": "Endothelial failure", "tempting": "The stroma was 442 &micro;m thick, close to the safety limit.", "ruled": "Decompensation gives oedema and folds, not isolated stromal haze."}
+    ]
+   },
+
+   {
+    "type": "basic",
+    "q": "How does the treatment stiffen the cornea?",
+    "options": [
+     {"t": "Riboflavin absorbs UVA and new collagen bonds form", "correct": true},
+     {"t": "UVA denatures collagen and shrinks the stroma thermally"},
+     {"t": "Riboflavin scavenges radicals and prevents enzymatic loss"},
+     {"t": "UVA kills keratocytes so the stroma stops remodelling"},
+     {"t": "Riboflavin blocks UVA from reaching the endothelium"}
+    ],
+    "short": "Riboflavin plus UVA cross-links collagen",
+    "why": "UVA excites riboflavin, which releases reactive oxygen species and forms covalent bonds between collagen fibrils and proteoglycans. The stiffened stroma resists further steepening.",
+    "dis": [
+     {"refs": [4], "label": "Riboflavin as a shield", "tempting": "It does shield deeper tissue, which is why the 400 &micro;m rule exists.", "ruled": "Shielding is a safety effect. Stiffening comes from bond formation."},
+     {"refs": [1], "label": "Thermal shrinkage", "tempting": "Older thermokeratoplasty worked that way, so it sounds familiar.", "ruled": "These UVA doses are non-thermal. Collagen is bonded, not shrunk."}
+    ]
+   }
+  ],
+  "rules": "If maximum keratometry rises with thinning across two dates, cross-link rather than refit. If the stroma measures under 400 &micro;m after debridement, change the protocol, not the indication."
+ },
+ {
+  "id": "S1-06", "session": 1, "n": 6,
+  "domain": "Systemic health",
+  "title": "The rash that stopped at the middle of the forehead",
+  "stem": "A 68-year-old woman taking methotrexate has four days of right brow pain, then a vesicular rash over the forehead and upper lid that stops at the midline, with lesions on the tip of the nose. BVA 20/30 OD. Pseudodendritic epithelial plaques, reduced corneal sensation, 1+ cells, a few pigmented keratic precipitates, sectoral iris atrophy. IOP 15 OS, 26 OD. Discs normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Primary herpes simplex with a periocular rash"},
+     {"t": "Herpes zoster ophthalmicus with anterior uveitis", "correct": true},
+     {"t": "Impetiginised contact dermatitis of the lids"},
+     {"t": "Bacterial preseptal cellulitis with lid vesicles"},
+     {"t": "Eczema herpeticum with secondary keratitis"}
+    ],
+    "short": "Herpes zoster ophthalmicus with uveitis",
+    "why": "A painful vesicular rash confined to one dermatome, respecting the midline and involving the nose tip, with sectoral iris atrophy, pigmented precipitates and a raised pressure, is zoster.",
+    "dis": [
+     {"refs": [0], "label": "Primary herpes simplex", "tempting": "Vesicles and pseudodendrites overlap, and both are herpesviruses.", "ruled": "Simplex respects no dermatome and does not atrophy the iris in sectors."},
+     {"refs": [3], "label": "Preseptal cellulitis", "tempting": "A hot swollen lid in an immunosuppressed patient reads bacterial.", "ruled": "Dermatomal vesicles with intraocular signs are not preseptal disease."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which antiviral treatment is most appropriate?",
+    "options": [
+     {"t": "Oral aciclovir 800 mg five times daily, seven days", "correct": true},
+     {"t": "Oral aciclovir 400 mg five times daily for five days"},
+     {"t": "Topical ganciclovir 0.15% gel five times daily"},
+     {"t": "Intravenous aciclovir for seven days as an inpatient"},
+     {"t": "Oral valaciclovir 500 mg twice daily for five days"}
+    ],
+    "short": "Oral aciclovir 800 mg five times daily",
+    "why": "Zoster needs the higher oral dose five times daily, started as early as possible, to cut ocular complications and neuralgia. Simplex doses undertreat it and topical gel never reaches the skin.",
+    "dis": [
+     {"refs": [1], "label": "Aciclovir 400 mg", "tempting": "It is the familiar dose carried over from simplex keratitis.", "ruled": "Varicella zoster is less sensitive and needs twice that dose."},
+     {"refs": [3], "label": "Intravenous therapy", "tempting": "She is immunosuppressed, so parenteral cover feels safer.", "ruled": "Reserve it for dissemination or encephalitis. She has neither."}
+    ]
+   },
+
+   {
+    "type": "treatment",
+    "q": "How should the pressure of 26 mmHg in that eye be managed?",
+    "options": [
+     {"t": "Topical steroid for the uveitis plus a beta-blocker", "correct": true},
+     {"t": "Topical prostaglandin analogue as first-line control"},
+     {"t": "Observe the pressure until the rash has resolved"},
+     {"t": "Oral acetazolamide 250 mg four times daily"},
+     {"t": "Topical pilocarpine 2% four times daily"}
+    ],
+    "short": "Treat the trabeculitis, add a beta-blocker",
+    "why": "The rise here is trabeculitis, so treating the inflammation lowers it, with aqueous suppression added while it settles. Prostaglandins and miotics aggravate inflammation.",
+    "dis": [
+     {"refs": [1], "label": "Prostaglandin analogue", "tempting": "It is the strongest single agent and the usual first choice.", "ruled": "Prostaglandins can worsen uveitis and are avoided while it is active."},
+     {"refs": [4], "label": "Pilocarpine", "tempting": "Miosis and better outflow both sound useful in a pressure spike.", "ruled": "Miotics increase inflammation and pull the iris into synechiae."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three actions belong in her care over the next month?",
+    "options": [
+     {"t": "Discuss zoster vaccination once this episode settles", "correct": true},
+     {"t": "Review at intervals for a year for late stromal disease", "correct": true},
+     {"t": "Tell her rheumatology team about the acute infection", "correct": true},
+     {"t": "Stop the methotrexate permanently to prevent recurrence"},
+     {"t": "Prescribe a topical antibiotic for the crusting lesions"},
+     {"t": "Arrange varicella serology to confirm the diagnosis"}
+    ],
+    "short": "Vaccine discussion, long review, inform the team",
+    "why": "Zoster eye disease relapses for years, so review runs long and vaccination is discussed after recovery. Her immunosuppression is a decision for the team that prescribes it.",
+    "dis": [
+     {"refs": [3], "label": "Stop methotrexate", "tempting": "Immunosuppression allowed reactivation, so stopping looks protective.", "ruled": "Her joint disease needs it. Any change belongs to the prescriber."},
+     {"refs": [5], "label": "Varicella serology", "tempting": "Laboratory proof feels rigorous before a year of follow-up.", "ruled": "A dermatomal vesicular rash is the diagnosis. Serology changes nothing."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "legal",
+    "q": "She asks whether she can work in a nursery while the rash is active. What is the correct advice?",
+    "options": [
+     {"t": "Stay away until every lesion has crusted over", "correct": true},
+     {"t": "Return once oral antiviral therapy has started"},
+     {"t": "Return when the rash is covered by a dressing"},
+     {"t": "No restriction, since zoster is not transmissible"},
+     {"t": "Stay away for 21 days from the rash appearing"}
+    ],
+    "short": "Away from the nursery until lesions crust",
+    "why": "Vesicle fluid transmits varicella to non-immune contacts, and infectivity ends when the lesions crust. Treatment shortens the illness, and a dressing does not remove the duty to stay away.",
+    "dis": [
+     {"refs": [1], "label": "Back once treated", "tempting": "Antivirals reduce viral shedding, which sounds like safety.", "ruled": "Shedding continues until crusting. Treatment does not end exclusion."},
+     {"refs": [3], "label": "No restriction", "tempting": "Zoster needs contact, unlike chickenpox spread through the air.", "ruled": "Vesicle fluid still gives varicella to non-immune children."}
+    ]
+   }
+  ],
+  "rules": "If a dermatomal rash reaches the tip of the nose, examine the eye and start high-dose oral antiviral that day. If the pressure rises, treat the trabeculitis rather than adding a prostaglandin."
+ },
+
+ {
+  "id": "S1-07", "session": 1, "n": 7,
+  "domain": "Lens, cataract, IOL, perioperative",
+  "title": "Vision that faded again two years after surgery",
+  "stem": "A 71-year-old man had uncomplicated phacoemulsification OS 26 months ago and reached 20/20. He now reports 20/50 OS, glare in sunlight and difficulty with print. Refraction is unchanged from his one-month postoperative result. The implant is centred in the bag, with a wrinkled pearly membrane behind it and pearls at its edge. Cornea clear, IOP 16, no cells, macula normal on OCT.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely cause of the drop in vision?",
+    "options": [
+     {"t": "Pseudophakic cystoid macular oedema"},
+     {"t": "Posterior capsule opacification behind the implant", "correct": true},
+     {"t": "Late in-the-bag intraocular lens dislocation"},
+     {"t": "Fuchs endothelial dystrophy, decompensating"},
+     {"t": "Refractive change from posterior corneal astigmatism"}
+    ],
+    "short": "Posterior capsule opacification",
+    "why": "A wrinkled pearly membrane with Elschnig pearls behind a centred implant accounts for glare and reduced acuity years after surgery. A normal OCT and stable refraction exclude the alternatives.",
+    "dis": [
+     {"refs": [0], "label": "Pseudophakic CMO", "tempting": "It is the classic late cause of blur after cataract surgery.", "ruled": "OCT shows a normal macula, and CMO peaks in months, not two years."},
+     {"refs": [4], "label": "Refractive change", "tempting": "New spectacles are the simplest explanation for gradual blur.", "ruled": "Refraction is unchanged from one month after his surgery."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate treatment?",
+    "options": [
+     {"t": "Nd:YAG laser posterior capsulotomy in clinic", "correct": true},
+     {"t": "Surgical membrane peel by a pars plana approach"},
+     {"t": "Intravitreal triamcinolone for the membrane"},
+     {"t": "New spectacles with an anti-glare coating"},
+     {"t": "Lens exchange with polishing of the capsule"}
+    ],
+    "short": "Nd:YAG posterior capsulotomy",
+    "why": "A YAG capsulotomy clears the axis in minutes without entering the eye, and his symptoms justify it. Surgery is kept for a dense fibrotic plate the laser cannot open.",
+    "dis": [
+     {"refs": [4], "label": "Lens exchange", "tempting": "It removes membrane and pearls together in one definitive operation.", "ruled": "It trades a two-minute laser for intraocular surgery and its risks."},
+     {"refs": [3], "label": "Anti-glare spectacles", "tempting": "Glare is his main complaint, and coatings genuinely reduce it.", "ruled": "The scatter is inside the eye. No coating reaches behind the implant."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Two days after the laser he reports new floaters and a shadow in the upper field. What is the priority?",
+    "options": [
+     {"t": "Dilated peripheral retinal examination today", "correct": true},
+     {"t": "Reassurance, since floaters are expected after laser"},
+     {"t": "Measure the pressure and review in one month"},
+     {"t": "Macular OCT to look for postoperative oedema"},
+     {"t": "Repeat the laser to enlarge the opening"}
+    ],
+    "short": "Same-day dilated peripheral examination",
+    "why": "A field shadow with new floaters after capsulotomy is a retinal detachment until proven otherwise, and the laser raises that risk. Only a dilated peripheral view answers the question.",
+    "dis": [
+     {"refs": [1], "label": "Reassure about floaters", "tempting": "Debris and floaters are genuinely common in the first days.", "ruled": "A field defect is not debris. The periphery has to be seen today."},
+     {"refs": [3], "label": "Macular OCT", "tempting": "Post-laser oedema is real and OCT is the test that finds it.", "ruled": "OCT misses the peripheral break causing an upper field shadow."}
+    ]
+   },
+
+   {
+    "type": "treatment",
+    "q": "Which pressure finding one hour after the laser needs treatment before he leaves?",
+    "options": [
+     {"t": "Pressure risen from 16 to 31 mmHg", "correct": true},
+     {"t": "Pressure risen from 16 to 21 mmHg"},
+     {"t": "Pressure unchanged with pigment in the chamber"},
+     {"t": "Pressure fallen to 12 with a shallow chamber"},
+     {"t": "Pressure 18 with a few red cells behind the iris"}
+    ],
+    "short": "A spike to 31 mmHg before discharge",
+    "why": "Pressure peaks in the first hours after capsulotomy as pigment and debris load the outflow. A rise into the thirties is treated and rechecked before he goes home.",
+    "dis": [
+     {"refs": [1], "label": "Rise to 21 mmHg", "tempting": "It is a rise, and any rise after laser feels like a complication.", "ruled": "A few points of transient rise is expected and settles untreated."},
+     {"refs": [2], "label": "Pigment, same pressure", "tempting": "Visible pigment is exactly the mechanism of the spike.", "ruled": "Pigment without a pressure rise needs recheck, not treatment."}
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "Which two duties apply when consenting him for the laser?",
+    "options": [
+     {"t": "Disclose the raised risk of retinal detachment", "correct": true},
+     {"t": "Record that alternatives, including no treatment, were discussed", "correct": true},
+     {"t": "Obtain consent from a relative as well as from him"},
+     {"t": "Warn him that the implant will be replaced"},
+     {"t": "Guarantee the acuity he had at one month"}
+    ],
+    "short": "Disclose detachment risk, record alternatives",
+    "why": "Consent covers the material risks a patient in his position would want, detachment and pressure rise among them, and the alternatives including doing nothing. Outcomes are explained, not promised.",
+    "dis": [
+     {"refs": [2], "label": "Relative consents too", "tempting": "Involving family feels safer for an older patient.", "ruled": "He has capacity. The consent is his alone to give."},
+     {"refs": [4], "label": "Guarantee 20/20", "tempting": "He reached 20/20 before, so promising it sounds honest.", "ruled": "A guaranteed outcome is not consent. State the expected range."}
+    ],
+    "format": "multi"
+   }
+  ],
+  "rules": "If vision falls years after cataract surgery with a clear macula and stable refraction, look behind the implant. If a field shadow follows capsulotomy, dilate and examine the periphery that day."
+ },
+ {
+  "id": "S1-08", "session": 1, "n": 8,
+  "domain": "Episclera, sclera, anterior uvea",
+  "title": "A red aching eye that cannot bear the sunlight",
+  "stem": "A 29-year-old man has three days of aching OD with photophobia and blur, and six months of early morning low back stiffness that eases as he moves. BVA 20/40 OD. Circumlimbal injection, 3+ cells with 1+ flare, fine keratic precipitates inferiorly, a strand of fibrin, posterior synechiae at 7 o'clock. IOP 11 OD, 15 OS. No vitreous cells, fundus normal. A similar episode affected OS last year.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Herpetic anterior uveitis with trabeculitis"},
+     {"t": "Acute anterior uveitis, HLA-B27 associated", "correct": true},
+     {"t": "Fuchs uveitis syndrome, first presentation"},
+     {"t": "Intermediate uveitis with anterior spillover"},
+     {"t": "Toxoplasma retinochoroiditis with iritis"}
+    ],
+    "short": "HLA-B27 acute anterior uveitis",
+    "why": "Sudden painful unilateral non-granulomatous inflammation with fibrin, a low pressure and recurrence in the other eye, in a young man with inflammatory back pain, is the B27 pattern.",
+    "dis": [
+     {"refs": [0], "label": "Herpetic uveitis", "tempting": "It recurs unilaterally too, with fibrin and synechiae of its own.", "ruled": "Pressure is low, not high, with no sectoral iris atrophy or scar."},
+     {"refs": [3], "label": "Intermediate uveitis", "tempting": "Recurrent uveitis at this age raises it, and spillover is real.", "ruled": "No vitreous cells and no snowbanks. The reaction is purely anterior."}
+    ]
+   },
+
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate initial treatment?",
+    "options": [
+     {"t": "Hourly topical prednisolone 1% with cyclopentolate", "correct": true},
+     {"t": "Topical prednisolone four times daily with lubricants"},
+     {"t": "Oral prednisolone 40 mg daily with a topical antibiotic"},
+     {"t": "Topical ketorolac four times daily with cyclopentolate"},
+     {"t": "Sub-Tenon triamcinolone injection at this visit"}
+    ],
+    "short": "Hourly topical steroid with cycloplegia",
+    "why": "Three plus cells with fibrin needs intensive topical steroid rather than a four times daily dose, and cycloplegia both eases spasm and breaks the synechiae that are forming.",
+    "dis": [
+     {"refs": [1], "label": "Steroid four times daily", "tempting": "It is the right drug at a familiar starting frequency.", "ruled": "Underdosing fibrinous uveitis leaves synechiae behind. Start hourly."},
+     {"refs": [4], "label": "Sub-Tenon steroid", "tempting": "One injection secures delivery and removes any compliance worry.", "ruled": "Kept for resistant or posterior disease. Drops reach the front."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which two features point to a systemic association worth investigating?",
+    "options": [
+     {"t": "Inflammatory back pain for six months", "correct": true},
+     {"t": "Recurrence alternating between the eyes", "correct": true},
+     {"t": "Fine keratic precipitates inferiorly"},
+     {"t": "Intraocular pressure of 11 mmHg"},
+     {"t": "Photophobia with circumlimbal injection"}
+    ],
+    "short": "Inflammatory back pain, alternating recurrence",
+    "why": "Morning stiffness that eases with movement suggests axial spondyloarthritis, and recurrent alternating acute anterior uveitis is its ocular signature. The rest occurs in any acute iritis.",
+    "dis": [
+     {"refs": [2], "label": "Fine precipitates", "tempting": "Precipitate character does separate granulomatous disease.", "ruled": "Fine precipitates are non-specific and appear in any acute iritis."},
+     {"refs": [3, 4], "label": "Low pressure, glare", "tempting": "Both are abnormal and both belong to the picture in front of you.", "ruled": "Ciliary hyposecretion and photophobia occur whatever the cause."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "Which referral and test plan fits him best?",
+    "options": [
+     {"t": "Rheumatology referral, HLA-B27 and sacroiliac imaging", "correct": true},
+     {"t": "Rheumatology referral with a full autoimmune screen"},
+     {"t": "Chest imaging with serum ACE and calcium"},
+     {"t": "Syphilis and tuberculosis testing before any steroid"},
+     {"t": "No investigation, since first-line therapy is unchanged"}
+    ],
+    "short": "Rheumatology, HLA-B27, sacroiliac imaging",
+    "why": "The history points at one disease, so the tests are aimed there rather than scattered. Naming axial disease changes his systemic treatment even though it does not change today's drops.",
+    "dis": [
+     {"refs": [1], "label": "Full autoimmune screen", "tempting": "Casting wide feels thorough once a systemic cause is suspected.", "ruled": "Unaimed panels generate false positives and delay the right referral."},
+     {"refs": [4], "label": "No investigation", "tempting": "Treatment today is identical whichever result comes back.", "ruled": "The result changes his spinal care and his relapse risk, not his drops."}
+    ]
+   },
+
+   {
+    "type": "basic",
+    "q": "Which mechanism best explains the low pressure in the inflamed eye?",
+    "options": [
+     {"t": "Reduced aqueous production by an inflamed ciliary body", "correct": true},
+     {"t": "Increased outflow through an inflamed trabecular meshwork"},
+     {"t": "Fibrin plugging the trabecular meshwork"},
+     {"t": "Posterior synechiae obstructing the pupil"},
+     {"t": "Reduced episcleral venous pressure from injection"}
+    ],
+    "short": "Ciliary hyposecretion in acute inflammation",
+    "why": "Inflamed ciliary epithelium secretes less aqueous, so pressure falls despite debris in the meshwork. When pressure rises instead, suspect trabeculitis or a herpetic cause.",
+    "dis": [
+     {"refs": [2], "label": "Fibrin in the meshwork", "tempting": "Fibrin is visible in this chamber and does obstruct outflow.", "ruled": "Obstruction raises pressure. This eye is soft, so inflow has fallen."},
+     {"refs": [3], "label": "Posterior synechiae", "tempting": "Pupil block is a familiar pressure mechanism in uveitis.", "ruled": "Seclusion raises pressure through iris bombe. It does not lower it."}
+    ]
+   }
+  ],
+  "rules": "If acute anterior uveitis recurs and alternates in a young adult, ask about inflammatory back pain and refer. If fibrin is present, dose the steroid hourly and dilate the pupil."
+ },
+ {
+  "id": "S1-09", "session": 1, "n": 9,
+  "domain": "Episclera, sclera, anterior uvea",
+  "title": "A boring pain that wakes her at three in the morning",
+  "stem": "A 54-year-old woman with nine years of seropositive rheumatoid arthritis has 10 days of deep boring OS pain that wakes her, with tenderness on palpation of the globe. BVA 20/30 OS. A violaceous patch of deep injection nasally that does not blanch with topical phenylephrine, an oedematous sclera in daylight, and a 1 mm peripheral corneal gutter with intact epithelium. IOP 14 both eyes.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Nodular episcleritis with adjacent corneal drying"},
+     {"t": "Diffuse anterior scleritis with a corneal gutter", "correct": true},
+     {"t": "Peripheral ulcerative keratitis without scleritis"},
+     {"t": "Necrotising scleritis with established thinning"},
+     {"t": "Sclerosing keratitis from long-standing dry eye"}
+    ],
+    "short": "Diffuse anterior scleritis with a gutter",
+    "why": "Pain that wakes her, tenderness on palpation, violaceous injection that phenylephrine does not blanch, and an oedematous sclera in daylight define scleritis. The gutter marks corneal involvement.",
+    "dis": [
+     {"refs": [0], "label": "Nodular episcleritis", "tempting": "Both are red and sectoral, and episcleritis is far commoner.", "ruled": "Episcleral vessels blanch with phenylephrine and rarely wake anyone."},
+     {"refs": [3], "label": "Necrotising scleritis", "tempting": "Rheumatoid disease is exactly where necrotising scleritis appears.", "ruled": "No avascular patch and no translucent thinning. The sclera is swollen."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings separate this from episcleritis?",
+    "options": [
+     {"t": "Injection that phenylephrine does not blanch", "correct": true},
+     {"t": "Pain that wakes her from sleep", "correct": true},
+     {"t": "Tenderness of the globe on palpation", "correct": true},
+     {"t": "Sectoral rather than diffuse redness"},
+     {"t": "Watering with mild photophobia"},
+     {"t": "Symptoms present for 10 days"}
+    ],
+    "short": "No blanching, night pain, globe tenderness",
+    "why": "Deep vessels do not blanch, and only scleral inflammation gives boring pain that wakes a patient and tenderness felt through the lid. Sector redness, watering and duration occur in both.",
+    "dis": [
+     {"refs": [3], "label": "Sectoral redness", "tempting": "Nodular episcleritis is sectoral, so a sector feels diagnostic.", "ruled": "Both diseases can be sectoral. The plane of the vessels decides."},
+     {"refs": [4, 5], "label": "Watering, 10 days", "tempting": "Symptoms and duration read like markers of severity.", "ruled": "Episcleritis waters as well, and it can run for several weeks."}
+    ],
+    "format": "multi"
+   },
+
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate initial treatment?",
+    "options": [
+     {"t": "Oral NSAID with gastric cover, rheumatology review", "correct": true},
+     {"t": "Topical prednisolone four times daily with lubricants"},
+     {"t": "Oral prednisolone 1 mg per kg starting today"},
+     {"t": "Topical NSAID with a bandage contact lens"},
+     {"t": "Subconjunctival triamcinolone to the affected quadrant"}
+    ],
+    "short": "Oral NSAID with gastric cover, refer",
+    "why": "Non-necrotising scleritis usually answers a full-dose oral NSAID, and topical steroid does not reach the sclera. The corneal gutter and her rheumatoid disease bring in the physician.",
+    "dis": [
+     {"refs": [1], "label": "Topical steroid alone", "tempting": "Steroid is the reflex anti-inflammatory for a painful red eye.", "ruled": "Drops do not penetrate to the sclera. This treatment is systemic."},
+     {"refs": [4], "label": "Subconjunctival steroid", "tempting": "It places drug exactly where the inflammation can be seen.", "ruled": "Avoided where sclera may thin. The perforation risk is real."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Three weeks later the pain is worse, the gutter is deeper, and an avascular scleral patch has appeared. What now?",
+    "options": [
+     {"t": "Urgent systemic immunosuppression, shared care", "correct": true},
+     {"t": "Increase the oral NSAID to the maximum dose"},
+     {"t": "Topical ciclosporin with punctal occlusion"},
+     {"t": "Scleral patch graft before any medical change"},
+     {"t": "Oral prednisolone alone, tapered over four weeks"}
+    ],
+    "short": "Urgent systemic immunosuppression",
+    "why": "An avascular patch with a deepening gutter is necrotising disease, which threatens the globe and signals active systemic vasculitis. Steroid alone relapses, so a steroid-sparing agent starts now.",
+    "dis": [
+     {"refs": [1], "label": "More NSAID", "tempting": "It is the class that seemed to be controlling her at first.", "ruled": "Necrotising disease has outrun NSAIDs. Change class, not dose."},
+     {"refs": [3], "label": "Patch graft first", "tempting": "Thinning sclera looks like a structural problem to repair.", "ruled": "Grafts melt in inflamed sclera. Control the disease, then rebuild."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Why does the cornea thin at the periphery in this disease?",
+    "options": [
+     {"t": "Limbal vessels deliver immune complexes and proteases", "correct": true},
+     {"t": "Tear film breaks up faster over the peripheral cornea"},
+     {"t": "Peripheral cornea is thinner than the centre to begin with"},
+     {"t": "Limbal stem cells fail and the epithelium breaks down"},
+     {"t": "Peripheral stroma holds fewer keratocytes for repair"}
+    ],
+    "short": "Limbal vessels bring complexes and proteases",
+    "why": "The peripheral cornea abuts limbal vessels, so immune complexes deposit there and recruit neutrophils whose proteases digest stroma. The avascular centre is spared.",
+    "dis": [
+     {"refs": [2], "label": "Peripheral thinness", "tempting": "Anatomy makes it sound as though the thinnest tissue goes first.", "ruled": "The peripheral cornea is thicker than the centre, not thinner."},
+     {"refs": [1], "label": "Tear break-up", "tempting": "Rheumatoid patients are dry, and dryness does harm epithelium.", "ruled": "Dryness gives punctate staining, not a vascularised immune gutter."}
+    ]
+   }
+  ],
+  "rules": "If a red eye is tender to palpation and the redness does not blanch with phenylephrine, treat it systemically and ask why. If a scleral patch turns avascular, escalate immunosuppression.",
+  "pair": {
+   "this": "Scleritis",
+   "vs": "Episcleritis",
+   "rows": [
+    ["Pain", "Deep and boring, wakes the patient", "Gritty or uncomfortable, sleeps through it"],
+    ["Phenylephrine", "Deep injection does not blanch", "Redness blanches within minutes"],
+    ["Daylight", "Blue-violet hue with an oedematous sclera", "Bright red vessels over white sclera"],
+    ["Systemic link", "Rheumatoid disease, vasculitis, infection", "Usually none, most often idiopathic"]
+   ],
+   "decider": "Redness that will not blanch with phenylephrine, in an eye tender to palpation, means scleritis, systemic work-up and systemic treatment rather than a topical prescription."
+  }
+ },
+
+ {
+  "id": "S1-10", "session": 1, "n": 10,
+  "domain": "Retina, choroid, vitreous",
+  "title": "Door frames that started to bend six weeks ago",
+  "stem": "A 78-year-old woman reports six weeks of distortion OD, with door frames bowed and print she managed in June now hard to read. She smokes 15 cigarettes a day. BVA was 20/25 OD in June and is 20/60 today. Amsler shows central metamorphopsia OD. Fundus OD: soft confluent drusen, a grey-green subretinal lesion and a small subretinal haemorrhage temporal to fixation. OS drusen only, 20/25.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Geographic atrophy involving the foveal centre"},
+     {"t": "Neovascular age-related macular degeneration", "correct": true},
+     {"t": "Chronic central serous chorioretinopathy"},
+     {"t": "Retinal macroaneurysm with macular exudation"},
+     {"t": "Vitreomacular traction with a lamellar defect"}
+    ],
+    "short": "Neovascular AMD, right eye",
+    "why": "Six weeks of metamorphopsia with acuity falling from 20/25 to 20/60, a grey-green subretinal lesion, subretinal blood and confluent soft drusen is choroidal neovascularisation on an AMD background.",
+    "dis": [
+     {"refs": [0], "label": "Geographic atrophy", "tempting": "Same disease and same drusen, and it also destroys reading vision.", "ruled": "Atrophy is slow, grey-white with visible choroidal vessels, and dry."},
+     {"refs": [2], "label": "Chronic CSC", "tempting": "Subretinal fluid with distortion belongs to its picture too.", "ruled": "Her age, the drusen and the subretinal blood do not fit CSC."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {"t": "Refer for macular OCT and anti-VEGF within one week", "correct": true},
+     {"t": "Refer for macular OCT within one week, then observe"},
+     {"t": "Routine referral for assessment in six to eight weeks"},
+     {"t": "Start high-dose antioxidant supplements and review"},
+     {"t": "Refer for focal laser photocoagulation of the lesion"}
+    ],
+    "short": "Urgent referral for OCT and anti-VEGF",
+    "why": "Vision lost to active neovascularisation returns only if injections start within days to weeks. Imaging and treatment are arranged on one pathway rather than one after the other.",
+    "dis": [
+     {"refs": [2], "label": "Routine referral", "tempting": "Six weeks feels prompt measured against usual waiting times.", "ruled": "Fibrosis is permanent. Each week of delay costs recoverable acuity."},
+     {"refs": [3], "label": "Antioxidant supplements", "tempting": "Supplements do have trial evidence in age-related disease.", "ruled": "They lower risk in the fellow eye. They do not treat active disease."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in her care alongside the injections?",
+    "options": [
+     {"t": "Smoking cessation support offered at this visit", "correct": true},
+     {"t": "Amsler self-monitoring of the fellow eye", "correct": true},
+     {"t": "Low vision assessment and reading aids", "correct": true},
+     {"t": "A supplement containing beta-carotene"},
+     {"t": "Surrender of her driving licence this week"},
+     {"t": "Laser prophylaxis to drusen in the fellow eye"}
+    ],
+    "short": "Stop smoking, Amsler the fellow eye, low vision aids",
+    "why": "Smoking is her one modifiable risk, the fellow eye needs a home test that catches conversion early, and reading aids restore function while treatment runs.",
+    "dis": [
+     {"refs": [3], "label": "Beta-carotene formula", "tempting": "It resembles the supplement trial she may have read about.", "ruled": "Beta-carotene raises lung cancer risk in smokers. Use the later formula."},
+     {"refs": [4], "label": "Surrender the licence", "tempting": "Central loss in one eye reads like the end of driving.", "ruled": "OS is 20/25. She is assessed against the standard, not disqualified."}
+    ],
+    "format": "multi"
+   },
+
+   {
+    "type": "treatment",
+    "q": "After three monthly injections OD is 20/40 with a little persistent subretinal fluid. What now?",
+    "options": [
+     {"t": "Continue injections and set the treatment interval", "correct": true},
+     {"t": "Stop injections and monitor with monthly OCT"},
+     {"t": "Switch to a different anti-VEGF agent today"},
+     {"t": "Add photodynamic therapy to the next injection"},
+     {"t": "Extend to four-monthly injections immediately"}
+    ],
+    "short": "Continue injections, then titrate the interval",
+    "why": "Acuity improved and fluid is reducing, which is a response. Treatment continues while the interval is titrated to the eye, because stopping after loading invites recurrence.",
+    "dis": [
+     {"refs": [1], "label": "Stop and monitor", "tempting": "Three injections is the loading course, so it sounds complete.", "ruled": "Loading starts therapy. Fluid remains, so injections continue."},
+     {"refs": [2], "label": "Switch the agent", "tempting": "Persistent fluid reads as failure of the drug in use.", "ruled": "This eye improved. Switching is for non-response, not partial response."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which process most directly produces the leakage in this eye?",
+    "options": [
+     {"t": "VEGF driven vessel growth through Bruch membrane", "correct": true},
+     {"t": "Lipofuscin accumulation in the pigment epithelium"},
+     {"t": "Choriocapillaris dropout with photoreceptor loss"},
+     {"t": "Vitreous traction on the internal limiting membrane"},
+     {"t": "Complement activation forming drusen deposits"}
+    ],
+    "short": "VEGF driven growth through Bruch membrane",
+    "why": "Hypoxic, inflamed outer retina raises VEGF, which drives choroidal vessels through breaks in Bruch membrane. Those new vessels are permeable, so fluid and blood collect under the retina.",
+    "dis": [
+     {"refs": [4], "label": "Complement and drusen", "tempting": "Complement is central to the disease and drusen are visible here.", "ruled": "It explains the background, not the leaking vessel in front of you."},
+     {"refs": [1], "label": "Lipofuscin build-up", "tempting": "It underlies the pigment epithelial ageing that starts all this.", "ruled": "Lipofuscin drives atrophy over years, not acute subretinal fluid."}
+    ]
+   }
+  ],
+  "rules": "If distortion is new and acuity has fallen with a grey-green lesion or subretinal blood, refer for injection within days. If fluid persists while vision improves, continue and titrate.",
+  "pair": {
+   "this": "Neovascular AMD",
+   "vs": "Polypoidal choroidal vasculopathy",
+   "rows": [
+    ["Patient", "Older, soft drusen in both eyes", "Often Asian ethnicity, fewer soft drusen"],
+    ["Lesion", "Grey-green subretinal membrane", "Orange-red nodules at the posterior pole"],
+    ["Haemorrhage", "Small bleed beside the lesion", "Large and recurrent, sometimes massive"],
+    ["Imaging", "Fluid on OCT, leakage on angiography", "Polyps on indocyanine green angiography"]
+   ],
+   "decider": "Recurrent large haemorrhage or orange nodules justify indocyanine green angiography, because polypoidal disease may need photodynamic therapy as well as anti-VEGF."
+  }
+ }
+]

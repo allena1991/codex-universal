@@ -50,6 +50,27 @@ Related: items are not tagged by blueprint item type, so a candidate cannot see 
 
 ## What is in the rebuild
 
-`index.html` is a print-ready specimen, one composed sheet per page archetype: cover, verification status, exam map with a proportional domain chart, item-type and pacing, keyed emergency triage, condition cards, pharmacology, a rebuilt simulation case with item-type tags and a balanced key, a rationale page with per-distractor teaching, cut-line recall cards, and sources.
+The full guide, 179 letter pages, built from data rather than typed: `python3 tools/build.py` then `node tools/to_pdf.mjs`.
 
-It is a pattern, not the whole 120 pages. Rolling it across the full guide is mechanical once the key rebuild and the distractor rewrite are agreed.
+| | Previous edition | This edition |
+| --- | --- | --- |
+| Correct answer is A | 81.7% of single-answer items | 19.6% |
+| Longest run of one letter | 140 | 3 |
+| Letters never correct | E in both sessions, D in Session 2 | none |
+| Best single-letter guess | 272/333, 82% | 30/140, 21% |
+| Correct option strictly the longest | most items | 13%, against 20% by chance |
+| Per-distractor teaching | none | 711 rows, two or three per item |
+| Item-type tags | none | every item, with score-by-tag sheets |
+| Item-type allocation | untagged | Tx 44.3%, Dx 34.0%, Sci 16.6%, Law 5.1%, all inside the published bands |
+| Self-certification | "Blueprint-verified" | dated verification table, three states |
+| Empty or filler pages | 3 of 120 | none |
+
+Every page is a fixed letter box with `overflow:hidden`, and `node tools/shoot.mjs` measures all 179 in a real render and fails if any is clipped. The answer letters are generated to the distribution target after authoring, so the audit on page 4 of the manual is printed from the same build that produced the pages.
+
+### Layout of the rebuild
+
+Part 1 front matter and key integrity, Part 2 the exam to scale with item types and pacing, Part 3 an eighteen-pattern emergency gate, Part 4 twenty-four condition cards, Part 5 pharmacology in three sheets, Part 6 optics and the law items, Part 7 competing pairs generated from the case data, Parts 8 and 9 the two sessions with a case index and a score-by-tag sheet each, and Part 10 the printed key, an eighteen-day schedule keyed to case numbers, the recall deck, sources and a colophon.
+
+### What is still unconfirmed
+
+Per-domain item ranges and item-type percentage bands remain transcribed from the prior edition. The official Content Matrix PDF resolves but was not machine-read, and both figures are marked unconfirmed wherever they appear in the manual.

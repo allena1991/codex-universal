@@ -1,0 +1,2440 @@
+[
+ {
+  "id": "S2-01",
+  "session": 2,
+  "n": 1,
+  "domain": "Cornea and refractive surgery",
+  "title": "Stub presentation for pseudomyopia",
+  "stem": "Stub stem for pseudomyopia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about pseudomyopia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for pseudomyopia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for pseudomyopia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about pseudomyopia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for pseudomyopia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for pseudomyopia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about pseudomyopia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for pseudomyopia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 5 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for pseudomyopia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about pseudomyopia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for pseudomyopia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for pseudomyopia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for pseudomyopia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for pseudomyopia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about pseudomyopia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for pseudomyopia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 2 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for pseudomyopia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for pseudomyopia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and.",
+  "pair": {
+   "this": "Pseudomyopia",
+   "vs": "The mimic",
+   "rows": [
+    [
+     "Tempo",
+     "Hours",
+     "Weeks"
+    ],
+    [
+     "Pain",
+     "Severe",
+     "None"
+    ],
+    [
+     "Pupil",
+     "RAPD",
+     "Normal"
+    ]
+   ],
+   "decider": "Stub decider The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the."
+  }
+ },
+ {
+  "id": "S2-02",
+  "session": 2,
+  "n": 2,
+  "domain": "Retina, choroid, vitreous",
+  "title": "Stub presentation for anisometropia",
+  "stem": "Stub stem for anisometropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about anisometropia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for anisometropia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for anisometropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about anisometropia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for anisometropia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 5 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for anisometropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about anisometropia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for anisometropia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     }
+    ],
+    "why": "Stub explanation for anisometropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about anisometropia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for anisometropia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for anisometropia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for anisometropia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for anisometropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about anisometropia The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for anisometropia The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for anisometropia The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for anisometropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and."
+ },
+ {
+  "id": "S2-03",
+  "session": 2,
+  "n": 3,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "Stub presentation for vertical imbalance",
+  "stem": "Stub stem for vertical imbalance The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about vertical imbalance The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for vertical imbalance The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 5 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for vertical imbalance The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about vertical imbalance The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for vertical imbalance The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     }
+    ],
+    "why": "Stub explanation for vertical imbalance The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about vertical imbalance The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for vertical imbalance The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 2 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for vertical imbalance The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about vertical imbalance The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for vertical imbalance The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for vertical imbalance The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for vertical imbalance The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for vertical imbalance The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about vertical imbalance The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for vertical imbalance The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for vertical imbalance The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for vertical imbalance The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and."
+ },
+ {
+  "id": "S2-04",
+  "session": 2,
+  "n": 4,
+  "domain": "Glaucoma",
+  "title": "Stub presentation for toric rotation",
+  "stem": "Stub stem for toric rotation The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about toric rotation The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for toric rotation The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     }
+    ],
+    "why": "Stub explanation for toric rotation The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about toric rotation The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for toric rotation The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 2 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for toric rotation The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about toric rotation The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for toric rotation The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for toric rotation The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about toric rotation The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for toric rotation The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for toric rotation The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for toric rotation The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for toric rotation The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about toric rotation The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for toric rotation The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 5 for toric rotation The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for toric rotation The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and.",
+  "pair": {
+   "this": "Toric Rotation",
+   "vs": "The mimic",
+   "rows": [
+    [
+     "Tempo",
+     "Hours",
+     "Weeks"
+    ],
+    [
+     "Pain",
+     "Severe",
+     "None"
+    ],
+    [
+     "Pupil",
+     "RAPD",
+     "Normal"
+    ]
+   ],
+   "decider": "Stub decider The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the."
+  }
+ },
+ {
+  "id": "S2-05",
+  "session": 2,
+  "n": 5,
+  "domain": "Contact lenses",
+  "title": "Stub presentation for flat GP fit",
+  "stem": "Stub stem for flat GP fit The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about flat GP fit The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for flat GP fit The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 2 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for flat GP fit The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about flat GP fit The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for flat GP fit The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for flat GP fit The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about flat GP fit The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for flat GP fit The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for flat GP fit The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about flat GP fit The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for flat GP fit The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for flat GP fit The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for flat GP fit The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     }
+    ],
+    "why": "Stub explanation for flat GP fit The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about flat GP fit The stem carries the host factor, the interval and the number.",
+    "options": [
+     {
+      "t": "Stub option 1 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 2 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 3 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 4 for flat GP fit The stem carries the host factor, the interval and the number that decides."
+     },
+     {
+      "t": "Stub option 5 for flat GP fit The stem carries the host factor, the interval and the number that decides.",
+      "correct": true
+     }
+    ],
+    "why": "Stub explanation for flat GP fit The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and."
+ },
+ {
+  "id": "S2-06",
+  "session": 2,
+  "n": 6,
+  "domain": "Lids, lacrimal, adnexa, orbit",
+  "title": "Stub presentation for RP-spectrum low vision",
+  "stem": "Stub stem for RP-spectrum low vision The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about RP-spectrum low vision The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for RP-spectrum low vision The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for RP-spectrum low vision The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about RP-spectrum low vision The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for RP-spectrum low vision The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for RP-spectrum low vision The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about RP-spectrum low vision The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for RP-spectrum low vision The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 5 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for RP-spectrum low vision The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about RP-spectrum low vision The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for RP-spectrum low vision The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for RP-spectrum low vision The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for RP-spectrum low vision The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for RP-spectrum low vision The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about RP-spectrum low vision The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for RP-spectrum low vision The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 2 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for RP-spectrum low vision The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for RP-spectrum low vision The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and."
+ },
+ {
+  "id": "S2-07",
+  "session": 2,
+  "n": 7,
+  "domain": "Episclera, sclera, anterior uvea",
+  "title": "Stub presentation for accommodative insufficiency",
+  "stem": "Stub stem for accommodative insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about accommodative insufficiency The stem carries the host factor, the interval.",
+    "options": [
+     {
+      "t": "Stub option 1 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 2 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 3 for accommodative insufficiency The stem carries the host factor, the interval and the number.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 5 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     }
+    ],
+    "why": "Stub explanation for accommodative insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about accommodative insufficiency The stem carries the host factor, the interval.",
+    "options": [
+     {
+      "t": "Stub option 1 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 2 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 3 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 4 for accommodative insufficiency The stem carries the host factor, the interval and the number.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 5 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     }
+    ],
+    "why": "Stub explanation for accommodative insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about accommodative insufficiency The stem carries the host factor, the interval.",
+    "options": [
+     {
+      "t": "Stub option 1 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 2 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 3 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 4 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 5 for accommodative insufficiency The stem carries the host factor, the interval and the number.",
+      "correct": true
+     }
+    ],
+    "why": "Stub explanation for accommodative insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about accommodative insufficiency The stem carries the host factor, the interval.",
+    "options": [
+     {
+      "t": "Stub option 1 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 2 for accommodative insufficiency The stem carries the host factor, the interval and the number.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for accommodative insufficiency The stem carries the host factor, the interval and the number.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 5 for accommodative insufficiency The stem carries the host factor, the interval and the number.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     }
+    ],
+    "why": "Stub explanation for accommodative insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about accommodative insufficiency The stem carries the host factor, the interval.",
+    "options": [
+     {
+      "t": "Stub option 1 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 2 for accommodative insufficiency The stem carries the host factor, the interval and the number.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 4 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     },
+     {
+      "t": "Stub option 5 for accommodative insufficiency The stem carries the host factor, the interval and the number."
+     }
+    ],
+    "why": "Stub explanation for accommodative insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and.",
+  "pair": {
+   "this": "Accommodative Insufficiency",
+   "vs": "The mimic",
+   "rows": [
+    [
+     "Tempo",
+     "Hours",
+     "Weeks"
+    ],
+    [
+     "Pain",
+     "Severe",
+     "None"
+    ],
+    [
+     "Pupil",
+     "RAPD",
+     "Normal"
+    ]
+   ],
+   "decider": "Stub decider The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the."
+  }
+ },
+ {
+  "id": "S2-08",
+  "session": 2,
+  "n": 8,
+  "domain": "Emergencies and trauma",
+  "title": "Stub presentation for high AC/A esophoria",
+  "stem": "Stub stem for high AC/A esophoria The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about high AC/A esophoria The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for high AC/A esophoria The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 5 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for high AC/A esophoria The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about high AC/A esophoria The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for high AC/A esophoria The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     }
+    ],
+    "why": "Stub explanation for high AC/A esophoria The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about high AC/A esophoria The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for high AC/A esophoria The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 2 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for high AC/A esophoria The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about high AC/A esophoria The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for high AC/A esophoria The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for high AC/A esophoria The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for high AC/A esophoria The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for high AC/A esophoria The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about high AC/A esophoria The stem carries the host factor, the interval and the.",
+    "options": [
+     {
+      "t": "Stub option 1 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for high AC/A esophoria The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for high AC/A esophoria The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for high AC/A esophoria The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor,.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and."
+ },
+ {
+  "id": "S2-09",
+  "session": 2,
+  "n": 9,
+  "domain": "Accommodation and vergence",
+  "title": "Stub presentation for divergence insufficiency",
+  "stem": "Stub stem for divergence insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about divergence insufficiency The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for divergence insufficiency The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     }
+    ],
+    "why": "Stub explanation for divergence insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about divergence insufficiency The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for divergence insufficiency The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 2 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for divergence insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about divergence insufficiency The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for divergence insufficiency The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for divergence insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about divergence insufficiency The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for divergence insufficiency The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for divergence insufficiency The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for divergence insufficiency The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for divergence insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about divergence insufficiency The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for divergence insufficiency The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 5 for divergence insufficiency The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for divergence insufficiency The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and."
+ },
+ {
+  "id": "S2-10",
+  "session": 2,
+  "n": 10,
+  "domain": "Lens, cataract, IOL, perioperative",
+  "title": "Stub presentation for intermittent exotropia",
+  "stem": "Stub stem for intermittent exotropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Stub question 1 about intermittent exotropia The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for intermittent exotropia The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 2 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for intermittent exotropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 2 about intermittent exotropia The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for intermittent exotropia The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for intermittent exotropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Stub question 3 about intermittent exotropia The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for intermittent exotropia The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for intermittent exotropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Stub question 4 about intermittent exotropia The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for intermittent exotropia The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 3 for intermittent exotropia The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 4 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for intermittent exotropia The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     },
+     {
+      "t": "Stub option 6 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     }
+    ],
+    "why": "Stub explanation for intermittent exotropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Stub question 5 about intermittent exotropia The stem carries the host factor, the interval and.",
+    "options": [
+     {
+      "t": "Stub option 1 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 2 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 3 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 4 for intermittent exotropia The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "t": "Stub option 5 for intermittent exotropia The stem carries the host factor, the interval and the number that.",
+      "correct": true
+     }
+    ],
+    "why": "Stub explanation for intermittent exotropia The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host.",
+    "short": "Stub short answer The stem carries the host factor, the interval.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Stub label The stem carries.",
+      "tempting": "Stub tempting The stem carries the host factor, the interval and the number that.",
+      "ruled": "Stub ruled out The stem carries the host factor, the interval and the number that."
+     }
+    ]
+   }
+  ],
+  "rules": "Stub if-then rule The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and.",
+  "pair": {
+   "this": "Intermittent Exotropia",
+   "vs": "The mimic",
+   "rows": [
+    [
+     "Tempo",
+     "Hours",
+     "Weeks"
+    ],
+    [
+     "Pain",
+     "Severe",
+     "None"
+    ],
+    [
+     "Pupil",
+     "RAPD",
+     "Normal"
+    ]
+   ],
+   "decider": "Stub decider The stem carries the host factor, the interval and the number that decides between two otherwise identical options, at length. The stem carries the host factor, the interval and the."
+  }
+ }
+]

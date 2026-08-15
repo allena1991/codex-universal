@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Check a printed PDF: page count, page box in inches, and embedded fonts."""
+"""Check a printed PDF: page count, page box in inches, and embedded fonts.
+
+  python3 tools/check_pdf.py FILE [expected page count]
+
+The page count defaults to the current length of the manual. Run it after every
+export: a silently substituted font and a page box that is not letter both look
+correct on screen and wrong on paper.
+"""
 import re
 import sys
 import zlib
@@ -31,15 +38,20 @@ print("embedded  %d font objects, %d subset-tagged"
 #
 # Tolerated: NotoSans carries U+0394, the Greek delta used for prism dioptres.
 # Spectral has no Greek coverage, and document.fonts.check reports it as covered,
-# so this was found by exporting a copy with the glyph removed (glyph_check.mjs).
-ALLOWED_FALLBACK = {"NotoSans-Regular"}
+# so this was proved by exporting copies with the character removed one at a
+# time (tools/glyph_check.mjs). Removing the delta drops both Noto weights;
+# removing U+00B5 drops nothing, so Spectral does cover the micron sign.
+# Two weights appear because prism values are quoted inside question stems and
+# short answers, which are set semibold.
+ALLOWED_FALLBACK = {"NotoSans-Regular", "NotoSans-SemiBold"}
 fallback = {n for n in names if n.startswith("Noto")}
 expected = {"Spectral", "InstrumentSerif", "IBMPlexMono"}
 missing = sorted(e for e in expected if not any(n.startswith(e) for n in names))
 
 problems = []
-if pages != 16:
-    problems.append("expected 16 pages, found %d" % pages)
+EXPECTED_PAGES = int(sys.argv[2]) if len(sys.argv) > 2 else 179
+if pages != EXPECTED_PAGES:
+    problems.append("expected %d pages, found %d" % (EXPECTED_PAGES, pages))
 if boxes != {(8.5, 11.0)}:
     problems.append("page box is not letter: %s" % boxes)
 if fallback - ALLOWED_FALLBACK:
@@ -47,8 +59,8 @@ if fallback - ALLOWED_FALLBACK:
 if missing:
     problems.append("expected family not embedded: %s" % ", ".join(missing))
 if fallback & ALLOWED_FALLBACK:
-    print("note      %s embedded for the prism-dioptre delta only"
-          % ", ".join(sorted(fallback & ALLOWED_FALLBACK)))
+    print("note      %s embedded for the prism-dioptre delta only, proved by "
+          "tools/glyph_check.mjs" % ", ".join(sorted(fallback & ALLOWED_FALLBACK)))
 
 print("status    %s" % ("OK" if not problems else "; ".join(problems)))
 sys.exit(0 if not problems else 1)

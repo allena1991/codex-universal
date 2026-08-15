@@ -1,0 +1,265 @@
+[
+ {
+  "id": "S1-01",
+  "session": 1,
+  "n": 1,
+  "domain": "Lids, lacrimal, adnexa, orbit",
+  "title": "The swollen eyelid that hurts to move",
+  "stem": "A 13-year-old boy has three days of worsening left eyelid swelling and frontal headache, after a week of purulent nasal discharge. Temperature 38.4 &deg;C. BVA 20/20 OD, 20/40 OS. Mild left RAPD, red saturation 60% OS, 3 mm proptosis, tense chemosis, painful restriction of elevation and abduction. IOP 17 OD, 27 OS. Cornea clear, chamber quiet, fundus normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Preseptal cellulitis with reactive chemosis"
+     },
+     {
+      "t": "Idiopathic orbital inflammatory syndrome"
+     },
+     {
+      "t": "Cavernous sinus thrombosis complicating sinusitis"
+     },
+     {
+      "t": "Orbital cellulitis of ethmoid sinus origin",
+      "correct": true
+     },
+     {
+      "t": "Orbital rhabdomyosarcoma with secondary inflammation"
+     }
+    ],
+    "short": "Orbital cellulitis, ethmoid origin",
+    "why": "Proptosis, painful restricted motility, RAPD, reduced colour and acuity, and raised IOP all place the disease behind the septum. Fever with a week of purulent rhinorrhoea names the source.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Cavernous sinus thrombosis",
+      "tempting": "The correct escalation of this infection, and it also gives proptosis and chemosis.",
+      "ruled": "Signs stay strictly unilateral, with no multiple cranial neuropathy and no V1-V2 loss."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Preseptal cellulitis",
+      "tempting": "The visible finding is a swollen lid, and preseptal disease is commoner at this age.",
+      "ruled": "Preseptal disease spares acuity, pupil, colour, motility and globe position."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Rhabdomyosarcoma",
+      "tempting": "Rapid proptosis in a child is the classic teaching phrase for it.",
+      "ruled": "Fever and purulent sinus disease over three days fit infection, not tumour."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings measure optic nerve function, rather than supporting the infective diagnosis?",
+    "options": [
+     {
+      "t": "Temperature 38.4 &deg;C"
+     },
+     {
+      "t": "Left relative afferent pupillary defect",
+      "correct": true
+     },
+     {
+      "t": "Red saturation reduced to 60% OS",
+      "correct": true
+     },
+     {
+      "t": "Purulent nasal discharge for one week"
+     },
+     {
+      "t": "Intraocular pressure 27 mmHg OS"
+     },
+     {
+      "t": "Best corrected acuity 20/40 OS",
+      "correct": true
+     }
+    ],
+    "short": "RAPD, red desaturation, reduced acuity",
+    "why": "The item asks for afferent function, not for evidence of infection. An RAPD, dyschromatopsia and reduced best acuity each measure optic nerve conduction directly.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "IOP 27 mmHg",
+      "tempting": "It is genuinely abnormal, and orbital pressure is what threatens the nerve.",
+      "ruled": "It measures orbital pressure, not conduction. Normalising it proves nothing."
+     },
+     {
+      "refs": [
+       0,
+       3
+      ],
+      "label": "Fever, purulent discharge",
+      "tempting": "They confirm infection and drive the diagnosis.",
+      "ruled": "Neither measures the eye. A febrile child can have a normal afferent system."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {
+      "t": "Oral amoxicillin-clavulanate, nasal decongestant, review in 24 hours"
+     },
+     {
+      "t": "Same-day referral for contrast CT, intravenous antibiotics, ophthalmology and ENT",
+      "correct": true
+     },
+     {
+      "t": "Outpatient MRI within 48 hours, then decide about admission"
+     },
+     {
+      "t": "Intravenous antibiotics booked for the morning, oral cover overnight"
+     },
+     {
+      "t": "Oral corticosteroid with a topical antibiotic to settle the swelling"
+     }
+    ],
+    "short": "Same-day referral, contrast CT, IV antibiotics",
+    "why": "Orbital cellulitis with afferent dysfunction threatens the eye and, through intracranial extension, life. Imaging, intravenous therapy and surgical availability are arranged together, today.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "IV antibiotics tomorrow",
+      "tempting": "It sees that intravenous therapy is needed and feels like a fair compromise.",
+      "ruled": "The overnight delay is where vision goes. The decision point is the RAPD, now."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Outpatient MRI in 48 hours",
+      "tempting": "MRI is the better soft-tissue study, so it reads as the more thorough answer.",
+      "ruled": "Contrast CT answers today's questions faster: sinus, collection, apex, bone."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which anatomic route most commonly explains this presentation?",
+    "options": [
+     {
+      "t": "Direct spread across the lamina papyracea from the ethmoid sinus",
+      "correct": true
+     },
+     {
+      "t": "Retrograde thrombophlebitis through valveless facial and orbital veins"
+     },
+     {
+      "t": "Extension through the optic canal from the sphenoid sinus"
+     },
+     {
+      "t": "Ascending infection along the nasolacrimal duct from the inferior meatus"
+     },
+     {
+      "t": "Haematogenous seeding of the orbit from an occult bacteraemia"
+     }
+    ],
+    "short": "Lamina papyracea, from the ethmoid",
+    "why": "The medial orbital wall is paper-thin and perforated by vessels, which makes contiguous ethmoid spread the usual route and explains why abduction and elevation fail first.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Valveless venous spread",
+      "tempting": "A real mechanism, and how mid-face infection reaches the cavernous sinus.",
+      "ruled": "Not the usual route from sinusitis, and it does not localise medially."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Optic canal, sphenoid",
+      "tempting": "Sphenoid disease is dangerous and sits against the orbital apex.",
+      "ruled": "Rare in children, and it would show apical signs before medial restriction."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "He is admitted on intravenous antibiotics. Which change over 18 hours most supports drainage?",
+    "options": [
+     {
+      "t": "Temperature settles after two doses while the lid oedema persists"
+     },
+     {
+      "t": "CT shows a 4 mm medial subperiosteal collection, acuity improving"
+     },
+     {
+      "t": "Acuity falls to 20/80 with worse colour and an abscess crowding the apex",
+      "correct": true
+     },
+     {
+      "t": "Blood cultures grow an organism fully sensitive to current therapy"
+     },
+     {
+      "t": "Chemosis increases while pupil, colour and acuity stay unchanged"
+     }
+    ],
+    "short": "Falling function with an apical abscess",
+    "why": "Drainage is driven by function and location, not by the presence of a collection. Falling afferent function with apical involvement is the indication, as is failure to improve on adequate therapy.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Abscess, function improving",
+      "tempting": "An abscess on imaging feels like a surgical finding by definition.",
+      "ruled": "Small medial collections often resolve on antibiotics. Imaging does not decide."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Chemosis increasing",
+      "tempting": "It looks like deterioration in front of you.",
+      "ruled": "Surface swelling with unchanged afferent function is no reason to open an orbit."
+     }
+    ]
+   }
+  ],
+  "rules": "If lid swelling comes with any change in acuity, colour, pupil, motility or globe position, treat it as orbital until imaging says otherwise. If function falls, drain.",
+  "pair": {
+   "this": "Orbital cellulitis",
+   "vs": "Cavernous sinus thrombosis",
+   "rows": [
+    [
+     "Laterality",
+     "Unilateral, stays unilateral",
+     "Crosses to the other eye within hours to days"
+    ],
+    [
+     "Cranial nerves",
+     "Motility limited by swelling and pain",
+     "III, IV, VI and V1-V2 out of proportion to swelling"
+    ],
+    [
+     "Pupil",
+     "RAPD if the apex is crowded",
+     "RAPD plus a poorly reactive mid-dilated pupil"
+    ],
+    [
+     "Systemic",
+     "Fever with sinus disease",
+     "Fever, rigors, obtunded, meningism"
+    ]
+   ],
+   "decider": "Bilateral signs, or multiple cranial neuropathies out of proportion to orbital swelling, mean cavernous sinus and neurosurgical admission rather than orbital drainage."
+  }
+ }
+]

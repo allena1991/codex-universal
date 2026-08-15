@@ -1,0 +1,2358 @@
+[
+ {
+  "id": "S1-21",
+  "session": 1,
+  "n": 21,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "Vision gone on waking, and the scalp hurts to comb",
+  "stem": "A 74-year-old woman woke with painless loss of vision in the right eye. Six weeks of scalp tenderness on combing, jaw ache after chewing, weight loss and night sweats. BVA counting fingers OD, 20/25 OS. Right RAPD. Chalky pallid disc oedema OD with two flame haemorrhages, cup 0.2 OS. Macula and retinal vessels normal OD. ESR 78 mm/h, CRP 42 mg/L, platelets 486. Right temporal artery firm and non-pulsatile.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Non-arteritic anterior ischaemic optic neuropathy of the right optic nerve"
+     },
+     {
+      "t": "Arteritic anterior ischaemic optic neuropathy, giant cell arteritis",
+      "correct": true
+     },
+     {
+      "t": "Central retinal artery occlusion with secondary disc swelling"
+     },
+     {
+      "t": "Demyelinating optic neuritis of the right optic nerve"
+     },
+     {
+      "t": "Diabetic papillopathy with segmental oedema of the disc"
+     }
+    ],
+    "short": "Arteritic AION from giant cell arteritis",
+    "why": "Chalky pallid oedema, vision at counting fingers and an RAPD point to arteritic infarction rather than a crowded-disc event. Jaw ache, scalp tenderness, ESR 78 and CRP 42 name the vasculitis.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Non-arteritic AION",
+      "tempting": "Commoner, and it also gives sudden painless loss with disc oedema.",
+      "ruled": "Oedema here is chalky and pallid, with systemic symptoms and an ESR of 78."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Retinal artery occlusion",
+      "tempting": "Sudden profound loss in an elderly arteritic patient fits an arterial event.",
+      "ruled": "No retinal opacification and no cherry-red spot; the lesion is a pallid swollen disc."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Which three findings separate an arteritic cause from a non-arteritic one?",
+    "options": [
+     {
+      "t": "Jaw ache after chewing for six weeks",
+      "correct": true
+     },
+     {
+      "t": "Chalky pallid oedema of the swollen disc",
+      "correct": true
+     },
+     {
+      "t": "ESR 78 mm/h with CRP 42 mg/L",
+      "correct": true
+     },
+     {
+      "t": "Cup-to-disc ratio 0.2 in the fellow eye"
+     },
+     {
+      "t": "Right relative afferent pupillary defect"
+     },
+     {
+      "t": "Painless onset noticed on waking"
+     }
+    ],
+    "short": "Jaw claudication, pallid oedema, raised markers",
+    "why": "Both entities give sudden painless loss with an RAPD and disc oedema. Jaw claudication, chalky pallor of the swelling and raised ESR and CRP are the arteritic markers.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Small cup in fellow eye",
+      "tempting": "A crowded disc is a real risk marker, so it reads as supporting evidence.",
+      "ruled": "A small cup argues for the non-arteritic form, not against it."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "RAPD, painless onset",
+      "tempting": "Both are present and both are abnormal, so they read as diagnostic.",
+      "ruled": "Both occur in either form, so neither discriminates."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate immediate management?",
+    "options": [
+     {
+      "t": "High-dose systemic corticosteroid today, biopsy within two weeks",
+      "correct": true
+     },
+     {
+      "t": "Withhold systemic steroid until the temporal artery biopsy is reported"
+     },
+     {
+      "t": "Oral prednisolone 20 mg daily with rheumatology review next week"
+     },
+     {
+      "t": "Aspirin 300 mg daily and rheumatology review within 48 hours"
+     },
+     {
+      "t": "Repeat ESR and CRP in 48 hours, then decide about steroid"
+     }
+    ],
+    "short": "Steroid now, biopsy within two weeks",
+    "why": "Sight in the fellow eye is what is at risk and it can go within days. Steroid starts on clinical suspicion with an ESR of 78, and biopsy stays positive for one to two weeks after treatment begins.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Wait for biopsy",
+      "tempting": "Confirming before committing an elderly patient to steroid feels careful.",
+      "ruled": "The fellow eye can infarct while waiting, and biopsy yield survives early steroid."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Prednisolone 20 mg",
+      "tempting": "It treats, and a lower dose limits harm in a 74-year-old.",
+      "ruled": "Established visual loss needs high dose; 20 mg does not protect the other eye."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which vascular event best explains the appearance of this disc?",
+    "options": [
+     {
+      "t": "Occlusion of the short posterior ciliary arteries",
+      "correct": true
+     },
+     {
+      "t": "Thrombosis of the central retinal vein at the lamina"
+     },
+     {
+      "t": "Embolic occlusion of a cilioretinal artery at the disc"
+     },
+     {
+      "t": "Vasculitis of the pial vessels of the canalicular nerve"
+     },
+     {
+      "t": "Stenosis of the internal carotid artery reducing perfusion"
+     }
+    ],
+    "short": "Short posterior ciliary artery occlusion",
+    "why": "The laminar and prelaminar nerve is fed by the short posterior ciliary arteries. Granulomatous inflammation of these medium-sized vessels infarcts that watershed and gives pallid swelling.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Central retinal vein",
+      "tempting": "Vein occlusion also swells the disc and drops vision suddenly.",
+      "ruled": "No dilated tortuous veins and no scattered retinal haemorrhages."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Carotid stenosis",
+      "tempting": "Ocular ischaemic syndrome is real and she has vascular risk.",
+      "ruled": "It gives retinal signs and gradual change, not chalky disc pallor."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Ten days into high-dose steroid, which change most needs escalation?",
+    "options": [
+     {
+      "t": "Transient greying of the left eye with CRP risen to 38",
+      "correct": true
+     },
+     {
+      "t": "Fasting glucose 9.2 mmol/L with nocturia since starting steroid"
+     },
+     {
+      "t": "Insomnia, tremor and low mood since the steroid started"
+     },
+     {
+      "t": "ESR fallen to 40 mm/h with the jaw ache still present"
+     },
+     {
+      "t": "Right acuity unchanged at counting fingers since day one"
+     }
+    ],
+    "short": "Fellow eye symptoms with rising CRP",
+    "why": "New obscurations in the uninvolved eye with a rising CRP mean active vasculitis and a second eye at risk. Steroid hyperglycaemia is managed alongside, not by cutting the dose.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Glucose 9.2",
+      "tempting": "A real steroid effect that needs treatment and looks like a reason to taper.",
+      "ruled": "It calls for glycaemic control, not less steroid while sight is at risk."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "ESR 40, jaw ache",
+      "tempting": "A falling ESR reads as control, so the residual ache seems minor.",
+      "ruled": "Symptoms hold the taper where it is, but no visual threat means no escalation."
+     }
+    ]
+   }
+  ],
+  "rules": "If disc oedema is pallid, or comes with jaw claudication or scalp tenderness, start steroid before the biopsy. If the fellow eye reports obscurations, escalate the same day.",
+  "pair": {
+   "this": "Arteritic AION",
+   "vs": "Non-arteritic AION",
+   "rows": [
+    [
+     "Disc",
+     "Chalky pallid swelling, cup often spared",
+     "Hyperaemic segmental swelling in a small crowded disc"
+    ],
+    [
+     "Acuity",
+     "Counting fingers or worse in most eyes",
+     "Often 20/60 or better at onset"
+    ],
+    [
+     "Systemic",
+     "Jaw ache, scalp tenderness, weight loss",
+     "Nocturnal hypotension, sleep apnoea, diabetes"
+    ],
+    [
+     "Markers",
+     "ESR and CRP raised, platelets high",
+     "ESR and CRP normal for age"
+    ]
+   ],
+   "decider": "Raised ESR and CRP with jaw claudication move the case to same-day steroid and biopsy, whatever the disc looks like. Normal markers with a crowded fellow disc do not."
+  }
+ },
+ {
+  "id": "S1-22",
+  "session": 1,
+  "n": 22,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "Headaches worst on waking, with a whoosh in both ears",
+  "stem": "A 28-year-old woman has three months of daily headache, worst on waking and on coughing, with brief greyouts of vision on standing and a whooshing noise in both ears. Horizontal diplopia at distance. BMI 38. Doxycycline for four months. BVA 20/20 each, no RAPD. Bilateral disc oedema with obscured crossing vessels, no spontaneous venous pulsation. Abduction limited OS. Perimetry: enlarged blind spots, nasal step OS. BP 128/78.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Papilloedema from raised intracranial pressure",
+      "correct": true
+     },
+     {
+      "t": "Bilateral optic neuritis of demyelinating origin"
+     },
+     {
+      "t": "Buried optic disc drusen with pseudo-oedema"
+     },
+     {
+      "t": "Malignant hypertension with bilateral disc swelling and exudates"
+     },
+     {
+      "t": "Bilateral non-arteritic ischaemic optic neuropathy"
+     }
+    ],
+    "short": "Papilloedema, raised intracranial pressure",
+    "why": "Positional headache, pulsatile tinnitus, obscurations and bilateral oedema with no venous pulsation are pressure signs. Preserved acuity with a sixth nerve deficit fits pressure, not neuritis.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Bilateral optic neuritis",
+      "tempting": "A young woman with swollen discs and headache is the neuritis stereotype.",
+      "ruled": "Acuity is 20/20 with no RAPD and no pain on eye movement."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Malignant hypertension",
+      "tempting": "It swells both discs and is the emergency nobody wants to miss.",
+      "ruled": "BP is 128/78, with no arteriolar narrowing and no exudates."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "format": "multi",
+    "q": "Which three steps belong in the initial workup?",
+    "options": [
+     {
+      "t": "MRI of the brain with venography to exclude venous thrombosis",
+      "correct": true
+     },
+     {
+      "t": "Lumbar puncture with an opening pressure, after imaging",
+      "correct": true
+     },
+     {
+      "t": "Stop the doxycycline and review the medication list",
+      "correct": true
+     },
+     {
+      "t": "Start an oral corticosteroid taper for the disc oedema"
+     },
+     {
+      "t": "Order carotid duplex ultrasound of both sides"
+     },
+     {
+      "t": "Dispense base-out prism for the distance diplopia"
+     }
+    ],
+    "short": "MRI with venography, LP after imaging, stop the drug",
+    "why": "Pressure has to be measured and secondary causes excluded before it is called idiopathic. Venous sinus thrombosis is the dangerous mimic, and tetracyclines are a recognised trigger.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Steroid taper",
+      "tempting": "Steroid does lower pressure briefly and the discs look inflamed.",
+      "ruled": "It masks the picture, rebounds on withdrawal, and the weight gain worsens the disease."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Prism for diplopia",
+      "tempting": "The diplopia is real and prism is the optometric reflex.",
+      "ruled": "The sixth nerve deficit resolves with the pressure, so prism chases a moving target."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism explains the abduction deficit?",
+    "options": [
+     {
+      "t": "Stretch of the sixth nerve over the petrous ridge",
+      "correct": true
+     },
+     {
+      "t": "Infarction of the sixth nerve nucleus in the dorsal pons"
+     },
+     {
+      "t": "Restriction of the left medial rectus by an infiltrative myopathy"
+     },
+     {
+      "t": "Compression of the nerve at the orbital apex by swollen muscle"
+     },
+     {
+      "t": "Demyelinating plaque in the paramedian pontine reticular formation"
+     }
+    ],
+    "short": "Sixth nerve stretch from raised pressure",
+    "why": "A raised pressure gradient displaces the brainstem downward and tethers the sixth nerve where it crosses the petrous ridge. That makes it a false localising sign rather than a second disease.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Sixth nerve nucleus",
+      "tempting": "A nuclear lesion is the neat anatomical answer for an abduction deficit.",
+      "ruled": "Nuclear lesions give a gaze palsy, and there is no gaze or facial sign here."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Medial rectus restriction",
+      "tempting": "Thyroid myopathy limits abduction and is common in young women.",
+      "ruled": "Nothing suggests restriction, and swollen discs with obscurations point intracranially."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which change would move care to urgent surgical decompression?",
+    "options": [
+     {
+      "t": "Acuity falling to 20/60 with the field closing in ten days",
+      "correct": true
+     },
+     {
+      "t": "Headache still present after two weeks of acetazolamide"
+     },
+     {
+      "t": "Discs unchanged at six weeks with stable fields and acuity"
+     },
+     {
+      "t": "Pulsatile tinnitus louder while acuity stays at 20/20"
+     },
+     {
+      "t": "Weight unchanged after three months of dietary advice"
+     }
+    ],
+    "short": "Falling acuity with progressive field loss",
+    "why": "Function decides. Loss of acuity and field over days is fulminant disease and needs shunting or optic nerve sheath fenestration, whereas headache and tinnitus alone do not.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Headache at two weeks",
+      "tempting": "The symptom that brought her in has not improved, so treatment looks failed.",
+      "ruled": "Headache lags and has other causes, so it is not the surgical trigger."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Discs unchanged",
+      "tempting": "Persistent oedema on examination reads as uncontrolled pressure.",
+      "ruled": "Oedema resolves slowly. Stable fields and acuity mean the nerve is coping."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding would indicate buried disc drusen rather than true oedema?",
+    "options": [
+     {
+      "t": "Lumpy margin with autofluorescence and clear crossing vessels",
+      "correct": true
+     },
+     {
+      "t": "Absent spontaneous venous pulsation on careful observation"
+     },
+     {
+      "t": "Small crowded disc with no physiological cup and blurred margins"
+     },
+     {
+      "t": "Peripapillary haemorrhage at the inferior disc margin"
+     },
+     {
+      "t": "Transient greyouts of vision lasting a few seconds"
+     }
+    ],
+    "short": "Autofluorescent lumpy margin, vessels clear",
+    "why": "Drusen elevate the disc without swelling the nerve fibre layer, so crossing vessels stay visible and the calcified bodies autofluoresce. Absent venous pulsation and a small cup occur in both.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "No venous pulsation",
+      "tempting": "Its absence is taught as the sign of raised pressure.",
+      "ruled": "It is absent in a fifth of normal eyes, so it cannot separate the two."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Peripapillary bleed",
+      "tempting": "Haemorrhage looks like the active and dangerous option.",
+      "ruled": "Drusen bleed too, from the same crowded disc margin."
+     }
+    ]
+   }
+  ],
+  "rules": "If both discs are swollen with normal acuity, measure the pressure and image the venous sinuses before calling it idiopathic. If acuity or field falls over days, refer for decompression."
+ },
+ {
+  "id": "S1-23",
+  "session": 1,
+  "n": 23,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "The lid that dropped with pain behind the eye",
+  "stem": "A 58-year-old man has six hours of a drooping right lid, vertical and horizontal double vision, and severe pain behind the right eye. Smoker, hypertensive. Right ptosis 5 mm. The right eye rests down and out, with limited elevation, depression and adduction, and full abduction. Right pupil 6 mm, sluggish to light; left 3.5 mm, brisk. No RAPD. Deficit unchanged after 60 seconds of sustained upgaze. BP 168/96, glucose 6.1.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Pupil-involving third nerve palsy from an aneurysm",
+      "correct": true
+     },
+     {
+      "t": "Microvascular ischaemic third nerve palsy sparing the pupil"
+     },
+     {
+      "t": "Ocular myasthenia gravis with variable ptosis and diplopia"
+     },
+     {
+      "t": "Cavernous sinus lesion involving the third and fourth nerves"
+     },
+     {
+      "t": "Giant cell arteritis presenting as an ocular motor palsy"
+     }
+    ],
+    "short": "Aneurysmal pupil-involving third nerve palsy",
+    "why": "A complete external palsy with a 6 mm sluggish pupil and abrupt severe pain is compression until imaging proves otherwise. A posterior communicating artery aneurysm is what must be excluded today.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Microvascular palsy",
+      "tempting": "He is 58 and hypertensive, which is the vasculopathic profile exactly.",
+      "ruled": "The pupil is 6 mm and sluggish, and the glucose is 6.1."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Ocular myasthenia",
+      "tempting": "Ptosis with diplopia and no visual loss is the myasthenic pattern.",
+      "ruled": "The pupil is involved and the deficit does not fatigue on upgaze."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {
+      "t": "Same-day CT angiography with neurosurgical referral",
+      "correct": true
+     },
+     {
+      "t": "MRI of the brain booked within the next week"
+     },
+     {
+      "t": "Observation for four weeks for spontaneous recovery"
+     },
+     {
+      "t": "ESR, CRP and high-dose steroid started today"
+     },
+     {
+      "t": "Fresnel prism now with review in two weeks"
+     }
+    ],
+    "short": "Same-day CT angiography, neurosurgery",
+    "why": "A pupil-involving palsy with pain is a warning leak until proven otherwise, and the rupture risk is measured in hours. CT angiography is fast, available and sensitive for aneurysms of this size.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "MRI within a week",
+      "tempting": "MRI is the better parenchymal study and it does get imaging done.",
+      "ruled": "A week is longer than the interval in which these aneurysms rupture."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Observe four weeks",
+      "tempting": "Microvascular palsies do recover in four to twelve weeks.",
+      "ruled": "Observation belongs to pupil-sparing palsies, and only after imaging."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Which three findings localise this to the nerve rather than muscle or junction?",
+    "options": [
+     {
+      "t": "Dilated pupil of 6 mm, sluggish to light",
+      "correct": true
+     },
+     {
+      "t": "Down and out rest position with full abduction",
+      "correct": true
+     },
+     {
+      "t": "Deficit constant through 60 seconds of upgaze",
+      "correct": true
+     },
+     {
+      "t": "Ptosis of 5 mm on the affected side"
+     },
+     {
+      "t": "Vertical and horizontal double vision"
+     },
+     {
+      "t": "Severe pain behind the affected eye"
+     }
+    ],
+    "short": "Pupil involvement, down and out, no fatigue",
+    "why": "Myasthenia never touches the pupil and it fatigues, while myopathy spares the pupil and ignores nerve territory. A fixed down and out eye with a sluggish pupil is a nerve trunk lesion.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Ptosis 5 mm",
+      "tempting": "Ptosis is the headline sign and it is severe here.",
+      "ruled": "Levator weakness occurs in nerve, junction and muscle disease alike."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Pain behind the eye",
+      "tempting": "Pain suggests compression, so it feels like a localiser.",
+      "ruled": "Pain tells you the cause is urgent, not where the lesion sits."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Why is the pupil involved in a compressive lesion of this nerve?",
+    "options": [
+     {
+      "t": "Pupillomotor fibres run superficially and are compressed first",
+      "correct": true
+     },
+     {
+      "t": "The ciliary ganglion is carried inside the nerve sheath here"
+     },
+     {
+      "t": "Parasympathetic axons are the most metabolically active fibres"
+     },
+     {
+      "t": "Ischaemia of the vasa nervorum strikes the outer fibres first"
+     },
+     {
+      "t": "Sympathetic fibres from the carotid plexus join the nerve trunk"
+     }
+    ],
+    "short": "Superficial pupillomotor fibres",
+    "why": "The parasympathetic fibres travel on the dorsomedial surface of the nerve, fed by pial vessels. Extrinsic compression reaches them first, while microvascular disease infarcts the core.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Vasa nervorum ischaemia",
+      "tempting": "It is the real mechanism of the vasculopathic palsy that spares the pupil.",
+      "ruled": "Ischaemia hits the central fibres, which is why the pupil is spared."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Ciliary ganglion inside",
+      "tempting": "The ganglion does sit close to the inferior division route.",
+      "ruled": "It lies in the orbit behind the globe, not within the nerve trunk."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Angiography is negative. Which plan is most appropriate now?",
+    "options": [
+     {
+      "t": "Vascular risk review, occlusion or prism, reassess at six weeks",
+      "correct": true
+     },
+     {
+      "t": "Repeat vascular imaging every week until recovery begins"
+     },
+     {
+      "t": "Strabismus surgery once the deviation is measurable at six weeks"
+     },
+     {
+      "t": "High-dose oral steroid for presumed inflammatory neuropathy"
+     },
+     {
+      "t": "Botulinum toxin to the right lateral rectus this week"
+     }
+    ],
+    "short": "Risk review, prism or occlusion, six-week check",
+    "why": "With imaging clear, a vasculopathic palsy is the working diagnosis and most recover by twelve weeks. Relief of diplopia is temporary while the angle changes, and the blood pressure is the treatable part.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Surgery at six weeks",
+      "tempting": "The deviation is disabling and surgery is definitive.",
+      "ruled": "Wait at least six months for a stable measurement; most of this recovers."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "High-dose steroid",
+      "tempting": "Steroid is the reflex when a palsy fails to recover quickly.",
+      "ruled": "No inflammatory markers, no orbital signs, and it worsens his risk profile."
+     }
+    ]
+   }
+  ],
+  "rules": "If ptosis and an ocular motor deficit come with a dilated sluggish pupil, image the vessels the same day. If the pupil is spared in a vasculopath, imaging still comes before observation."
+ },
+ {
+  "id": "S1-24",
+  "session": 1,
+  "n": 24,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "The smaller pupil that hides in the dark",
+  "stem": "A 52-year-old smoker has three weeks of a drooping right upper lid, aching right-sided neck pain and a hoarse voice, with a cough for two months. BVA 20/20 each. Right upper lid sits 2 mm lower, right lower lid 1 mm higher. In dim light pupils are 2.5 mm OD and 4.0 mm OS; in bright light 3.0 mm and 4.2 mm. Right pupil takes over five seconds to dilate. Motility full, no proptosis, no RAPD.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Right oculosympathetic paresis, preganglionic",
+      "correct": true
+     },
+     {
+      "t": "Physiological anisocoria with an involutional ptosis"
+     },
+     {
+      "t": "Right tonic pupil with segmental iris palsy"
+     },
+     {
+      "t": "Partial right third nerve palsy sparing motility"
+     },
+     {
+      "t": "Pharmacological miosis from a topical agent"
+     }
+    ],
+    "short": "Right Horner syndrome, preganglionic",
+    "why": "Ptosis with a raised lower lid, a smaller pupil in the dark and dilation lag are sympathetic denervation. Neck pain, hoarseness and cough put the lesion on the preganglionic run through the chest.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Physiological anisocoria",
+      "tempting": "A fifth of people have it, and lid laxity at 52 is ordinary.",
+      "ruled": "Physiological anisocoria is equal in light and dark and has no dilation lag."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Partial third palsy",
+      "tempting": "Ptosis plus anisocoria is the third nerve pattern.",
+      "ruled": "The wrong pupil is small here, and motility is full."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "format": "multi",
+    "q": "Which three findings place the lesion in the sympathetic pathway?",
+    "options": [
+     {
+      "t": "Anisocoria larger in dim light than in bright light",
+      "correct": true
+     },
+     {
+      "t": "Right pupil takes over five seconds to dilate",
+      "correct": true
+     },
+     {
+      "t": "Right lower lid sits 1 mm higher than the left",
+      "correct": true
+     },
+     {
+      "t": "Right upper lid sits 2 mm lower than the left"
+     },
+     {
+      "t": "Best corrected acuity of 20/20 in each eye"
+     },
+     {
+      "t": "Full motility with no proptosis on either side"
+     }
+    ],
+    "short": "Dark anisocoria, dilation lag, raised lower lid",
+    "why": "Sympathetic denervation weakens the dilator and Muller's muscle, so the deficit shows in the dark, dilation lags and the lower lid rises. Upper lid ptosis on its own has many causes.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Upper lid 2 mm lower",
+      "tempting": "It is the sign that brought him in and it is on the affected side.",
+      "ruled": "Aponeurotic and mechanical ptosis do the same thing without pupil signs."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "20/20, full motility",
+      "tempting": "Normal findings feel reassuring and therefore relevant.",
+      "ruled": "They exclude other disease but they localise nothing."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which pharmacological test best confirms the diagnosis at this visit?",
+    "options": [
+     {
+      "t": "Apraclonidine 0.5% to both eyes, looking for reversal of anisocoria",
+      "correct": true
+     },
+     {
+      "t": "Pilocarpine 0.125% to both eyes, looking for a supersensitive response"
+     },
+     {
+      "t": "Phenylephrine 2.5% to both eyes, comparing the dilation achieved"
+     },
+     {
+      "t": "Hydroxyamphetamine 1% to both eyes, comparing dilation of the two"
+     },
+     {
+      "t": "Tropicamide 1% to both eyes, comparing the speed of dilation"
+     }
+    ],
+    "short": "Apraclonidine 0.5%, reversal confirms",
+    "why": "Denervation supersensitivity of the dilator lets a weak alpha agonist reverse the anisocoria: the small pupil dilates and the ptosis lifts. Hydroxyamphetamine localises, but only after confirmation.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Hydroxyamphetamine",
+      "tempting": "It is the classic Horner drop and it does separate the levels.",
+      "ruled": "It answers where, not whether, and it cannot be used on the same day."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Pilocarpine 0.125%",
+      "tempting": "Dilute pilocarpine is a supersensitivity test, so the logic feels right.",
+      "ruled": "That test is for a tonic pupil, where the sphincter is denervated."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which imaging plan is most appropriate?",
+    "options": [
+     {
+      "t": "CT of the neck and chest apex with carotid imaging, this week",
+      "correct": true
+     },
+     {
+      "t": "MRI of the brain alone, arranged as an outpatient in one month"
+     },
+     {
+      "t": "Carotid duplex ultrasound alone, arranged within one week"
+     },
+     {
+      "t": "Chest radiograph now, with review in three months if normal"
+     },
+     {
+      "t": "No imaging now, review in three months to see if the ptosis changes"
+     }
+    ],
+    "short": "Neck and chest apex imaging with carotid study",
+    "why": "The sympathetic chain runs from hypothalamus to orbit, and a hoarse voice with neck pain in a smoker points at the apex and the carotid. Imaging has to cover the whole preganglionic route.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Brain MRI alone",
+      "tempting": "Central lesions do cause Horner syndrome and MRI is the neuro study.",
+      "ruled": "The clues sit in the neck and chest, and a brain study misses both."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "No imaging",
+      "tempting": "Isolated Horner can be benign, and the signs are unchanged for weeks.",
+      "ruled": "Hoarseness, neck pain and a smoking history make observation unsafe."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which change would make carotid dissection the leading concern?",
+    "options": [
+     {
+      "t": "Abrupt onset today with severe neck pain and pulsatile tinnitus",
+      "correct": true
+     },
+     {
+      "t": "Gradual onset over three weeks with the voice unchanged throughout"
+     },
+     {
+      "t": "Ipsilateral facial anhidrosis with a normal chest radiograph"
+     },
+     {
+      "t": "Dilation lag of eight seconds instead of five in the dark"
+     },
+     {
+      "t": "Weight loss of 4 kg with a cough productive of blood"
+     }
+    ],
+    "short": "Abrupt onset with neck pain and tinnitus",
+    "why": "Dissection presents with sudden neck or facial pain, Horner syndrome within hours and pulsatile tinnitus, and it can embolise within days. Hoarseness and weight loss point instead to the apex.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Weight loss, haemoptysis",
+      "tempting": "It is the most alarming option and it does signal serious disease.",
+      "ruled": "It points at an apical tumour, which is urgent but is not a dissection."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Longer dilation lag",
+      "tempting": "A bigger number looks like a worse lesion.",
+      "ruled": "Lag grades the denervation, not the cause or the level."
+     }
+    ]
+   }
+  ],
+  "rules": "If anisocoria is greater in the dark and the pupil dilates late, call it sympathetic and confirm with apraclonidine. If the voice or the neck is involved, image the chest apex.",
+  "pair": {
+   "this": "Horner syndrome",
+   "vs": "Physiological anisocoria",
+   "rows": [
+    [
+     "Anisocoria",
+     "Larger in dim light, with dilation lag",
+     "Equal in light and dark, no lag"
+    ],
+    [
+     "Lids",
+     "Mild ptosis with the lower lid raised",
+     "Lid position normal or symmetrically lax"
+    ],
+    [
+     "Apraclonidine",
+     "Reverses the anisocoria",
+     "No change in either pupil"
+    ],
+    [
+     "Course",
+     "New, with neck, chest or vascular symptoms",
+     "Long-standing, visible in old photographs"
+    ]
+   ],
+   "decider": "Anisocoria that grows in the dark with dilation lag is denervation and needs imaging of the whole sympathetic chain. Anisocoria equal in light and dark needs nothing."
+  }
+ },
+ {
+  "id": "S1-25",
+  "session": 1,
+  "n": 25,
+  "domain": "Systemic health",
+  "title": "The lid that sits lower by the evening",
+  "stem": "A 34-year-old woman has six weeks of a right lid that sits lower by the evening and intermittent vertical double vision that changes direction from day to day. No pain. BVA 20/20 each. Right ptosis 3 mm at rest, 4.5 mm after 45 seconds of sustained upgaze, with an upshoot of the lid on refixation. Ptosis 1 mm after a two-minute ice pack. Pupils equal and brisk. Orthophoric at one measurement, 6 &Delta; left hypertropia at the next.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Ocular myasthenia gravis, no bulbar signs",
+      "correct": true
+     },
+     {
+      "t": "Aponeurotic ptosis with a decompensating phoria"
+     },
+     {
+      "t": "Chronic progressive external ophthalmoplegia"
+     },
+     {
+      "t": "Partial right third nerve palsy, pupil sparing"
+     },
+     {
+      "t": "Thyroid eye disease with an early restrictive myopathy"
+     }
+    ],
+    "short": "Ocular myasthenia gravis",
+    "why": "Variable ptosis that worsens on sustained upgaze, a lid twitch on refixation, improvement after ice and a hypertropia that changes size are junctional fatigue. The pupils are always spared.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Aponeurotic ptosis",
+      "tempting": "Ptosis worse by evening is what patients with lid laxity describe.",
+      "ruled": "Aponeurotic ptosis does not fatigue on upgaze or lift after an ice pack."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "External ophthalmoplegia",
+      "tempting": "It gives painless ptosis with motility loss and no pupil signs.",
+      "ruled": "It is slowly progressive and symmetrical, and it does not vary hourly."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "format": "multi",
+    "q": "Which three investigations are appropriate now?",
+    "options": [
+     {
+      "t": "Acetylcholine receptor antibody assay",
+      "correct": true
+     },
+     {
+      "t": "CT of the chest to look for a thymoma",
+      "correct": true
+     },
+     {
+      "t": "Repetitive nerve stimulation or single-fibre EMG",
+      "correct": true
+     },
+     {
+      "t": "MRI of the orbits with fat suppression"
+     },
+     {
+      "t": "ESR, CRP and temporal artery ultrasound"
+     },
+     {
+      "t": "CT angiography of the circle of Willis"
+     }
+    ],
+    "short": "AChR antibodies, chest CT, nerve stimulation",
+    "why": "Antibody testing confirms most cases, electrophysiology catches the seronegative ones, and a thymoma changes management in about one in ten. Orbital and vascular imaging answer a different question.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Orbital MRI",
+      "tempting": "Ptosis with a variable vertical deviation looks orbital.",
+      "ruled": "Muscles and orbit are normal here; the fault is at the neuromuscular junction."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "CT angiography",
+      "tempting": "Ptosis with diplopia raises the aneurysm reflex.",
+      "ruled": "The pupils are equal and brisk and the signs fatigue with effort."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which action matters most before she leaves today?",
+    "options": [
+     {
+      "t": "Safety-net for breathing and swallowing, with urgent routes",
+      "correct": true
+     },
+     {
+      "t": "Dispense press-on prism for the vertical deviation now"
+     },
+     {
+      "t": "Order a ptosis crutch to be fitted at the next visit"
+     },
+     {
+      "t": "Arrange occlusion of the right eye until review in six months"
+     },
+     {
+      "t": "Start a trial of pyridostigmine and review in four weeks"
+     }
+    ],
+    "short": "Safety-netting for bulbar and respiratory signs",
+    "why": "About fifteen percent of ocular cases generalise within two years, and a crisis is a respiratory emergency. She needs to know which symptoms mean the emergency department rather than the clinic.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Press-on prism now",
+      "tempting": "The diplopia is the complaint and prism is the optical fix.",
+      "ruled": "A deviation that changes within the day cannot be prismed reliably."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Start pyridostigmine",
+      "tempting": "It is the right drug class for the disease.",
+      "ruled": "Prescribing sits with the neurologist, and it is not today's priority."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism explains the fatigue on sustained upgaze?",
+    "options": [
+     {
+      "t": "Antibodies block postsynaptic acetylcholine receptors",
+      "correct": true
+     },
+     {
+      "t": "Antibodies attack presynaptic voltage-gated calcium channels"
+     },
+     {
+      "t": "Deletion of mitochondrial DNA in extraocular muscle fibres"
+     },
+     {
+      "t": "Segmental demyelination of the superior division of the third nerve"
+     },
+     {
+      "t": "Depletion of acetylcholinesterase in the synaptic cleft"
+     }
+    ],
+    "short": "Postsynaptic receptor blockade",
+    "why": "Receptor loss lowers the endplate potential, so repeated release fails to reach threshold as vesicle stores run down. Rest and cooling restore transmission, which is why ice lifts the lid.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Calcium channel antibody",
+      "tempting": "It is a real antibody-mediated junction disease with weakness.",
+      "ruled": "That is Lambert-Eaton: strength improves with use and reflexes are lost."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Mitochondrial deletion",
+      "tempting": "It is the mechanism of the disease this most resembles on inspection.",
+      "ruled": "Mitochondrial ptosis is fixed and progressive, never fatiguable."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which single finding would argue hardest against this diagnosis?",
+    "options": [
+     {
+      "t": "A fixed right pupil of 6 mm with a poor light reaction",
+      "correct": true
+     },
+     {
+      "t": "Weakness of orbicularis oculi on forced lid closure"
+     },
+     {
+      "t": "A hypertropia that measures differently on two days"
+     },
+     {
+      "t": "Improvement of the ptosis after a two-minute ice pack"
+     },
+     {
+      "t": "Normal deep tendon reflexes throughout the four limbs"
+     }
+    ],
+    "short": "A fixed, poorly reactive pupil",
+    "why": "The iris sphincter is not affected in myasthenia, so pupil involvement forces a different diagnosis. Orbicularis weakness and day-to-day variability are typical rather than exclusionary.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Orbicularis weakness",
+      "tempting": "Extra weakness sounds like a bigger and different disease.",
+      "ruled": "Orbicularis involvement is common in ocular myasthenia and supports it."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Normal reflexes",
+      "tempting": "Normal reflexes seem to rule out a neuromuscular disorder.",
+      "ruled": "Reflexes are normal in myasthenia and lost in Lambert-Eaton."
+     }
+    ]
+   }
+  ],
+  "rules": "If ptosis varies within the hour, fatigues on upgaze or lifts after ice, test for myasthenia and image the chest. If the pupil is involved, it is not myasthenia."
+ },
+ {
+  "id": "S1-26",
+  "session": 1,
+  "n": 26,
+  "domain": "Accommodation, vergence, oculomotor",
+  "title": "The print that slides together after twenty minutes",
+  "stem": "A 19-year-old student has four months of print that blurs and slides together after twenty minutes of reading, with frontal headache that eases when one eye is covered. BVA 20/20 each, refraction +0.25 DS each. Cover test orthophoric at distance, 12 &Delta; exophoria at near. Near point of convergence 14 cm break, 18 cm recovery. Positive fusional vergence at near: blur 8, break 12, recovery 4. Amplitude of accommodation 11 D each.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Convergence insufficiency with a remote near point",
+      "correct": true
+     },
+     {
+      "t": "Accommodative insufficiency with reduced amplitude"
+     },
+     {
+      "t": "Basic exophoria equal at distance and at near"
+     },
+     {
+      "t": "Divergence excess intermittent exotropia"
+     },
+     {
+      "t": "Convergence paresis from a dorsal midbrain lesion"
+     }
+    ],
+    "short": "Convergence insufficiency",
+    "why": "An exophoria that appears only at near, a near point of 14 cm and positive vergence breaking at 12 are the findings that define it. Accommodation measures 11 D, which is normal at 19.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Accommodative insufficiency",
+      "tempting": "Blur at near after twenty minutes is the classic accommodative complaint.",
+      "ruled": "Amplitude is 11 D, which is age-normal, and the exophoria is at near only."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Basic exophoria",
+      "tempting": "There is an exophoria, and the near symptoms fit an exodeviation.",
+      "ruled": "The distance cover test is orthophoric, so the deviation is not equal."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "format": "multi",
+    "q": "Which three findings support this rather than an accommodative cause?",
+    "options": [
+     {
+      "t": "Near point of convergence 14 cm with recovery at 18 cm",
+      "correct": true
+     },
+     {
+      "t": "Exophoria of 12 &Delta; at near with orthophoria at distance",
+      "correct": true
+     },
+     {
+      "t": "Positive fusional vergence at near breaking at 12 &Delta;",
+      "correct": true
+     },
+     {
+      "t": "Amplitude of accommodation of 11 D in each eye"
+     },
+     {
+      "t": "Refraction of +0.25 DS with 20/20 in each eye"
+     },
+     {
+      "t": "Frontal headache after twenty minutes of reading"
+     }
+    ],
+    "short": "Remote near point, near exophoria, low vergence",
+    "why": "Both conditions blur print, so the separation sits in the vergence data: a remote near point, an exodeviation confined to near, and a reduced positive fusional range. Amplitude is age-normal.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Amplitude 11 D",
+      "tempting": "It is the accommodative measurement, so it looks decisive here.",
+      "ruled": "By Hofstetter the minimum at 19 is about 10 D, so 11 D is normal."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "Refraction, headache",
+      "tempting": "Both are in the record and both feel relevant to near work.",
+      "ruled": "Neither separates the two, because both occur with either mechanism."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which management has the best evidence as first-line here?",
+    "options": [
+     {
+      "t": "Office-based vergence therapy with home reinforcement",
+      "correct": true
+     },
+     {
+      "t": "Base-in prism at near, prescribed by Sheard's criterion"
+     },
+     {
+      "t": "Plus addition at near of +1.00 D for reading tasks"
+     },
+     {
+      "t": "Home pencil push-ups alone, five minutes twice daily"
+     },
+     {
+      "t": "Referral for bilateral medial rectus resection surgery"
+     }
+    ],
+    "short": "Office-based vergence therapy",
+    "why": "Supervised in-office therapy with home reinforcement outperformed pencil push-ups and placebo in the CITT trial. Prism and plus adds treat the symptom without restoring fusional range.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Push-ups alone",
+      "tempting": "They are free, familiar and easy to instruct in a single visit.",
+      "ruled": "In the trial push-ups alone performed no better than placebo therapy."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Base-in prism",
+      "tempting": "It relieves symptoms immediately and is easy to dispense.",
+      "ruled": "It leaves the vergence deficit untreated, so the demand returns."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Twelve weeks of therapy done well and symptoms persist. What next?",
+    "options": [
+     {
+      "t": "Reassess, then add base-in prism if the near point stays remote",
+      "correct": true
+     },
+     {
+      "t": "Repeat the same twelve-week therapy programme without changes"
+     },
+     {
+      "t": "Refer for surgery on the horizontal muscles at near"
+     },
+     {
+      "t": "Prescribe a +1.50 near addition and stop the therapy"
+     },
+     {
+      "t": "Discharge with reassurance that the condition is benign"
+     }
+    ],
+    "short": "Reassess, then prism if measures unchanged",
+    "why": "Therapy is judged on the measures, not the calendar. If the near point and the fusional range have not moved, prism supports the deficit, whereas repeating a failed programme costs months.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Repeat unchanged",
+      "tempting": "Persistence is often the answer with therapy that works slowly.",
+      "ruled": "Twelve weeks done well with no change in the measures is a failed course."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Discharge",
+      "tempting": "The condition is benign and no pathology has been found.",
+      "ruled": "The symptoms are disabling for a student and they persist untreated."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "Her college asks for a report on her reading difficulty. What is required?",
+    "options": [
+     {
+      "t": "Written authorisation from the patient before releasing a report",
+      "correct": true
+     },
+     {
+      "t": "Verbal consent recorded in the notes at the time of the request"
+     },
+     {
+      "t": "Nothing, since the request comes from her educational institution"
+     },
+     {
+      "t": "Written authorisation from a parent, as she is still a student"
+     },
+     {
+      "t": "A summary with the identifiers removed, sent without consent"
+     }
+    ],
+    "short": "Written patient authorisation first",
+    "why": "She is an adult, so the record is hers to release. Authorisation is written, specific to the recipient, and filed with the record; the request itself creates no permission.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "College request alone",
+      "tempting": "Educational requests feel administrative rather than clinical.",
+      "ruled": "A third party gains no right of access by asking on its own letterhead."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Parental authorisation",
+      "tempting": "Student status suggests a parent is still the responsible party.",
+      "ruled": "At 19 she consents for herself, whoever pays the fees."
+     }
+    ]
+   }
+  ],
+  "rules": "If exophoria appears only at near with a remote near point, treat the vergence system before reaching for prism. If twelve weeks of therapy moves no measure, then add prism."
+ },
+ {
+  "id": "S1-27",
+  "session": 1,
+  "n": 27,
+  "domain": "Amblyopia and strabismus",
+  "title": "The eye that turns in over a picture book",
+  "stem": "A 4-year-old boy has six months of an inward turn of the right eye, noticed over picture books and worse when he is tired. Cycloplegic retinoscopy +5.00 DS OD, +4.75 DS OS. Uncorrected cover test 20 &Delta; esotropia at distance, 30 &Delta; at near. With the full plus in trial frames, 4 &Delta; esophoria at distance and 8 &Delta; esotropia at near. Crowded acuity 20/30 OD, 20/25 OS. Stereopsis 400 seconds of arc. Fundi normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Refractive accommodative esotropia, convergence excess",
+      "correct": true
+     },
+     {
+      "t": "Non-accommodative convergence excess with a high AC/A ratio"
+     },
+     {
+      "t": "Infantile esotropia that has presented late to care"
+     },
+     {
+      "t": "Partial right sixth nerve palsy with an incomitant deviation"
+     },
+     {
+      "t": "Sensory esotropia from untreated unilateral amblyopia"
+     }
+    ],
+    "short": "Refractive accommodative esotropia",
+    "why": "Uncorrected hypermetropia of +5.00 D with 20 &Delta; at distance collapsing to 4 &Delta; esophoria under the full plus makes the deviation accommodative. The residual 8 &Delta; at near marks the excess.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Non-accommodative excess",
+      "tempting": "There is a genuine near excess of 8 &Delta; after correction.",
+      "ruled": "That entity carries little hypermetropia and does not respond to plus."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Infantile esotropia",
+      "tempting": "A large esotropia in a small child fits the label loosely.",
+      "ruled": "Onset near three and a half years, and the response to plus, exclude it."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate first management?",
+    "options": [
+     {
+      "t": "Full cycloplegic plus worn constantly, review in six weeks",
+      "correct": true
+     },
+     {
+      "t": "Half the cycloplegic plus, to preserve some fusional drive"
+     },
+     {
+      "t": "Full correction with a +2.50 bifocal add from the start"
+     },
+     {
+      "t": "Part-time occlusion of the left eye for two hours daily"
+     },
+     {
+      "t": "Referral for bilateral medial rectus recession surgery"
+     }
+    ],
+    "short": "Full cycloplegic plus, constant wear",
+    "why": "The deviation is driven by accommodative effort, so removing the effort with the full plus is the treatment. Six weeks lets alignment and acuity respond before anything is added.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Half the plus",
+      "tempting": "Undercorrecting a hypermetrope is a familiar habit from adult practice.",
+      "ruled": "Any residual accommodative demand keeps driving the esotropia."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Bifocal from the start",
+      "tempting": "There is a near excess, and a bifocal treats it directly.",
+      "ruled": "Measure the residual near angle on full plus first, because it often settles."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "format": "multi",
+    "q": "Which three findings show the deviation is accommodative in origin?",
+    "options": [
+     {
+      "t": "Cycloplegic refraction of +5.00 DS in the right eye",
+      "correct": true
+     },
+     {
+      "t": "Distance deviation falls to 4 &Delta; with the full plus",
+      "correct": true
+     },
+     {
+      "t": "Esotropia larger at near than at distance untreated",
+      "correct": true
+     },
+     {
+      "t": "Crowded acuity of 20/30 in the right eye"
+     },
+     {
+      "t": "Stereopsis of 400 seconds of arc on testing"
+     },
+     {
+      "t": "Onset noticed six months ago, worse when tired"
+     }
+    ],
+    "short": "High hypermetropia, plus response, near excess",
+    "why": "The response to plus proves the mechanism, supported by significant hypermetropia and a deviation larger at near. Acuity and stereopsis measure the cost of the deviation, not its cause.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Acuity 20/30",
+      "tempting": "Reduced acuity in the deviating eye looks like the key abnormality.",
+      "ruled": "It measures amblyopia risk, not what drives the deviation."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Onset six months ago",
+      "tempting": "Age of onset is how esotropias are usually classified.",
+      "ruled": "Onset narrows the list but proves nothing about accommodation."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism links the refractive error to the deviation?",
+    "options": [
+     {
+      "t": "Accommodative effort drives convergence by the AC/A link",
+      "correct": true
+     },
+     {
+      "t": "Reduced negative fusional vergence range at near fixation"
+     },
+     {
+      "t": "Immature divergence tone in the developing vergence system"
+     },
+     {
+      "t": "Bilateral lateral rectus underaction from a mild deficit"
+     },
+     {
+      "t": "Sensory deprivation from the anisometropia between the two eyes"
+     }
+    ],
+    "short": "Accommodative convergence through AC/A",
+    "why": "Each dioptre of accommodation carries a fixed quantity of convergence. To clear +5.00 D of hypermetropia the child accommodates hard, and the linked convergence overwhelms fusional divergence.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Low negative vergence",
+      "tempting": "Negative fusional vergence is what would hold an esodeviation latent.",
+      "ruled": "That is the reserve that fails, not the drive that creates the deviation."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Sensory deprivation",
+      "tempting": "There is 0.25 D of anisometropia and unequal acuity.",
+      "ruled": "Deprivation esotropia needs poor vision in one eye, not 20/30."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Six weeks on full plus: aligned at distance, 12 &Delta; esotropia at near. What next?",
+    "options": [
+     {
+      "t": "Add a +2.50 flat-top bifocal with the segment splitting the pupil",
+      "correct": true
+     },
+     {
+      "t": "Increase the distance plus by 1.00 D over the cycloplegic finding"
+     },
+     {
+      "t": "Prescribe 8 &Delta; base-out prism divided between the two eyes"
+     },
+     {
+      "t": "Start part-time occlusion of the left eye for the near deviation"
+     },
+     {
+      "t": "Refer for surgery on the medial recti for the residual angle"
+     }
+    ],
+    "short": "+2.50 bifocal, segment splitting the pupil",
+    "why": "A residual near esotropia on full distance correction is a high AC/A, treated by removing the near accommodative demand. The segment has to sit high enough to be used, at the pupil margin.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Extra 1.00 D of plus",
+      "tempting": "More plus relaxes more accommodation, so it looks like the same logic.",
+      "ruled": "It blurs distance vision without touching the near excess."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Surgery now",
+      "tempting": "Twelve prism dioptres at near is a real deviation.",
+      "ruled": "Optical treatment is incomplete, and a bifocal usually aligns the near angle."
+     }
+    ]
+   }
+  ],
+  "rules": "If an esotropia shrinks under the full cycloplegic plus, accommodative drive is the disease. If the near angle persists on full plus, add a bifocal rather than more distance plus."
+ },
+ {
+  "id": "S1-28",
+  "session": 1,
+  "n": 28,
+  "domain": "Accommodation, vergence, oculomotor",
+  "title": "The head tilt that started after the bicycle fall",
+  "stem": "A 22-year-old man has three weeks of vertical double vision since a fall from his bicycle with brief loss of consciousness. Worst looking down, and he misjudges stairs. Head tilted to the left. Right hypertropia 8 &Delta; in primary position, 14 &Delta; in left gaze, 18 &Delta; on right head tilt, 4 &Delta; on left tilt. Depression in adduction limited OD. Excyclotorsion 8 &deg; on double Maddox rod. Vertical fusion range 4 &Delta;.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Acquired right fourth nerve palsy after head trauma",
+      "correct": true
+     },
+     {
+      "t": "Decompensated congenital right fourth nerve palsy"
+     },
+     {
+      "t": "Right skew deviation from a posterior fossa lesion"
+     },
+     {
+      "t": "Right Brown syndrome limiting elevation in adduction"
+     },
+     {
+      "t": "Thyroid eye disease restricting the right inferior rectus"
+     }
+    ],
+    "short": "Traumatic right fourth nerve palsy",
+    "why": "The three-step pattern is a right hypertropia worse in left gaze and on right tilt, with limited depression in adduction. Symptomatic extorsion and a 4 &Delta; fusion range date it to the injury.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Congenital fourth palsy",
+      "tempting": "Trauma often decompensates a long-standing palsy, and the pattern matches.",
+      "ruled": "A congenital palsy carries a large vertical fusion range and no torsional symptoms."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Skew deviation",
+      "tempting": "Head trauma with a vertical deviation does raise a central cause.",
+      "ruled": "Skew gives intorsion of the higher eye and no dependence on head tilt."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "format": "multi",
+    "q": "Which three findings favour an acquired palsy over a decompensated congenital one?",
+    "options": [
+     {
+      "t": "Symptomatic excyclotorsion of 8 &deg; on double Maddox rod",
+      "correct": true
+     },
+     {
+      "t": "Vertical fusion range of only 4 &Delta;",
+      "correct": true
+     },
+     {
+      "t": "Onset dated to a head injury three weeks ago",
+      "correct": true
+     },
+     {
+      "t": "Right hypertropia increasing on right head tilt"
+     },
+     {
+      "t": "Habitual head tilt towards the left shoulder"
+     },
+     {
+      "t": "Right hypertropia increasing in left gaze"
+     }
+    ],
+    "short": "Torsion, small fusion range, dated onset",
+    "why": "The three-step results and the head tilt are shared by both forms, so they cannot separate them. Torsional symptoms, a small vertical fusion range and a dated onset belong to the acquired palsy.",
+    "dis": [
+     {
+      "refs": [
+       3,
+       5
+      ],
+      "label": "Three-step results",
+      "tempting": "They are how the palsy is identified, so they look like the answer.",
+      "ruled": "Both forms give the same pattern, which names the muscle and nothing else."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Habitual head tilt",
+      "tempting": "A tilt suggests a posture adopted over many years.",
+      "ruled": "New palsies adopt a tilt within days, so a tilt dates nothing."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management now?",
+    "options": [
+     {
+      "t": "Occlusion or Fresnel prism, reassess at three months",
+      "correct": true
+     },
+     {
+      "t": "Ground-in vertical prism in new spectacles today"
+     },
+     {
+      "t": "Surgery on the right inferior oblique within a month"
+     },
+     {
+      "t": "Botulinum toxin to the right inferior oblique now"
+     },
+     {
+      "t": "Neurosurgical referral for the head injury this week"
+     }
+    ],
+    "short": "Temporary prism or occlusion, review at 3 months",
+    "why": "Traumatic fourth nerve palsies improve for up to six months, so the measurement to operate on does not exist yet. Temporary relief keeps him functional while the angle changes.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Ground-in prism now",
+      "tempting": "It gives comfortable single vision and looks like definitive care.",
+      "ruled": "The deviation is still changing, so the prescription will soon be wrong."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Early surgery",
+      "tempting": "Three weeks of disabling diplopia feels like enough waiting.",
+      "ruled": "Spontaneous recovery is common, so operate only on a stable measurement."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "What does the head tilt test measure in this patient?",
+    "options": [
+     {
+      "t": "Right intorters compete on right tilt, so the superior rectus elevates",
+      "correct": true
+     },
+     {
+      "t": "Right extorters compete on right tilt, so the inferior oblique elevates"
+     },
+     {
+      "t": "The vertical fusional range available in each head position"
+     },
+     {
+      "t": "Vestibulo-ocular gain during a slow head roll manoeuvre"
+     },
+     {
+      "t": "The comitance of the deviation between the two lateral gazes"
+     }
+    ],
+    "short": "Intorters compete, superior rectus unopposed",
+    "why": "Tilting to the right calls on the right intorters, superior oblique and superior rectus. With the oblique palsied the superior rectus elevates unopposed, so the hypertropia grows.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Extorters on right tilt",
+      "tempting": "Naming the other torsional pair sounds equally plausible.",
+      "ruled": "Extorters act on tilt to the other side, which is why the deviation falls there."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Vertical fusion range",
+      "tempting": "Fusion range is measured in this workup and it matters here.",
+      "ruled": "Range is measured with prism, not by tilting the head."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding would point to skew deviation instead?",
+    "options": [
+     {
+      "t": "Incyclotorsion of the higher eye with a contralateral head tilt",
+      "correct": true
+     },
+     {
+      "t": "Excyclotorsion of the higher eye measured on Maddox rod"
+     },
+     {
+      "t": "Hypertropia that increases on head tilt towards the higher eye"
+     },
+     {
+      "t": "Limited depression of the higher eye in adduction"
+     },
+     {
+      "t": "Vertical deviation that is larger in contralateral gaze"
+     }
+    ],
+    "short": "Incyclotorsion of the higher eye",
+    "why": "Skew is a central prenuclear imbalance and produces an ocular tilt reaction: the higher eye intorts and the head tilts towards the lower eye. A palsied superior oblique lets the eye extort.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Excyclotorsion",
+      "tempting": "Torsion is the discriminator, so any torsion looks like the answer.",
+      "ruled": "Direction decides: extorsion of the higher eye is the fourth nerve palsy."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Limited depression",
+      "tempting": "It is an underaction, and underactions occur in central disease too.",
+      "ruled": "Depression failing in adduction is superior oblique weakness itself."
+     }
+    ]
+   }
+  ],
+  "rules": "If a vertical deviation follows the three-step pattern with symptomatic extorsion, it is an acquired fourth nerve palsy. If the torsion runs the other way, think skew and image.",
+  "pair": {
+   "this": "Acquired fourth nerve palsy",
+   "vs": "Skew deviation",
+   "rows": [
+    [
+     "Torsion",
+     "Higher eye extorted, often symptomatic",
+     "Higher eye intorted, part of a tilt reaction"
+    ],
+    [
+     "Head tilt",
+     "Away from the palsy, relieves the torsion",
+     "Towards the lower eye, with a body lean"
+    ],
+    [
+     "Three step",
+     "Fits one muscle throughout",
+     "Often fits no single muscle"
+    ],
+    [
+     "Company",
+     "Isolated, follows the trauma",
+     "Brainstem signs, nystagmus, gait ataxia"
+    ]
+   ],
+   "decider": "The direction of torsion separates them: extorsion of the higher eye is a superior oblique palsy, intorsion is a skew and needs posterior fossa imaging."
+  }
+ },
+ {
+  "id": "S1-29",
+  "session": 1,
+  "n": 29,
+  "domain": "Ametropia",
+  "title": "The prescription that has moved twice this year",
+  "stem": "A 9-year-old girl reports distance blur. Her spectacles from a year ago read -1.25 DS each; cycloplegic refraction today is -2.50 DS OD and -2.75 DS OS. Axial length 24.30 mm OD and 24.40 mm OS, up 0.45 mm in the year. Both parents are myopic. She spends under an hour outdoors and about four hours on near work daily. Corrected acuity 20/20 each, orthophoric, accommodative lag +0.75 D. Fundi normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Which feature best predicts continued progression here?",
+    "options": [
+     {
+      "t": "Axial elongation of 0.45 mm in the year at age nine",
+      "correct": true
+     },
+     {
+      "t": "Two myopic parents in the immediate family history"
+     },
+     {
+      "t": "Spherical equivalent of -2.50 D at the present visit"
+     },
+     {
+      "t": "Four hours of daily near work with little time outdoors"
+     },
+     {
+      "t": "Accommodative lag of +0.75 D at the near point"
+     }
+    ],
+    "short": "0.45 mm of axial elongation in a year",
+    "why": "Progression is measured as axial growth, and 0.45 mm in a year at nine is roughly twice the expected rate. History and habits raise risk but they do not measure what this eye is doing.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Two myopic parents",
+      "tempting": "Parental myopia is the best-known risk factor for onset.",
+      "ruled": "It predicts who becomes myopic, not how fast this eye is growing."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Accommodative lag",
+      "tempting": "Lag theories of progression are still widely taught.",
+      "ruled": "Lag has not predicted progression in trials, and 0.75 D is unremarkable."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which single change has been shown to slow axial elongation?",
+    "options": [
+     {
+      "t": "Low-dose atropine 0.05% at night to both eyes",
+      "correct": true
+     },
+     {
+      "t": "Undercorrection of the distance prescription by 0.75 D"
+     },
+     {
+      "t": "Single vision spectacles worn at the full correction"
+     },
+     {
+      "t": "A progressive addition lens for the accommodative lag"
+     },
+     {
+      "t": "Vergence therapy to reduce the accommodative demand"
+     }
+    ],
+    "short": "Low-dose atropine 0.05% nightly",
+    "why": "Only low-dose atropine here has slowed axial growth; orthokeratology and dual-focus soft lenses are the other proven options. Undercorrection accelerates progression and single vision is the comparator.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Undercorrection",
+      "tempting": "Less minus feels like less stimulus for the eye to grow.",
+      "ruled": "Trials showed faster progression with undercorrection, not slower."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Progressive addition lens",
+      "tempting": "Reducing the near demand is a plausible mechanism and is well marketed.",
+      "ruled": "The effect measured in trials is small and does not change management."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate plan at this visit?",
+    "options": [
+     {
+      "t": "Full correction, a control option chosen, axial length at six months",
+      "correct": true
+     },
+     {
+      "t": "Full correction now, with review of the refraction in twelve months"
+     },
+     {
+      "t": "Atropine 1% at night with photochromic lenses for the glare"
+     },
+     {
+      "t": "Undercorrect by 0.50 D and increase time outdoors to two hours daily"
+     },
+     {
+      "t": "Orthokeratology fitted today without discussing the alternatives"
+     }
+    ],
+    "short": "Correct fully, start control, remeasure at six months",
+    "why": "She is progressing fast enough to treat, so the visit ends with a chosen intervention, advice on outdoor time, and a measurement interval short enough to judge the effect.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Review in a year",
+      "tempting": "Annual review is the routine interval for a child in spectacles.",
+      "ruled": "Another 0.45 mm of growth passes before anyone notices the failure."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Atropine 1%",
+      "tempting": "The strongest concentration should give the largest effect.",
+      "ruled": "It brings glare, near blur and marked rebound for little extra benefit."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "At six months on atropine 0.05%, axial length is up 0.25 mm. What next?",
+    "options": [
+     {
+      "t": "Check compliance, then consider adding an optical treatment",
+      "correct": true
+     },
+     {
+      "t": "Stop treatment, since this elongation shows the drop has failed"
+     },
+     {
+      "t": "Increase the atropine concentration to 1% each night"
+     },
+     {
+      "t": "Continue unchanged and remeasure in a further twelve months"
+     },
+     {
+      "t": "Switch to single vision spectacles and advise outdoor time"
+     }
+    ],
+    "short": "Confirm compliance, then combine treatments",
+    "why": "A quarter of a millimetre in six months is inadequate control, and the two commonest reasons are missed doses and too weak a stimulus. Combination therapy is the next step, not a stronger drop.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Atropine 1%",
+      "tempting": "Escalating the dose is the reflex when a drug underperforms.",
+      "ruled": "Side effects rise steeply and rebound is worse, so combine instead."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Remeasure in a year",
+      "tempting": "Trends need time, and a single measurement can mislead.",
+      "ruled": "The trend is already unfavourable, and twelve months loses the window."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "format": "multi",
+    "q": "Which three duties apply when starting the atropine off-label?",
+    "options": [
+     {
+      "t": "Explain that the use is outside the licensed indication",
+      "correct": true
+     },
+     {
+      "t": "Record the parent's informed consent in the clinical notes",
+      "correct": true
+     },
+     {
+      "t": "Document the alternatives offered and the review interval",
+      "correct": true
+     },
+     {
+      "t": "Notify the state board of optometry of the prescription"
+     },
+     {
+      "t": "Obtain a second practitioner's signature before prescribing"
+     },
+     {
+      "t": "Ask the child to countersign the consent entry herself"
+     }
+    ],
+    "short": "Disclose off-label use, consent, document alternatives",
+    "why": "Off-label prescribing is lawful where it is clinically justified. The duty is disclosure of licensing status and alternatives, consent from the person with parental responsibility, and a record of both.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Notify the board",
+      "tempting": "Regulatory notification sounds like the safe and compliant step.",
+      "ruled": "No such duty exists for prescribing within scope of practice."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Child countersigns",
+      "tempting": "Involving the child respects her developing autonomy.",
+      "ruled": "At nine she assents, while consent is the parent's to give and record."
+     }
+    ]
+   }
+  ],
+  "rules": "If axial length rises more than 0.20 mm in six months, treat rather than watch. If the drop is used off-label, record the licensing status, the alternatives and the consent."
+ },
+ {
+  "id": "S1-30",
+  "session": 1,
+  "n": 30,
+  "domain": "Ophthalmic optics and spectacles",
+  "title": "The new spectacles that double the print",
+  "stem": "A 58-year-old woman cannot tolerate new single vision spectacles: R +5.00 DS, L +1.00 DS, optical centres set at her distance interpupillary distance. She reads with her eyes 8 mm below the optical centres. Print doubles vertically after a minute of reading. Corrected acuity 20/20 each. Cover test orthophoric at distance, 2 &Delta; exophoria at near. Vertical fusion range 2 &Delta;. Frame well adjusted, vertex distance equal.",
+  "items": [
+   {
+    "type": "basic",
+    "fixed_order": true,
+    "q": "By Prentice's rule, what vertical imbalance does the reading position induce?",
+    "options": [
+     {
+      "t": "0.8 &Delta;, base up before the right eye"
+     },
+     {
+      "t": "1.6 &Delta;, base up before the right eye"
+     },
+     {
+      "t": "3.2 &Delta;, base up before the right eye",
+      "correct": true
+     },
+     {
+      "t": "4.0 &Delta;, base up before the right eye"
+     },
+     {
+      "t": "4.8 &Delta;, base up before the right eye"
+     }
+    ],
+    "short": "3.2 &Delta; net, base up before the right eye",
+    "why": "Prism equals decentration in centimetres times lens power. Right 0.8 cm x 5.00 D gives 4.0 &Delta; base up, left 0.8 cm x 1.00 D gives 0.8 &Delta; base up, so the net imbalance is 3.2 &Delta;.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "4.0 &Delta;",
+      "tempting": "It is the prism induced by the right lens, correctly calculated.",
+      "ruled": "The left lens induces 0.8 &Delta; the same way, and only the difference counts."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "4.8 &Delta;",
+      "tempting": "Adding the two prisms feels right when both eyes are affected.",
+      "ruled": "Both bases are up, so the two prisms subtract rather than add."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "What explains the diplopia at the reading position?",
+    "options": [
+     {
+      "t": "Induced vertical imbalance exceeding her vertical fusion range",
+      "correct": true
+     },
+     {
+      "t": "A decompensating vertical phoria unmasked by new spectacles"
+     },
+     {
+      "t": "A mild right superior oblique palsy revealed by near work"
+     },
+     {
+      "t": "Incorrect interpupillary distance creating a horizontal imbalance"
+     },
+     {
+      "t": "Aniseikonia from the difference in spectacle magnification"
+     }
+    ],
+    "short": "Induced imbalance beats the fusion range",
+    "why": "Vertical fusional amplitude is small, 2 &Delta; here, and the reading position generates 3.2 &Delta;. The deviation appears only in downgaze, which is why her distance vision is comfortable.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Decompensating phoria",
+      "tempting": "New spectacles often unmask a phoria, and the timing fits exactly.",
+      "ruled": "The distance cover test is orthophoric and the symptom is position dependent."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Superior oblique palsy",
+      "tempting": "Vertical diplopia worst on reading is the palsy's textbook symptom.",
+      "ruled": "No torsion, no gaze or tilt pattern, and it began with the new lenses."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "format": "multi",
+    "q": "Which three changes would reduce the imbalance at the reading position?",
+    "options": [
+     {
+      "t": "A separate near pair with centres set at the reading position",
+      "correct": true
+     },
+     {
+      "t": "Slab-off on the more plus lens if a bifocal is dispensed",
+      "correct": true
+     },
+     {
+      "t": "Contact lens correction of the anisometropia for near work",
+      "correct": true
+     },
+     {
+      "t": "A larger frame with a higher fitting cross position"
+     },
+     {
+      "t": "Reducing the vertex distance by 2 mm at both eyes"
+     },
+     {
+      "t": "Polycarbonate lenses to reduce the lens thickness"
+     }
+    ],
+    "short": "Near pair, slab-off, contact lenses",
+    "why": "The imbalance is decentration multiplied by unequal power, so each fix removes one of the two: centre the lenses where she looks, cancel the difference, or move the correction to the cornea.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Higher fitting cross",
+      "tempting": "Adjusting the fitting height does sound like the lever to pull.",
+      "ruled": "Raising the centres increases the drop in downgaze and the imbalance with it."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Polycarbonate lenses",
+      "tempting": "Thinner lighter lenses do improve tolerance of an anisometropic Rx.",
+      "ruled": "Material changes cosmetics and weight, never the induced prism."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which single solution is most appropriate for her reading?",
+    "options": [
+     {
+      "t": "A dedicated near pair centred at the reading position",
+      "correct": true
+     },
+     {
+      "t": "Grind 3 &Delta; base down into the right distance lens"
+     },
+     {
+      "t": "Reduce the right lens to +4.00 DS to balance the prisms"
+     },
+     {
+      "t": "Add 3 &Delta; base in at near, split between the lenses"
+     },
+     {
+      "t": "A smaller frame with a higher fitting cross for both eyes"
+     }
+    ],
+    "short": "Dedicated near pair, centres lowered",
+    "why": "Centring each lens where she looks removes the decentration, and with it the induced prism, without touching her distance correction or her acuity in either eye.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Reduce the right power",
+      "tempting": "Equalising the powers does remove the imbalance arithmetically.",
+      "ruled": "It leaves the right eye 1.00 D under-corrected and blurred at all distances."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Base-down in the right",
+      "tempting": "Prescribing the opposing prism looks like a direct correction.",
+      "ruled": "It corrects downgaze and breaks fusion at distance, where she is comfortable."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which dispensing check would have caught this before collection?",
+    "options": [
+     {
+      "t": "Compute the induced prism at the near gaze position",
+      "correct": true
+     },
+     {
+      "t": "Verify the back vertex distance at both eyes"
+     },
+     {
+      "t": "Confirm the interpupillary distance to 1 mm"
+     },
+     {
+      "t": "Check the base curve matches the previous pair"
+     },
+     {
+      "t": "Measure the pantoscopic tilt and adjust the pads"
+     }
+    ],
+    "short": "Calculate induced prism at the near position",
+    "why": "With 4.00 D of anisometropia, any vertical drop below the optical centres creates imbalance, so the calculation belongs at the design stage, before the lenses are cut and glazed.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Vertex distance",
+      "tempting": "Vertex distance matters at these powers and is easy to check.",
+      "ruled": "It changes effective power, not the prism induced by decentration."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "IPD to 1 mm",
+      "tempting": "Centration error is the problem, so a PD check feels right.",
+      "ruled": "Horizontal centration is correct here, and the drop is vertical."
+     }
+    ]
+   }
+  ],
+  "rules": "If lens powers differ by more than 1.00 D, compute the induced prism at the reading position before dispensing. If it exceeds the vertical fusion range, centre a separate near pair."
+ }
+]

@@ -1,0 +1,2367 @@
+[
+ {
+  "id": "S2-11",
+  "session": 2,
+  "n": 11,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "Three months into treatment the colours went flat",
+  "stem": "A 58-year-old man on isoniazid, rifampicin, pyrazinamide and ethambutol for 3 months reports 6 weeks of dimming vision and washed-out colour. Weight 52 kg, ethambutol 1200 mg daily, eGFR 42. BVA 20/60 OD, 20/70 OS. Pupils equal and brisk, no RAPD. Ishihara 2 of 14 plates each eye. Symmetric central scotomas on both fields. Discs flat with normal colour. IOP 15 both eyes.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Ethambutol toxic optic neuropathy",
+      "correct": true
+     },
+     {
+      "t": "Bilateral non-arteritic ischaemic optic neuropathy"
+     },
+     {
+      "t": "Compressive lesion at the optic chiasm"
+     },
+     {
+      "t": "Leber hereditary optic neuropathy"
+     },
+     {
+      "t": "Isoniazid-related nutritional optic neuropathy"
+     }
+    ],
+    "short": "Ethambutol toxic optic neuropathy",
+    "why": "Symmetric painless loss over weeks, dense red-green failure and matched central scotomas, on 23 mg/kg with an eGFR of 42, is dose-related toxicity. Flat discs place it behind the globe.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Bilateral NAION",
+      "tempting": "Age and vascular risk make ischaemia the reflex answer in an older man.",
+      "ruled": "Ischaemia is sudden, usually sequential, and swells the disc it damages."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Chiasmal compression",
+      "tempting": "Bilateral field loss with normal discs does point towards a chiasm.",
+      "ruled": "Compression gives temporal loss and asymmetry, not matched central scotomas."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings place this at the optic nerves as a symmetric process?",
+    "options": [
+     {
+      "t": "Dense red-green loss, 2 of 14 plates each eye",
+      "correct": true
+     },
+     {
+      "t": "Central scotomas of matched size in both fields",
+      "correct": true
+     },
+     {
+      "t": "No RAPD despite acuity of 20/60 or worse",
+      "correct": true
+     },
+     {
+      "t": "Onset while on four-drug antituberculous therapy"
+     },
+     {
+      "t": "Ethambutol at 23 mg/kg with an eGFR of 42"
+     },
+     {
+      "t": "Best corrected acuity reduced in both eyes"
+     }
+    ],
+    "short": "Colour loss, matched scotomas, no RAPD",
+    "why": "Dyschromatopsia, symmetric central scotomas and an absent RAPD in eyes that both see 20/60 or worse localise to the optic nerves and say the two nerves are equally affected.",
+    "dis": [
+     {
+      "refs": [
+       3,
+       4
+      ],
+      "label": "Drug and dose",
+      "tempting": "They name the cause and are the reason the drug has to stop.",
+      "ruled": "Exposure and dose explain why the nerves are failing, not where."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Acuity down in both eyes",
+      "tempting": "It is the abnormality the patient actually came with.",
+      "ruled": "Reduced acuity grades severity and localises nothing at all."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {
+      "t": "Contact the TB team today to stop ethambutol",
+      "correct": true
+     },
+     {
+      "t": "Reduce ethambutol to 15 mg/kg and review in 3 months"
+     },
+     {
+      "t": "Stop all four antituberculous drugs immediately"
+     },
+     {
+      "t": "Add high-dose pyridoxine and continue current doses"
+     },
+     {
+      "t": "Start oral prednisolone and repeat fields in 4 weeks"
+     }
+    ],
+    "short": "Stop ethambutol today, through the TB team",
+    "why": "Toxicity is dose and duration dependent, and recovery depends on how early the drug stops. The TB service substitutes cover the same day so the regimen is not left short.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Dose reduction",
+      "tempting": "15 mg/kg is the low-risk dose, so it reads as the safe compromise.",
+      "ruled": "Risk is low at that dose in intact nerves. This nerve is already failing."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Stop all four drugs",
+      "tempting": "It removes every possible culprit in one decision.",
+      "ruled": "Only ethambutol needs to go. Losing cover invites resistant disease."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "He asks what to expect. Which advice and follow-up plan is correct?",
+    "options": [
+     {
+      "t": "Vision may fall for weeks after stopping, review at 6 weeks",
+      "correct": true
+     },
+     {
+      "t": "Vision should return to normal within 2 weeks of stopping the drug"
+     },
+     {
+      "t": "Restart ethambutol at a lower dose once acuity improves"
+     },
+     {
+      "t": "Discharge now, since stopping the drug settles the matter"
+     },
+     {
+      "t": "Hydroxocobalamin injections will restore the colour vision"
+     }
+    ],
+    "short": "Warn of further decline, review at 6 weeks",
+    "why": "Loss from ethambutol often progresses for 1 to 3 months after withdrawal, and recovery, when it comes, takes 6 months or longer. Early review records the floor and catches other causes.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Restart at a lower dose",
+      "tempting": "The drug is useful and the dose was high, so a smaller dose feels safe.",
+      "ruled": "Rechallenge after toxicity risks permanent loss. Substitute instead."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Normal within 2 weeks",
+      "tempting": "Removing a cause usually stops a disease, so quick recovery sounds right.",
+      "ruled": "Decline for weeks after stopping is typical, and recovery is slow."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism best explains the pattern of loss?",
+    "options": [
+     {
+      "t": "Metal chelation impairing mitochondrial complex IV",
+      "correct": true
+     },
+     {
+      "t": "Immune demyelination of the retrobulbar optic nerve"
+     },
+     {
+      "t": "Infarction in the short posterior ciliary artery territory"
+     },
+     {
+      "t": "Drug deposition in the retinal pigment epithelium"
+     },
+     {
+      "t": "Excitotoxic loss of the magnocellular ganglion cells"
+     }
+    ],
+    "short": "Mitochondrial failure in papillomacular axons",
+    "why": "Ethambutol chelates copper and zinc and impairs complex IV. The small, heavily loaded axons of the papillomacular bundle fail first, which produces central scotomas and red-green loss.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Ciliary artery infarction",
+      "tempting": "It is the mechanism behind the ischaemic neuropathy on this list.",
+      "ruled": "Infarction is abrupt, usually unilateral, and swells the disc."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Magnocellular loss",
+      "tempting": "Naming a ganglion cell population sounds precise and mechanistic.",
+      "ruled": "Toxicity hits small parvocellular axons, which is why colour goes first."
+     }
+    ]
+   }
+  ],
+  "rules": "If colour and central vision fall in both eyes on ethambutol, stop the drug the same day. If the loss is asymmetric or a disc swells, look for a second cause."
+ },
+ {
+  "id": "S2-12",
+  "session": 2,
+  "n": 12,
+  "domain": "Retina, choroid, vitreous",
+  "title": "The white reflex in the holiday photograph",
+  "stem": "A 14-month-old girl is brought in after a family photograph showed a white reflex in the right eye. Six weeks of intermittent right esotropia. Born at term, no supplemental oxygen, no family history of eye disease. She fixes and follows with the left eye only. No red reflex OD, white pupillary reflex, quiet conjunctiva, clear lens, normal corneal diameters. Dilated view OD: elevated chalky retinal mass with vitreous seeds.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Retinoblastoma of the right eye",
+      "correct": true
+     },
+     {
+      "t": "Coats disease with exudative detachment"
+     },
+     {
+      "t": "Persistent fetal vasculature"
+     },
+     {
+      "t": "Ocular toxocariasis with a granuloma"
+     },
+     {
+      "t": "Stage 5 retinopathy of prematurity"
+     }
+    ],
+    "short": "Retinoblastoma, right eye",
+    "why": "Leukocoria with an elevated chalky retinal mass and vitreous seeds in a quiet, clear-media eye at 14 months is tumour. Strabismus is the second commonest way it is noticed.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Coats disease",
+      "tempting": "It also gives leukocoria in a young child with a normal front of the eye.",
+      "ruled": "Coats shows yellow exudate and telangiectasia, not a chalky mass with seeds."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Stage 5 ROP",
+      "tempting": "A total detachment behind the lens does look white through the pupil.",
+      "ruled": "Born at term with no oxygen therapy, so the risk period never existed."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {
+      "t": "Same-day referral to a retinoblastoma service",
+      "correct": true
+     },
+     {
+      "t": "Arrange a B-scan and review the child in 2 weeks"
+     },
+     {
+      "t": "Fine needle biopsy of the mass to confirm the diagnosis"
+     },
+     {
+      "t": "Routine referral to paediatric ophthalmology in 6 weeks"
+     },
+     {
+      "t": "Topical steroid for presumed intraocular inflammation"
+     }
+    ],
+    "short": "Same-day referral to a specialist centre",
+    "why": "Delay costs the eye and, once tumour leaves the globe, the child. Diagnosis and staging happen at the specialist centre, and no needle enters an eye suspected of holding retinoblastoma.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Needle biopsy",
+      "tempting": "Histology is how most other paediatric tumours are confirmed first.",
+      "ruled": "Perforating the globe seeds tumour outside it and changes survival."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Scan, review in 2 weeks",
+      "tempting": "Imaging first looks orderly, and 2 weeks feels prompt in clinic terms.",
+      "ruled": "Growth over 2 weeks can turn an eye-sparing case into an orbital one."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three steps belong in the specialist assessment of this child?",
+    "options": [
+     {
+      "t": "Examination under anaesthesia with indentation of both eyes",
+      "correct": true
+     },
+     {
+      "t": "MRI of the orbits and the brain",
+      "correct": true
+     },
+     {
+      "t": "RB1 testing for the child and both parents",
+      "correct": true
+     },
+     {
+      "t": "CT of the head to demonstrate calcification"
+     },
+     {
+      "t": "Transvitreal biopsy of the mass for histology"
+     },
+     {
+      "t": "Bone marrow aspirate before any treatment"
+     }
+    ],
+    "short": "EUA of both eyes, MRI, RB1 testing",
+    "why": "Both eyes are examined under anaesthesia because disease is often bilateral. MRI stages the nerve and pineal region without radiation, and RB1 testing drives screening of siblings.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "CT of the head",
+      "tempting": "Calcification is the classic sign and CT shows it best.",
+      "ruled": "It irradiates a child who may carry a germline RB1 mutation."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "Biopsy, marrow",
+      "tempting": "Tissue and marrow are how paediatric tumours are usually staged.",
+      "ruled": "Biopsy seeds the orbit, and marrow is for proven extraocular disease."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "legal",
+    "q": "Which action best meets the duty owed to this child?",
+    "options": [
+     {
+      "t": "Refer today, escalate to safeguarding if she is not brought",
+      "correct": true
+     },
+     {
+      "t": "Give the parents a letter to hand to their family doctor this week"
+     },
+     {
+      "t": "Refer today and close the episode once the letter is sent"
+     },
+     {
+      "t": "Wait for the parents to choose a date that suits them"
+     },
+     {
+      "t": "Contact the safeguarding team before making any referral"
+     }
+    ],
+    "short": "Refer today; if she is not brought, escalate",
+    "why": "The duty is a same-day referral made by the clinician who holds the suspicion, with that suspicion named in writing. A child not brought to the appointment is a safeguarding matter.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Letter via the parents",
+      "tempting": "It keeps the family informed and involves their usual doctor.",
+      "ruled": "It hands the timing of a sight and life threatening referral to others."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Safeguarding first",
+      "tempting": "Involving safeguarding early looks like the careful, thorough route.",
+      "ruled": "Nothing delays the ophthalmic referral. Safeguarding follows non-attendance."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which genetic point should shape the counselling offered?",
+    "options": [
+     {
+      "t": "Around 15% of unilateral cases carry a germline mutation",
+      "correct": true
+     },
+     {
+      "t": "Unilateral disease excludes a germline mutation"
+     },
+     {
+      "t": "Germline cases follow autosomal recessive inheritance"
+     },
+     {
+      "t": "Pineoblastoma risk arises only with bilateral tumours"
+     },
+     {
+      "t": "Sporadic tumours need one somatic hit at the RB1 locus"
+     }
+    ],
+    "short": "Germline RB1 is possible in unilateral disease",
+    "why": "Laterality does not settle germline status, so testing is offered in unilateral disease too. A germline result changes screening of this child, of siblings and of any future children.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Unilateral rules it out",
+      "tempting": "Bilateral disease is the taught marker of heritable retinoblastoma.",
+      "ruled": "A germline mutation can still produce a single unilateral tumour."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Recessive inheritance",
+      "tempting": "Two hits at one gene sounds like recessive transmission.",
+      "ruled": "Transmission is dominant with high penetrance. The second hit is somatic."
+     }
+    ]
+   }
+  ],
+  "rules": "If a child has leukocoria or new strabismus with no red reflex, refer the same day to a retinoblastoma service. If the child is not brought, escalate rather than discharge.",
+  "pair": {
+   "this": "Retinoblastoma",
+   "vs": "Coats disease",
+   "rows": [
+    [
+     "Fundus",
+     "Chalky elevated mass with vitreous seeds",
+     "Yellow lipid exudate with retinal telangiectasia"
+    ],
+    [
+     "Laterality",
+     "Unilateral or bilateral, often multifocal",
+     "Almost always unilateral, usually male"
+    ],
+    [
+     "Ultrasound",
+     "Calcification within the mass",
+     "No calcification, exudate and detachment only"
+    ],
+    [
+     "Age",
+     "Median 18 months, most under 2 years",
+     "Usually 4 to 8 years at presentation"
+    ]
+   ],
+   "decider": "Calcification with vitreous seeding means retinoblastoma and a same-day oncology referral. Exudate with telangiectasia and no calcium means Coats, urgent but not oncological."
+  }
+ },
+ {
+  "id": "S2-13",
+  "session": 2,
+  "n": 13,
+  "domain": "Lids, lacrimal, adnexa, orbit",
+  "title": "The lump that keeps coming back in the same place",
+  "stem": "A 71-year-old woman has a third firm nodule at the same site in the left upper lid over 14 months. Two incision and curettage procedures, no specimen sent either time. Over the lesion the lid margin has lost its lashes and its posterior ridge, the tarsus is yellow and thickened, and the eye has stayed red through lid hygiene and 6 weeks of topical antibiotic. Left preauricular node 1 cm, firm and mobile.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Sebaceous carcinoma of the tarsal glands",
+      "correct": true
+     },
+     {
+      "t": "Recurrent chalazion with granulation tissue"
+     },
+     {
+      "t": "Nodular basal cell carcinoma of the lid"
+     },
+     {
+      "t": "Squamous cell carcinoma of the lid margin"
+     },
+     {
+      "t": "Chronic staphylococcal blepharoconjunctivitis"
+     }
+    ],
+    "short": "Sebaceous carcinoma of the tarsus",
+    "why": "Recurrence at one site, lash loss with destruction of the posterior margin, yellow tarsal thickening and a unilateral chronic conjunctivitis are destructive disease. The node raises the stakes.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Recurrent chalazion",
+      "tempting": "Two surgeons treated it as one, and chalazia genuinely do recur.",
+      "ruled": "A chalazion does not destroy lash follicles or the posterior lid margin."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Chronic blepharitis",
+      "tempting": "Unilateral chronic conjunctivitis with lid disease reads as blepharitis.",
+      "ruled": "Blepharitis is bilateral and builds no firm nodule inside the tarsus."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which single feature argues most strongly against a benign chalazion?",
+    "options": [
+     {
+      "t": "Lash loss with destruction of the posterior lid margin",
+      "correct": true
+     },
+     {
+      "t": "Recurrence at the same site after curettage"
+     },
+     {
+      "t": "Yellow colour of the thickened tarsal tissue"
+     },
+     {
+      "t": "A red eye that has not settled on treatment"
+     },
+     {
+      "t": "Firmness of the nodule on palpation"
+     }
+    ],
+    "short": "Madarosis with loss of margin architecture",
+    "why": "Loss of lash follicles and of the posterior margin means the lesion is replacing tissue rather than distending it. Recurrence, colour and chronic redness each have benign explanations.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Recurrence after surgery",
+      "tempting": "Three episodes in 14 months is what prompted the referral.",
+      "ruled": "Incompletely drained chalazia recur too. Recurrence is not destruction."
+     },
+     {
+      "refs": [
+       2,
+       4
+      ],
+      "label": "Yellow, firm nodule",
+      "tempting": "Yellow lipid and firmness feel like the signature of this tumour.",
+      "ruled": "Old granulation tissue is firm and yellow as well."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which procedure should be arranged to obtain the diagnosis?",
+    "options": [
+     {
+      "t": "Full-thickness lid biopsy plus conjunctival map biopsies",
+      "correct": true
+     },
+     {
+      "t": "Repeat incision and curettage, curettings to histology"
+     },
+     {
+      "t": "Shave biopsy of the lid margin lesion under anaesthesia"
+     },
+     {
+      "t": "Excision with 2 mm margins as the first procedure"
+     },
+     {
+      "t": "Fine needle aspiration of the nodule and the node"
+     }
+    ],
+    "short": "Full-thickness biopsy with map biopsies",
+    "why": "The tumour sits within the tarsus and spreads inside conjunctival epithelium, so a superficial sample misses it. Mapping defines pagetoid extent, which decides how much tissue must go.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Curettage with histology",
+      "tempting": "It samples the lesion and repeats a familiar, quick procedure.",
+      "ruled": "Curettings miss tarsal depth and pagetoid spread, and blur the margins."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Excision with 2 mm margins",
+      "tempting": "Excising it looks decisive and treats the lesion in one visit.",
+      "ruled": "Margins are planned after histology and mapping, not before them."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three features of this tumour explain why it is missed?",
+    "options": [
+     {
+      "t": "Pagetoid spread within conjunctival epithelium",
+      "correct": true
+     },
+     {
+      "t": "Multicentric foci with skip lesions in the tarsus",
+      "correct": true
+     },
+     {
+      "t": "Lipid lost in processing unless fresh tissue is used",
+      "correct": true
+     },
+     {
+      "t": "It arises from the eccrine glands of the lid"
+     },
+     {
+      "t": "It metastasises before the lid lesion is visible"
+     },
+     {
+      "t": "It is confined to the lower lid in most cases"
+     }
+    ],
+    "short": "Pagetoid spread, skip lesions, lipid lost",
+    "why": "Intraepithelial spread imitates chronic blepharoconjunctivitis, skip lesions make one negative sample falsely reassuring, and lipid dissolves in routine processing so the cells look bland.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Eccrine origin",
+      "tempting": "Naming a gland of the lid sounds like the pathological detail.",
+      "ruled": "It arises in meibomian and Zeis glands, which are sebaceous."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "Early spread, lower lid",
+      "tempting": "Both sound like facts that would explain a missed tumour.",
+      "ruled": "The upper lid is the commoner site, and nodes follow visible disease."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "Histology confirms it. Which plan is appropriate?",
+    "options": [
+     {
+      "t": "Wide excision with margin control, plus node imaging",
+      "correct": true
+     },
+     {
+      "t": "Cryotherapy to the lid margin with topical mitomycin"
+     },
+     {
+      "t": "Primary radiotherapy to the lid and the orbit"
+     },
+     {
+      "t": "Exenteration as the first definitive procedure"
+     },
+     {
+      "t": "Excision alone, with review of the node in 3 months"
+     }
+    ],
+    "short": "Wide excision with margins, node assessed",
+    "why": "Clearance is judged on controlled margins, and pagetoid disease needs conjunctival treatment as well. A palpable node is imaged and sampled because this tumour spreads through lymphatics.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Cryotherapy, mitomycin",
+      "tempting": "Topical treatment spares the lid and is used for conjunctival spread.",
+      "ruled": "They are adjuncts to excision, not treatment for an invasive tarsal mass."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Excision, node later",
+      "tempting": "The node is small and mobile, so watching it seems reasonable.",
+      "ruled": "A 1 cm node with an invasive tumour is imaged and sampled now."
+     }
+    ]
+   }
+  ],
+  "rules": "If a chalazion recurs at one site, or takes lashes or the posterior lid margin, send full-thickness tissue. If a lid carcinoma is confirmed, examine and image the nodes."
+ },
+ {
+  "id": "S2-14",
+  "session": 2,
+  "n": 14,
+  "domain": "Lids, lacrimal, adnexa, orbit",
+  "title": "Watering since the first weeks of life",
+  "stem": "A 9-month-old boy has watered from the right eye since the age of 3 weeks, with crusted lashes each morning that clean away easily. No photophobia and no lid squeezing. Corneas clear, horizontal diameters 10.5 mm each. The right tear lake is high, and fluorescein clears from it in 8 minutes against 2 minutes on the left. Mucoid reflux on pressure over the sac. No sac swelling, no redness, no fever.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Congenital obstruction at the valve of Hasner",
+      "correct": true
+     },
+     {
+      "t": "Primary congenital glaucoma with epiphora"
+     },
+     {
+      "t": "Punctal agenesis of the lower canaliculus"
+     },
+     {
+      "t": "Congenital dacryocystocele with mucus reflux"
+     },
+     {
+      "t": "Epiblepharon with lower lash contact"
+     }
+    ],
+    "short": "Congenital nasolacrimal duct obstruction",
+    "why": "Watering from the first weeks with morning crusting, a high tear lake, delayed dye disappearance and mucoid reflux from the sac places the block low in a patent, comfortable eye.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Congenital glaucoma",
+      "tempting": "Epiphora since infancy is the presentation the two conditions share.",
+      "ruled": "Corneal diameters of 10.5 mm, clear corneas, no photophobia or squeezing."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Dacryocystocele",
+      "tempting": "Mucoid reflux comes from a sac that is holding its contents.",
+      "ruled": "A dacryocystocele presents in the neonate as a tense bluish swelling."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding most reliably excludes primary congenital glaucoma?",
+    "options": [
+     {
+      "t": "Corneal diameters of 10.5 mm, corneas clear",
+      "correct": true
+     },
+     {
+      "t": "Absence of photophobia and of lid squeezing"
+     },
+     {
+      "t": "Mucoid reflux on pressure over the sac"
+     },
+     {
+      "t": "Dye disappearance delayed to 8 minutes"
+     },
+     {
+      "t": "Symptoms present since the age of only 3 weeks"
+     }
+    ],
+    "short": "Normal corneal diameter with a clear cornea",
+    "why": "Raised pressure in infancy stretches and clouds the cornea, so normal diameters with clear corneas are hard evidence against it. The other findings show a blocked duct but exclude nothing.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "No photophobia",
+      "tempting": "Photophobia and squeezing are the taught triad with epiphora.",
+      "ruled": "Early congenital glaucoma can water without obvious light aversion."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Mucoid reflux",
+      "tempting": "Reflux proves the duct is blocked, which feels like enough.",
+      "ruled": "A blocked duct and a raised pressure can sit in the same eye."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management now?",
+    "options": [
+     {
+      "t": "Teach sac massage and hygiene, review at 12 months",
+      "correct": true
+     },
+     {
+      "t": "Probing and irrigation under anaesthesia this month"
+     },
+     {
+      "t": "Continuous topical antibiotic four times daily"
+     },
+     {
+      "t": "Silicone intubation of the duct within 6 weeks"
+     },
+     {
+      "t": "Refer for dacryocystorhinostomy before school age"
+     }
+    ],
+    "short": "Massage and hygiene, review at 12 months",
+    "why": "Most obstructions at Hasner open during the first year, so conservative care with a review date is the default at 9 months. Antibiotic is for purulent episodes, not as a standing course.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Probing now",
+      "tempting": "It cures the problem in one visit after 8 months of watering.",
+      "ruled": "At 9 months most open without anaesthesia. Probing can wait."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Continuous antibiotic",
+      "tempting": "Morning crusting looks infective and drops settle it briefly.",
+      "ruled": "It treats discharge, not obstruction, and selects resistant organisms."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three situations make earlier referral necessary?",
+    "options": [
+     {
+      "t": "Repeated episodes of acute dacryocystitis",
+      "correct": true
+     },
+     {
+      "t": "A tense bluish swelling below the medial canthus",
+      "correct": true
+     },
+     {
+      "t": "Symptoms unchanged beyond 12 to 15 months of age",
+      "correct": true
+     },
+     {
+      "t": "Crusted lashes needing cleaning every morning"
+     },
+     {
+      "t": "Watering that worsens in cold wind outdoors"
+     },
+     {
+      "t": "Mucoid reflux on pressure over the lacrimal sac"
+     }
+    ],
+    "short": "Dacryocystitis, tense sac, persistence",
+    "why": "Infection of the sac, a distended sac in a neonate, which can also obstruct the nose, and persistence past the age at which spontaneous opening stops all move the child to surgical care.",
+    "dis": [
+     {
+      "refs": [
+       3,
+       4
+      ],
+      "label": "Crusting, wind",
+      "tempting": "They are the symptoms the parents most want stopped.",
+      "ruled": "Both are typical of simple obstruction that still resolves on its own."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Mucoid reflux",
+      "tempting": "Reflux from the sac sounds like a sac that needs an operation.",
+      "ruled": "It is expected in ordinary obstruction and does not change the timing."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "At 13 months the symptoms are unchanged. What now?",
+    "options": [
+     {
+      "t": "Refer for probing and irrigation under anaesthesia",
+      "correct": true
+     },
+     {
+      "t": "Continue massage and review again at the age of 24 months"
+     },
+     {
+      "t": "Balloon dacryoplasty as the first procedure"
+     },
+     {
+      "t": "Dacryocystorhinostomy with silicone tubes"
+     },
+     {
+      "t": "Topical antibiotic for a further 3 months"
+     }
+    ],
+    "short": "Probing and irrigation under anaesthesia",
+    "why": "Spontaneous opening becomes unlikely after the first year, and probing at this age succeeds as a single procedure in most children. Intubation and bypass surgery are for failures.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Wait until 24 months",
+      "tempting": "Conservative care was the right answer for the whole first year.",
+      "ruled": "The resolution curve flattens after 12 months. Waiting buys nothing."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Primary bypass surgery",
+      "tempting": "It is the definitive operation, so it looks like the thorough answer.",
+      "ruled": "It is reserved for failed probing and intubation at this age."
+     }
+    ]
+   }
+  ],
+  "rules": "If an infant waters with clear corneas of normal diameter, treat as duct obstruction and review at 12 months. If the sac becomes infected or tensely distended, refer at once."
+ },
+ {
+  "id": "S2-15",
+  "session": 2,
+  "n": 15,
+  "domain": "Emergencies and trauma",
+  "title": "The eye that will not look up after football",
+  "stem": "A 14-year-old took an elbow to the left orbit 5 hours ago at football, watched by his coach. Little bruising and no proptosis. Elevation OS stops 10&deg; above the horizontal with pain on the attempt, vertical diplopia, and four episodes of vomiting. Pulse 48 and regular. Left cheek and upper gum numb. BVA 20/20 each eye, pupils equal, IOP 16 both, fundi normal. CT: small inferior wall defect with tissue drawn through it.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Trapdoor floor fracture with entrapment",
+      "correct": true
+     },
+     {
+      "t": "Large blowout fracture with enophthalmos"
+     },
+     {
+      "t": "Inferior rectus contusion without entrapment"
+     },
+     {
+      "t": "Retrobulbar haemorrhage limiting movement"
+     },
+     {
+      "t": "Traumatic fourth nerve palsy on the left"
+     }
+    ],
+    "short": "Trapdoor floor fracture, tissue entrapped",
+    "why": "A white eye with severe painful limitation of elevation, infraorbital numbness, vomiting and bradycardia after blunt injury in a teenager is tissue gripped by a floor that has sprung shut.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Large blowout fracture",
+      "tempting": "It is the adult pattern after this mechanism and also gives diplopia.",
+      "ruled": "A large defect gives bruising and enophthalmos, not tight painful tethering."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Rectus contusion",
+      "tempting": "Contusion explains pain and limitation without invoking surgery.",
+      "ruled": "Contusion does not drive repeated vomiting with a pulse of 48."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {
+      "t": "Refer now for surgical release within 24 hours",
+      "correct": true
+     },
+     {
+      "t": "Oral steroid and review in the fracture clinic next week"
+     },
+     {
+      "t": "Wait 10 to 14 days for swelling to settle, then repair"
+     },
+     {
+      "t": "Ice, nasal decongestant and review in 48 hours"
+     },
+     {
+      "t": "Press-on prism for the diplopia, review in 2 weeks"
+     }
+    ],
+    "short": "Surgical release today, within 24 hours",
+    "why": "Entrapped muscle is ischaemic, and in children fibrosis with permanent restriction follows within days. The interval that suits an adult blowout is the interval in which this eye loses movement.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Wait 10 to 14 days",
+      "tempting": "It is the correct rule for an adult blowout fracture with diplopia.",
+      "ruled": "Paediatric trapdoor entrapment is released within a day or two."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Steroid, clinic next week",
+      "tempting": "Steroid does reduce orbital oedema, and the eye still sees 20/20.",
+      "ruled": "The problem is mechanical trapping, and a week of it scars the muscle."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which action best addresses the pulse of 48 and the vomiting?",
+    "options": [
+     {
+      "t": "Nil by mouth, urgent theatre, cardiac monitoring",
+      "correct": true
+     },
+     {
+      "t": "Intravenous atropine, then review in 48 hours"
+     },
+     {
+      "t": "Antiemetic and overnight observation on the ward"
+     },
+     {
+      "t": "ECG and a cardiology opinion before orbital repair"
+     },
+     {
+      "t": "Reassure: bradycardia follows any orbital blow"
+     }
+    ],
+    "short": "Nil by mouth and urgent theatre",
+    "why": "Bradycardia with vomiting is the oculocardiac reflex from traction on trapped tissue, and it settles when the tissue is freed. It marks urgency and warns the anaesthetist.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Atropine, review later",
+      "tempting": "Atropine does treat reflex bradycardia during orbital handling.",
+      "ruled": "It masks the sign while the muscle stays trapped and ischaemic."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Cardiology first",
+      "tempting": "A pulse of 48 in a teenager looks like a cardiac problem.",
+      "ruled": "The cause is orbital. Waiting for cardiology delays the release."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "Which three duties apply before the child leaves the department?",
+    "options": [
+     {
+      "t": "Refer the same day by speaking to the operating team",
+      "correct": true
+     },
+     {
+      "t": "Record the mechanism in the words given, and who attended",
+      "correct": true
+     },
+     {
+      "t": "Note whether the injury fits the account, and escalate if not",
+      "correct": true
+     },
+     {
+      "t": "Delay the referral until a parent signs a consent form"
+     },
+     {
+      "t": "Notify safeguarding about every orbital injury in a minor"
+     },
+     {
+      "t": "Send photographs of the face to the child's school"
+     }
+    ],
+    "short": "Same-day referral, record account, check fit",
+    "why": "The duties are a same-day spoken referral, a contemporaneous record of the account and of who gave it, and a judgement on whether the injury fits that account. Escalation follows a discrepancy.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Wait for consent",
+      "tempting": "Surgery on a minor needs consent, so waiting looks correct.",
+      "ruled": "Consent is arranged alongside the referral. It does not delay it."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "Blanket notify, photographs",
+      "tempting": "Both feel like caution about a child with a facial injury.",
+      "ruled": "Notification follows concern, and school sharing has no lawful basis."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism explains so little bruising with such tight restriction?",
+    "options": [
+     {
+      "t": "The elastic paediatric floor springs back on tissue",
+      "correct": true
+     },
+     {
+      "t": "Bone fragments transect the inferior rectus belly"
+     },
+     {
+      "t": "Haemorrhage inside the muscle limits it mechanically"
+     },
+     {
+      "t": "Orbital fat necrosis tethers the globe inferiorly"
+     },
+     {
+      "t": "Infraorbital nerve injury weakens elevation"
+     }
+    ],
+    "short": "Elastic bone snaps back and grips tissue",
+    "why": "A child's floor is greenstick and returns to position, so the defect stays small, blood is contained and muscle or its sheath is held. That is why the eye looks well and moves badly.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Muscle transected",
+      "tempting": "Total loss of elevation suggests the muscle has been divided.",
+      "ruled": "A divided muscle is slack, not tight. Forced duction would be free."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Nerve injury",
+      "tempting": "Cheek numbness proves the infraorbital nerve is injured.",
+      "ruled": "That nerve is sensory. It has no part in elevating the eye."
+     }
+    ]
+   }
+  ],
+  "rules": "If a child cannot elevate after blunt orbital injury, treat entrapment as a same-day operation, and more urgently still with nausea or bradycardia. The adult 2-week rule does not apply."
+ },
+ {
+  "id": "S2-16",
+  "session": 2,
+  "n": 16,
+  "domain": "Cornea and refractive surgery",
+  "title": "Haze under the flap on the third day",
+  "stem": "A 34-year-old woman had bilateral LASIK 3 days ago and saw 20/20 with a clear interface on day 1. The right eye now has 24 hours of increasing pain, photophobia and blur, on prednisolone four times daily. BVA 20/60 OD. A 1.2 mm dense white infiltrate sits at the inferior flap edge and extends into the stroma beneath the flap, with an overlying epithelial defect, 2+ anterior chamber cells and dense sectoral injection.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Infection at the flap interface",
+      "correct": true
+     },
+     {
+      "t": "Diffuse lamellar keratitis of grade 3"
+     },
+     {
+      "t": "Central toxic keratopathy after LASIK"
+     },
+     {
+      "t": "Epithelial ingrowth beneath the flap"
+     },
+     {
+      "t": "Pressure-induced stromal keratopathy"
+     }
+    ],
+    "short": "Infectious keratitis at the interface",
+    "why": "A focal dense infiltrate with an epithelial defect, pain worsening on day 3, chamber cells and sectoral injection is infection. Sterile interface disease is diffuse, comfortable and quiet.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Diffuse lamellar keratitis",
+      "tempting": "Interface haze after LASIK on steroid is the pattern taught first.",
+      "ruled": "It is diffuse granular haze, peaks on day 1 or 2, epithelium intact."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Central toxic keratopathy",
+      "tempting": "It also appears in the first week and drops acuity sharply.",
+      "ruled": "It is central and non-inflammatory, with striae, no infiltrate, no cells."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings separate this from diffuse lamellar keratitis?",
+    "options": [
+     {
+      "t": "A focal dense infiltrate with an epithelial defect",
+      "correct": true
+     },
+     {
+      "t": "Pain and photophobia worsening on day 3",
+      "correct": true
+     },
+     {
+      "t": "2+ anterior chamber cells with sectoral injection",
+      "correct": true
+     },
+     {
+      "t": "Haze visible at the lamellar interface"
+     },
+     {
+      "t": "Best corrected acuity reduced to 20/60"
+     },
+     {
+      "t": "Topical steroid four times daily since surgery"
+     }
+    ],
+    "short": "Focal infiltrate, rising pain, chamber cells",
+    "why": "Focality with a break in the epithelium, pain that worsens after day 2, and an anterior chamber reaction are infective. Interface haze, reduced acuity and steroid use belong to both.",
+    "dis": [
+     {
+      "refs": [
+       3,
+       4
+      ],
+      "label": "Haze, acuity",
+      "tempting": "They are the findings that make the eye look abnormal at the lamp.",
+      "ruled": "Both occur in sterile lamellar keratitis, so neither separates them."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Steroid since surgery",
+      "tempting": "Steroid is the treatment for DLK, so its use hints at that diagnosis.",
+      "ruled": "Every LASIK eye is on steroid. It is routine, not a discriminator."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {
+      "t": "Lift the flap, scrape for culture, fortified drops",
+      "correct": true
+     },
+     {
+      "t": "Increase prednisolone to hourly and review in 24 hours"
+     },
+     {
+      "t": "Hourly moxifloxacin without lifting the flap"
+     },
+     {
+      "t": "Amputate the flap and treat the bed with drops"
+     },
+     {
+      "t": "Oral doxycycline, lubricants, review in 48 hours"
+     }
+    ],
+    "short": "Lift the flap, culture, fortified antibiotics",
+    "why": "The organism sits in a space that drops reach poorly, so the flap is lifted to sample, irrigate and treat directly. Steroid comes down while the infection is uncontrolled.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Hourly steroid",
+      "tempting": "It is the correct treatment for the sterile disease this mimics.",
+      "ruled": "Hourly steroid over an untreated infection is how interfaces melt."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Drops, flap left down",
+      "tempting": "Fluoroquinolone cover looks adequate and avoids a procedure.",
+      "ruled": "Penetration under the flap is poor and the culture is never taken."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which empirical cover fits an onset on day 3, before cultures return?",
+    "options": [
+     {
+      "t": "Fortified vancomycin with a fluoroquinolone",
+      "correct": true
+     },
+     {
+      "t": "Topical amikacin with oral clarithromycin"
+     },
+     {
+      "t": "Topical natamycin with oral voriconazole"
+     },
+     {
+      "t": "Hourly polyhexanide with propamidine drops"
+     },
+     {
+      "t": "Moxifloxacin four times daily with lubricants"
+     }
+    ],
+    "short": "Fortified vancomycin and a fluoroquinolone",
+    "why": "Infection in the first week after LASIK is usually staphylococcal or streptococcal, so gram-positive cover with broad support starts at once. Atypical and fungal cover belongs to late onset.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Amikacin, clarithromycin",
+      "tempting": "It is the classic regimen for the atypical mycobacteria of this surgery.",
+      "ruled": "Those organisms present at 2 to 8 weeks, not on the third day."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Drops four times daily",
+      "tempting": "Moxifloxacin covers the likely organisms and is already prescribed.",
+      "ruled": "Four times daily does not treat an established stromal infiltrate."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which property of the flap interface most affects treatment?",
+    "options": [
+     {
+      "t": "It is a space sealed from tears and limbal vessels",
+      "correct": true
+     },
+     {
+      "t": "Keratocytes there do not express MHC class II"
+     },
+     {
+      "t": "Stromal lamellae there stay more hydrated"
+     },
+     {
+      "t": "The flap is denervated, so surface healing is slower"
+     },
+     {
+      "t": "Bowman layer blocks antibody entry to it"
+     }
+    ],
+    "short": "A sealed space with poor drug access",
+    "why": "The interface has no vessels and is shielded from the tear film, so drug levels there stay low and host defence arrives late. Access is why the flap is lifted rather than treated through.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "MHC expression",
+      "tempting": "An immune privilege explanation sounds like the mechanistic answer.",
+      "ruled": "Drug and cell access, not antigen presentation, is what fails here."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Denervation",
+      "tempting": "LASIK does cut nerves, and that does slow epithelial healing.",
+      "ruled": "Denervation does not explain why an interface infiltrate resists drops."
+     }
+    ]
+   }
+  ],
+  "rules": "If a post-LASIK interface is focally infiltrated, or the epithelium is broken, or the chamber reacts, lift and culture. If haze is diffuse with intact epithelium, treat as sterile with steroid.",
+  "pair": {
+   "this": "Infectious keratitis after LASIK",
+   "vs": "Diffuse lamellar keratitis",
+   "rows": [
+    [
+     "Onset",
+     "Day 2 onwards, worsening hour by hour",
+     "Day 1 to 2, then improving on steroid"
+    ],
+    [
+     "Symptoms",
+     "Increasing pain with photophobia",
+     "Mild or no pain, blur dominates"
+    ],
+    [
+     "Infiltrate",
+     "Focal and dense, crosses into stroma",
+     "Diffuse granular haze within the interface"
+    ],
+    [
+     "Epithelium, chamber",
+     "Defect present, cells in the chamber",
+     "Epithelium intact, chamber quiet"
+    ]
+   ],
+   "decider": "A focal infiltrate with an epithelial break or chamber cells means lift, culture and treat as infection. Diffuse haze with intact epithelium means hourly steroid and same-day review."
+  }
+ },
+ {
+  "id": "S2-17",
+  "session": 2,
+  "n": 17,
+  "domain": "Emergencies and trauma",
+  "title": "Wet cement, and a cornea that has gone grey",
+  "stem": "A 41-year-old builder splashed wet cement into the right eye 30 minutes ago and rinsed with bottled water for about a minute on site. Severe pain, lids swollen, counting fingers OD. Conjunctiva blanched from 5 to 8 o'clock with perilimbal ischaemia over 4 clock hours, cornea hazy with the whole epithelium gone, iris detail faint. Grey particles in the upper fornix. Fornix pH 10.5.",
+  "items": [
+   {
+    "type": "treatment",
+    "q": "What is the first action?",
+    "options": [
+     {
+      "t": "Irrigate with saline, sweep the fornices, recheck pH",
+      "correct": true
+     },
+     {
+      "t": "Measure acuity and pressure, then start irrigation"
+     },
+     {
+      "t": "Irrigate for 15 minutes by the clock, then examine"
+     },
+     {
+      "t": "Instil anaesthetic and antibiotic, then refer for irrigation"
+     },
+     {
+      "t": "Neutralise with a dilute acid buffer, then irrigate"
+     }
+    ],
+    "short": "Irrigate to a normal pH, fornices swept",
+    "why": "Alkali burns for as long as it remains, and retained cement keeps releasing it, so irrigation runs to a pH endpoint with the particles removed. Measurement and referral wait their turn.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Acuity and IOP first",
+      "tempting": "Recording vision before treatment is the habit of every clinic.",
+      "ruled": "Every minute of contact deepens the burn. Numbers can be taken later."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Fifteen minutes, then stop",
+      "tempting": "A fixed interval is easy to remember and feels thorough.",
+      "ruled": "Time is not the endpoint. Cement holds the pH up far beyond 15 minutes."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in the first hour?",
+    "options": [
+     {
+      "t": "Topical anaesthetic so irrigation can be tolerated",
+      "correct": true
+     },
+     {
+      "t": "Double eversion and sweeping of both fornices",
+      "correct": true
+     },
+     {
+      "t": "Recheck of fornix pH 5 minutes after stopping",
+      "correct": true
+     },
+     {
+      "t": "Applanation pressure before any irrigation"
+     },
+     {
+      "t": "Pad the eye and transfer for irrigation there"
+     },
+     {
+      "t": "Topical steroid before the surface is clean"
+     }
+    ],
+    "short": "Anaesthetic, fornix sweep, delayed pH recheck",
+    "why": "Anaesthesia makes irrigation effective, sweeping removes the reservoir of cement, and a delayed recheck catches the pH climbing again as trapped particles keep dissolving.",
+    "dis": [
+     {
+      "refs": [
+       3,
+       4
+      ],
+      "label": "Pressure, transfer",
+      "tempting": "Both are standard trauma care and both feel responsible.",
+      "ruled": "Neither removes alkali, and both spend the minutes that matter."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Early steroid",
+      "tempting": "Inflammation is intense and steroid is used in these eyes.",
+      "ruled": "It belongs after decontamination, not while alkali is still present."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding most determines the visual prognosis?",
+    "options": [
+     {
+      "t": "Perilimbal ischaemia over 4 clock hours",
+      "correct": true
+     },
+     {
+      "t": "Loss of the whole corneal epithelium"
+     },
+     {
+      "t": "Acuity of counting fingers on arrival"
+     },
+     {
+      "t": "A fornix pH of 10.5 at presentation"
+     },
+     {
+      "t": "Corneal haze obscuring iris detail"
+     }
+    ],
+    "short": "Extent of perilimbal ischaemia",
+    "why": "Limbal vessels mark the stem cell reserve, and their loss predicts failure to re-epithelialise, conjunctivalisation and scarring. Epithelial loss and haze at 30 minutes say little.",
+    "dis": [
+     {
+      "refs": [
+       1,
+       2
+      ],
+      "label": "Epithelium, acuity",
+      "tempting": "They are the most dramatic findings in front of you.",
+      "ruled": "Both recover fully if the limbus survives, and both mislead early."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "A pH of 10.5",
+      "tempting": "It grades the insult and drives the irrigation endpoint.",
+      "ruled": "It measures the surface now, not the reserve the eye heals from."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Why does alkali keep damaging after the surface is rinsed?",
+    "options": [
+     {
+      "t": "Hydroxyl ions saponify membranes and pass inwards",
+      "correct": true
+     },
+     {
+      "t": "It coagulates surface protein into a barrier layer"
+     },
+     {
+      "t": "Heat of hydration burns the deeper stroma"
+     },
+     {
+      "t": "It is held in the epithelium and goes no deeper"
+     },
+     {
+      "t": "It binds corneal collagen and stays on the surface"
+     }
+    ],
+    "short": "Hydroxyl ions saponify lipid and penetrate",
+    "why": "Alkali dissolves cell membranes and travels through stroma into the chamber, so injury continues after the surface looks clean. Acid coagulates protein and is more often held at the surface.",
+    "dis": [
+     {
+      "refs": [
+       1,
+       4
+      ],
+      "label": "Barrier formation",
+      "tempting": "Coagulation limiting depth is true, but it is true of acid.",
+      "ruled": "Alkali forms no barrier. It saponifies its way inwards."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Heat of hydration",
+      "tempting": "Cement does generate heat, and the eye is intensely painful.",
+      "ruled": "Depth here comes from hydroxyl ions, not from temperature."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "The pH is normal and the surface is clean. Which plan fits the next 2 weeks?",
+    "options": [
+     {
+      "t": "Tears, steroid, cycloplegic, ascorbate and doxycycline",
+      "correct": true
+     },
+     {
+      "t": "Topical steroid alone, tapered over the first 3 days only"
+     },
+     {
+      "t": "Bandage lens with a topical antibiotic only"
+     },
+     {
+      "t": "Antibiotic with pressure padding for a week"
+     },
+     {
+      "t": "Amniotic membrane graft with no topical steroid"
+     }
+    ],
+    "short": "Tears, steroid, cycloplegic, ascorbate, doxycycline",
+    "why": "Steroid controls inflammation while the epithelium is watched, cycloplegia settles the iris, and ascorbate with doxycycline supports collagen and limits melt. Lubrication carries the surface.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Steroid, 3-day taper",
+      "tempting": "Steroid is the mainstay, and a short course avoids stromal melt.",
+      "ruled": "Three days is too short for this burn and misses the melting phase."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Membrane, no steroid",
+      "tempting": "Amniotic membrane does help severe burns re-epithelialise.",
+      "ruled": "It is an adjunct. Withholding steroid leaves the inflammation untreated."
+     }
+    ]
+   }
+  ],
+  "rules": "If the injury is alkali, irrigate to a pH endpoint with the fornices swept before anything is measured. If the limbus is ischaemic, the prognosis follows the clock hours lost."
+ },
+ {
+  "id": "S2-18",
+  "session": 2,
+  "n": 18,
+  "domain": "Cornea and refractive surgery",
+  "title": "A large epithelial defect that does not hurt",
+  "stem": "A 63-year-old man had herpes zoster ophthalmicus in the left V1 a year ago and uses preserved lubricants with a topical NSAID for discomfort. He reports 3 weeks of blur and no pain. BVA 20/80 OS. A 4 by 3 mm oval epithelial defect sits below centre with heaped grey edges, stromal thinning of about 30%, no infiltrate, no chamber cells. Corneal sensation absent in all quadrants. Closure complete, Bell present, Schirmer 12 mm.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Neurotrophic keratopathy after zoster",
+      "correct": true
+     },
+     {
+      "t": "Microbial ulcer with a rolled edge"
+     },
+     {
+      "t": "Herpes simplex geographic ulcer"
+     },
+     {
+      "t": "Exposure keratopathy from poor closure"
+     },
+     {
+      "t": "Toxic keratopathy from preserved drops"
+     }
+    ],
+    "short": "Neurotrophic keratopathy",
+    "why": "A painless persistent defect with heaped edges and thinning, in a cornea with no sensation a year after zoster, is failure of trophic supply. No infiltrate and no cells argue against infection.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Microbial ulcer",
+      "tempting": "Any persistent defect with thinning raises infection first.",
+      "ruled": "There is no infiltrate, no chamber reaction, and no pain in 3 weeks."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Exposure keratopathy",
+      "tempting": "Post-zoster lids scar, and exposure also gives a lower defect.",
+      "ruled": "Closure is complete with a Bell phenomenon, and tear volume is adequate."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism explains why the epithelium fails?",
+    "options": [
+     {
+      "t": "Loss of sensory neuropeptides that drive repair",
+      "correct": true
+     },
+     {
+      "t": "Reduced aqueous tear volume from lacrimal scarring"
+     },
+     {
+      "t": "Antibody deposition in the epithelial basement membrane"
+     },
+     {
+      "t": "Limbal stem cell loss from the original vesicles"
+     },
+     {
+      "t": "Persistent viral replication in the epithelium"
+     }
+    ],
+    "short": "Loss of trophic sensory neuropeptides",
+    "why": "Sensory nerves release substance P and CGRP, which support epithelial mitosis, migration and adhesion. Without them the surface neither closes nor sticks, and blinking is not prompted.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Aqueous deficiency",
+      "tempting": "Dryness is the usual reason a surface fails after zoster.",
+      "ruled": "Schirmer 12 mm is adequate, and dryness gives punctate staining."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Live virus",
+      "tempting": "The trigger was viral, so ongoing infection sounds plausible.",
+      "ruled": "This is a year on, with no dendrites and no infiltrate."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate first change to treatment?",
+    "options": [
+     {
+      "t": "Stop the NSAID and the preserved drops",
+      "correct": true
+     },
+     {
+      "t": "Add a topical steroid to settle the heaped edge"
+     },
+     {
+      "t": "Debride the edges and pad the eye for 48 hours"
+     },
+     {
+      "t": "Add a topical antibiotic four times daily"
+     },
+     {
+      "t": "Start hourly preserved lubricant drops"
+     }
+    ],
+    "short": "Stop the NSAID and preserved drops",
+    "why": "Topical NSAIDs impair epithelial healing and can drive melt in an anaesthetic cornea, and preservative adds surface toxicity. Removing both costs nothing and may close the defect.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Add steroid",
+      "tempting": "The heaped edge looks inflamed and steroid flattens it.",
+      "ruled": "Steroid slows healing and thins a cornea already down by 30%."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Add antibiotic",
+      "tempting": "An open surface invites infection, so cover feels prudent.",
+      "ruled": "Preserved cover adds toxicity without treating why it stays open."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three measures are appropriate now?",
+    "options": [
+     {
+      "t": "Preservative-free lubricants through the day",
+      "correct": true
+     },
+     {
+      "t": "A therapeutic contact lens with antibiotic cover",
+      "correct": true
+     },
+     {
+      "t": "Autologous serum or recombinant nerve growth factor",
+      "correct": true
+     },
+     {
+      "t": "Topical steroid to reduce the edge reaction"
+     },
+     {
+      "t": "Repeated debridement of the heaped epithelium"
+     },
+     {
+      "t": "Topical NSAID continued for the discomfort"
+     }
+    ],
+    "short": "Unpreserved tears, bandage lens, serum or NGF",
+    "why": "Treatment replaces the missing trophic support and protects the surface: unpreserved lubrication, a lens that shields the epithelium under cover, and serum or growth factor to restore healing.",
+    "dis": [
+     {
+      "refs": [
+       3,
+       5
+      ],
+      "label": "Steroid, NSAID",
+      "tempting": "Both quieten an eye that looks irritated at the slit lamp.",
+      "ruled": "Both slow epithelial closure and both invite melt in this cornea."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Repeated debridement",
+      "tempting": "Heaped edges do not adhere, so removing them feels constructive.",
+      "ruled": "Repeated debridement of an anaesthetic cornea enlarges the defect."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "Three weeks on, thinning is 70% with a clear central descemetocele. What now?",
+    "options": [
+     {
+      "t": "Amniotic membrane with temporary tarsorrhaphy, now",
+      "correct": true
+     },
+     {
+      "t": "Continue lubricants and review in 4 weeks"
+     },
+     {
+      "t": "Penetrating keratoplasty within the week"
+     },
+     {
+      "t": "Topical steroid to reduce the melting"
+     },
+     {
+      "t": "Bandage lens with hourly antibiotic alone"
+     }
+    ],
+    "short": "Amniotic membrane and tarsorrhaphy today",
+    "why": "A descemetocele is hours from perforation, so the surface is covered and the lids are closed to take the mechanical load off it. Grafting an anaesthetic cornea repeats the same failure.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Keratoplasty this week",
+      "tempting": "The cornea is nearly perforated, and a graft replaces it.",
+      "ruled": "A graft on an anaesthetic surface melts. Cover and close first."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Lubricants, 4 weeks",
+      "tempting": "Conservative care has been the theme of the whole illness.",
+      "ruled": "At 70% thinning, the next month is when the cornea perforates."
+     }
+    ]
+   }
+  ],
+  "rules": "If a corneal defect is painless in an anaesthetic cornea, stop every toxic drop and support the surface. If thinning passes half depth, cover the cornea and close the lids."
+ },
+ {
+  "id": "S2-19",
+  "session": 2,
+  "n": 19,
+  "domain": "Lens, cataract, IOL, perioperative",
+  "title": "Pain and a lost view on the third day after surgery",
+  "stem": "A 74-year-old with type 2 diabetes had uneventful phacoemulsification 3 days ago and read 20/25 on day 1. Pain and rapid loss began 12 hours ago. BVA hand movements. Lids swollen, conjunctiva intensely injected, wound Seidel negative, 2 mm hypopyon, fibrin across the intraocular lens, IOP 28. No fundus view. B-scan: dense vitreous opacities with the retina attached.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Acute bacterial endophthalmitis",
+      "correct": true
+     },
+     {
+      "t": "Toxic anterior segment syndrome"
+     },
+     {
+      "t": "Fibrinous uveitis after surgery"
+     },
+     {
+      "t": "Retained lens matter with inflammation"
+     },
+     {
+      "t": "Uveitis-glaucoma-hyphaema syndrome"
+     }
+    ],
+    "short": "Acute bacterial endophthalmitis",
+    "why": "Pain with loss to hand movements on day 3, a hypopyon, fibrin and dense vitreous opacities is infection inside the eye. Vitreous involvement is what separates it from anterior causes.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Toxic anterior segment",
+      "tempting": "It also gives fibrin and a hypopyon after routine surgery.",
+      "ruled": "It starts within 24 hours, spares the vitreous, and is not painful."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Retained lens matter",
+      "tempting": "Retained cortex does inflame an eye during the first week.",
+      "ruled": "It does not produce a hypopyon with dense vitreous opacity in hours."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {
+      "t": "Vitreous tap and intravitreal vancomycin with ceftazidime",
+      "correct": true
+     },
+     {
+      "t": "Hourly fortified topical antibiotics with review in 12 hours"
+     },
+     {
+      "t": "Subconjunctival gentamicin and oral moxifloxacin"
+     },
+     {
+      "t": "Intravitreal antibiotic after the cultures are reported"
+     },
+     {
+      "t": "Increase the topical steroid and review tomorrow"
+     }
+    ],
+    "short": "Tap and inject vancomycin with ceftazidime",
+    "why": "Bacteria multiply in vitreous within hours and only intravitreal drug reaches it, so the sample and the injection happen at one sitting, today. Topical and oral routes do not reach vitreous.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Topical, review in 12 hours",
+      "tempting": "Intensive drops treat corneal infection and feel proportionate.",
+      "ruled": "Drops do not reach the vitreous, and 12 hours is the retina's margin."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Wait for cultures",
+      "tempting": "Targeted therapy after a result is sound antimicrobial practice.",
+      "ruled": "Therapy here is empirical. Sampling and injection go together."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in the first hour?",
+    "options": [
+     {
+      "t": "Aqueous and vitreous samples before injecting",
+      "correct": true
+     },
+     {
+      "t": "Intravitreal vancomycin with ceftazidime",
+      "correct": true
+     },
+     {
+      "t": "Vitrectomy today if vision is light perception",
+      "correct": true
+     },
+     {
+      "t": "Intravitreal amphotericin as routine cover"
+     },
+     {
+      "t": "Systemic ciprofloxacin as the sole therapy"
+     },
+     {
+      "t": "Removal of the intraocular lens at once"
+     }
+    ],
+    "short": "Sample, inject, vitrectomy if light perception",
+    "why": "Samples are taken before drug is given, cover is broad and intravitreal, and presenting vision decides surgery: light perception only is the threshold at which vitrectomy does better.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Amphotericin routinely",
+      "tempting": "Fungal endophthalmitis is devastating, so cover looks safer.",
+      "ruled": "Fungus is rare on day 3 and amphotericin is toxic to the retina."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "Oral only, lens out",
+      "tempting": "Both look aggressive in roughly the right direction.",
+      "ruled": "Oral drug underdoses the vitreous, and the lens stays for now."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "At 48 hours the eye is worse despite injection. What now?",
+    "options": [
+     {
+      "t": "Repeat intravitreal antibiotics and refer for vitrectomy",
+      "correct": true
+     },
+     {
+      "t": "Add oral prednisolone and continue observation"
+     },
+     {
+      "t": "Continue the current treatment and review in 48 hours"
+     },
+     {
+      "t": "Change to intravitreal amphotericin for fungus"
+     },
+     {
+      "t": "Proceed to enucleation to control the infection"
+     }
+    ],
+    "short": "Reinject and refer for vitrectomy",
+    "why": "Failure to improve means the organism load has not been cleared, so drug is given again and the vitreous is removed with it. Steroid alone and further delay both cost retina.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Oral steroid",
+      "tempting": "Inflammation is doing the visible damage inside the eye.",
+      "ruled": "Steroid with uncontrolled infection accelerates the loss."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Switch to an antifungal",
+      "tempting": "Failure of antibacterial therapy suggests the wrong organism.",
+      "ruled": "Reinjection and vitrectomy come first. Fungal onset is later and slower."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which source and organism best fit this onset?",
+    "options": [
+     {
+      "t": "Surface flora through the wound, mostly staphylococcal",
+      "correct": true
+     },
+     {
+      "t": "Haematogenous streptococci from a distant focus"
+     },
+     {
+      "t": "Propionibacterium sequestered in the capsular bag"
+     },
+     {
+      "t": "Contaminated irrigating fluid causing sterile inflammation"
+     },
+     {
+      "t": "Fungal spores carried in the viscoelastic device"
+     }
+    ],
+    "short": "Ocular surface flora through the wound",
+    "why": "Most acute cases come from the patient's own lid and conjunctival flora entering at surgery, which is why antisepsis matters more than the choice of antibiotic. Coagulase-negative staphylococci lead.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Propionibacterium",
+      "tempting": "It is the organism every postoperative list carries.",
+      "ruled": "It presents weeks to months later, indolently, with a capsular plaque."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Sterile, from fluid",
+      "tempting": "Contaminated fluid does cause clusters after cataract surgery.",
+      "ruled": "Sterile syndromes appear on day 1 and spare the vitreous."
+     }
+    ]
+   }
+  ],
+  "rules": "If an eye loses vision with pain in the first week after surgery and the vitreous is involved, tap and inject the same hour. If vision is light perception, arrange vitrectomy.",
+  "pair": {
+   "this": "Acute bacterial endophthalmitis",
+   "vs": "Toxic anterior segment syndrome",
+   "rows": [
+    [
+     "Onset",
+     "Day 2 to 5, worsening by the hour",
+     "Within 24 hours of surgery, then static"
+    ],
+    [
+     "Symptoms",
+     "Pain with lid swelling and injection",
+     "Little or no pain, blur dominates"
+    ],
+    [
+     "Cornea",
+     "Clear or focally hazy",
+     "Limbus-to-limbus oedema"
+    ],
+    [
+     "Vitreous",
+     "Dense opacities on ultrasound",
+     "Clear, the reaction stays anterior"
+    ]
+   ],
+   "decider": "Vitreous involvement with pain means tap and inject within the hour. Limbus-to-limbus oedema on day 1 with a clear vitreous means intensive steroid and a look at the theatre process."
+  }
+ },
+ {
+  "id": "S2-20",
+  "session": 2,
+  "n": 20,
+  "domain": "Lens, cataract, IOL, perioperative",
+  "title": "A cloudy cornea the morning after routine surgery",
+  "stem": "A 68-year-old woman is seen the morning after uneventful phacoemulsification. Painless blur, BVA 20/200. Limbus-to-limbus corneal oedema, 1.5 mm of fibrin in the chamber, a fixed mid-dilated pupil, IOP 32, lids barely swollen, no vitreous cells on examination or on ultrasound. Two other patients from the same operating list have similar findings this morning.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Toxic anterior segment syndrome",
+      "correct": true
+     },
+     {
+      "t": "Acute bacterial endophthalmitis"
+     },
+     {
+      "t": "Descemet membrane detachment"
+     },
+     {
+      "t": "Retained lens fragment reaction"
+     },
+     {
+      "t": "Corneal decompensation from surgical trauma"
+     }
+    ],
+    "short": "Toxic anterior segment syndrome",
+    "why": "Onset within 24 hours, limbus-to-limbus oedema with a fixed dilated pupil, no vitreous involvement and three eyes from one list is a toxic insult delivered into the anterior chamber.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Endophthalmitis",
+      "tempting": "Fibrin with a raised pressure after surgery reads as infection.",
+      "ruled": "Infection is painful, starts later, and takes the vitreous with it."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Surgical decompensation",
+      "tempting": "A hard cataract can leave a swollen cornea on day 1.",
+      "ruled": "Trauma gives focal oedema, not a fixed pupil in three patients."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings favour a toxic cause over infection?",
+    "options": [
+     {
+      "t": "Onset within 24 hours of surgery",
+      "correct": true
+     },
+     {
+      "t": "Limbus-to-limbus corneal oedema",
+      "correct": true
+     },
+     {
+      "t": "Two others from the same list affected",
+      "correct": true
+     },
+     {
+      "t": "Fibrin layered in the anterior chamber"
+     },
+     {
+      "t": "Intraocular pressure of 32 mmHg"
+     },
+     {
+      "t": "Best acuity reduced to 20/200"
+     }
+    ],
+    "short": "Day 1 onset, whole-cornea oedema, a cluster",
+    "why": "Toxic injury is immediate, spread across the whole cornea because the insult was inside the chamber, and shared by whoever shared the exposure. Fibrin, pressure and acuity occur in both.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Fibrin in the chamber",
+      "tempting": "A fibrinous chamber is the sign that dominates the examination.",
+      "ruled": "Both diagnoses produce fibrin, so it never decides the question."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "Pressure, acuity",
+      "tempting": "Both are abnormal and both look like markers of severity.",
+      "ruled": "Severity is shared. Timing and distribution are not."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "How should this eye be managed today?",
+    "options": [
+     {
+      "t": "Intensive topical steroid with pressure control",
+      "correct": true
+     },
+     {
+      "t": "Tap and intravitreal antibiotics within the hour"
+     },
+     {
+      "t": "Urgent vitrectomy with intravitreal cover"
+     },
+     {
+      "t": "Topical antibiotic hourly, review in 48 hours"
+     },
+     {
+      "t": "Oral acetazolamide alone, review in a week"
+     }
+    ],
+    "short": "Intensive steroid, pressure control, same-day review",
+    "why": "The injury is a sterile chemical one, so treatment is anti-inflammatory with pressure control and a recheck the same day. If vitreous cells appear or pain begins, treat the eye as infected.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Tap and inject",
+      "tempting": "Missing endophthalmitis is the costlier error, so cover it.",
+      "ruled": "Day 1 onset, clear vitreous, no pain, and three eyes on one list."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Antibiotic, 48 hours",
+      "tempting": "It hedges towards infection and avoids an injection.",
+      "ruled": "It treats nothing here and leaves the eye unseen for 2 days."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which action addresses the cause for the rest of the list?",
+    "options": [
+     {
+      "t": "Sequester the instruments and fluids, audit reprocessing",
+      "correct": true
+     },
+     {
+      "t": "Change the antibiotic prophylaxis for future lists"
+     },
+     {
+      "t": "Switch to a different intraocular lens model"
+     },
+     {
+      "t": "Send the remaining viscoelastic for sterility testing only"
+     },
+     {
+      "t": "Continue the list with extra topical antibiotic"
+     }
+    ],
+    "short": "Quarantine instruments and fluids, audit reprocessing",
+    "why": "A cluster points at the process rather than the patient, so shared instruments, solutions and reprocessing steps are held and examined. Nothing else stops the next eye being injured.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Change prophylaxis",
+      "tempting": "Adjusting antibiotics feels like the standard response to a cluster.",
+      "ruled": "The insult is toxic, not infective. Prophylaxis changes nothing."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Test viscoelastic only",
+      "tempting": "Viscoelastic is a real culprit, so testing it looks targeted.",
+      "ruled": "Testing one item leaves detergent, autoclave and solution errors in use."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which exposure most commonly causes this syndrome?",
+    "options": [
+     {
+      "t": "Residue left on reprocessed surgical instruments",
+      "correct": true
+     },
+     {
+      "t": "Preservative-free lidocaine given into the chamber"
+     },
+     {
+      "t": "Povidone-iodine 5% applied to the lid skin"
+     },
+     {
+      "t": "A hydrophobic acrylic lens in the capsular bag"
+     },
+     {
+      "t": "Topical NSAID started on the first day"
+     }
+    ],
+    "short": "Residue on reprocessed instruments",
+    "why": "Poor cleaning of phaco tips and cannulas leaves detergent, denatured viscoelastic and endotoxin to enter the chamber. Preserved intracameral drugs and solutions of wrong pH do the same.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Preservative-free lidocaine",
+      "tempting": "Intracameral drug is an established cause of this syndrome.",
+      "ruled": "It is preserved drug that injures. Unpreserved lidocaine is standard."
+     },
+     {
+      "refs": [
+       2,
+       3
+      ],
+      "label": "Iodine, lens",
+      "tempting": "Both touch the eye, and iodine is toxic to endothelium at strength.",
+      "ruled": "Antisepsis at 5% on skin and an acrylic lens give no diffuse oedema."
+     }
+    ]
+   }
+  ],
+  "rules": "If the anterior segment inflames within 24 hours with limbus-to-limbus oedema and a clear vitreous, treat as toxic and examine the list. If the vitreous is involved, treat as infection."
+ }
+]

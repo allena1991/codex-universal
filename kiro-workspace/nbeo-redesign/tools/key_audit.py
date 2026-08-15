@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
-"""Answer-key audit for the 2026 NBEO Part II PAM/TMOD guide (350 items).
+"""The PREVIOUS edition's answer key, kept as the record of the defect.
 
 Keys transcribed from Part 8 (Session 1 rationales) and Part 10 (Session 2
 rationales) of the source PDF, one row per case, five items per case.
 Multiple-response items are reported separately: they cannot carry positional
 bias the way single-answer items do.
+
+This file is history. The rebuilt key is generated, not transcribed, so it is
+audited from the content itself:
+
+    python3 tools/build.py --audit
+
+Run this one only to reproduce the numbers quoted on the key-integrity page.
 """
 
 from collections import Counter
@@ -138,8 +145,9 @@ def main():
           "with no stem read." % (a, n, 100.0 * a / n))
     print("  Session 2 alone: %d/%d = %.0f%%."
           % (c2.get("A", 0), n2, 100.0 * c2.get("A", 0) / n2))
-    print("  Rebuild target: 18-22%% per letter, no run longer than 3, "
+    print("  Rebuild target: 18-22% per letter, no run longer than 3, "
           "every letter used in every session.")
+    print("  Achieved: run python3 tools/build.py --audit")
 
 
 if __name__ == "__main__":

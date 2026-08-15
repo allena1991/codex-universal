@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "S2-21", "session": 2, "n": 21,
+  "domain": "Lens, cataract, IOL, perioperative",
+  "title": "The eye that bleeds a little every few months",
+  "stem": "A 68-year-old man had phacoemulsification OD 14 months ago, complicated by a capsule tear, and a single-piece acrylic implant was placed in the sulcus. Four episodes since of ache and red haze OD. He takes aspirin 75 mg daily after a coronary stent. BVA 20/40 OD. A 1 mm layered hyphaema, 2+ cells, pigment on the endothelium, a superonasal iris transillumination defect, an open angle heavy with pigment. IOP 32 OD, 15 OS.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Chronic pseudophakic endophthalmitis from Cutibacterium acnes"},
+     {"t": "Uveitis-glaucoma-hyphaema syndrome from a sulcus implant", "correct": true},
+     {"t": "Herpetic anterior uveitis with trabeculitis and atrophy"},
+     {"t": "Pigmentary glaucoma with spontaneous microhyphaema"},
+     {"t": "Neovascular glaucoma with rubeosis and recurrent bleeding"}
+    ],
+    "short": "UGH syndrome from a sulcus implant",
+    "why": "A single-piece haptic in the sulcus chafes the back of the iris: a transillumination defect, dispersed pigment, recurrent bleeding, cells and 32 mmHg in that eye alone, with a normal fellow eye.",
+    "dis": [
+     {"refs": [0], "label": "Cutibacterium endophthalmitis", "tempting": "It is also a late, low-grade, relapsing uveitis in a pseudophakic eye.", "ruled": "No capsular plaque, and blood with an iris defect is mechanical."},
+     {"refs": [3], "label": "Pigmentary glaucoma", "tempting": "Heavy angle pigment and iris transillumination are its signature.", "ruled": "That is bilateral, in young myopes, and it does not bleed."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three steps belong in the initial management of this eye?",
+    "options": [
+     {"t": "Ultrasound biomicroscopy to locate the haptics", "correct": true},
+     {"t": "Topical steroid with an aqueous suppressant", "correct": true},
+     {"t": "Referral for repositioning or exchange of the implant", "correct": true},
+     {"t": "A prostaglandin analogue as first-line pressure control"},
+     {"t": "Laser trabeculoplasty to the pigmented angle"},
+     {"t": "Intravitreal anti-VEGF for the recurrent bleeding"}
+    ],
+    "short": "Image the haptics, settle the eye, refer",
+    "why": "The eye is settled medically while the cause is confirmed and the implant dealt with. Chafing is mechanical, so no drop cures it, and laser and anti-VEGF treat mechanisms not at work here.",
+    "dis": [
+     {"refs": [3], "label": "Prostaglandin first line", "tempting": "It is the strongest single agent for a pressure of 32 mmHg.", "ruled": "It is avoided while the chamber is inflamed and bleeding."},
+     {"refs": [4, 5], "label": "Trabeculoplasty, anti-VEGF", "tempting": "One targets the pigmented angle, the other the bleeding vessels.", "ruled": "The angle is loaded by chafe, and there are no new vessels."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "The pressure is 32 mmHg with a 1 mm hyphaema. Which pressure treatment fits today?",
+    "options": [
+     {"t": "Topical timolol with dorzolamide, review in 48 hours", "correct": true},
+     {"t": "Topical latanoprost at night, review in one week"},
+     {"t": "Oral acetazolamide 250 mg four times daily for a week"},
+     {"t": "Selective laser trabeculoplasty at this visit"},
+     {"t": "Topical pilocarpine 2% with the steroid four times daily"}
+    ],
+    "short": "Aqueous suppression with a beta-blocker and a CAI",
+    "why": "Aqueous suppression lowers pressure without stirring the eye, and 48 hours is short enough to catch a further rise. Prostaglandins and miotics worsen inflammation, and laser adds pigment load.",
+    "dis": [
+     {"refs": [1], "label": "Latanoprost at night", "tempting": "It is the usual first choice and the most effective single drop.", "ruled": "It aggravates active uveitis, which is what is driving this eye."},
+     {"refs": [4], "label": "Pilocarpine with steroid", "tempting": "Miosis pulls the iris off the haptic and outflow improves.", "ruled": "Miotics increase inflammation and drag iris across the optic."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism best explains the raised pressure in this eye?",
+    "options": [
+     {"t": "Pigment and red cells loading the trabecular meshwork", "correct": true},
+     {"t": "Peripheral anterior synechiae closing the angle"},
+     {"t": "Ciliary block with forward rotation of the ciliary body"},
+     {"t": "A neovascular membrane contracting across the angle"},
+     {"t": "Steroid response raising trabecular outflow resistance"}
+    ],
+    "short": "Pigment and blood clog the meshwork",
+    "why": "Gonioscopy shows an open angle heavy with pigment, and the chamber holds red cells. Both load the meshwork, which is why pressure rises with each bleed and falls between them.",
+    "dis": [
+     {"refs": [1], "label": "Angle closure by synechiae", "tempting": "Chronic uveitis does scar the angle shut and raise pressure.", "ruled": "Gonioscopy shows the angle open along its whole circumference."},
+     {"refs": [4], "label": "Steroid response", "tempting": "He is likely to be given steroid, and steroid does raise pressure.", "ruled": "The pressure was already 32 mmHg before any steroid was given."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "He asks about his aspirin. Which plan is most appropriate?",
+    "options": [
+     {"t": "Continue the aspirin and treat the chafing implant", "correct": true},
+     {"t": "Stop the aspirin until the hyphaema has cleared"},
+     {"t": "Stop the aspirin and start tranexamic acid instead"},
+     {"t": "Continue the aspirin and observe for six months"},
+     {"t": "Ask cardiology for a shorter-acting substitute"}
+    ],
+    "short": "Keep the aspirin, deal with the implant",
+    "why": "The bleeding is mechanical, from a haptic rubbing iris vessels, so withdrawing antiplatelet cover risks stent thrombosis without stopping the bleed. The implant is the treatable part.",
+    "dis": [
+     {"refs": [1], "label": "Stop the aspirin", "tempting": "Antiplatelet drugs do prolong bleeding, and this eye keeps bleeding.", "ruled": "A coronary stent makes that a cardiac risk for no ocular gain."},
+     {"refs": [3], "label": "Aspirin, then observe", "tempting": "Bleeds have settled by themselves four times already.", "ruled": "Pressure is 32 with each episode. Waiting costs optic nerve."}
+    ]
+   }
+  ],
+  "rules": "If a pseudophakic eye bleeds again with pigment dispersion and an iris transillumination defect, image the haptics. If pressure and bleeding recur, move the implant."
+ },
+
+ {
+  "id": "S2-22", "session": 2, "n": 22,
+  "domain": "Lens, cataract, IOL, perioperative",
+  "title": "A wobble in the vision nine years after surgery",
+  "stem": "A 79-year-old man had phacoemulsification OS nine years ago and read 20/20 afterwards. Six months of blur that changes with head position, with a monocular double image. BVA 20/70 OS, and 20/25 with +2.25 D added to his old prescription. Pseudoexfoliative material on both pupil margins. OS: the implant and a contracted capsule sit low and tilted, the optic edge crossing the pupil, moving on eye movement. IOP 22 OS, 19 OD.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely cause of the change in vision?",
+    "options": [
+     {"t": "Posterior capsule opacification behind a centred implant"},
+     {"t": "Late in-the-bag dislocation of the implant and capsule", "correct": true},
+     {"t": "Out-of-the-bag dislocation with a broken haptic"},
+     {"t": "Capsular phimosis without loss of zonular support"},
+     {"t": "Pseudophakic macular oedema causing fluctuation"}
+    ],
+    "short": "Late in-the-bag dislocation",
+    "why": "Implant and contracted capsule move together, sit low and tilted, and the eye has gained +2.25 D, so the whole complex has fallen back on a failing zonule. Pseudoexfoliation explains why.",
+    "dis": [
+     {"refs": [0], "label": "Capsule opacification", "tempting": "It is the usual reason vision fades years after cataract surgery.", "ruled": "A membrane does not tilt the optic, wobble, or shift refraction."},
+     {"refs": [2], "label": "Out-of-the-bag dislocation", "tempting": "Both leave a displaced implant in an eye operated years ago.", "ruled": "The capsule has come with it, so the haptics are still in the bag."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings show that the zonule, not the capsule alone, has failed?",
+    "options": [
+     {"t": "Phacodonesis of implant and capsule together", "correct": true},
+     {"t": "The complex sitting low and tilted in the pupil", "correct": true},
+     {"t": "A hyperopic shift of +2.25 D since surgery", "correct": true},
+     {"t": "Pseudoexfoliative material on both pupil margins"},
+     {"t": "An intraocular pressure of 22 mmHg OS"},
+     {"t": "Nine years since an uncomplicated operation"}
+    ],
+    "short": "Wobble, tilt and a hyperopic shift",
+    "why": "Movement of implant and capsule as one unit, a tilted low position and a change in refraction all measure lost support. A capsule that has only contracted stays where the zonule holds it.",
+    "dis": [
+     {"refs": [3], "label": "Pseudoexfoliation", "tempting": "It is the reason the zonule failed, so it reads as the evidence.", "ruled": "It predicts failure. It does not show that anything has moved."},
+     {"refs": [4, 5], "label": "IOP 22, nine years", "tempting": "One is abnormal, the other the interval that invites suspicion.", "ruled": "Pressure reflects the meshwork, and time alone measures nothing."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {"t": "New spectacles with the +2.25 D change, review in six months"},
+     {"t": "Referral for planned surgical refixation of the complex", "correct": true},
+     {"t": "Emergency same-day vitrectomy and implant removal"},
+     {"t": "Nd:YAG laser to open the contracted anterior capsule"},
+     {"t": "Observation three-monthly while acuity stays at 20/70"}
+    ],
+    "short": "Planned surgical refixation",
+    "why": "The complex is mobile and the optic edge crosses the pupil, so acuity will not hold and full dislocation is likely. It is a planned list operation, not an emergency and not a laser.",
+    "dis": [
+     {"refs": [2], "label": "Emergency vitrectomy", "tempting": "A mobile implant in a nine-year-old eye feels like an emergency.", "ruled": "It is still in place with a flat retina. The list can be planned."},
+     {"refs": [3], "label": "YAG to the phimosis", "tempting": "The capsule has contracted, and laser does open a tight rim.", "ruled": "Cutting a supporting rim on a loose complex hastens the drop."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which change would make this a same-day referral?",
+    "options": [
+     {"t": "Free dislocation into the vitreous, pressure 42 mmHg", "correct": true},
+     {"t": "Acuity falling a further two lines over three months"},
+     {"t": "Pressure rising to 26 mmHg on no treatment"},
+     {"t": "The double image becoming constant in all positions"},
+     {"t": "The optic edge crossing the visual axis at rest"}
+    ],
+    "short": "Free dislocation with a pressure of 42",
+    "why": "An implant loose in the vitreous with a pressure of 42 threatens optic nerve and retina today. The other changes are reasons to bring the planned operation forward, not to admit him.",
+    "dis": [
+     {"refs": [1], "label": "Two lines over months", "tempting": "Falling acuity is what the operation is for in the first place.", "ruled": "A slow drop moves him up the list. It is not an emergency."},
+     {"refs": [4], "label": "Edge across the axis", "tempting": "It explains the double image and the poor acuity he reports.", "ruled": "It is the same disease at the same speed, with the eye intact."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism best explains the late loss of support here?",
+    "options": [
+     {"t": "Pseudoexfoliative fibrillopathy weakening the zonule", "correct": true},
+     {"t": "Residual lens epithelium contracting the capsule"},
+     {"t": "Vitreous traction pulling on the implant haptics"},
+     {"t": "Enzymatic digestion of the zonule by chronic uveitis"},
+     {"t": "A capsule tear made during the original operation"}
+    ],
+    "short": "Pseudoexfoliative zonular weakness",
+    "why": "Pseudoexfoliative material on both pupil margins marks a fibrillopathy that degrades the zonule over years, and it is the commonest reason a bagged implant descends late.",
+    "dis": [
+     {"refs": [1], "label": "Capsule contraction", "tempting": "The capsule here has plainly contracted around the optic.", "ruled": "Contraction pulls the rim in. It does not detach the zonule."},
+     {"refs": [4], "label": "Old capsule tear", "tempting": "A tear at surgery is the classic route to a displaced implant.", "ruled": "That implant falls early, and his operation was uneventful."}
+    ]
+   }
+  ],
+  "rules": "If pseudophakic vision changes with head position, look for movement of the whole complex rather than a membrane. If it is mobile but still in place, plan surgery rather than admit."
+ },
+
+ {
+  "id": "S2-23", "session": 2, "n": 23,
+  "domain": "Retina, choroid, vitreous",
+  "title": "A haze in the vision beside an old scar",
+  "stem": "A 28-year-old woman has 10 days of floaters and blur OD, without pain. Two years ago co-trimoxazole gave her a rash and fever. BVA 20/60 OD, 20/20 OS. OD: 2+ vitreous cells, a fluffy white retinal focus 1.5 disc diameters superotemporal to the fovea, its edge touching a pigmented atrophic scar, with haze in the vitreous above it. Fine keratic precipitates, 1+ cells, IOP 14. OS normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Acute retinal necrosis from varicella zoster virus"},
+     {"t": "Toxoplasma retinochoroiditis at the edge of a scar", "correct": true},
+     {"t": "Cytomegalovirus retinitis in occult immunosuppression"},
+     {"t": "Tuberculous focal choroiditis with vitreous spillover"},
+     {"t": "Toxocara granuloma with dense localised vitritis"}
+    ],
+    "short": "Toxoplasma reactivation at a scar",
+    "why": "A fluffy white focus of retinitis touching an old pigmented scar, with vitritis over it and a mild anterior reaction in a healthy young woman, is reactivation at the border of an old lesion.",
+    "dis": [
+     {"refs": [0], "label": "Acute retinal necrosis", "tempting": "Both give white retinitis with heavy vitritis and an aching eye.", "ruled": "That spreads circumferentially in days and occludes arterioles."},
+     {"refs": [2], "label": "CMV retinitis", "tempting": "It also produces a white retinal lesion with haemorrhage in it.", "ruled": "It needs deep immunosuppression and provokes little vitritis."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in the initial plan?",
+    "options": [
+     {"t": "Systemic antiparasitic treatment started this week", "correct": true},
+     {"t": "Oral steroid added 48 hours after the antiparasitic", "correct": true},
+     {"t": "Toxoplasma IgG and IgM to support the diagnosis", "correct": true},
+     {"t": "Oral steroid first, antiparasitic if it fails"},
+     {"t": "Intravitreal foscarnet while serology is awaited"},
+     {"t": "Topical steroid alone for the anterior reaction"}
+    ],
+    "short": "Antiparasitic, then steroid, with serology",
+    "why": "A lesion 1.5 disc diameters from the fovea with vitritis is treated systemically. Steroid follows the antiparasitic by about two days, because steroid alone lets the organism multiply.",
+    "dis": [
+     {"refs": [3], "label": "Steroid first", "tempting": "Vision is being lost to inflammation, which steroid settles fast.", "ruled": "Unopposed steroid enlarges the lesion. Cover the organism first."},
+     {"refs": [4, 5], "label": "Foscarnet, topical only", "tempting": "One covers a virus, the other treats the reaction you can see.", "ruled": "The organism is not viral, and drops do not reach the retina."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "Which regimen fits her drug history best?",
+    "options": [
+     {"t": "Pyrimethamine, clindamycin and folinic acid", "correct": true},
+     {"t": "Pyrimethamine, sulfadiazine and folinic acid"},
+     {"t": "Oral co-trimoxazole twice daily for six weeks"},
+     {"t": "Oral aciclovir 800 mg five times daily"},
+     {"t": "Oral prednisolone 40 mg daily on its own"}
+    ],
+    "short": "Pyrimethamine with clindamycin and folinic acid",
+    "why": "She reacted to co-trimoxazole with rash and fever, so sulfonamides are out. Clindamycin substitutes for sulfadiazine, and folinic acid protects the marrow from pyrimethamine.",
+    "dis": [
+     {"refs": [1], "label": "Sulfadiazine regimen", "tempting": "It is the standard combination and the one most often quoted.", "ruled": "Sulfadiazine is a sulfonamide, and she reacted to one already."},
+     {"refs": [2], "label": "Co-trimoxazole", "tempting": "It is a convenient oral alternative with real evidence behind it.", "ruled": "It contains the sulfonamide that gave her rash and fever."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Why does the new focus sit at the edge of the old scar?",
+    "options": [
+     {"t": "Cysts at the scar margin rupture and release parasites", "correct": true},
+     {"t": "Immune complexes settle in previously damaged retina"},
+     {"t": "New vessels grow from the scar and leak into retina"},
+     {"t": "Fresh infection is seeded there by the choroidal flow"},
+     {"t": "Glial tissue obstructs flow in the border arterioles"}
+    ],
+    "short": "Cysts at the scar margin rupture",
+    "why": "Bradyzoites persist in cysts in and around the healed lesion. When a cyst ruptures, parasites invade the adjacent retina, which is why recurrence is satellite to the scar.",
+    "dis": [
+     {"refs": [1], "label": "Immune complexes", "tempting": "Recurrence looks immunological, and steroid does help the eye.", "ruled": "The lesion is an infection with live parasites, not a deposit."},
+     {"refs": [3], "label": "Fresh infection", "tempting": "New exposure from cat litter or raw meat feels like the trigger.", "ruled": "Reactivation is endogenous, from cysts already in that retina."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "At four weeks, which finding most justifies continuing treatment?",
+    "options": [
+     {"t": "A fluffy lesion border with vitreous haze", "correct": true},
+     {"t": "A pigmented border with a clearing vitreous"},
+     {"t": "Acuity 20/30 with a residual central floater"},
+     {"t": "A high IgG titre on the repeat sample"},
+     {"t": "A few fine keratic precipitates remaining"}
+    ],
+    "short": "A fluffy border with active vitritis",
+    "why": "Activity is judged at the lesion border and in the vitreous. A soft edge with haze means live parasites, whereas pigmentation and a clearing vitreous are the signs treatment can stop.",
+    "dis": [
+     {"refs": [1], "label": "Pigmented border", "tempting": "Any remaining abnormality feels like a reason to keep treating.", "ruled": "Pigment at the edge is the healed state, and the endpoint."},
+     {"refs": [3], "label": "High IgG titre", "tempting": "A high titre reads like a measure of how active the disease is.", "ruled": "IgG marks past exposure and stays raised for life."}
+    ]
+   }
+  ],
+  "rules": "If a focal white retinitis touches a pigmented scar with vitritis over it, treat toxoplasma reactivation. If steroid is used, it follows the antiparasitic and never leads it."
+ },
+
+ {
+  "id": "S2-24", "session": 2, "n": 24,
+  "domain": "Cornea and refractive surgery",
+  "title": "A crescent of cornea melting at the edge",
+  "stem": "A 61-year-old woman with 12 years of seropositive rheumatoid arthritis, on methotrexate 20 mg weekly, has eight days of pain and watering OD. Her joints have been swollen for two months. ESR 68, CRP 42. BVA 20/50 OD. A crescentic peripheral stromal ulcer from 2 to 5 o'clock, 1.2 mm wide and 60% deep, with an epithelial defect, an infiltrated leading edge and limbal injection. No scleral oedema, no hypopyon.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Peripheral ulcerative keratitis from rheumatoid vasculitis", "correct": true},
+     {"t": "Mooren ulcer in an otherwise healthy cornea"},
+     {"t": "Terrien marginal degeneration with peripheral thinning"},
+     {"t": "Staphylococcal marginal hypersensitivity keratitis"},
+     {"t": "Infectious peripheral keratitis from Staphylococcus aureus"}
+    ],
+    "short": "Rheumatoid peripheral ulcerative keratitis",
+    "why": "A crescentic peripheral ulcer with an epithelial defect and an infiltrated advancing edge, in seropositive disease with swollen joints and an ESR of 68, is corneal vasculitis.",
+    "dis": [
+     {"refs": [1], "label": "Mooren ulcer", "tempting": "It looks identical at the slit lamp and melts the periphery too.", "ruled": "Mooren is idiopathic, diagnosed once vasculitis is excluded."},
+     {"refs": [2], "label": "Terrien degeneration", "tempting": "It thins the periphery and is easy to reach for in an older eye.", "ruled": "Terrien is painless, epithelialised, and slow over years."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate systemic treatment?",
+    "options": [
+     {"t": "High-dose oral steroid with escalation of immunosuppression", "correct": true},
+     {"t": "Methotrexate increased to 25 mg weekly, review in a month"},
+     {"t": "Hourly topical prednisolone with a bandage lens"},
+     {"t": "Oral doxycycline with preservative-free lubricants"},
+     {"t": "A full-dose oral NSAID with gastric protection"}
+    ],
+    "short": "Oral steroid plus stronger immunosuppression",
+    "why": "Corneal melt in rheumatoid disease is active systemic vasculitis and it destroys tissue in days. Steroid buys control while a stronger agent is started with the rheumatologists.",
+    "dis": [
+     {"refs": [1], "label": "More methotrexate", "tempting": "She is on it already, so dose escalation looks like the next step.", "ruled": "It takes weeks to act, and it has failed her at 20 mg weekly."},
+     {"refs": [2], "label": "Topical steroid only", "tempting": "Steroid is the anti-inflammatory reflex for a melting cornea.", "ruled": "Topical steroid thins the stroma further and misses the cause."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three local measures belong alongside systemic treatment?",
+    "options": [
+     {"t": "Preservative-free lubricants through the day", "correct": true},
+     {"t": "Oral doxycycline as an anticollagenase", "correct": true},
+     {"t": "Topical antibiotic cover over the epithelial defect", "correct": true},
+     {"t": "Hourly topical prednisolone to the ulcer bed"},
+     {"t": "A topical NSAID four times daily for the pain"},
+     {"t": "A bandage lens worn continuously for a month"}
+    ],
+    "short": "Lubricants, doxycycline, antibiotic cover",
+    "why": "The local aims are surface protection, less proteolysis and no secondary infection over a bare bed. Steroid drops and NSAID drops both thin a gutter that is already 60% deep.",
+    "dis": [
+     {"refs": [3], "label": "Hourly prednisolone", "tempting": "It settles the visible inflammation at the leading edge.", "ruled": "It suppresses stromal repair, and the ulcer deepens instead."},
+     {"refs": [4, 5], "label": "NSAID drops, bandage lens", "tempting": "One eases severe pain, the other covers a bare stromal bed.", "ruled": "NSAIDs are linked with melt, and a lens hides progression."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "At day 10 a 0.8 mm perforation appears in the gutter. What now?",
+    "options": [
+     {"t": "Tissue adhesive or a patch graft, immunosuppression continued", "correct": true},
+     {"t": "A large penetrating keratoplasty as the first procedure"},
+     {"t": "A bandage lens with hourly topical steroid alone"},
+     {"t": "Aqueous suppression with a pressure patch for a week"},
+     {"t": "Surgery deferred until the joint disease is quiet"}
+    ],
+    "short": "Seal it, keep the immunosuppression running",
+    "why": "A small perforation is sealed with the least tissue that will hold, because a large graft in vasculitic cornea melts at its own edge. Systemic control continues through the repair.",
+    "dis": [
+     {"refs": [1], "label": "Large keratoplasty", "tempting": "A definitive graft seems to solve cornea and perforation at once.", "ruled": "The host bed is inflamed, so the new rim melts in the same way."},
+     {"refs": [4], "label": "Defer surgery", "tempting": "Operating on active vasculitis is genuinely a poor bet.", "ruled": "The eye is open now. A leaking cornea cannot wait for joints."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism explains the benefit of doxycycline here?",
+    "options": [
+     {"t": "It inhibits matrix metalloproteinases in the stroma", "correct": true},
+     {"t": "It suppresses the B cells making rheumatoid factor"},
+     {"t": "It blocks prostaglandin synthesis in the epithelium"},
+     {"t": "It clears commensal bacteria from the lid margin"},
+     {"t": "It thickens the lipid layer of the tear film"}
+    ],
+    "short": "Metalloproteinase inhibition",
+    "why": "Tetracyclines inhibit the matrix metalloproteinases released by neutrophils and keratocytes, which is the enzymatic step digesting collagen at the base of the gutter.",
+    "dis": [
+     {"refs": [3], "label": "Lid margin bacteria", "tempting": "Doxycycline is prescribed for blepharitis for exactly that.", "ruled": "This is a sterile vasculitic melt, not a lid-driven ulcer."},
+     {"refs": [1], "label": "B cell suppression", "tempting": "Rheumatoid factor is central, and B cell therapy does help.", "ruled": "That is rituximab. Doxycycline does not touch B cells."}
+    ]
+   }
+  ],
+  "rules": "If rheumatoid disease brings a peripheral gutter with an epithelial defect, treat it as systemic vasculitis and escalate systemic therapy. If it perforates, seal it and keep treating."
+ },
+
+ {
+  "id": "S2-25", "session": 2, "n": 25,
+  "domain": "Retina, choroid, vitreous",
+  "title": "The upper field that went and did not come back",
+  "stem": "A 44-year-old man has had type 1 diabetes for 27 years, HbA1c 96 mmol/mol, blood pressure 168/98, and has not attended for laser in three years. He drives a taxi. BVA 20/200 OD, 20/40 OS. OD: fibrovascular fronds at the disc and along the superior arcade, a taut hyaline membrane, a shallow concave detachment tented over the temporal macula with striae, no break seen, inferior vitreous blood.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Tractional retinal detachment involving the macula", "correct": true},
+     {"t": "Rhegmatogenous detachment from a superior break"},
+     {"t": "Combined tractional and rhegmatogenous detachment"},
+     {"t": "Diabetic macular oedema with severe thickening"},
+     {"t": "Vitreous haemorrhage over a taut hyaline membrane"}
+    ],
+    "short": "Tractional detachment, macula involved",
+    "why": "A shallow concave elevation tented to fibrovascular fronds, with striae across the macula and no break, is traction. Twenty-seven years of poor control and absent laser explain the fronds.",
+    "dis": [
+     {"refs": [2], "label": "Combined detachment", "tempting": "Long traction does tear retina, and that would change surgery.", "ruled": "No break is seen, and the surface stays concave, not convex."},
+     {"refs": [1], "label": "Rhegmatogenous detachment", "tempting": "Blood and floaters with a field defect is the classic route in.", "ruled": "A break-driven detachment is convex, mobile, and reaches the ora."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which single feature separates this from a rhegmatogenous detachment?",
+    "options": [
+     {"t": "A concave surface tented to fibrovascular fronds", "correct": true},
+     {"t": "Vitreous haemorrhage filling the inferior vitreous gel"},
+     {"t": "Acuity of 20/200 in that eye at presentation"},
+     {"t": "Retinal striae running across the macula"},
+     {"t": "No afferent pupillary defect in that eye"}
+    ],
+    "short": "A concave surface pulled to fronds",
+    "why": "Traction pulls retina towards the vitreous, so the surface is concave and tethered where the fronds insert. Blood, poor acuity, striae and normal pupils occur in either kind.",
+    "dis": [
+     {"refs": [1], "label": "Vitreous haemorrhage", "tempting": "Blood accompanies both a retinal tear and a bleeding frond.", "ruled": "It says the vitreous is full of blood, not why retina is off."},
+     {"refs": [3, 4], "label": "Striae, normal pupils", "tempting": "Both are findings in front of you and both feel diagnostic.", "ruled": "Striae follow any macular distortion, and pupils are often normal."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management?",
+    "options": [
+     {"t": "Vitrectomy with delamination of membranes and endolaser", "correct": true},
+     {"t": "Completion of panretinal photocoagulation, review in three months"},
+     {"t": "Intravitreal anti-VEGF alone, review in four weeks"},
+     {"t": "Glucose and blood pressure optimised before referral"},
+     {"t": "Observation while the inferior vitreous blood clears"}
+    ],
+    "short": "Vitrectomy with delamination and endolaser",
+    "why": "The macula is detached by traction, and only surgery relieves it. Laser, injection and metabolic control all matter, but none of them lifts a taut membrane off the fovea.",
+    "dis": [
+     {"refs": [1], "label": "Finish the laser", "tempting": "Laser is overdue and does treat the ischaemia driving all this.", "ruled": "Laser cannot relieve traction, and three months loses the macula."},
+     {"refs": [3], "label": "Optimise glucose first", "tempting": "An HbA1c of 96 and 168/98 are genuinely part of his problem.", "ruled": "They change his ten-year risk, not the fovea detached today."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the main risk of anti-VEGF injection alone in this eye?",
+    "options": [
+     {"t": "Fibrovascular contraction that worsens the traction", "correct": true},
+     {"t": "Rapid progression of the inferior vitreous haemorrhage"},
+     {"t": "Endophthalmitis from the injection itself"},
+     {"t": "A sustained rise in intraocular pressure"},
+     {"t": "Worsening of his systemic hypertension"}
+    ],
+    "short": "Fibrous contraction, more traction",
+    "why": "Blocking VEGF makes fronds involute and fibrose, and fibrous tissue shortens. On a macula already tented, that tightens the pull. It is given days before surgery, not instead of it.",
+    "dis": [
+     {"refs": [2], "label": "Endophthalmitis", "tempting": "It is the risk quoted at every injection consent.", "ruled": "It is rare, and unrelated to the traction question asked here."},
+     {"refs": [1], "label": "More haemorrhage", "tempting": "The eye already has blood, and injections do enter the vitreous.", "ruled": "Anti-VEGF reduces bleeding from fronds rather than provoking it."}
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "He drives a taxi. Which two duties follow from today's findings?",
+    "options": [
+     {"t": "Telling him the duty to notify the authority is his", "correct": true},
+     {"t": "Recording the acuities and the advice given", "correct": true},
+     {"t": "Notifying the licensing authority yourself this week"},
+     {"t": "Telling him he may drive until his operation"},
+     {"t": "Asking his employer to confirm his fitness"}
+    ],
+    "short": "Tell him he must notify, and record it",
+    "why": "Vocational standards are stricter, and this eye has lost acuity and field, so fitness is decided by the licensing authority. The duty to declare is his, and the advice is documented.",
+    "dis": [
+     {"refs": [2], "label": "Notify them yourself", "tempting": "A taxi carries passengers, so acting directly feels protective.", "ruled": "The duty is his. You disclose only if he drives on despite advice."},
+     {"refs": [4], "label": "Tell his employer", "tempting": "The employer controls whether he works, so it seems practical.", "ruled": "It breaches confidence, and the employer has no assessing role."}
+    ],
+    "format": "multi"
+   }
+  ],
+  "rules": "If a detachment is concave and tented to fibrovascular tissue with no break, it is traction and it needs vitrectomy. Incomplete laser does not change that order."
+ },
+
+ {
+  "id": "S2-26", "session": 2, "n": 26,
+  "domain": "Retina, choroid, vitreous",
+  "title": "An aching eye that lost its field in five days",
+  "stem": "A 57-year-old man on no medication has five days of floaters, ache and falling vision OS. He had shingles of the trunk two years ago. BVA 20/200 OS, 20/20 OD. OS: 3+ vitreous cells, keratic precipitates, IOP 30. Confluent creamy peripheral necrosis nasally and temporally, with scalloped borders spreading circumferentially, sheathed occluded arterioles, an oedematous disc, macula spared. OD normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Cytomegalovirus retinitis with a mild vitreous reaction"},
+     {"t": "Acute retinal necrosis from varicella zoster virus", "correct": true},
+     {"t": "Toxoplasma retinochoroiditis with dense vitritis"},
+     {"t": "Behcet occlusive retinal vasculitis with infiltrate"},
+     {"t": "Progressive outer retinal necrosis without vitritis"}
+    ],
+    "short": "Acute retinal necrosis, zoster",
+    "why": "Confluent peripheral necrosis with scalloped borders spreading circumferentially, dense vitritis and occluded arterioles over five days, in a well man with previous shingles, is zoster.",
+    "dis": [
+     {"refs": [0], "label": "CMV retinitis", "tempting": "Both give white retina with vessel change in an older adult.", "ruled": "It needs immunosuppression, spreads slowly, and barely inflames."},
+     {"refs": [2], "label": "Toxoplasma retinitis", "tempting": "Heavy vitritis over a white focus is exactly its picture.", "ruled": "Its lesion is single, satellite to a scar, and not arteritic."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three steps belong in the first 24 hours?",
+    "options": [
+     {"t": "Intravenous aciclovir at induction dose", "correct": true},
+     {"t": "Aqueous or vitreous sample for viral PCR", "correct": true},
+     {"t": "Examination of the fellow eye with a warning", "correct": true},
+     {"t": "Oral steroid started before the antiviral"},
+     {"t": "Barrier laser at the necrotic border today"},
+     {"t": "Intravitreal ganciclovir instead of systemic cover"}
+    ],
+    "short": "IV antiviral, PCR sample, check the other eye",
+    "why": "Necrosis advances hour by hour, so systemic antiviral starts today, and the tap is taken as it begins. The fellow eye is at real risk and has to be examined and the risk explained.",
+    "dis": [
+     {"refs": [3], "label": "Steroid first", "tempting": "The eye is full of cells, and steroid settles that quickly.", "ruled": "Steroid ahead of antiviral cover lets the necrosis spread faster."},
+     {"refs": [4, 5], "label": "Laser now, intravitreal only", "tempting": "One walls off detachment, the other hits the virus hard.", "ruled": "Laser waits for a quieter eye, and this virus needs systemic cover."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "How should the pressure of 30 mmHg and the anterior cells be treated?",
+    "options": [
+     {"t": "Topical steroid with an aqueous suppressant", "correct": true},
+     {"t": "Oral steroid 48 hours before the antiviral starts"},
+     {"t": "A prostaglandin analogue as first-line control"},
+     {"t": "Observation until the antiviral takes effect"},
+     {"t": "Oral acetazolamide 250 mg four times daily alone"}
+    ],
+    "short": "Topical steroid with aqueous suppression",
+    "why": "Once antiviral cover is running, topical steroid is safe and treats the trabeculitis raising the pressure, with an aqueous suppressant while it settles. Prostaglandins worsen uveitis.",
+    "dis": [
+     {"refs": [1], "label": "Steroid before antiviral", "tempting": "Steroid does control the inflammation that is blurring vision.", "ruled": "In a necrotising retina it must follow cover, never precede it."},
+     {"refs": [3], "label": "Observe the pressure", "tempting": "The pressure may fall as the inflammation is treated.", "ruled": "30 mmHg with an oedematous disc is not a pressure to watch."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism explains the risk to the fellow eye?",
+    "options": [
+     {"t": "Spread of virus along the visual pathway", "correct": true},
+     {"t": "Immune complexes settling in both retinas at once"},
+     {"t": "Viraemia seeding both choroids from the blood"},
+     {"t": "Reactivation in both trigeminal ganglia together"},
+     {"t": "Antibody against a shared retinal antigen"}
+    ],
+    "short": "Virus travels the visual pathway",
+    "why": "Untreated, about a third of these eyes are followed by the fellow eye, because virus passes through the chiasm and central connections. Systemic antiviral is what lowers that risk.",
+    "dis": [
+     {"refs": [1], "label": "Immune complexes", "tempting": "Bilateral disease sounds autoimmune rather than infective.", "ruled": "This is lytic infection, and antiviral therapy prevents it."},
+     {"refs": [3], "label": "Both ganglia at once", "tempting": "Latent zoster does sit in sensory ganglia on both sides.", "ruled": "Ganglia supply skin. Retinal spread follows the visual pathway."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which change at three weeks most needs surgical review?",
+    "options": [
+     {"t": "A new field defect with a peripheral break", "correct": true},
+     {"t": "A necrotic border that consolidates and pigments"},
+     {"t": "Vitritis persisting with acuity steady at 20/80"},
+     {"t": "Pressure settling to 16 on one topical agent"},
+     {"t": "PCR confirming varicella zoster virus in the tap"}
+    ],
+    "short": "A break in necrotic retina with a field defect",
+    "why": "Necrotic retina tears as the vitreous contracts, and detachment follows in most untreated eyes. A new field defect with a break is a vitreoretinal problem, not a medical one.",
+    "dis": [
+     {"refs": [1], "label": "Border pigmenting", "tempting": "Any change at the border reads as progression at first glance.", "ruled": "Pigment at the border is healing, and the point of treatment."},
+     {"refs": [4], "label": "PCR result", "tempting": "It confirms the diagnosis, which feels like a decision point.", "ruled": "It validates the drug already running. Nothing needs surgery."}
+    ]
+   }
+  ],
+  "rules": "If peripheral necrosis spreads circumferentially with dense vitritis and arteritis, start systemic antiviral the same day and examine the fellow eye. If retina tears, refer for surgery.",
+  "pair": {
+   "this": "Acute retinal necrosis",
+   "vs": "Cytomegalovirus retinitis",
+   "rows": [
+    ["Host", "Immunocompetent, often after shingles", "Deeply immunosuppressed, low CD4 count"],
+    ["Vitreous", "Dense vitritis with an aching eye", "Little or no vitreous reaction, painless"],
+    ["Border", "Scalloped, spreads circumferentially in days", "Granular edge, creeps over weeks"],
+    ["Vessels", "Occlusive arteritis with sheathing", "Haemorrhage with perivascular whitening"]
+   ],
+   "decider": "A well patient with dense vitritis and arteritis needs induction antiviral today. A granular indolent border in an immunosuppressed patient points at cytomegalovirus and its own agents."
+  }
+ },
+
+ {
+  "id": "S2-27", "session": 2, "n": 27,
+  "domain": "Retina, choroid, vitreous",
+  "title": "The dark lesion that grew between two photographs",
+  "stem": "A 63-year-old woman with blue irides reports three months of a shadow in her nasal field OD. BVA 20/25 OD. A dome-shaped pigmented choroidal lesion temporal to the right disc, with orange pigment on its surface and subretinal fluid at its edge, no drusen and no halo. Ultrasound: 9.2 mm base, 3.6 mm thickness, low internal reflectivity, choroidal excavation. A photograph two years ago recorded a 7.1 mm base.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {"t": "Choroidal naevus with surface drusen and a halo"},
+     {"t": "Choroidal melanoma with subretinal fluid", "correct": true},
+     {"t": "Choroidal metastasis from an occult primary"},
+     {"t": "Circumscribed choroidal haemangioma"},
+     {"t": "Hypertrophy of the retinal pigment epithelium"}
+    ],
+    "short": "Choroidal melanoma",
+    "why": "A dome-shaped pigmented lesion 3.6 mm thick with orange pigment, subretinal fluid, low internal reflectivity and excavation, whose base has grown from 7.1 to 9.2 mm, is malignant.",
+    "dis": [
+     {"refs": [0], "label": "Choroidal naevus", "tempting": "Most pigmented choroidal lesions are naevi and stay harmless.", "ruled": "A naevus is flat, carries drusen and a halo, and does not grow."},
+     {"refs": [3], "label": "Choroidal haemangioma", "tempting": "It is dome-shaped and leaks fluid under the retina as well.", "ruled": "It is orange-red rather than pigmented, and reflects sound highly."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three features carry the greatest risk of malignancy?",
+    "options": [
+     {"t": "Thickness of 3.6 mm on ultrasound", "correct": true},
+     {"t": "Orange pigment on the surface", "correct": true},
+     {"t": "Subretinal fluid at the edge", "correct": true},
+     {"t": "Blue irides and fair skin"},
+     {"t": "A position temporal to the disc"},
+     {"t": "Acuity of 20/25 in that eye"}
+    ],
+    "short": "Thickness, orange pigment, fluid",
+    "why": "Thickness above two millimetres, orange lipofuscin and subretinal fluid each predict growth in a small pigmented lesion. Iris colour is a risk for the disease, not for this lesion.",
+    "dis": [
+     {"refs": [3], "label": "Blue irides, fair skin", "tempting": "Light pigmentation is the population risk factor for melanoma.", "ruled": "It says who develops one, not whether this lesion is growing."},
+     {"refs": [4, 5], "label": "Position, good acuity", "tempting": "Both feel relevant: near the disc, and vision still preserved.", "ruled": "Neither predicts growth. Good acuity is usual in thick tumours."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {"t": "Referral to an ocular oncology service this week", "correct": true},
+     {"t": "Photographs repeated in six months for comparison"},
+     {"t": "Laser to the area of subretinal fluid"},
+     {"t": "Enucleation arranged at the local unit"},
+     {"t": "Systemic staging first, then ophthalmic review"}
+    ],
+    "short": "Ocular oncology referral this week",
+    "why": "Diagnosis, treatment choice and eye-conserving options belong to a specialist service, and growth is already documented. Staging is arranged there, alongside the local treatment plan.",
+    "dis": [
+     {"refs": [1], "label": "Repeat photographs", "tempting": "Serial imaging is the correct approach to a suspicious naevus.", "ruled": "Growth is documented already. The interval decision is behind her."},
+     {"refs": [3], "label": "Enucleation locally", "tempting": "It removes the tumour definitively in a single operation.", "ruled": "Most tumours this size keep the eye with plaque radiotherapy."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "After oncology assessment, which plan best fits a tumour of this size?",
+    "options": [
+     {"t": "Plaque brachytherapy, with liver surveillance afterwards", "correct": true},
+     {"t": "Enucleation, because subretinal fluid is present"},
+     {"t": "Transpupillary thermotherapy as sole treatment"},
+     {"t": "Observation with three-monthly photographs"},
+     {"t": "Systemic chemotherapy before local treatment"}
+    ],
+    "short": "Plaque brachytherapy with liver follow-up",
+    "why": "A medium tumour of 3.6 mm thickness is treated with plaque radiotherapy, which keeps the eye and matches enucleation for survival. Surveillance afterwards is aimed at the liver.",
+    "dis": [
+     {"refs": [1], "label": "Enucleation for fluid", "tempting": "Fluid signals activity, which sounds like a reason to remove it.", "ruled": "Fluid is common and settles after radiotherapy. Size decides."},
+     {"refs": [2], "label": "Thermotherapy alone", "tempting": "It is eye-sparing and avoids a radiation plaque altogether.", "ruled": "Recurrence is high in a 3.6 mm tumour treated by heat alone."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which route of spread explains where this tumour metastasises?",
+    "options": [
+     {"t": "Haematogenous, as the uvea has no lymphatics", "correct": true},
+     {"t": "Lymphatic, through the conjunctival channels"},
+     {"t": "Direct extension along the optic nerve sheath"},
+     {"t": "Seeding of the vitreous and then the meshwork"},
+     {"t": "Vortex veins draining to the regional nodes"}
+    ],
+    "short": "Haematogenous, the uvea has no lymphatics",
+    "why": "The uveal tract has no lymphatic drainage, so cells leave in the blood and lodge first in the liver. That is why surveillance is hepatic and why nodes are not sampled.",
+    "dis": [
+     {"refs": [1], "label": "Lymphatic spread", "tempting": "Most solid tumours reach nodes first, so it is the default.", "ruled": "The uvea has no lymphatics, and nodes are not the first site."},
+     {"refs": [2], "label": "Optic nerve sheath", "tempting": "Direct extension occurs and looks anatomically plausible.", "ruled": "It is rare, and it does not explain hepatic metastasis."}
+    ]
+   }
+  ],
+  "rules": "If a pigmented choroidal lesion is over two millimetres thick, carries orange pigment or leaks fluid, refer it as a melanoma. Documented growth removes the option of watching.",
+  "pair": {
+   "this": "Choroidal melanoma",
+   "vs": "Choroidal naevus",
+   "rows": [
+    ["Thickness", "Over 2 mm, and growing between records", "Under 2 mm and unchanged for years"],
+    ["Surface", "Orange lipofuscin, no drusen", "Drusen, often with a pigmented halo"],
+    ["Fluid", "Subretinal fluid at the margin", "No fluid, retina flat over it"],
+    ["Ultrasound", "Low internal reflectivity, excavation", "Too flat to measure, no excavation"]
+   ],
+   "decider": "Thickness over two millimetres, subretinal fluid, orange pigment or documented growth each turn observation into a same-week ocular oncology referral."
+  }
+ },
+
+ {
+  "id": "S2-28", "session": 2, "n": 28,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "Two years of headache and a field she never noticed",
+  "stem": "A 38-year-old woman has 14 months of amenorrhoea with milky nipple discharge, and two years of dull headache. BVA 20/25 OD, 20/30 OS. Pupils equal and briskly reactive, with no afferent defect. Fields: OD has lost the upper and lower temporal quadrants, stopping at the vertical midline, and OS has lost the same temporal quadrants; the nasal half of each field is full. Mild temporal pallor of both discs.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Where must the lesion be?",
+    "options": [
+     {"t": "The optic chiasm, at the crossing fibres", "correct": true},
+     {"t": "The left optic nerve, close to the chiasm"},
+     {"t": "The right optic tract, behind the chiasm"},
+     {"t": "Both optic nerves, in the orbit"},
+     {"t": "The left occipital cortex, below the calcarine"}
+    ],
+    "short": "The optic chiasm",
+    "why": "Loss of both temporal fields, stopping at the vertical midline, can only come from nasal retinal fibres, and they cross in one place. Amenorrhoea with galactorrhoea names what sits below.",
+    "dis": [
+     {"refs": [1], "label": "Left optic nerve", "tempting": "One eye is a line worse, which invites a lesion on that side.", "ruled": "A nerve lesion takes the whole field of one eye, not two halves."},
+     {"refs": [2], "label": "Right optic tract", "tempting": "A tract lesion is retrochiasmal and splits at the midline too.", "ruled": "That gives a left homonymous defect, not both temporal halves."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding would place the lesion in front of the chiasm instead?",
+    "options": [
+     {"t": "An afferent pupillary defect on one side", "correct": true},
+     {"t": "Reduced red saturation in the worse eye only"},
+     {"t": "Temporal pallor of both optic discs"},
+     {"t": "Best acuity of 20/30 in the worse eye"},
+     {"t": "Enlargement of both blind spots"}
+    ],
+    "short": "A one-sided afferent pupillary defect",
+    "why": "Asymmetry of pupillary input means one optic nerve conducts worse than the other, which is prechiasmal. Colour, acuity and disc pallor all fall with chiasmal compression as well.",
+    "dis": [
+     {"refs": [2], "label": "Bilateral temporal pallor", "tempting": "Pallor points at the optic nerve, so it reads as prechiasmal.", "ruled": "Chronic chiasmal compression atrophies crossing fibres in both."},
+     {"refs": [1, 3], "label": "Colour, acuity", "tempting": "Both measure afferent function and both are abnormal here.", "ruled": "Chiasmal compression reduces both. Neither localises in front."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {"t": "MRI of the pituitary and chiasm, with endocrine bloods", "correct": true},
+     {"t": "Urgent unenhanced CT of the head today"},
+     {"t": "Prolactin measured alone, then a decision"},
+     {"t": "Fields repeated in three months to confirm the pattern"},
+     {"t": "Routine neurology referral in six weeks"}
+    ],
+    "short": "MRI of the sella with endocrine bloods",
+    "why": "MRI shows the mass, its extent and the chiasm, and hormones decide the treatment, so the two are ordered together. Compression that has grown for two years is imaged within days.",
+    "dis": [
+     {"refs": [1], "label": "Unenhanced CT", "tempting": "It is quick, available, and excludes a large mass or a bleed.", "ruled": "It underestimates soft tissue at the sella and misses the chiasm."},
+     {"refs": [3], "label": "Repeat the fields", "tempting": "Confirming an unfamiliar field defect feels careful.", "ruled": "The pattern is unambiguous, and delay costs crossing fibres."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Prolactin is 4200 mU/L on a macroadenoma. Which treatment comes first?",
+    "options": [
+     {"t": "A dopamine agonist, with the fields monitored", "correct": true},
+     {"t": "Transsphenoidal decompression within the week"},
+     {"t": "Fractionated radiotherapy to the sella"},
+     {"t": "Observation with six-monthly field tests"},
+     {"t": "Hydrocortisone cover, then delayed surgery"}
+    ],
+    "short": "A dopamine agonist first",
+    "why": "A prolactin of 4200 mU/L makes this a prolactinoma, and these shrink on a dopamine agonist, often with fields recovering in weeks. Surgery is for failure or sudden visual collapse.",
+    "dis": [
+     {"refs": [1], "label": "Surgery first", "tempting": "The chiasm is compressed, and decompression sounds mechanical.", "ruled": "A prolactinoma shrinks medically. Surgery is the second line."},
+     {"refs": [3], "label": "Observation", "tempting": "Acuity is nearly normal, so watching looks proportionate.", "ruled": "Both temporal fields have gone already. It is progressing."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which two statements about the crossing fibres are correct?",
+    "options": [
+     {"t": "Nasal retinal fibres cross in the chiasm", "correct": true},
+     {"t": "Inferonasal fibres cross low and anteriorly", "correct": true},
+     {"t": "Temporal retinal fibres cross to the other side"},
+     {"t": "Macular fibres never reach the chiasm"},
+     {"t": "Crossing fibres carry the nasal half of the field"}
+    ],
+    "short": "Nasal fibres cross, inferonasal ones lowest",
+    "why": "Nasal retina, which sees the temporal field, crosses in the chiasm, and the inferonasal bundle crosses lowest and furthest forward. That is why superior temporal loss often comes first.",
+    "dis": [
+     {"refs": [2], "label": "Temporal fibres cross", "tempting": "Half the fibres cross, so which half is easy to invert.", "ruled": "Temporal retina stays uncrossed. Nasal retina is what crosses."},
+     {"refs": [4], "label": "Nasal half of the field", "tempting": "Nasal fibres and nasal field sound like the same thing.", "ruled": "Nasal retina sees the temporal field. Retina and field are flipped."}
+    ],
+    "format": "multi"
+   }
+  ],
+  "rules": "If both temporal fields are lost at the vertical midline, localise to the chiasm and image within days. If one pupil shows an afferent defect, the disease is in front of it."
+ },
+
+ {
+  "id": "S2-29", "session": 2, "n": 29,
+  "domain": "Accommodation, vergence, oculomotor",
+  "title": "The eye that will not follow its partner across",
+  "stem": "A 31-year-old woman has six days of horizontal double vision, worse looking to the right, and two weeks of tingling in the right hand. Three years ago she lost vision OS over days with pain on eye movement, and recovered. BVA 20/20 both, mild temporal pallor OS. On right gaze the left eye will not adduct past the midline and the right eye shows coarse abducting nystagmus. Convergence is full. Pupils equal, lids level.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Where must the lesion be?",
+    "options": [
+     {"t": "The left medial longitudinal fasciculus in the pons", "correct": true},
+     {"t": "The right medial longitudinal fasciculus in the pons"},
+     {"t": "The left third nerve in its subarachnoid course"},
+     {"t": "The left medial rectus or its insertion"},
+     {"t": "The right abducens nucleus in the pons"}
+    ],
+    "short": "The left medial longitudinal fasciculus",
+    "why": "Fibres run from the right abducens nucleus across to the left third nerve nucleus in the left fasciculus. Left adduction fails on right gaze while convergence, which bypasses it, is full.",
+    "dis": [
+     {"refs": [1], "label": "Right fasciculus", "tempting": "The nystagmus is in the right eye, which drags the side across.", "ruled": "A right lesion would stop the right eye adducting on left gaze."},
+     {"refs": [4], "label": "Right abducens nucleus", "tempting": "The fibres do start there, and rightward gaze is what fails.", "ruled": "That lesion abolishes all gaze to the right, abduction included."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding shows that the medial rectus itself is working?",
+    "options": [
+     {"t": "Full convergence to a near target", "correct": true},
+     {"t": "Full elevation and depression in both eyes"},
+     {"t": "Equal pupils with symmetrical lids"},
+     {"t": "Coarse abducting nystagmus on the right"},
+     {"t": "Corrected acuity of 20/20 in each eye"}
+    ],
+    "short": "Convergence is full",
+    "why": "Convergence reaches the medial rectus by a supranuclear route that does not use the fasciculus. A muscle that adducts fully for a near target cannot be paretic for gaze.",
+    "dis": [
+     {"refs": [3], "label": "Abducting nystagmus", "tempting": "It is the other half of the syndrome and impossible to miss.", "ruled": "It reports the yoked eye overshooting, not what the muscle can do."},
+     {"refs": [1, 2], "label": "Vertical gaze, pupils", "tempting": "Both are normal, which feels like proof the muscles are intact.", "ruled": "Neither tests adduction, and both can be normal in a palsy."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three features point to demyelination rather than a stroke?",
+    "options": [
+     {"t": "Age 31 with no vascular risk factors", "correct": true},
+     {"t": "Painful loss of vision OS three years ago", "correct": true},
+     {"t": "Temporal pallor of the left optic disc", "correct": true},
+     {"t": "Diplopia that is worse on right gaze"},
+     {"t": "Coarse nystagmus in the abducting eye"},
+     {"t": "Equal pupils and symmetrical lids"}
+    ],
+    "short": "Young, previous optic neuritis, disc pallor",
+    "why": "Youth without vascular risk, an earlier painful visual loss and pallor of that disc give lesions separated in time and place. Two weeks of hand tingling adds a third site.",
+    "dis": [
+     {"refs": [3], "label": "Diplopia on right gaze", "tempting": "It is the symptom that brought her in, so it feels central.", "ruled": "It localises the lesion. It says nothing about the cause."},
+     {"refs": [4, 5], "label": "Nystagmus, pupils", "tempting": "Both belong to the examination that made the diagnosis.", "ruled": "Both are identical whether the cause is a plaque or an infarct."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate next step?",
+    "options": [
+     {"t": "MRI of brain and cord, with neurology referral", "correct": true},
+     {"t": "CT of the head today with a vascular opinion"},
+     {"t": "Prism correction and review in six weeks"},
+     {"t": "Intravenous steroid before any imaging"},
+     {"t": "Occlusion of one eye at home until the diplopia settles"}
+    ],
+    "short": "MRI of brain and cord, neurology",
+    "why": "The question is how many lesions there are and where, which needs MRI of brain and cord with contrast. Treatment and prognosis follow the scan, so imaging comes before steroid.",
+    "dis": [
+     {"refs": [1], "label": "CT and vascular review", "tempting": "Brainstem signs do raise stroke, and CT is the quickest scan.", "ruled": "CT cannot see a pontine plaque, and she has no vascular risk."},
+     {"refs": [3], "label": "Steroid first", "tempting": "Steroid shortens a relapse, and she is symptomatic now.", "ruled": "Steroid before imaging blurs the diagnosis it means to treat."}
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which pathway explains the failure of conjugate gaze here?",
+    "options": [
+     {"t": "Internuclear fibres from the abducens nucleus crossing over", "correct": true},
+     {"t": "Frontal eye field fibres descending to the pons"},
+     {"t": "Vestibular input through the medial vestibular nucleus"},
+     {"t": "The rostral interstitial nucleus for vertical saccades"},
+     {"t": "Direct supply of the medial rectus by the sixth nerve"}
+    ],
+    "short": "Internuclear fibres from the abducens nucleus",
+    "why": "Interneurons in the abducens nucleus cross the midline and ascend in the opposite fasciculus to the medial rectus subnucleus. Cutting that link uncouples the two eyes on gaze.",
+    "dis": [
+     {"refs": [1], "label": "Frontal eye field", "tempting": "It initiates the saccade, so it sits upstream of the movement.", "ruled": "A frontal lesion moves both eyes together, without a split."},
+     {"refs": [4], "label": "Sixth nerve to medial rectus", "tempting": "The abducens nucleus is involved, so its nerve looks implicated.", "ruled": "The sixth nerve supplies lateral rectus. Medial rectus is third."}
+    ]
+   }
+  ],
+  "rules": "If adduction fails on gaze to one side while convergence stays full, the lesion is internuclear and in the pons. In a young adult, image brain and cord for demyelination.",
+  "pair": {
+   "this": "Internuclear ophthalmoplegia",
+   "vs": "Ocular myasthenia mimicking it",
+   "rows": [
+    ["Convergence", "Full, because it bypasses the fasciculus", "Variable, and it fatigues with effort"],
+    ["Nystagmus", "Coarse in the abducting eye", "Absent, though a lid twitch may be seen"],
+    ["Lids", "Level and symmetrical", "Ptosis, worsening through the day"],
+    ["Course", "Fixed over days, with other lesions", "Fluctuates within a day, better after rest"]
+   ],
+   "decider": "Fatigue, fluctuation and ptosis make it myasthenia and move the test to antibodies. A fixed adduction deficit with abducting nystagmus and full convergence needs MRI of the brainstem."
+  }
+ },
+
+ {
+  "id": "S2-30", "session": 2, "n": 30,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "The same half of the world gone in both eyes",
+  "stem": "A 71-year-old man with atrial fibrillation, on no anticoagulant, noticed three days ago while gardening that he bumps into things on his left and misses the left of the page. Blood pressure 176/98. BVA 20/25 both. Fields: each eye has lost the whole left half, stopping at the vertical midline, with a spared island of about 4&deg; around fixation. Pupils brisk, no afferent defect, discs normal.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Where must the lesion be?",
+    "options": [
+     {"t": "The right occipital cortex, both calcarine banks", "correct": true},
+     {"t": "The right optic tract, just behind the chiasm"},
+     {"t": "The left occipital cortex, above the calcarine fissure"},
+     {"t": "The right temporal lobe, in Meyer loop"},
+     {"t": "The right parietal lobe, above the ventricle"}
+    ],
+    "short": "The right occipital cortex",
+    "why": "The left half of both fields has gone at the vertical midline, so the lesion is retrochiasmal on the right. A complete, congruous defect with a spared central island is occipital.",
+    "dis": [
+     {"refs": [3], "label": "Meyer loop", "tempting": "A temporal lesion is retrochiasmal and gives homonymous loss.", "ruled": "Meyer loop takes the upper quadrant, not a whole half field."},
+     {"refs": [2], "label": "Left occipital cortex", "tempting": "Occipital is the right place, and sides are easy to invert.", "ruled": "The left cortex serves the right half of both fields."}
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which feature best separates a cortical lesion from an optic tract lesion?",
+    "options": [
+     {"t": "Congruous halves with a spared central island", "correct": true},
+     {"t": "Loss in each eye that respects the vertical midline"},
+     {"t": "Normal pupil responses in both eyes"},
+     {"t": "Sudden onset in atrial fibrillation"},
+     {"t": "Normal optic discs three days after onset"}
+    ],
+    "short": "Congruity with a spared central island",
+    "why": "Fibres from the two eyes lie together in the cortex, so cortical defects match closely and often spare a central island. Tract lesions are incongruous and may give a pupil defect.",
+    "dis": [
+     {"refs": [1], "label": "Respects the midline", "tempting": "The midline rule is the first thing taught about these fields.", "ruled": "Everything behind the chiasm respects it, the tract included."},
+     {"refs": [2], "label": "Normal pupils", "tempting": "Normal pupils feel like evidence the lesion is far back.", "ruled": "Pupils are often normal in tract lesions too. It rarely helps."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management today?",
+    "options": [
+     {"t": "Same-day referral to a stroke service for imaging", "correct": true},
+     {"t": "CT within a week, then a stroke clinic review"},
+     {"t": "Aspirin started, with clinic review in a month"},
+     {"t": "Field retraining and prisms arranged first"},
+     {"t": "Routine neurology referral in six weeks"}
+    ],
+    "short": "Same-day stroke service referral",
+    "why": "Three days from onset, in atrial fibrillation with no anticoagulation, he is at high risk of a second embolus. The pathway that investigates and prevents that starts at the stroke service.",
+    "dis": [
+     {"refs": [2], "label": "Aspirin and a month", "tempting": "Antiplatelet therapy is part of secondary prevention.", "ruled": "Fibrillation needs anticoagulation, decided after imaging."},
+     {"refs": [3], "label": "Prisms and retraining", "tempting": "Rehabilitation is what will help the field he has lost.", "ruled": "It treats the deficit and ignores the artery about to close."}
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in his care over the next month?",
+    "options": [
+     {"t": "Anticoagulation decided by the stroke team", "correct": true},
+     {"t": "Blood pressure brought to target", "correct": true},
+     {"t": "Low vision assessment with reading strategies", "correct": true},
+     {"t": "Occlusion of one eye to settle confusion"},
+     {"t": "Weekly field tests to track recovery"},
+     {"t": "Steroid to reduce cortical swelling"}
+    ],
+    "short": "Anticoagulation, blood pressure, low vision help",
+    "why": "The month belongs to preventing the next infarct, so rhythm and a pressure of 176/98 are treated, while reading strategies restore what a left-sided field defect takes away.",
+    "dis": [
+     {"refs": [3], "label": "Occlude one eye", "tempting": "Occlusion helps double vision, so it sounds like a comfort measure.", "ruled": "Both eyes lose the same half. Covering one removes nothing."},
+     {"refs": [4, 5], "label": "Weekly fields, steroid", "tempting": "One tracks recovery, the other treats swelling around an infarct.", "ruled": "Fields are repeated at months, and steroid has no role here."}
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "legal",
+    "q": "He asks about driving. What is the correct advice?",
+    "options": [
+     {"t": "He must stop driving and notify the authority", "correct": true},
+     {"t": "He may drive once the field stops changing"},
+     {"t": "He may drive while acuity stays at 20/25"},
+     {"t": "He may drive by day with a passenger beside him"},
+     {"t": "No restriction follows loss on one side"}
+    ],
+    "short": "Stop driving, notify the authority",
+    "why": "A homonymous hemianopia fails the visual field standard whatever the acuity. He stops driving now, the duty to declare is his, and any return is decided on a formal field test.",
+    "dis": [
+     {"refs": [2], "label": "Acuity is enough", "tempting": "The acuity standard is the one most drivers know about.", "ruled": "Field and acuity are separate standards. This one fails on field."},
+     {"refs": [1], "label": "Wait until it is stable", "tempting": "Some cortical field loss does recover in the first months.", "ruled": "Recovery is judged by the authority, not by how he feels."}
+    ]
+   }
+  ],
+  "rules": "If both eyes lose the same half of the field at the vertical midline, the lesion is behind the chiasm and it is a stroke referral. Congruity with a spared centre means occipital."
+ }
+]

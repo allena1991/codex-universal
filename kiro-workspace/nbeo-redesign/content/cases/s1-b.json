@@ -1,0 +1,2363 @@
+[
+ {
+  "id": "S1-11",
+  "session": 1,
+  "n": 11,
+  "domain": "Retina, choroid, vitreous",
+  "title": "Reading vision that faded over two months",
+  "stem": "A 52-year-old man with type 2 diabetes of 18 years, HbA1c 9.8%, reports two months of blur in the right eye. BVA 20/60 OD, 20/25 OS. OD: flat new vessel fronds at the disc and on the superior arcade, faint vitreous haze, dot-blot haemorrhages in four quadrants, venous beading. OCT OD shows cystoid spaces through the fovea, central subfield 445 &micro;m. IOP 16 both eyes, angles open, iris without vessels.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Which classification best fits the right eye?",
+    "options": [
+     {
+      "t": "Severe non-proliferative retinopathy with centre-involving oedema"
+     },
+     {
+      "t": "Proliferative retinopathy with centre-involving macular oedema",
+      "correct": true
+     },
+     {
+      "t": "Moderate non-proliferative retinopathy, oedema off the centre"
+     },
+     {
+      "t": "Proliferative retinopathy with vitreous haemorrhage, no oedema"
+     },
+     {
+      "t": "Ocular ischaemic syndrome on a background of retinopathy"
+     }
+    ],
+    "short": "PDR with centre-involving oedema",
+    "why": "Fronds at the disc and on the arcade are new vessels, which places the eye past non-proliferative disease. Cystoid thickening through the fovea at 445 &micro;m makes the oedema centre-involving.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Severe NPDR",
+      "tempting": "Haemorrhage in four quadrants and venous beading do meet the severe count.",
+      "ruled": "New vessels are present, and their presence alone ends the non-proliferative grade."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "PDR without oedema",
+      "tempting": "The fronds and the vitreous haze dominate, so the macula gets read second.",
+      "ruled": "Cystoid spaces through the fovea at 445 &micro;m are oedema at the centre."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate initial treatment of the right eye?",
+    "options": [
+     {
+      "t": "Panretinal photocoagulation at this visit, macular review in three months"
+     },
+     {
+      "t": "Intravitreal anti-VEGF now, panretinal laser once the centre is drier",
+      "correct": true
+     },
+     {
+      "t": "Focal macular laser to the leaking points, then panretinal laser"
+     },
+     {
+      "t": "Dexamethasone implant now, with panretinal laser deferred six months"
+     },
+     {
+      "t": "Vitrectomy with endolaser and anti-VEGF given at the end of surgery"
+     }
+    ],
+    "short": "Anti-VEGF first, panretinal laser after",
+    "why": "Anti-VEGF answers both problems at once: new vessels regress and the fovea dries. Panretinal laser applied over a thick centre worsens acuity first, so it follows rather than leads.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Panretinal laser first",
+      "tempting": "Laser is the definitive treatment for proliferation and this eye needs it.",
+      "ruled": "Scatter laser over centre-involving oedema drives thickness and acuity the wrong way."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Vitrectomy",
+      "tempting": "Vitreous haze reads as bleeding, and surgery clears the media in one step.",
+      "ruled": "The haze is faint and the view supports laser and injection, so surgery waits."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three steps belong in the plan alongside intravitreal treatment?",
+    "options": [
+     {
+      "t": "Same-week diabetes team review of glycaemic control and blood pressure",
+      "correct": true
+     },
+     {
+      "t": "OCT of both maculae at each treatment visit to guide retreatment",
+      "correct": true
+     },
+     {
+      "t": "Dilated assessment of the left eye for proliferation and its own need",
+      "correct": true
+     },
+     {
+      "t": "Stopping aspirin because the vitreous is already showing some blood"
+     },
+     {
+      "t": "Deferring the next dilated examination for six months of injections"
+     },
+     {
+      "t": "Advising that all reading be done with a stronger near addition"
+     }
+    ],
+    "short": "Systemic review, serial OCT, fellow eye",
+    "why": "An HbA1c of 9.8% and an untreated fellow eye drive the eye disease as hard as any injection does. Retreatment is decided on measured thickness, so OCT is repeated at each visit.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Stopping aspirin",
+      "tempting": "Antiplatelet therapy with blood in the vitreous feels like an obvious risk.",
+      "ruled": "Aspirin does not worsen diabetic haemorrhage, and stopping it costs cardiac cover."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Six-month dilated review",
+      "tempting": "Monthly injection visits give the impression the eye is being watched.",
+      "ruled": "Injection visits do not examine the periphery, where proliferation progresses."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism most directly explains the thickening at the fovea?",
+    "options": [
+     {
+      "t": "Breakdown of the inner blood-retinal barrier at capillary endothelium",
+      "correct": true
+     },
+     {
+      "t": "Failure of the pigment epithelial pump at the outer blood-retinal barrier"
+     },
+     {
+      "t": "Traction on the fovea by a taut thickened posterior hyaloid membrane"
+     },
+     {
+      "t": "Loss of choriocapillaris perfusion beneath the central macula"
+     },
+     {
+      "t": "Osmotic swelling of Muller cells driven by hyperglycaemia alone"
+     }
+    ],
+    "short": "Inner blood-retinal barrier breakdown",
+    "why": "Pericyte loss and damaged endothelial tight junctions let plasma into the retina, which collects in the outer plexiform and inner nuclear layers as the cystoid spaces seen here.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Outer barrier pump failure",
+      "tempting": "The pigment epithelium does clear subretinal fluid, so its failure floods the macula.",
+      "ruled": "That mechanism gives serous elevation, not intraretinal cysts."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Taut posterior hyaloid",
+      "tempting": "A real diabetic pattern, and traction genuinely thickens the fovea.",
+      "ruled": "No hyaloid deformation of the fovea is described, only cystoid spaces."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "After three monthly injections the central subfield is 402 &micro;m and acuity 20/60. What next?",
+    "options": [
+     {
+      "t": "Continue the same agent monthly for three further doses"
+     },
+     {
+      "t": "Switch to a different anti-VEGF agent and reassess after three doses",
+      "correct": true
+     },
+     {
+      "t": "Keep monthly injections and add a dexamethasone implant now"
+     },
+     {
+      "t": "Stop injections and complete panretinal photocoagulation instead"
+     },
+     {
+      "t": "Refer for vitrectomy with peeling of the internal limiting membrane"
+     }
+    ],
+    "short": "Switch anti-VEGF agent, then reassess",
+    "why": "Thickness fell under 10% across a full loading course and acuity has not moved, which defines a poor response rather than a slow one. Changing agent is the next step before changing class.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Same agent, three more",
+      "tempting": "Some eyes are slow responders, and persistence is often rewarded.",
+      "ruled": "A 43 &micro;m fall over three doses is non-response, not slow response."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Vitrectomy with peel",
+      "tempting": "Surgery is the recognised answer to oedema that will not dry.",
+      "ruled": "Peeling is for tractional oedema, and no traction is present here."
+     }
+    ]
+   }
+  ],
+  "rules": "If new vessels and centre-involving oedema sit together, dry the centre with anti-VEGF before laying panretinal laser. If thickness barely moves across loading, change the drug."
+ },
+ {
+  "id": "S1-12",
+  "session": 1,
+  "n": 12,
+  "domain": "Retina, choroid, vitreous",
+  "title": "Vision clouded over in one eye on waking",
+  "stem": "A 68-year-old man noticed painless blur in the left eye on waking three days ago. Treated hypertension, home readings 158/96. No diabetes. BVA 20/25 OD, 20/200 OS. Trace RAPD OS. IOP 15 both eyes, angles open, iris without vessels. OS: veins dilated and tortuous in four quadrants, flame and dot haemorrhages to the periphery, several cotton wool spots, blurred hyperaemic disc, central subfield 620 &micro;m.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Undiagnosed severe non-proliferative diabetic retinopathy"
+     },
+     {
+      "t": "Central retinal vein occlusion with macular oedema",
+      "correct": true
+     },
+     {
+      "t": "Hemiretinal vein occlusion with macular oedema"
+     },
+     {
+      "t": "Ocular ischaemic syndrome from carotid disease"
+     },
+     {
+      "t": "Papilloedema with bilateral venous stasis"
+     }
+    ],
+    "short": "Central retinal vein occlusion",
+    "why": "Haemorrhage and venous dilatation occupy all four quadrants of one eye, which places the obstruction at the central trunk. Unilateral disease with a normal fellow eye excludes the systemic patterns.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Hemiretinal occlusion",
+      "tempting": "It produces the same signs and is easy to accept without mapping the quadrants.",
+      "ruled": "Hemiretinal disease respects the horizontal midline. All four quadrants are involved."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Severe NPDR",
+      "tempting": "Dot haemorrhages and cotton wool spots are the diabetic vocabulary.",
+      "ruled": "Onset overnight in one eye only, and the fellow eye carries no retinopathy."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which three findings raise the concern that this occlusion is ischaemic?",
+    "options": [
+     {
+      "t": "Relative afferent pupillary defect in the affected eye",
+      "correct": true
+     },
+     {
+      "t": "Best corrected acuity of 20/200 in the affected eye",
+      "correct": true
+     },
+     {
+      "t": "Several cotton wool spots at the posterior pole",
+      "correct": true
+     },
+     {
+      "t": "Veins dilated and tortuous in all four quadrants"
+     },
+     {
+      "t": "Central subfield thickness measured at 620 &micro;m"
+     },
+     {
+      "t": "Blurred disc margin with a hyperaemic disc"
+     }
+    ],
+    "short": "RAPD, 20/200, cotton wool spots",
+    "why": "Perfusion is judged on afferent function and capillary closure, not on how much blood or fluid is visible. An RAPD, acuity at 20/200 and cotton wool spots each point at closure.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Thickness 620 &micro;m",
+      "tempting": "It is the most abnormal number on the page and it does explain the blur.",
+      "ruled": "Thickness measures leakage. A very thick macula can sit on a perfused bed."
+     },
+     {
+      "refs": [
+       3,
+       5
+      ],
+      "label": "Tortuous veins, full disc",
+      "tempting": "Both look dramatic and both belong to the occlusion.",
+      "ruled": "Both appear in perfused occlusion as well, so neither separates the two."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management of the macular oedema?",
+    "options": [
+     {
+      "t": "Macular grid laser to the thickened area, review at three months"
+     },
+     {
+      "t": "Intravitreal anti-VEGF now, with monthly acuity and OCT review",
+      "correct": true
+     },
+     {
+      "t": "Observation for three months, since many occlusions settle alone"
+     },
+     {
+      "t": "Intravitreal dexamethasone implant as the first-line agent"
+     },
+     {
+      "t": "Oral acetazolamide with aspirin and review at six weeks"
+     }
+    ],
+    "short": "Anti-VEGF now, monthly review",
+    "why": "Anti-VEGF is first line for oedema after venous occlusion and it also suppresses the drive to anterior segment new vessels. Monthly review catches both non-response and rubeosis.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Observation",
+      "tempting": "Spontaneous improvement is real, and the eye may recover without needles.",
+      "ruled": "Acuity is 20/200 with 620 &micro;m of thickening. Waiting loses recoverable vision."
+     },
+     {
+      "refs": [
+       0
+      ],
+      "label": "Macular grid laser",
+      "tempting": "Grid laser is the older standard and it sounds definitive for leakage.",
+      "ruled": "Grid laser gave no acuity benefit in central occlusion and is not used for it."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which systemic step matters most at this visit?",
+    "options": [
+     {
+      "t": "Same-week review of blood pressure and glucose in general practice",
+      "correct": true
+     },
+     {
+      "t": "Carotid duplex within the week to exclude a stenosis on the affected side"
+     },
+     {
+      "t": "Thrombophilia screen, given the inherited risk of thrombosis"
+     },
+     {
+      "t": "Immediate stroke unit referral for antiplatelet loading today"
+     },
+     {
+      "t": "Erythrocyte sedimentation rate and C-reactive protein today"
+     }
+    ],
+    "short": "Same-week blood pressure and glucose",
+    "why": "Home readings of 158/96 name the modifiable driver, and undetected diabetes is the other. Treating them protects the fellow eye, which is the outcome that matters most here.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Carotid duplex",
+      "tempting": "It is the right investigation when the retinal problem is arterial.",
+      "ruled": "Carotid disease causes arterial events, not venous thrombosis at the disc."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Thrombophilia screen",
+      "tempting": "Thrombosis invites a clotting workup and it feels thorough.",
+      "ruled": "At 68 with hypertension the yield is negligible. Reserve it for young patients."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Where does the obstruction sit anatomically?",
+    "options": [
+     {
+      "t": "At an arteriovenous crossing under a stiffened arteriole, superotemporally"
+     },
+     {
+      "t": "In the vein at the lamina cribrosa, sharing a sheath with the artery",
+      "correct": true
+     },
+     {
+      "t": "In the superior ophthalmic vein behind the apex, draining intracranially"
+     },
+     {
+      "t": "At the choriocapillaris, where venules collect into the vortex veins"
+     },
+     {
+      "t": "In the short posterior ciliary vessels around the optic nerve head"
+     }
+    ],
+    "short": "Vein at the lamina cribrosa",
+    "why": "Artery and vein cross the lamina cribrosa inside one adventitial sheath, so arteriolar stiffening compresses the vein there and the resulting turbulence seeds thrombus.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Arteriovenous crossing",
+      "tempting": "It is the correct site for the branch occlusion the signs otherwise resemble.",
+      "ruled": "A crossing lesion drains one sector. Four quadrants means the central trunk."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Superior ophthalmic vein",
+      "tempting": "It is the next vessel downstream, so obstruction there sounds plausible.",
+      "ruled": "Orbital venous obstruction gives proptosis and dilated lid veins, absent here."
+     }
+    ]
+   }
+  ],
+  "rules": "If haemorrhage and dilated veins cross all four quadrants, the lesion is at the lamina cribrosa. If acuity, pupil or cotton wool spots are bad, treat the eye as ischaemic and watch the angle.",
+  "pair": {
+   "this": "Central retinal vein occlusion",
+   "vs": "Ocular ischaemic syndrome",
+   "rows": [
+    [
+     "Onset",
+     "Abrupt, often noticed on waking",
+     "Gradual blur over weeks, with ache in some eyes"
+    ],
+    [
+     "Haemorrhages",
+     "Dense, four quadrants, up to the disc",
+     "Sparse, mid-peripheral, few at the posterior pole"
+    ],
+    [
+     "Arteries",
+     "Normal calibre or mildly narrowed",
+     "Markedly narrowed, spontaneous pulsation on gentle pressure"
+    ],
+    [
+     "Pressure",
+     "Normal or raised early",
+     "Often low, because ciliary perfusion has fallen"
+    ]
+   ],
+   "decider": "Sparse mid-peripheral haemorrhage with narrowed arteries and a soft eye points to carotid disease, which sends the patient for urgent vascular imaging rather than for injections alone."
+  }
+ },
+ {
+  "id": "S1-13",
+  "session": 1,
+  "n": 13,
+  "domain": "Retina, choroid, vitreous",
+  "title": "Flashes on Friday, and spots ever since",
+  "stem": "A 58-year-old woman, -5.50 D in both eyes, has four days of new floaters and arcs of light in the right eye, worse in dim rooms. No shadow in the field. BVA 20/20 both eyes, IOP 14. OD: pigment granules in the anterior vitreous, a Weiss ring, no cells, settled blood inferiorly. With indentation, a horseshoe tear at 11 o'clock with a vitreous strand on the flap, retina flat, no subretinal fluid. OS: inferotemporal lattice, no breaks.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "Which feature carries the highest risk of progression to detachment?",
+    "options": [
+     {
+      "t": "Pigment granules dispersed in the anterior vitreous"
+     },
+     {
+      "t": "A horseshoe tear with traction on its flap",
+      "correct": true
+     },
+     {
+      "t": "Settled vitreous blood inferior to the break"
+     },
+     {
+      "t": "Lattice degeneration in the inferotemporal fellow eye"
+     },
+     {
+      "t": "Axial myopia of -5.50 D in both eyes"
+     }
+    ],
+    "short": "Horseshoe tear under traction",
+    "why": "A flap tear held open by a vitreous strand keeps pulling with every eye movement, so fluid can enter continuously. That combination carries the highest conversion rate of any break.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Fellow eye lattice",
+      "tempting": "Lattice is the best known predisposing lesion and it is genuinely present.",
+      "ruled": "Lattice without breaks in a symptom-free eye is low risk and needs no treatment."
+     },
+     {
+      "refs": [
+       0,
+       2
+      ],
+      "label": "Pigment and blood",
+      "tempting": "Both are the classic markers that a break exists somewhere.",
+      "ruled": "They point to the tear. They do not measure the traction that opens it."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management of the right eye?",
+    "options": [
+     {
+      "t": "Laser retinopexy surrounding the tear within 24 hours",
+      "correct": true
+     },
+     {
+      "t": "Cryotherapy to the tear and laser to the fellow lattice"
+     },
+     {
+      "t": "Review in two weeks with a drawing of the periphery"
+     },
+     {
+      "t": "Scleral buckle to relieve the traction on the flap"
+     },
+     {
+      "t": "Vitrectomy with endolaser and a gas tamponade"
+     }
+    ],
+    "short": "Laser retinopexy within 24 hours",
+    "why": "A symptomatic flap tear with the retina still flat is sealed by surrounding retinopexy, which is quick, safe in clinic and highly effective. Delay is what turns the break into a detachment.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Review in two weeks",
+      "tempting": "Vision is 20/20 with no field loss, so the eye looks stable enough to watch.",
+      "ruled": "Acuity stays normal until the fovea goes. Traction is active now."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Vitrectomy with gas",
+      "tempting": "Surgery removes the traction itself rather than walling off the break.",
+      "ruled": "The retina is attached. Intraocular surgery adds risk that laser does not carry."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which two symptoms after retinopexy require same-day return?",
+    "options": [
+     {
+      "t": "A shadow spreading from the periphery towards the centre",
+      "correct": true
+     },
+     {
+      "t": "A sudden fresh increase in floaters with new flashes",
+      "correct": true
+     },
+     {
+      "t": "Mild ache around the brow for two days after laser"
+     },
+     {
+      "t": "Faint glare in bright sunlight lasting about a week"
+     },
+     {
+      "t": "Slight morning blur that clears after some blinking"
+     }
+    ],
+    "short": "Spreading shadow, or new floaters and flashes",
+    "why": "Retinopexy seals one break but does not stop the vitreous separating further. A spreading shadow means fluid under the retina, and a fresh shower of floaters means a new break.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Brow ache",
+      "tempting": "Pain after any laser feels like the sign that something has gone wrong.",
+      "ruled": "Brief ache follows the contact lens and the burns. It carries no retinal meaning."
+     },
+     {
+      "refs": [
+       3,
+       4
+      ],
+      "label": "Glare, morning blur",
+      "tempting": "Both are new visual symptoms in an eye that has just been treated.",
+      "ruled": "Neither maps to retinal separation. Both settle without any intervention."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "basic",
+    "q": "Why do tears of this kind form where they do?",
+    "options": [
+     {
+      "t": "Vitreous collagen inserts firmly at the posterior vitreous base, and separation tears there",
+      "correct": true
+     },
+     {
+      "t": "The internal limiting membrane is thinnest at the equator, so it splits first under traction"
+     },
+     {
+      "t": "Pigment epithelial adhesion is weakest superiorly, so the retina lifts there first"
+     },
+     {
+      "t": "Choroidal vessels tether the retina at the equator and resist vitreous movement"
+     },
+     {
+      "t": "The subretinal space is widest at the equator, so fluid enters most easily there"
+     }
+    ],
+    "short": "Firm adhesion at the posterior vitreous base",
+    "why": "Syneretic vitreous collapses forward and pulls hardest on its firmest attachment, the posterior margin of the vitreous base. Traction concentrated at that line tears full thickness retina.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Thin limiting membrane",
+      "tempting": "Something must be weakest where the retina breaks, so thickness sounds right.",
+      "ruled": "Break site follows where vitreous is attached, not where retina is thin."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Weak superior adhesion",
+      "tempting": "Superior tears really are commoner, so a superior weakness sounds plausible.",
+      "ruled": "Superior tears reflect gravity acting on the collapsing gel, not local adhesion."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "What does the standard of care require of the practitioner at this visit?",
+    "options": [
+     {
+      "t": "A referral letter posted today, with review arranged in one month"
+     },
+     {
+      "t": "Same-day documented referral, the break located, warning symptoms in writing",
+      "correct": true
+     },
+     {
+      "t": "Advice to attend an emergency department if the vision changes"
+     },
+     {
+      "t": "A dilated record made now, with the patient asked to telephone in a week"
+     },
+     {
+      "t": "Referral held until the vitreous blood clears enough to grade the break"
+     }
+    ],
+    "short": "Same-day referral, located and documented",
+    "why": "A symptomatic flap tear is treated within days, so the referral is made the same day. The record carries the location and the written symptoms that oblige the patient to return at once.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Posted letter, one month",
+      "tempting": "It refers and it documents, which covers the two obvious duties.",
+      "ruled": "Postal timing does not match a break that can detach within days."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Wait for the blood",
+      "tempting": "A clearer view would let the whole periphery be graded properly.",
+      "ruled": "The break is already seen and the retina is flat. Waiting only loses the window."
+     }
+    ]
+   }
+  ],
+  "rules": "If floaters and flashes are new, indent and search the whole periphery. If a flap tear is found with the retina still flat, seal it within a day rather than review it."
+ },
+ {
+  "id": "S1-14",
+  "session": 1,
+  "n": 14,
+  "domain": "Emergencies and trauma",
+  "title": "Everything went black in one eye at breakfast",
+  "stem": "A 74-year-old man lost the vision of his right eye painlessly 90 minutes ago. No headache, no scalp tenderness, no pain on chewing. Atrial fibrillation, on no anticoagulant. Blood pressure 176/92, pulse irregular at 96. BVA hand movements OD, 20/25 OS. Dense RAPD OD. OD: pale oedematous posterior retina, a cherry red spot, segmented columns in the arterioles, no plaque at the disc. IOP 16 both eyes.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Non-arteritic central retinal artery occlusion",
+      "correct": true
+     },
+     {
+      "t": "Ophthalmic artery occlusion with choroidal ischaemia"
+     },
+     {
+      "t": "Arteritic retinal occlusion in giant cell arteritis"
+     },
+     {
+      "t": "Ischaemic central retinal vein occlusion"
+     },
+     {
+      "t": "Non-arteritic anterior ischaemic optic neuropathy"
+     }
+    ],
+    "short": "Non-arteritic central retinal artery occlusion",
+    "why": "Sudden painless loss with a pale inner retina, a cherry red spot and segmented arteriolar flow is inner retinal infarction. Untreated fibrillation supplies the embolic source.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Ophthalmic artery occlusion",
+      "tempting": "Hand movements vision is severe enough to suggest the whole supply has gone.",
+      "ruled": "A cherry red spot needs an intact choroid under the fovea, so the choroid is perfused."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Arteritic occlusion",
+      "tempting": "At 74 the arteritic form must be excluded, and it changes treatment completely.",
+      "ruled": "No headache, scalp tenderness or jaw pain, and the embolic source is already known."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate immediate action?",
+    "options": [
+     {
+      "t": "Ocular massage and paracentesis, with stroke referral tomorrow"
+     },
+     {
+      "t": "Immediate transfer to a stroke unit for assessment and imaging",
+      "correct": true
+     },
+     {
+      "t": "Carotid duplex in clinic today, cardiology review next week"
+     },
+     {
+      "t": "High dose oral prednisolone now, pending inflammatory markers"
+     },
+     {
+      "t": "Intravenous acetazolamide with rebreathing to raise carbon dioxide"
+     }
+    ],
+    "short": "Immediate transfer to a stroke unit",
+    "why": "Retinal artery occlusion is an acute ischaemic stroke of the eye, and at 90 minutes the patient is inside the window where brain imaging and prevention change outcome.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Massage, then refer",
+      "tempting": "These manoeuvres are the traditional bedside response and cost nothing to try.",
+      "ruled": "Neither has proven benefit, and the overnight delay wastes the stroke window."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Duplex today, cardiology later",
+      "tempting": "It investigates the source and looks appropriately urgent.",
+      "ruled": "Investigation without a stroke pathway leaves the brain unprotected today."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three belong in the same-day workup?",
+    "options": [
+     {
+      "t": "Erythrocyte sedimentation rate and C-reactive protein today",
+      "correct": true
+     },
+     {
+      "t": "Blood pressure, rhythm assessment and an electrocardiogram",
+      "correct": true
+     },
+     {
+      "t": "Carotid imaging arranged within the coming week",
+      "correct": true
+     },
+     {
+      "t": "Fluorescein angiography to time the arterial filling delay"
+     },
+     {
+      "t": "Electroretinography to confirm inner retinal ischaemia"
+     },
+     {
+      "t": "Thrombophilia screen before any anticoagulation is started"
+     }
+    ],
+    "short": "Inflammatory markers, ECG, carotid imaging",
+    "why": "The workup asks where the embolus came from and whether arteritis is hiding. Markers, rhythm and carotid imaging answer that; the ocular tests only restate what the fundus already shows.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Fluorescein angiography",
+      "tempting": "It documents the occlusion objectively and looks like the definitive test.",
+      "ruled": "The diagnosis is already clinical. Angiography delays the stroke referral."
+     },
+     {
+      "refs": [
+       5
+      ],
+      "label": "Thrombophilia screen",
+      "tempting": "It sounds like due diligence before committing to anticoagulation.",
+      "ruled": "At 74 with fibrillation the source is known, and the screen changes nothing."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which new finding would move this towards an arteritic cause?",
+    "options": [
+     {
+      "t": "Scalp tenderness with pain in the jaw on chewing",
+      "correct": true
+     },
+     {
+      "t": "Segmented columns of blood within the arterioles"
+     },
+     {
+      "t": "A calcific plaque visible at the disc margin"
+     },
+     {
+      "t": "Amaurosis fugax in the same eye last month"
+     },
+     {
+      "t": "An irregular pulse at 96 with no anticoagulation"
+     }
+    ],
+    "short": "Scalp tenderness with jaw claudication",
+    "why": "Arteritis is diagnosed on systemic features and markers, not on the fundus, because the retinal picture is identical. Jaw claudication is the most specific symptom in the set.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Calcific plaque",
+      "tempting": "A visible plaque is dramatic and it proves the artery is diseased.",
+      "ruled": "A plaque names an embolic source, which argues against arteritis."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Segmented columns",
+      "tempting": "It is the sign of stagnant arterial flow, which fits an inflamed vessel.",
+      "ruled": "Segmentation follows any severe occlusion, whatever closed the artery."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which anatomic feature explains the cherry red spot?",
+    "options": [
+     {
+      "t": "The fovea is thin and takes its oxygen from the perfused choroid",
+      "correct": true
+     },
+     {
+      "t": "A cilioretinal artery supplies the fovea in most eyes and spares it"
+     },
+     {
+      "t": "Foveal pigment epithelium is denser, so it reads red against pale retina"
+     },
+     {
+      "t": "Xanthophyll at the fovea absorbs light scattered by swollen retina"
+     },
+     {
+      "t": "Ganglion cells crowd the foveal centre and tolerate ischaemia longer"
+     }
+    ],
+    "short": "Thin fovea over a perfused choroid",
+    "why": "Infarcted inner retina turns opaque and pale, but the fovea has almost no inner retina and is nourished by the choroid, so the intact red choroidal bed shows through it.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Cilioretinal artery",
+      "tempting": "A cilioretinal artery genuinely spares central vision when one is present.",
+      "ruled": "It exists in a minority of eyes and spares a wedge of retina, not the red spot."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Ganglion cell tolerance",
+      "tempting": "Survival of the central retina would explain a normal looking centre.",
+      "ruled": "Ganglion cells are absent at the foveal centre and die fastest elsewhere."
+     }
+    ]
+   }
+  ],
+  "rules": "If retinal arterial occlusion is diagnosed inside the stroke window, the destination is the stroke unit, not the eye clinic. If systemic arteritic symptoms are present, treat before biopsy."
+ },
+ {
+  "id": "S1-15",
+  "session": 1,
+  "n": 15,
+  "domain": "Retina, choroid, vitreous",
+  "title": "A grey smudge in the middle of the page",
+  "stem": "A 41-year-old man reports six weeks of a central grey patch in the right eye, with objects on that side looking smaller and further away. He finished a course of oral corticosteroid for back pain three weeks ago and works night shifts. BVA 20/40 OD, improving to 20/30 with +1.00, 20/20 OS. OD: shallow serous elevation at the macula, no blood, no drusen, fine pigment flecks. OCT: subfoveal fluid, choroid 470 &micro;m.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Pachychoroid neovasculopathy with a type 1 membrane"
+     },
+     {
+      "t": "Acute central serous chorioretinopathy",
+      "correct": true
+     },
+     {
+      "t": "Optic disc pit maculopathy with subretinal fluid"
+     },
+     {
+      "t": "Inflammatory choroidal neovascular membrane"
+     },
+     {
+      "t": "Cystoid macular oedema of uncertain cause"
+     }
+    ],
+    "short": "Acute central serous chorioretinopathy",
+    "why": "A shallow serous detachment with a thickened choroid, micropsia and a hyperopic shift in a man of 41 weeks after corticosteroid exposure is the classic presentation. No blood and no drusen.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Pachychoroid neovascular",
+      "tempting": "It shares the thick choroid and the same age group, and it also leaks fluid.",
+      "ruled": "No subretinal hyper-reflective material and no haemorrhage on OCT or fundus."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Cystoid macular oedema",
+      "tempting": "Central blur with distortion is the everyday description of macular oedema.",
+      "ruled": "The fluid is under the retina, not in cystoid spaces within it."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which two features argue against a neovascular membrane?",
+    "options": [
+     {
+      "t": "Subretinal fluid with no hyper-reflective material",
+      "correct": true
+     },
+     {
+      "t": "No drusen in either macula at the age of 41",
+      "correct": true
+     },
+     {
+      "t": "Micropsia with distortion on the Amsler chart"
+     },
+     {
+      "t": "A hyperopic shift of +1.00 in the affected eye"
+     },
+     {
+      "t": "Choroidal thickness measured at 470 &micro;m"
+     }
+    ],
+    "short": "No hyper-reflective material, no drusen",
+    "why": "A membrane shows as hyper-reflective tissue above the pigment epithelium, usually with blood, and usually on a drusen-bearing macula. Their absence is what argues against it.",
+    "dis": [
+     {
+      "refs": [
+       4
+      ],
+      "label": "Thick choroid",
+      "tempting": "A thick choroid is the signature of serous disease, so it feels exclusive to it.",
+      "ruled": "Pachychoroid neovascular membranes grow on exactly this thick choroid."
+     },
+     {
+      "refs": [
+       2,
+       3
+      ],
+      "label": "Micropsia, hyperopic shift",
+      "tempting": "Both are textbook symptoms of the serous condition being considered.",
+      "ruled": "Both follow from any fluid lifting the fovea, membrane or not."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management now?",
+    "options": [
+     {
+      "t": "Observation to three months, with steroid avoidance and sleep advice",
+      "correct": true
+     },
+     {
+      "t": "Half-dose photodynamic therapy to the leaking area within two weeks"
+     },
+     {
+      "t": "Intravitreal anti-VEGF monthly for three doses, then reassessment"
+     },
+     {
+      "t": "Oral eplerenone for three months with electrolyte monitoring"
+     },
+     {
+      "t": "Focal laser to the leakage point identified on angiography"
+     }
+    ],
+    "short": "Observe to three months, remove steroid",
+    "why": "Most acute serous detachments resolve without treatment inside three months, and the recent corticosteroid course is a removable driver. Treatment is held for persistence or recurrence.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Photodynamic therapy now",
+      "tempting": "It is the most effective treatment, so offering it early looks like good care.",
+      "ruled": "At six weeks the natural course is still resolution. Early treatment adds risk."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Anti-VEGF",
+      "tempting": "Subretinal fluid at the macula is the situation anti-VEGF usually treats.",
+      "ruled": "Without new vessels there is no target, and trials show no benefit."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Four months on, fluid persists and acuity has fallen to 20/50. What next?",
+    "options": [
+     {
+      "t": "Half-dose photodynamic therapy guided by angiography",
+      "correct": true
+     },
+     {
+      "t": "Continued observation for a further three months"
+     },
+     {
+      "t": "Monthly intravitreal anti-VEGF for three doses"
+     },
+     {
+      "t": "Oral eplerenone with two-weekly electrolytes"
+     },
+     {
+      "t": "Full-fluence photodynamic therapy to the leak"
+     }
+    ],
+    "short": "Half-dose photodynamic therapy",
+    "why": "Fluid past three to four months threatens the photoreceptors, and reduced-dose photodynamic therapy has the best evidence for resolving it while sparing the pigment epithelium.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Observe three months more",
+      "tempting": "The condition is known for resolving on its own, so patience feels safe.",
+      "ruled": "Past four months the outer retina thins irreversibly. The window is closing."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Full-fluence therapy",
+      "tempting": "It uses the right modality and full dose sounds more likely to work.",
+      "ruled": "Full fluence carries atrophy and ischaemia risk that the half dose avoids."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which structure is the primary site of the disease?",
+    "options": [
+     {
+      "t": "Choroid, whose hyperpermeable vessels overwhelm the pigment epithelium",
+      "correct": true
+     },
+     {
+      "t": "Retinal capillary endothelium, with inner barrier breakdown at the fovea"
+     },
+     {
+      "t": "Bruch membrane, through defects of which new vessels grow forward"
+     },
+     {
+      "t": "Outer plexiform layer, where Muller cells swell and form cysts"
+     },
+     {
+      "t": "Vitreoretinal interface, where traction lifts the photoreceptors"
+     }
+    ],
+    "short": "Hyperpermeable choroid, overwhelmed RPE",
+    "why": "Choroidal congestion and hyperpermeability drive fluid at the pigment epithelium faster than its pump can clear it, so fluid collects under the retina. The measured choroidal thickness is the clue.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Inner barrier breakdown",
+      "tempting": "It is the mechanism behind most macular fluid a candidate sees.",
+      "ruled": "Inner barrier failure gives intraretinal cysts, not a smooth serous dome."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Bruch membrane defects",
+      "tempting": "The pigment epithelium is involved, so its basement complex sounds central.",
+      "ruled": "That is the route for neovascular disease, which this eye does not show."
+     }
+    ]
+   }
+  ],
+  "rules": "If a young adult has serous macular fluid, look for steroid exposure and a thick choroid, and observe to three months. If fluid persists past four months, treat rather than watch.",
+  "pair": {
+   "this": "Central serous chorioretinopathy",
+   "vs": "Neovascular age-related maculopathy",
+   "rows": [
+    [
+     "Age and macula",
+     "Thirties to fifties, no drusen",
+     "Usually past sixty, drusen in both maculae"
+    ],
+    [
+     "OCT fluid",
+     "Clear subretinal dome, thick choroid",
+     "Fluid with hyper-reflective tissue, thin choroid"
+    ],
+    [
+     "Blood",
+     "Absent",
+     "Present in most eyes at some stage"
+    ],
+    [
+     "Refraction",
+     "Hyperopic shift, micropsia",
+     "No consistent shift, metamorphopsia"
+    ]
+   ],
+   "decider": "Hyper-reflective material above the pigment epithelium, or any haemorrhage, means a membrane and same-week anti-VEGF. Its absence with a thick choroid buys three months of observation."
+  }
+ },
+ {
+  "id": "S1-16",
+  "session": 1,
+  "n": 16,
+  "domain": "Systemic health",
+  "title": "A drug the rheumatologist started five years ago",
+  "stem": "A 46-year-old woman with systemic lupus erythematosus takes hydroxychloroquine 400 mg daily, started five years ago. Weight 61 kg, eGFR 88, no tamoxifen, no other ocular medication. Reading is unchanged. BVA 20/20 both eyes. Maculae show no pigment disturbance and no ring of depigmentation. Automated 10-2 fields are full, spectral domain OCT shows an intact outer retina, and no baseline record exists.",
+  "items": [
+   {
+    "type": "treatment",
+    "q": "What does the current dose require of the practitioner?",
+    "options": [
+     {
+      "t": "Continue as prescribed, since retina, fields and acuity are normal"
+     },
+     {
+      "t": "Report to the prescriber that the dose exceeds 5 mg/kg and needs review",
+      "correct": true
+     },
+     {
+      "t": "Advise stopping the drug today, pending further macular imaging"
+     },
+     {
+      "t": "Halve the dose in clinic now and repeat the fields in a year"
+     },
+     {
+      "t": "Ask that the dose be recalculated on ideal rather than actual weight"
+     }
+    ],
+    "short": "Report the dose above 5 mg/kg",
+    "why": "At 61 kg, 400 mg daily is 6.6 mg/kg of actual body weight, above the 5 mg/kg threshold that raises retinopathy risk sharply. Dosing belongs to the prescriber, so the finding is reported with its reason.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Continue as prescribed",
+      "tempting": "Every test today is normal, so there seems to be nothing to act on.",
+      "ruled": "Risk is set by cumulative dose. Normal screening now does not license the dose."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Use ideal body weight",
+      "tempting": "Ideal weight dosing was the old rule and it is still widely quoted.",
+      "ruled": "Actual body weight replaced it, because it predicts toxicity better."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which two tests form the core of annual screening here?",
+    "options": [
+     {
+      "t": "Spectral domain OCT of the macula",
+      "correct": true
+     },
+     {
+      "t": "Automated 10-2 threshold visual fields",
+      "correct": true
+     },
+     {
+      "t": "Fundus autofluorescence of the pole"
+     },
+     {
+      "t": "Colour vision with pseudoisochromatic plates"
+     },
+     {
+      "t": "Weekly Amsler chart testing at home"
+     }
+    ],
+    "short": "SD-OCT with 10-2 automated fields",
+    "why": "Screening pairs one structural and one functional test, because either can show the parafoveal change first. Autofluorescence and multifocal electroretinography are adjuncts, not the core.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Autofluorescence",
+      "tempting": "It shows the parafoveal ring beautifully once damage is established.",
+      "ruled": "It is an adjunct, and it changes late compared with OCT and fields."
+     },
+     {
+      "refs": [
+       3,
+       4
+      ],
+      "label": "Colour plates, Amsler",
+      "tempting": "Both are cheap, quick, and test central function of a sort.",
+      "ruled": "Neither is sensitive to parafoveal loss, which spares the very centre early."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which pattern would indicate early toxicity?",
+    "options": [
+     {
+      "t": "Parafoveal outer retinal thinning with the foveal centre intact",
+      "correct": true
+     },
+     {
+      "t": "Loss of the ellipsoid zone directly beneath the foveal centre"
+     },
+     {
+      "t": "Cystoid spaces in the inner nuclear layer around the fovea"
+     },
+     {
+      "t": "Drusenoid elevation of the pigment epithelium temporal to fixation"
+     },
+     {
+      "t": "Choroidal thickening beneath the central macula on enhanced imaging"
+     }
+    ],
+    "short": "Parafoveal thinning, fovea spared",
+    "why": "Toxicity starts two to six degrees from fixation, thinning the outer nuclear layer and ellipsoid zone in a ring while the centre stays normal. The fundus still looks unremarkable at that stage.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Subfoveal ellipsoid loss",
+      "tempting": "The bull's eye name suggests the centre is the target of the damage.",
+      "ruled": "The centre is spared until late. Central loss points to another disease."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Drusenoid elevation",
+      "tempting": "It sits parafoveally, which matches where toxicity is looked for.",
+      "ruled": "Drusenoid change is age-related deposition, not drug-related thinning."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Screening at year seven shows parafoveal ellipsoid loss and a 10-2 ring defect. What next?",
+    "options": [
+     {
+      "t": "Report to the prescriber this week so the drug can be withdrawn",
+      "correct": true
+     },
+     {
+      "t": "Repeat the fields and OCT in six months before advising a change"
+     },
+     {
+      "t": "Tell the patient to stop the drug today and inform the prescriber later"
+     },
+     {
+      "t": "Advise halving the dose and continue annual screening as before"
+     },
+     {
+      "t": "Add autofluorescence and electroretinography before any advice"
+     }
+    ],
+    "short": "Report this week for withdrawal",
+    "why": "Structure and function agree, which is definite toxicity, and damage continues after the drug stops. Withdrawal is the prescriber's decision and it is needed within days, not months.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Patient stops it today",
+      "tempting": "It is fast and it puts the patient in control of her own risk.",
+      "ruled": "Abrupt withdrawal without the prescriber risks a lupus flare."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Repeat in six months",
+      "tempting": "Confirming a screening finding before acting is usually good practice.",
+      "ruled": "Two agreeing tests already confirm it, and six months adds permanent loss."
+     }
+    ]
+   },
+   {
+    "type": "legal",
+    "q": "What does the duty of care require of the screening record?",
+    "options": [
+     {
+      "t": "Annual results kept in the practice record and released only on written request"
+     },
+     {
+      "t": "Baseline images and fields on file, with every result sent to the prescriber",
+      "correct": true
+     },
+     {
+      "t": "A consent form for screening signed and filed before each annual visit"
+     },
+     {
+      "t": "The prescriber's dose calculation copied into the record each year"
+     },
+     {
+      "t": "A written note that continuing the drug is at the patient's own risk"
+     }
+    ],
+    "short": "Baseline on file, results to the prescriber",
+    "why": "Screening detects change, which needs a documented starting point, and only the prescriber can act on the result. No baseline exists here, so establishing one is part of this visit.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Kept, released on request",
+      "tempting": "Records are confidential, so waiting to be asked sounds correct.",
+      "ruled": "Shared care obliges active communication to the prescriber, not storage."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Note of patient risk",
+      "tempting": "It documents that risk was discussed, which feels protective.",
+      "ruled": "It transfers a clinical duty to the patient. The duty is to inform the prescriber."
+     }
+    ]
+   }
+  ],
+  "rules": "If the daily dose exceeds 5 mg/kg of actual weight, report it whatever the retina looks like. If structure and function agree on parafoveal loss, that is toxicity and the drug must stop."
+ },
+ {
+  "id": "S1-17",
+  "session": 1,
+  "n": 17,
+  "domain": "Glaucoma",
+  "title": "Pressures that crept up between two visits",
+  "stem": "A 63-year-old woman has no visual symptoms. Her mother went blind from glaucoma. Asthma controlled on an inhaler, no other medication, resting pulse 54. BVA 20/20 both eyes. Goldmann IOP 26 OD, 28 OS. Central corneal thickness 545 and 548 &micro;m. Gonioscopy: open to the ciliary band, no pigment band, no pseudoexfoliation. Cup-disc 0.75 OD and 0.8 OS with inferior rim thinning. Repeatable 24-2: superior nasal step OS, full OD.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Primary open angle glaucoma, worse in the left eye",
+      "correct": true
+     },
+     {
+      "t": "Ocular hypertension with physiologically large cups"
+     },
+     {
+      "t": "Normal tension glaucoma with asymmetric discs"
+     },
+     {
+      "t": "Pigmentary glaucoma at an early stage"
+     },
+     {
+      "t": "Secondary glaucoma from pseudoexfoliation"
+     }
+    ],
+    "short": "Primary open angle glaucoma, worse OS",
+    "why": "Open angles, pressures in the mid twenties, inferior rim thinning and a matching superior nasal defect on repeatable fields complete the diagnosis. Gonioscopy excludes the secondary causes.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Ocular hypertension",
+      "tempting": "Acuity is normal and she has no symptoms, so nothing seems lost yet.",
+      "ruled": "A repeatable nasal step with matching rim thinning is established damage."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Normal tension glaucoma",
+      "tempting": "Asymmetric discs with a family history is the usual normal tension story.",
+      "ruled": "Pressures of 26 and 28 on normal corneas are not normal tension."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which first-line topical agent fits this patient?",
+    "options": [
+     {
+      "t": "Timolol 0.5% twice daily in both eyes, with punctal occlusion taught"
+     },
+     {
+      "t": "A prostaglandin analogue at night in both eyes",
+      "correct": true
+     },
+     {
+      "t": "Brinzolamide 1% three times daily in both eyes"
+     },
+     {
+      "t": "Brimonidine 0.2% twice daily in both eyes"
+     },
+     {
+      "t": "Pilocarpine 2% four times daily in both eyes"
+     }
+    ],
+    "short": "Prostaglandin analogue at night",
+    "why": "A pulse of 54 with asthma rules out a beta-blocker whatever the drop technique. A prostaglandin gives the largest single-agent reduction on once nightly dosing, which also protects adherence.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Timolol with occlusion",
+      "tempting": "Punctal occlusion is taught precisely to limit systemic absorption.",
+      "ruled": "It reduces but does not remove absorption. Asthma and bradycardia are absolute."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Brinzolamide",
+      "tempting": "It avoids the respiratory and cardiac risk entirely, which looks safest.",
+      "ruled": "It lowers pressure less and dosing three times daily costs adherence."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which three make up an adequate baseline before treatment starts?",
+    "options": [
+     {
+      "t": "Two repeatable threshold visual field examinations",
+      "correct": true
+     },
+     {
+      "t": "Gonioscopy of both eyes with the angle graded",
+      "correct": true
+     },
+     {
+      "t": "Central corneal thickness in both eyes",
+      "correct": true
+     },
+     {
+      "t": "Anterior segment imaging used instead of gonioscopy"
+     },
+     {
+      "t": "Corneal endothelial cell count in both eyes"
+     },
+     {
+      "t": "Fundus autofluorescence of both maculae"
+     }
+    ],
+    "short": "Repeat fields, gonioscopy, corneal thickness",
+    "why": "Treatment is measured against a baseline, so the field must be repeatable, the angle mechanism must be known, and pressure must be interpreted against corneal thickness.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Imaging over gonioscopy",
+      "tempting": "Angle imaging is objective, repeatable and comfortable for the patient.",
+      "ruled": "It cannot grade pigment, synechiae or recession, and it does not replace the lens."
+     },
+     {
+      "refs": [
+       4,
+       5
+      ],
+      "label": "Cell count, autofluorescence",
+      "tempting": "Both are quantitative tests that fill out a thorough looking record.",
+      "ruled": "Neither informs glaucoma diagnosis, target setting or progression."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "Three months on the prostaglandin, IOP is 21 OD and 23 OS. What next?",
+    "options": [
+     {
+      "t": "Continue the same drop and review again in six months"
+     },
+     {
+      "t": "Add a topical carbonic anhydrase inhibitor and review in six weeks",
+      "correct": true
+     },
+     {
+      "t": "Switch to the lowest available concentration of a beta-blocker"
+     },
+     {
+      "t": "Refer for trabeculectomy in the left eye on the next available list"
+     },
+     {
+      "t": "Repeat the visual fields before changing any treatment"
+     }
+    ],
+    "short": "Add a second agent, review at six weeks",
+    "why": "A 25% reduction from 26 and 28 sets targets near 19 and 21, and the left eye with the field defect has not reached its. Adding a second agent is the next step, checked at six weeks.",
+    "dis": [
+     {
+      "refs": [
+       0
+      ],
+      "label": "Continue, review later",
+      "tempting": "The pressure has fallen and a single drop is easier to sustain.",
+      "ruled": "The worse eye misses its target, and six months lets damage accumulate."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Repeat fields first",
+      "tempting": "Progression is judged on fields, so more data before acting seems careful.",
+      "ruled": "Fields cannot change at twelve weeks. Pressure is the actionable number."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding decides that this is glaucoma rather than ocular hypertension?",
+    "options": [
+     {
+      "t": "Inferior rim thinning matched by a nasal field defect",
+      "correct": true
+     },
+     {
+      "t": "An intraocular pressure of 28 in the left eye by Goldmann"
+     },
+     {
+      "t": "A cup-disc ratio of 0.8 in the left eye"
+     },
+     {
+      "t": "A mother blinded by glaucoma in later life"
+     },
+     {
+      "t": "Central corneal thickness of 548 &micro;m"
+     }
+    ],
+    "short": "Rim thinning matched by a field defect",
+    "why": "Ocular hypertension is raised pressure without damage. Structure and function agreeing in the same hemifield, the inferior rim and the superior field, is the damage that names the disease.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Cup-disc 0.8",
+      "tempting": "A large cup is the image everyone associates with the diagnosis.",
+      "ruled": "Large discs carry large cups. Ratio alone cannot separate the two."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Family history",
+      "tempting": "It raises risk severalfold and rightly changes how closely she is watched.",
+      "ruled": "Risk factors decide surveillance, not diagnosis."
+     }
+    ]
+   }
+  ],
+  "rules": "If the pulse is under 60 or the chest is asthmatic, no beta-blocker at any concentration. If structural loss and field loss agree in the same hemifield, treat it as glaucoma."
+ },
+ {
+  "id": "S1-18",
+  "session": 1,
+  "n": 18,
+  "domain": "Glaucoma",
+  "title": "A red eye, a headache, and vomiting since evening",
+  "stem": "A 66-year-old woman, +3.25 D in both eyes, has six hours of severe right brow ache with blurred vision and haloes around lights. She has vomited twice and took a cold remedy yesterday. BVA counting fingers OD, 20/25 OS. OD: injected conjunctiva, hazy oedematous cornea, mid-dilated oval unreactive pupil, very shallow chamber, IOP 54. No cells, no keratic precipitates, no lens opacity flecks. OS: IOP 18, narrow angle, no synechiae.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Acute primary angle closure with pupil block",
+      "correct": true
+     },
+     {
+      "t": "Neovascular glaucoma with an angle membrane"
+     },
+     {
+      "t": "Acute anterior uveitis with a raised pressure"
+     },
+     {
+      "t": "Phacomorphic closure from an intumescent lens"
+     },
+     {
+      "t": "Plateau iris syndrome after pharmacological dilation"
+     }
+    ],
+    "short": "Acute primary angle closure",
+    "why": "A hyperopic eye with a very shallow chamber, a pressure of 54, corneal oedema and a fixed mid-dilated pupil is acute closure. The quiet chamber and clear lens exclude the secondary causes.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Acute anterior uveitis",
+      "tempting": "Pain, redness and blurred vision are the uveitis triad, and pressure can rise.",
+      "ruled": "No cells and no keratic precipitates, and uveitis does not shallow the chamber."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Plateau iris syndrome",
+      "tempting": "The cold remedy gives a dilating trigger, and plateau eyes close on dilation.",
+      "ruled": "Plateau eyes have a chamber of normal central depth and a flat iris plane."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate immediate treatment?",
+    "options": [
+     {
+      "t": "Topical pressure lowering with oral acetazolamide, supine, review in an hour",
+      "correct": true
+     },
+     {
+      "t": "Laser peripheral iridotomy at once, through the oedematous cornea, with no drops"
+     },
+     {
+      "t": "Pilocarpine 2% now, repeated every five minutes for three doses"
+     },
+     {
+      "t": "Intravenous mannitol as the first step, before any topical agent"
+     },
+     {
+      "t": "Urgent lens extraction on the emergency list this evening"
+     }
+    ],
+    "short": "Medical pressure reduction, then reassess",
+    "why": "At 54 the iris sphincter is ischaemic and pilocarpine works poorly, and laser is unreliable through a hazy cornea. Lowering pressure medically clears the cornea and makes iridotomy possible.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Intensive pilocarpine",
+      "tempting": "Constricting the pupil is the mechanism that should reopen the angle.",
+      "ruled": "A sphincter ischaemic at 54 will not respond, and repeated doses add anterior rotation."
+     },
+     {
+      "refs": [
+       1
+      ],
+      "label": "Immediate iridotomy",
+      "tempting": "Iridotomy is the definitive treatment, so doing it now sounds decisive.",
+      "ruled": "The oedematous cornea will not transmit the beam reliably or safely."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which two steps belong in the definitive plan once the pressure falls?",
+    "options": [
+     {
+      "t": "Laser peripheral iridotomy to the affected eye",
+      "correct": true
+     },
+     {
+      "t": "Prophylactic iridotomy to the fellow eye",
+      "correct": true
+     },
+     {
+      "t": "Long-term prostaglandin drops in both eyes"
+     },
+     {
+      "t": "Selective laser trabeculoplasty to the angle"
+     },
+     {
+      "t": "Iridoplasty repeated at monthly intervals"
+     }
+    ],
+    "short": "Iridotomy to both eyes",
+    "why": "Iridotomy removes the pressure gradient that bows the iris forward. The fellow eye is narrow with the same anatomy and roughly half of such eyes close within five years, so it is treated too.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Long-term prostaglandin",
+      "tempting": "Drops lower pressure and feel like the standard glaucoma answer.",
+      "ruled": "Drops do not address the mechanism, and the angle can still close on them."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Laser trabeculoplasty",
+      "tempting": "It is laser to the angle, which sounds like the right target.",
+      "ruled": "It needs a visible open angle to treat, and it does not relieve pupil block."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "One week after iridotomy, IOP is 24 with synechiae over 20% of the angle. What next?",
+    "options": [
+     {
+      "t": "Start a topical pressure lowering agent and monitor the angle",
+      "correct": true
+     },
+     {
+      "t": "Repeat the iridotomy at a second site in the same eye"
+     },
+     {
+      "t": "Add pilocarpine long term to hold the angle open"
+     },
+     {
+      "t": "Refer for trabeculectomy with an antimetabolite"
+     },
+     {
+      "t": "Observe without treatment and review in three months"
+     }
+    ],
+    "short": "Topical agent with angle monitoring",
+    "why": "A patent iridotomy has relieved the block, so the residual pressure comes from synechial and trabecular damage. That is treated medically first, with gonioscopy to track any further closure.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Second iridotomy",
+      "tempting": "If pressure remains high the first opening may look inadequate.",
+      "ruled": "A patent iridotomy needs no second site. The problem is now the angle itself."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Observe three months",
+      "tempting": "The crisis has passed and 24 is far from the pressure she presented with.",
+      "ruled": "Synechiae progress silently, and this eye has already lost angle."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which finding shows that pupil block, not a plateau configuration, drives the closure?",
+    "options": [
+     {
+      "t": "A convex iris with a very shallow central chamber in a hyperopic eye",
+      "correct": true
+     },
+     {
+      "t": "A mid-dilated oval pupil that does not react to light"
+     },
+     {
+      "t": "Corneal oedema at a pressure of 54 in that eye"
+     },
+     {
+      "t": "A narrow angle in the fellow eye with no synechiae and normal pressure"
+     },
+     {
+      "t": "Onset in the evening after a dose of cold remedy"
+     }
+    ],
+    "short": "Convex iris, shallow central chamber",
+    "why": "Pupil block bows the whole iris forward and shallows the chamber centrally as well as peripherally. Plateau eyes keep a normal central depth with a flat iris and a forward ciliary body.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Fixed mid-dilated pupil",
+      "tempting": "It is the signature sign of the attack and it is genuinely present.",
+      "ruled": "It reflects sphincter ischaemia at high pressure, whatever closed the angle."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Cold remedy trigger",
+      "tempting": "A dilating drug precipitates both mechanisms, so it feels diagnostic.",
+      "ruled": "Plateau eyes close on dilation too. The trigger does not name the mechanism."
+     }
+    ]
+   }
+  ],
+  "rules": "If the cornea is oedematous at a very high pressure, lower the pressure medically before attempting laser. If one eye has closed, the fellow narrow eye gets a prophylactic iridotomy."
+ },
+ {
+  "id": "S1-19",
+  "session": 1,
+  "n": 19,
+  "domain": "Glaucoma",
+  "title": "Ache and redness in the eye that failed in spring",
+  "stem": "A 71-year-old man had an ischaemic central retinal vein occlusion in the right eye four months ago and now has three weeks of ache, redness and haloes. BVA counting fingers OD, 20/30 OS. OD: oedematous cornea, IOP 44, deep central chamber, fine vessels crossing the pupil margin onto the iris, gonioscopy shows fibrovascular tissue bridging the angle with synechiae over 180&deg;. Disc pale, old haemorrhages. OS: IOP 15, angle open.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Neovascular glaucoma with a fibrovascular angle membrane",
+      "correct": true
+     },
+     {
+      "t": "Acute angle closure in an eye with an old occlusion"
+     },
+     {
+      "t": "Steroid response glaucoma after treatment of the occlusion"
+     },
+     {
+      "t": "Ghost cell glaucoma from degenerate red blood cells"
+     },
+     {
+      "t": "Uveitic glaucoma with trabeculitis and iris vessels"
+     }
+    ],
+    "short": "Neovascular glaucoma",
+    "why": "Ischaemic retina four months ago, new vessels at the pupil margin and fibrovascular tissue bridging the angle with broad synechiae is neovascular glaucoma at the synechial stage.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Acute angle closure",
+      "tempting": "Ache, haloes, corneal oedema and a pressure of 44 read like an acute attack.",
+      "ruled": "The central chamber is deep, and the closure is by membrane over three weeks."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Ghost cell glaucoma",
+      "tempting": "There has been intraocular blood, and degenerate cells do block outflow.",
+      "ruled": "Ghost cells need vitreous haemorrhage and give no iris or angle vessels."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which two findings establish that the angle is closed by membrane, not apposition?",
+    "options": [
+     {
+      "t": "Fibrovascular tissue bridging the angle on gonioscopy",
+      "correct": true
+     },
+     {
+      "t": "Peripheral anterior synechiae over 180&deg; of the angle",
+      "correct": true
+     },
+     {
+      "t": "Fine vessels crossing the pupil margin onto the iris"
+     },
+     {
+      "t": "Corneal oedema at a pressure of 44 in that eye"
+     },
+     {
+      "t": "Three weeks of increasing ache, redness and haloes"
+     }
+    ],
+    "short": "Angle membrane with broad synechiae",
+    "why": "Appositional closure is reversible on indentation and leaves the angle anatomy intact. Tissue bridging the angle with permanent adhesions is mechanical closure that no drop can reopen.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Vessels at pupil margin",
+      "tempting": "Rubeosis is the hallmark of the disease, so it feels like the answer.",
+      "ruled": "It proves neovascularisation, not that the angle is already sealed."
+     },
+     {
+      "refs": [
+       3,
+       4
+      ],
+      "label": "Oedema, three weeks of ache",
+      "tempting": "Both show how high and how sustained the pressure has been.",
+      "ruled": "Neither examines the angle, and both occur with appositional closure."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management now?",
+    "options": [
+     {
+      "t": "Intravitreal anti-VEGF with topical pressure lowering, panretinal laser to follow",
+      "correct": true
+     },
+     {
+      "t": "Panretinal photocoagulation alone now, with pressure drops and review in four weeks"
+     },
+     {
+      "t": "Trabeculectomy with mitomycin C on the next available list"
+     },
+     {
+      "t": "Cyclodiode laser now, with no retinal treatment planned"
+     },
+     {
+      "t": "Retrobulbar alcohol for pain, since the eye sees very little"
+     }
+    ],
+    "short": "Anti-VEGF and drops, laser to follow",
+    "why": "Anti-VEGF regresses the angle and iris vessels within days while drops carry the pressure, and panretinal laser then removes the ischaemic drive permanently. The order matters, not the choice.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Panretinal laser alone",
+      "tempting": "It treats the underlying ischaemia, which is the root of the problem.",
+      "ruled": "It takes weeks to work and the cornea is too hazy to laser adequately now."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Trabeculectomy",
+      "tempting": "Pressure is 44 with a sealed angle, which sounds like a drainage problem.",
+      "ruled": "Filtration fails in an actively neovascular eye. Regress the vessels first."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Pressure stays 38 on maximal drops, the eye is painful and sees hand movements. What next?",
+    "options": [
+     {
+      "t": "Cyclodiode laser to lower the pressure and settle the pain",
+      "correct": true
+     },
+     {
+      "t": "Trabeculectomy with mitomycin C and a releasable suture"
+     },
+     {
+      "t": "Glaucoma drainage device with a tube to the chamber"
+     },
+     {
+      "t": "Enucleation, since the eye has no useful vision left"
+     },
+     {
+      "t": "Retrobulbar chlorpromazine with the drops continued"
+     }
+    ],
+    "short": "Cyclodiode laser for pressure and pain",
+    "why": "With minimal vision, a painful eye and a neovascular angle, reducing aqueous production is the lowest risk route to comfort. Filtering procedures scar closed and carry a real risk of loss.",
+    "dis": [
+     {
+      "refs": [
+       2
+      ],
+      "label": "Drainage device",
+      "tempting": "Tubes are the recognised choice in neovascular glaucoma with vision.",
+      "ruled": "Reserved for eyes with useful vision. This eye needs comfort, not a tube."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Enucleation",
+      "tempting": "It is definitive for a blind painful eye and ends the problem.",
+      "ruled": "Pain has not yet been treated. Enucleation is a last resort, not a next step."
+     }
+    ]
+   },
+   {
+    "type": "basic",
+    "q": "Which mediator most directly drives the angle change?",
+    "options": [
+     {
+      "t": "Vascular endothelial growth factor from ischaemic retina",
+      "correct": true
+     },
+     {
+      "t": "Prostaglandin released from a chronically inflamed uvea"
+     },
+     {
+      "t": "Transforming growth factor beta from lens epithelium"
+     },
+     {
+      "t": "Complement activated on the trabecular endothelium"
+     },
+     {
+      "t": "Ferritin deposited from degraded intraocular blood"
+     }
+    ],
+    "short": "VEGF from the ischaemic retina",
+    "why": "Hypoxic retina secretes vascular endothelial growth factor, which diffuses forward into the aqueous and drives new vessels on the iris and in the angle. That pathway is why anti-VEGF works within days.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Uveal prostaglandin",
+      "tempting": "The eye is red and aching, so an inflammatory mediator fits the picture.",
+      "ruled": "Prostaglandins cause inflammation and lower pressure. They grow no vessels."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Ferritin from old blood",
+      "tempting": "There was retinal haemorrhage, so iron products are genuinely present.",
+      "ruled": "Iron toxicity is a late siderotic process and grows no fibrovascular tissue."
+     }
+    ]
+   }
+  ],
+  "rules": "If an ischaemic eye develops a high pressure with iris vessels, treat the ischaemia and the pressure together. If the eye is painful with no useful vision, cyclodestruction before filtration.",
+  "pair": {
+   "this": "Neovascular glaucoma",
+   "vs": "Acute primary angle closure",
+   "rows": [
+    [
+     "Onset",
+     "Days to weeks of increasing ache",
+     "Hours, severe, with nausea and vomiting"
+    ],
+    [
+     "Central chamber",
+     "Deep, until the membrane contracts",
+     "Very shallow in both eyes"
+    ],
+    [
+     "Iris and angle",
+     "Vessels at the pupil margin, membrane in the angle",
+     "No vessels, angle closed by apposition"
+    ],
+    [
+     "Fellow eye",
+     "Normal depth, open angle",
+     "Narrow, at risk, needs iridotomy"
+    ]
+   ],
+   "decider": "A deep central chamber with vessels at the pupil margin means the closure is neovascular, so the treatment is anti-VEGF and retinal laser rather than iridotomy to either eye."
+  }
+ },
+ {
+  "id": "S1-20",
+  "session": 1,
+  "n": 20,
+  "domain": "Optic nerve and neuro-ophthalmic",
+  "title": "Ache behind the eye, then the colours went flat",
+  "stem": "A 29-year-old woman has four days of worsening blur in the left eye with ache on eye movement, and says colours look washed out on that side. No headache. Two years ago she had a fortnight of numbness in the right leg that resolved without investigation. BVA 20/20 OD, 20/80 OS. RAPD OS. Ishihara 14 of 14 OD, 4 of 14 OS. Central depression on 24-2 OS. Both discs flat and normal in colour. IOP 14 both eyes.",
+  "items": [
+   {
+    "type": "diagnosis",
+    "q": "What is the most likely diagnosis?",
+    "options": [
+     {
+      "t": "Demyelinating retrobulbar optic neuritis",
+      "correct": true
+     },
+     {
+      "t": "Non-arteritic anterior ischaemic optic neuropathy"
+     },
+     {
+      "t": "Compressive optic neuropathy at the orbital apex"
+     },
+     {
+      "t": "Leber hereditary optic neuropathy, first eye"
+     },
+     {
+      "t": "Posterior ischaemic optic neuropathy after hypotension"
+     }
+    ],
+    "short": "Demyelinating retrobulbar optic neuritis",
+    "why": "A young woman with subacute unilateral loss, pain on movement, dyschromatopsia, an RAPD and a normal disc has retrobulbar inflammation. The earlier leg symptom points to demyelination.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Anterior ischaemic",
+      "tempting": "It is the commonest optic neuropathy and shares the RAPD and colour loss.",
+      "ruled": "It needs a swollen disc and it does not hurt on eye movement."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Apical compression",
+      "tempting": "Compression also spares the disc early and causes progressive loss.",
+      "ruled": "Compression progresses over months, without pain on movement."
+     }
+    ]
+   },
+   {
+    "type": "diagnosis",
+    "q": "Which feature best separates this from an ischaemic optic neuropathy?",
+    "options": [
+     {
+      "t": "Pain on eye movement with a normal disc at 29",
+      "correct": true
+     },
+     {
+      "t": "A relative afferent pupillary defect on that side"
+     },
+     {
+      "t": "Acuity of 20/80 with a central field depression"
+     },
+     {
+      "t": "Four of fourteen Ishihara plates read correctly"
+     },
+     {
+      "t": "An intraocular pressure of 14 in both eyes"
+     }
+    ],
+    "short": "Pain on movement with a normal disc",
+    "why": "An RAPD, reduced acuity and dyschromatopsia occur in both, so neither separates them. Pain on movement with a flat disc in a woman of 29 is specific to inflammation of the nerve behind the globe.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Afferent pupil defect",
+      "tempting": "It is the sign that proves the nerve is at fault, so it feels decisive.",
+      "ruled": "Any unilateral optic neuropathy gives it. It localises without discriminating."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Ishihara 4 of 14",
+      "tempting": "Colour loss is taught as the marker of optic neuritis.",
+      "ruled": "Ischaemic neuropathy desaturates colour in proportion to acuity too."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "What is the most appropriate management?",
+    "options": [
+     {
+      "t": "Contrast MRI of brain and orbits, with neurology referral",
+      "correct": true
+     },
+     {
+      "t": "Intravenous methylprednisolone started today, imaging later"
+     },
+     {
+      "t": "Oral prednisolone 1 mg/kg for eleven days with a taper"
+     },
+     {
+      "t": "Observation alone, since most eyes recover their acuity"
+     },
+     {
+      "t": "Same-day inflammatory markers and a temporal artery biopsy"
+     }
+    ],
+    "short": "Contrast MRI, then neurology",
+    "why": "Imaging counts the lesions that set the risk of multiple sclerosis and excludes compression, and that result drives disease modifying treatment. Steroids do not change the final acuity.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Steroids first",
+      "tempting": "Treating the inflammation immediately feels like the active choice.",
+      "ruled": "Steroids only shorten the attack, and imaging must come before immunotherapy."
+     },
+     {
+      "refs": [
+       2
+      ],
+      "label": "Oral prednisolone",
+      "tempting": "It avoids admission and appears to give the same anti-inflammatory effect.",
+      "ruled": "Standard oral dosing alone was associated with more recurrent attacks."
+     }
+    ]
+   },
+   {
+    "type": "treatment",
+    "q": "Which two statements belong in the counselling?",
+    "options": [
+     {
+      "t": "Most eyes recover useful acuity over two to three months",
+      "correct": true
+     },
+     {
+      "t": "Steroids speed recovery but do not change the final acuity",
+      "correct": true
+     },
+     {
+      "t": "Low dose oral steroid prevents a second attack later"
+     },
+     {
+      "t": "Colour vision returns fully in every case by six weeks"
+     },
+     {
+      "t": "Recovery is unlikely once acuity has fallen to 20/80"
+     }
+    ],
+    "short": "Recovery expected, steroids only speed it",
+    "why": "The natural history is good, with most eyes back near normal acuity within three months, and steroid benefit is confined to the speed of that recovery. Residual colour and contrast loss is common.",
+    "dis": [
+     {
+      "refs": [
+       3
+      ],
+      "label": "Colour fully recovers",
+      "tempting": "Acuity recovers so well that colour is assumed to follow it.",
+      "ruled": "Colour and contrast deficits persist in many eyes with 20/20 acuity."
+     },
+     {
+      "refs": [
+       4
+      ],
+      "label": "Poor acuity, poor outcome",
+      "tempting": "Presenting acuity predicts outcome in most other optic neuropathies.",
+      "ruled": "Even eyes at counting fingers usually recover substantially here."
+     }
+    ],
+    "format": "multi"
+   },
+   {
+    "type": "basic",
+    "q": "Which mechanism explains the ache on eye movement?",
+    "options": [
+     {
+      "t": "Traction on the inflamed nerve sheath by the muscle origins",
+      "correct": true
+     },
+     {
+      "t": "Ischaemia of the short posterior ciliary arteries at the disc"
+     },
+     {
+      "t": "Stretch of the ciliary nerves crossing the posterior sclera"
+     },
+     {
+      "t": "Raised orbital pressure from oedema within the muscle cone"
+     },
+     {
+      "t": "Meningeal irritation transmitted along the optic canal"
+     }
+    ],
+    "short": "Traction on the inflamed nerve sheath",
+    "why": "The superior and medial rectus origins share the dural sheath of the nerve at the apex, so every movement pulls on an inflamed, swollen sheath. This is why the pain is worse on adduction and elevation.",
+    "dis": [
+     {
+      "refs": [
+       1
+      ],
+      "label": "Ciliary artery ischaemia",
+      "tempting": "It is the mechanism of the disease this case must be separated from.",
+      "ruled": "Ischaemic neuropathy is painless, and the disc here is flat and normal."
+     },
+     {
+      "refs": [
+       3
+      ],
+      "label": "Raised orbital pressure",
+      "tempting": "Orbital congestion genuinely causes ache worsened by movement.",
+      "ruled": "There is no proptosis, no chemosis and no restriction of movement."
+     }
+    ]
+   }
+  ],
+  "rules": "If a young adult loses vision in one eye with pain on movement and a normal disc, image the brain and orbits before reaching for steroids. If the disc is swollen instead, rethink the diagnosis.",
+  "pair": {
+   "this": "Optic neuritis",
+   "vs": "Non-arteritic ischaemic optic neuropathy",
+   "rows": [
+    [
+     "Age and onset",
+     "Twenties to forties, worse over days",
+     "Past fifty, noticed on waking, then static"
+    ],
+    [
+     "Pain",
+     "Ache on eye movement in most cases",
+     "Painless"
+    ],
+    [
+     "Disc",
+     "Normal in retrobulbar cases",
+     "Swollen, often segmental, with splinter haemorrhage"
+    ],
+    [
+     "Field",
+     "Central depression",
+     "Altitudinal, respecting the horizontal"
+    ]
+   ],
+   "decider": "A swollen disc with an altitudinal field in an older patient moves the work to vascular risk and the fellow eye. A flat disc with pain on movement sends the patient for MRI and neurology."
+  }
+ }
+]
