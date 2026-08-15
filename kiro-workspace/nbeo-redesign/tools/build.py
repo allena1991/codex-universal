@@ -11,6 +11,7 @@ away from the content.
 
 import json
 import os
+from collections import Counter
 import re
 import sys
 
@@ -27,7 +28,14 @@ PARTIALS = os.path.join(CONTENT, "partials")
 BUILT = "15 August 2026"
 
 # Sheet order. Partials are authored HTML; generators come from blocks.py.
-SPINE = [
+#
+# The manual prints as two volumes, one per session. Each volume is complete:
+# it carries the whole reference apparatus, then its own session. Within a
+# volume the 35 cases come first and the 35 teaching keys follow, so a session
+# can be sat cold without a key on the facing page. That was the one real flaw
+# in the single-file edition: turn the page, see the answer.
+
+REFERENCE = [
     ("p", "10-cover.html", "cover"),
     ("p", "11-how-to-use.html", "how"),
     ("p", "12-verification.html", "verify"),
@@ -49,14 +57,9 @@ SPINE = [
     ("p", "61-procedures.html", None),
     ("p", "62-law.html", "law"),
     ("g", "pairs", "pairs"),
-    ("p", "80-divider-s1.html", "s1"),
-    ("g", "index1", "idx1"),
-    ("g", "score1", None),
-    ("c", 1, None),
-    ("p", "90-divider-s2.html", "s2"),
-    ("g", "index2", "idx2"),
-    ("g", "score2", None),
-    ("c", 2, None),
+]
+
+BACK = [
     ("p", "95-back-divider.html", "back"),
     ("g", "answerkey", "key"),
     ("g", "schedule", "sched"),
@@ -66,7 +69,20 @@ SPINE = [
     ("p", "99-colophon.html", "colo"),
 ]
 
-TOC = [
+
+def spine(volume):
+    return (REFERENCE
+            + [("p", {1: "80-divider-s1.html", 2: "90-divider-s2.html"}[volume],
+                "session"),
+               ("g", "index", "idx"),
+               ("g", "score", None),
+               ("c", "cases", None),
+               ("p", "85-keys-divider.html", "keys"),
+               ("c", "keys", None)]
+            + BACK)
+
+
+SHARED_TOC = [
     ("1", "How to use this manual", "how"),
     ("1", "What was verified, and what was not", "verify"),
     ("1", "Key integrity", "keyint"),
@@ -79,15 +95,20 @@ TOC = [
     ("6", "Optics, formulas, drills", "optics"),
     ("6", "Law, ethics, public health", "law"),
     ("7", "Competing pairs", "pairs"),
-    ("8", "Session 1 simulation", "s1"),
-    ("8", "Session 1 case index", "idx1"),
-    ("9", "Session 2 simulation", "s2"),
-    ("9", "Session 2 case index", "idx2"),
-    ("10", "Answer key", "key"),
-    ("10", "Eighteen days", "sched"),
-    ("10", "Rapid recall deck", "recall"),
-    ("10", "Sources", "sources"),
 ]
+
+
+def toc_for(volume):
+    return SHARED_TOC + [
+        ("8", "Session %d, thirty-five cases" % volume, "session"),
+        ("8", "Case index and score sheet", "idx"),
+        ("9", "Teaching keys, case by case", "keys"),
+        ("10", "Answer key, Session %d" % volume, "key"),
+        ("10", "Eleven days", "sched"),
+        ("10", "Rapid recall deck", "recall"),
+        ("10", "Sources", "sources"),
+    ]
+
 
 FRONT = re.compile(r"^\s*<!--(.*?)-->", re.S)
 
@@ -111,29 +132,31 @@ def read_partial(name):
                         meta.get("chrome", "yes") != "none")
 
 
-def assemble(cases):
-    """Return [(html, anchor)] in print order."""
+def assemble(cases, volume):
+    """Return [(html, anchor)] in print order for one volume.
+
+    `cases` is the whole bank, because the answer letters are generated across
+    both sessions. Only this volume's session is rendered.
+    """
+    mine = [c for c in cases if c["session"] == volume]
     sheets = []
-    for kind, arg, anchor in SPINE:
+    for kind, arg, anchor in spine(volume):
         if kind == "p":
             sheets.append([read_partial(arg), anchor])
         elif kind == "c":
-            first = True
-            for case in [c for c in cases if c["session"] == arg]:
-                for i, html in enumerate(render.case_sheets(case)):
-                    sheets.append([html, case["id"] if i == 0 else None])
-                for i, html in enumerate(render.key_sheets(case)):
-                    sheets.append([html, "key-" + case["id"] if i == 0 else None])
-                first = False
+            for case in mine:
+                made = (render.case_sheets(case) if arg == "cases"
+                        else render.key_sheets(case))
+                tag = case["id"] if arg == "cases" else "key-" + case["id"]
+                for i, html in enumerate(made):
+                    sheets.append([html, tag if i == 0 else None])
         else:
             made = {
-                "pairs": lambda: blocks.pair_sheets(cases),
-                "index1": lambda: [_index_sheet(cases, 1)],
-                "index2": lambda: [_index_sheet(cases, 2)],
-                "score1": lambda: blocks.score_sheets(cases, 1),
-                "score2": lambda: blocks.score_sheets(cases, 2),
-                "answerkey": lambda: blocks.answer_key_sheets(cases),
-                "schedule": lambda: blocks.schedule_sheets(),
+                "pairs": lambda: blocks.pair_sheets(mine),
+                "index": lambda: [_index_sheet(cases, volume)],
+                "score": lambda: blocks.score_sheets(cases, volume),
+                "answerkey": lambda: blocks.answer_key_sheets(cases, [volume]),
+                "schedule": lambda: blocks.schedule_sheets(volume),
             }[arg]()
             for i, html in enumerate(made):
                 sheets.append([html, anchor if i == 0 else None])
@@ -163,11 +186,11 @@ def paginate(sheets):
     return out, pages
 
 
-def toc_html(pages):
+def toc_html(pages, volume):
     """One row per entry, with the part number inline. Part heading rows cost
     more vertical space on the cover than they earn."""
     rows = []
-    for num, title, anchor in TOC:
+    for num, title, anchor in toc_for(volume):
         rows.append('<div><b>%s</b><span><i>P%s</i>%s</span></div>'
                     % (pages.get(anchor, "-"), num, render.esc(title)))
     return "".join(rows)
@@ -197,24 +220,59 @@ def main():
     if "--audit" in sys.argv:
         return 1 if key_problems else 0
 
-    sheets = assemble(cases)
+    with open(os.path.join(CONTENT, "base.css"), encoding="utf-8") as fh:
+        css = fh.read()
+
+    counts = {}
+    for volume in (1, 2):
+        counts[volume] = write_volume(cases, volume, css)
+
+    write_key_json(cases)
+    print("")
+    for volume in (1, 2):
+        print("wrote %s: %d pages" % (html_name(volume), counts[volume]))
+    print("%d cases, %d items, %d distractor rows across the two volumes"
+          % (len(cases), sum(len(c["items"]) for c in cases),
+             sum(len(i["dis"]) for c in cases for i in c["items"])))
+    return 1 if key_problems else 0
+
+
+VOLUME_WORDS = {1: "One", 2: "Two"}
+
+
+def html_name(volume):
+    return "volume-%d.html" % volume
+
+
+def pdf_name(volume):
+    return "NBEO PAM-TMOD Manual - Volume %d, Session %d.pdf" % (volume, volume)
+
+
+def write_volume(cases, volume, css):
+    """Render one volume to volume-N.html. Returns its page count."""
+    sheets = assemble(cases, volume)
     html_pages, pages = paginate(sheets)
     doc = "\n".join(html_pages)
 
     n_items = sum(len(c["items"]) for c in cases)
-    from collections import Counter
     alloc = Counter(i["type"] for c in cases for i in c["items"])
     for kind, count in alloc.items():
         doc = doc.replace("{{ALLOC:%s}}" % kind,
                           "%d &middot; %.0f%%" % (count, 100.0 * count / n_items))
-    doc = doc.replace("{{ALLOC:multi}}", str(sum(
-        1 for c in cases for i in c["items"] if i.get("format") == "multi")))
-    doc = doc.replace("{{DOMAINS}}", str(len({c["domain"] for c in cases})))
-    doc = doc.replace("{{DISROWS}}", str(sum(
-        len(i["dis"]) for c in cases for i in c["items"])))
-
-    doc = (doc.replace("{{TOC}}", toc_html(pages))
+    mine = [c for c in cases if c["session"] == volume]
+    doc = (doc.replace("{{ALLOC:multi}}", str(sum(
+               1 for c in cases for i in c["items"]
+               if i.get("format") == "multi")))
+              .replace("{{DOMAINS}}", str(len({c["domain"] for c in cases})))
+              .replace("{{DISROWS}}", str(sum(
+                  len(i["dis"]) for c in cases for i in c["items"])))
+              .replace("{{TOC}}", toc_html(pages, volume))
               .replace("{{KEYBARS}}", blocks.key_integrity(cases))
+              .replace("{{VOLUME}}", str(volume))
+              .replace("{{VOLWORD}}", VOLUME_WORDS[volume])
+              .replace("{{OTHERVOL}}", VOLUME_WORDS[3 - volume])
+              .replace("{{VOLCASES}}", str(len(mine)))
+              .replace("{{VOLITEMS}}", str(sum(len(c["items"]) for c in mine)))
               .replace("{{NPAGES}}", str(len(html_pages)))
               .replace("{{NCASES}}", str(len(cases)))
               .replace("{{NITEMS}}", str(n_items))
@@ -224,24 +282,29 @@ def main():
 
     left = re.findall(r"\{\{[A-Z][^}]*\}\}", doc)
     if left:
-        print("unresolved tokens:", sorted(set(left))[:10])
+        print("volume %d unresolved tokens: %s"
+              % (volume, sorted(set(left))[:10]))
 
-    with open(os.path.join(CONTENT, "base.css"), encoding="utf-8") as fh:
-        css = fh.read()
+    title = ("NBEO Part II PAM/TMOD - Clinical Reasoning Manual, "
+             "Volume %d: Session %d" % (volume, volume))
     shell = (
         '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
-        '<title>NBEO Part II PAM/TMOD - Clinical Reasoning Manual</title>\n'
+        '<title>%s</title>\n'
         '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
         '<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1'
         '&family=Spectral:ital,wght@0,300;0,400;0,600;1,400'
         '&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">\n'
-        '<style>\n%s</style>\n</head>\n<body>\n\n%s\n</body>\n</html>\n' % (css, doc))
+        '<style>\n%s</style>\n</head>\n<body>\n\n%s\n</body>\n</html>\n'
+        % (render.esc(title), css, doc))
 
-    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(ROOT, html_name(volume)), "w", encoding="utf-8") as fh:
         fh.write(shell)
+    return len(html_pages)
 
+
+def write_key_json(cases):
     os.makedirs(os.path.join(ROOT, "build"), exist_ok=True)
     key = {"built": BUILT, "sessions": {}}
     for session in (1, 2):
@@ -252,10 +315,6 @@ def main():
             for c in cases if c["session"] == session]
     with open(os.path.join(ROOT, "build", "key.json"), "w", encoding="utf-8") as fh:
         json.dump(key, fh, indent=1)
-
-    print("\nwrote index.html: %d sheets, %d cases, %d items"
-          % (len(html_pages), len(cases), n_items))
-    return 1 if key_problems else 0
 
 
 if __name__ == "__main__":

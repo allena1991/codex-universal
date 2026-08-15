@@ -123,9 +123,9 @@ def score_sheets(cases, session):
 # printed answer key
 # --------------------------------------------------------------------------
 
-def answer_key_sheets(cases):
+def answer_key_sheets(cases, sessions=(1, 2)):
     tables = []
-    for session in (1, 2):
+    for session in sessions:
         block = [c for c in cases if c["session"] == session]
         rows = []
         for case in block:
@@ -138,9 +138,10 @@ def answer_key_sheets(cases):
             '</tr></thead><tbody>%s</tbody></table>' % (session, "".join(rows)))
     body = ('<h2>Answer key</h2>'
             '<p class="lede" style="margin-top:8px">Letters are generated to the '
-            'distribution on the key-integrity page, not chosen by whoever wrote '
-            'the item. Guessing one letter throughout scores close to a fifth of '
-            'the paper, which is what it should score.</p>'
+            'distribution audited on page {{PGREF:keyint}}, not chosen by whoever '
+            'wrote the item. Guessing one letter throughout scores close to a '
+            'fifth of the paper, which is what it should score. Multiple letters '
+            'in a cell mean an all-or-none item: every one, or no mark.</p>'
             '<div class="cols2" style="margin-top:11px">%s</div>'
             % "".join(tables))
     return [sheet(body, "Answer key", "Part 10 / Answer key",
@@ -209,47 +210,55 @@ def pair_sheets(cases):
 # spaced repetition schedule, keyed to real case numbers
 # --------------------------------------------------------------------------
 
-SCHEDULE = [
-    ("Day 1", "S1-01 to S1-05", "Cases cold, keys same evening", "-"),
-    ("Day 2", "S1-06 to S1-10", "Cases cold", "S1-01 to S1-05 recall cards"),
-    ("Day 3", "S1-11 to S1-15", "Cases cold", "S1-01 to S1-10 missed items only"),
-    ("Day 4", "S1-16 to S1-20", "Cases cold", "S1-06 to S1-15 recall cards"),
-    ("Day 5", "S1-21 to S1-25", "Cases cold", "S1-01 to S1-10 second pass"),
-    ("Day 6", "S1-26 to S1-30", "Cases cold", "S1-16 to S1-25 recall cards"),
-    ("Day 7", "S1-31 to S1-35", "Cases cold", "Score all of Session 1 by item type"),
-    ("Day 8", "Repair", "Weakest two item-type columns", "Condition cards, pharmacology"),
-    ("Day 9", "S2-01 to S2-06", "Cases cold", "S1 missed items, third pass"),
-    ("Day 10", "S2-07 to S2-12", "Cases cold", "S1-26 to S1-35 recall cards"),
-    ("Day 11", "S2-13 to S2-18", "Cases cold", "Emergency gate, aloud"),
-    ("Day 12", "S2-19 to S2-24", "Cases cold", "S2-01 to S2-12 missed items"),
-    ("Day 13", "S2-25 to S2-30", "Cases cold", "Competing pairs, aloud"),
-    ("Day 14", "S2-31 to S2-35", "Cases cold", "Score all of Session 2 by item type"),
-    ("Day 15", "Timed run", "Session 1 in one 3.5 hour block", "Compare to first pass"),
-    ("Day 16", "Repair", "Every item still missed twice", "Rewrite each as a rule"),
-    ("Day 17", "Timed run", "Session 2 in one 3.5 hour block", "Score by item type"),
-    ("Day 18", "Consolidate", "Emergency gate and competing pairs", "Formulas, drilled"),
-]
+def _plan(volume):
+    """Eleven days for one session. New cases on the left, recall on the right."""
+    s = volume
+    other = 3 - volume
+    rows = []
+    for day in range(1, 8):
+        lo, hi = 5 * day - 4, 5 * day
+        recall = "-" if day == 1 else (
+            "S%d-%02d to S%d-%02d, recall cards" % (s, max(1, lo - 10), s, hi - 5))
+        rows.append(("Day %d" % day,
+                     "S%d-%02d to S%d-%02d" % (s, lo, s, hi),
+                     "Cases cold, keys the same evening",
+                     recall))
+    rows += [
+        ("Day 8", "Repair", "The two weakest item-type columns",
+         "Condition cards and pharmacology"),
+        ("Day 9", "Repair", "Every item missed with high confidence",
+         "Rewrite each as one if-then rule"),
+        ("Day 10", "Timed run", "All 175 items in one 3.5 hour block",
+         "Score by item type, compare to the first pass"),
+        ("Day 11", "Consolidate", "Emergency gate and competing pairs, aloud",
+         "Formulas drilled, then Volume %d" % other),
+    ]
+    return rows
 
 
-def schedule_sheets():
+def schedule_sheets(volume):
     rows = "".join(
         '<tr><td class="d">%s</td><td>%s</td><td>%s</td><td class="w">%s</td></tr>'
-        % (esc(a), esc(b), esc(c), esc(d)) for a, b, c, d in SCHEDULE)
+        % (esc(a), esc(b), esc(c), esc(d)) for a, b, c, d in _plan(volume))
     body = (
-        '<h2>Eighteen days</h2>'
-        '<p class="lede" style="margin-top:8px">Cases are answered cold, once. '
-        'Everything after that is recall, not rereading. The right-hand column is '
-        'the part people skip and the part that moves the score.</p>'
+        '<h2>Eleven days</h2>'
+        '<p class="lede" style="margin-top:8px">One session, eleven days. Cases '
+        'are answered cold, once. Everything after that is recall, not rereading. '
+        'The right-hand column is the part people skip and the part that moves '
+        'the score.</p>'
         '<table class="lined sched" style="margin-top:11px"><thead><tr><th>Day</th>'
         '<th>New</th><th>Work</th><th>Recall</th></tr></thead><tbody>%s</tbody>'
         '</table>'
-        '<div class="note"><b>If you have fewer than eighteen days</b>Keep the '
+        '<div class="note"><b>Both volumes, three weeks</b>Run this volume, then '
+        'Volume %d on the same eleven-day shape. Compare the two score sheets by '
+        'item-type column, not by total. A total that rose while the treatment '
+        'column fell is a warning, not progress.</div>'
+        '<div class="callout"><b>If you have fewer than eleven days</b>Keep the '
         'recall column and cut new cases, not the reverse. Ten cases reviewed to '
-        'the point of recall beat thirty-five read once. If you have four days, '
-        'run the emergency gate, the competing pairs, and the score sheets for '
-        'both sessions, and accept that the rest is coverage you will not '
-        'get.</div>' % rows)
-    return [sheet(body, "Schedule", "Part 10 / Eighteen days",
+        'the point of recall beat thirty-five read once. With four days: the '
+        'emergency gate, the competing pairs, and one timed half session.</div>'
+        % (rows, 3 - volume))
+    return [sheet(body, "Schedule", "Part 10 / Eleven days",
                   "Schedule &middot; {{PG}}")]
 
 

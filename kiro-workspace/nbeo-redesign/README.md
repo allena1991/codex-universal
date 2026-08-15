@@ -1,7 +1,12 @@
 # NBEO Part II PAM/TMOD Clinical Reasoning Manual
 
 A rebuilt replacement for a 120-page study guide whose answer key was 82% option A.
-179 letter pages, 70 cases, 350 items, built from data rather than typed.
+Two volumes, 209 letter pages, 70 cases, 350 items, built from data rather than typed.
+
+Each volume is complete: the whole reference apparatus, then one session. Within a
+volume the 35 cases come first and the 35 teaching keys follow in Part 9, so a
+session can be sat cold. In the single-file draft you turned the page and saw the
+answer, which is the one thing a practice bank must not do.
 
 `AUDIT.md` is the case for the rebuild: what was wrong with the original, measured.
 `content/AUTHORING.md` is the contract every case is written against.
@@ -9,16 +14,19 @@ A rebuilt replacement for a 120-page study guide whose answer key was 82% option
 ## Build
 
 ```
-python3 tools/build.py                                  # content -> index.html
-node tools/shoot.mjs                                    # fails if any page clips
-node tools/to_pdf.mjs                                   # index.html -> PDF
-python3 tools/check_pdf.py "NBEO PAM-TMOD Clinical Reasoning Manual.pdf"
+python3 tools/build.py                     # content -> volume-1.html, volume-2.html
+node tools/shoot.mjs                       # both volumes, fails if any page clips
+node tools/to_pdf.mjs volume-1.html "NBEO PAM-TMOD Manual - Volume 1, Session 1.pdf"
+node tools/to_pdf.mjs volume-2.html "NBEO PAM-TMOD Manual - Volume 2, Session 2.pdf"
+python3 tools/check_pdf.py "NBEO PAM-TMOD Manual - Volume 1, Session 1.pdf" 105
+python3 tools/check_pdf.py "NBEO PAM-TMOD Manual - Volume 2, Session 2.pdf" 104
 ```
 
 All four must pass. `build.py` refuses to write if the answer key misses its
 distribution target, `shoot.mjs` exits non-zero if a single page is clipped, and
 `check_pdf.py` catches a substituted font, which looks correct on screen and
-wrong on paper.
+wrong on paper. Answer letters are generated across both sessions at once, so
+both volumes always come from a single build.
 
 In this sandbox node is not on the default PATH:
 
@@ -44,7 +52,7 @@ tools/
   check_batch.py    check one authored batch before it enters the build
   calibrate.mjs     measure real block heights, to fit the cost model to them
   shoot.mjs         measure every page in a real render, fail on any clip
-  preview.mjs       PNG of named sheets, for review
+  preview.mjs       PNG of named sheets from a volume, for review
   to_pdf.mjs        print through Chromium at letter size
   check_pdf.py      page count, page box, embedded fonts
   glyph_check.mjs   prove which characters force a fallback face
@@ -67,14 +75,16 @@ overflow: hidden`, so content that does not fit is lost in print rather than
 reflowed. Python cannot measure text, so `render.py` carries a cost model in
 typographic points that was fitted to real measurements from `calibrate.mjs`,
 with a 13pt reserve. `shoot.mjs` is what keeps the model honest: it measures
-`scrollHeight - clientHeight` for all 179 pages. Re-run `calibrate.mjs` after any
-change to `base.css`, because the constants in `render.py` depend on it.
+`scrollHeight - clientHeight` for every page of both volumes. Re-run
+`calibrate.mjs` after any change to `base.css`, because the constants in
+`render.py` depend on it.
 
 ## Current state
 
 | | |
 | --- | --- |
-| Pages | 179, letter, 1.76 MB |
+| Volume 1, Session 1 | 105 pages, letter, 1.09 MB |
+| Volume 2, Session 2 | 104 pages, letter, 0.99 MB |
 | Cases and items | 70 cases, 350 items, all 17 blueprint domains |
 | Key, both sessions | A 19.6%, B 19.6%, C 20.7%, D 20.4%, E 19.6% |
 | Longest run of one letter | 3 |

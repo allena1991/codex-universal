@@ -1,15 +1,16 @@
 /* Print the manual to PDF through Chromium's own print engine.
    The document owns its page geometry (@page size: letter, margin: 0, one
    .sheet per page), so preferCSSPageSize is on and no margins are added here.
-   Run: node tools/to_pdf.mjs [out.pdf] */
+   Run: node tools/to_pdf.mjs <input.html> <out.pdf> */
 import { chromium } from 'playwright';
 import { pathToFileURL } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { statSync, existsSync } from 'node:fs';
 
-const root = resolve(dirname(fileURLToPath(process.argv[1] ? import.meta.url : import.meta.url)), '..');
-const out = resolve(root, process.argv[2] || 'NBEO PAM-TMOD Clinical Reasoning Manual.pdf');
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const src = resolve(root, process.argv[2] || 'volume-1.html');
+const out = resolve(root, process.argv[3] || src.replace(/\.html$/, '.pdf'));
 
 /* This image ships Chromium under PLAYWRIGHT_BROWSERS_PATH at a revision the
    installed playwright package does not expect, so point at it explicitly. */
@@ -21,7 +22,7 @@ const problems = [];
 page.on('pageerror', e => problems.push(String(e)));
 page.on('requestfailed', r => problems.push(`asset failed: ${r.url()}`));
 
-await page.goto(pathToFileURL(resolve(root, 'index.html')).href, { waitUntil: 'networkidle' });
+await page.goto(pathToFileURL(src).href, { waitUntil: 'networkidle' });
 await page.waitForFunction(() => document.fonts.status === 'loaded', null, { timeout: 20000 });
 
 const loadedFonts = await page.evaluate(() =>

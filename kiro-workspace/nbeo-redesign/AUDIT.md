@@ -50,7 +50,7 @@ Related: items are not tagged by blueprint item type, so a candidate cannot see 
 
 ## What is in the rebuild
 
-The full guide, 179 letter pages, built from data rather than typed: `python3 tools/build.py` then `node tools/to_pdf.mjs`.
+The full guide, built from data rather than typed, printing as two volumes of 105 and 104 letter pages. Each volume carries the whole reference apparatus and one session, with the 35 cases first and the 35 teaching keys following in Part 9, so a session can be sat without a key on the facing page.
 
 | | Previous edition | This edition |
 | --- | --- | --- |
@@ -65,11 +65,13 @@ The full guide, 179 letter pages, built from data rather than typed: `python3 to
 | Self-certification | "Blueprint-verified" | dated verification table, three states |
 | Empty or filler pages | 3 of 120 | none |
 
-Every page is a fixed letter box with `overflow:hidden`, and `node tools/shoot.mjs` measures all 179 in a real render and fails if any is clipped. The answer letters are generated to the distribution target after authoring, so the audit on page 4 of the manual is printed from the same build that produced the pages.
+Every page is a fixed letter box with `overflow:hidden`, and `node tools/shoot.mjs` measures every page of both volumes in a real render and fails if any is clipped. The answer letters are generated to the distribution target after authoring, so the audit on page 4 of the manual is printed from the same build that produced the pages.
 
-### Layout of the rebuild
+### Layout of each volume
 
-Part 1 front matter and key integrity, Part 2 the exam to scale with item types and pacing, Part 3 an eighteen-pattern emergency gate, Part 4 twenty-four condition cards, Part 5 pharmacology in three sheets, Part 6 optics and the law items, Part 7 competing pairs generated from the case data, Parts 8 and 9 the two sessions with a case index and a score-by-tag sheet each, and Part 10 the printed key, an eighteen-day schedule keyed to case numbers, the recall deck, sources and a colophon.
+Part 1 front matter and key integrity, Part 2 the exam to scale with item types and pacing, Part 3 an eighteen-pattern emergency gate, Part 4 twenty-four condition cards, Part 5 pharmacology in three sheets, Part 6 optics and the law items, Part 7 competing pairs generated from the case data, Part 8 the session with a case index and a score-by-tag sheet, Part 9 the thirty-five teaching keys, and Part 10 the printed key for that session, an eleven-day schedule keyed to real case numbers, the recall deck, sources and a colophon.
+
+Parts 1 to 7 and Part 10 are identical in both volumes, so either can be picked up alone. The key-integrity audit shows both sessions in both volumes, because the letter distribution is a property of the whole bank.
 
 ### What is still unconfirmed
 

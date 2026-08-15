@@ -49,9 +49,10 @@ expected = {"Spectral", "InstrumentSerif", "IBMPlexMono"}
 missing = sorted(e for e in expected if not any(n.startswith(e) for n in names))
 
 problems = []
-EXPECTED_PAGES = int(sys.argv[2]) if len(sys.argv) > 2 else 179
-if pages != EXPECTED_PAGES:
-    problems.append("expected %d pages, found %d" % (EXPECTED_PAGES, pages))
+# Pass the expected page count to assert it. Without one the count is reported
+# but not checked, because the two volumes are different lengths.
+if len(sys.argv) > 2 and pages != int(sys.argv[2]):
+    problems.append("expected %s pages, found %d" % (sys.argv[2], pages))
 if boxes != {(8.5, 11.0)}:
     problems.append("page box is not letter: %s" % boxes)
 if fallback - ALLOWED_FALLBACK:
