@@ -85,7 +85,76 @@ def case_index(cases, session):
 # score by item type: the capture grid that doubles as the diagnosis of you
 # --------------------------------------------------------------------------
 
-def score_sheets(cases, session):
+def index_sheet(records, session, guide):
+    body = ('<h2>Session %d &middot; case index</h2>'
+            '<p class="lede" style="margin-top:8px">Sorted as sat. Dx diagnosis, '
+            'Tx treatment, Sci basic science, Law law and ethics. A star marks an '
+            'all-or-none item, which is a format, not a type. Use the item-type '
+            'column to work one weakness across the whole session.</p>'
+            '<div style="margin-top:10px">%s</div>'
+            % (session, case_index(records, session)))
+    return sheet(body, "S%d case index" % session,
+                 "Session %d / Case index" % session,
+                 "Case index &middot; {{PG}}")
+
+
+def domain_index_sheets(records):
+    """Every case grouped by domain, which is the order this guide prints in.
+
+    Rows are costed individually and packed, because a domain heading and a
+    two-line presentation are not the same height and the page clips.
+    """
+    by_domain = {}
+    for rec in records:
+        by_domain.setdefault(rec["domain"], []).append(rec)
+
+    rows = []
+    for domain in sorted(by_domain, key=str.lower):
+        block = sorted(by_domain[domain], key=lambda r: r["id"])
+        rows.append(('<tr><td class="dom" colspan="4">%s &middot; %d cases</td></tr>'
+                     % (esc(domain), len(block)), 15.5))
+        for rec in block:
+            rows.append((
+                '<tr><td>%s</td><td>%s</td><td class="t">%s</td>'
+                '<td class="t">{{PGREF:%s}}</td></tr>'
+                % (esc(rec["id"]), esc(rec["title"]),
+                   esc(" ".join(short_tag(i) for i in rec["items"])),
+                   esc(rec["id"])),
+                _lines(rec["title"], 52) * 11.6 + 1.6))
+
+    lede = ('<p class="lede" style="margin-top:8px">This manual prints in this '
+            'order: by domain, then by case number, with each teaching key on '
+            'the page after its case. Competing conditions land within a few '
+            'pages of each other, which is where the discriminators stick.</p>')
+    head = 62.0 + block_cost(lede, 100, 16.6, 8.0)
+    thead = 20.0
+
+    pages, current, used = [], [], head + thead
+    for html, cost in rows:
+        if current and used + cost > USABLE:
+            pages.append(current)
+            current, used = [], 60.0 + thead
+        current.append(html)
+        used += cost
+    pages.append(current)
+
+    out = []
+    for n, chunk in enumerate(pages):
+        title = ('<h2>Domain index</h2>' + lede if n == 0
+                 else '<h2>Domain index, continued</h2>')
+        out.append(sheet(
+            title + '<div style="margin-top:10px"><table class="idx lined">'
+            '<thead><tr><th>Case</th><th>Presentation</th><th>Items</th>'
+            '<th>Page</th></tr></thead><tbody>%s</tbody></table></div>'
+            % "".join(chunk),
+            "Domain index %d" % (n + 1),
+            "Part 8 / Domain index, %d of %d" % (n + 1, len(pages)),
+            "Domain index &middot; {{PG}}"))
+    return out
+
+
+def score_sheets(records, session, guide=None):
+    cases = records
     block = [c for c in cases if c["session"] == session]
     rows = []
     for case in block:
@@ -123,9 +192,9 @@ def score_sheets(cases, session):
 # printed answer key
 # --------------------------------------------------------------------------
 
-def answer_key_sheets(cases, sessions=(1, 2)):
+def answer_key_sheets(cases, guide=None):
     tables = []
-    for session in sessions:
+    for session in (1, 2):
         block = [c for c in cases if c["session"] == session]
         rows = []
         for case in block:
@@ -210,55 +279,73 @@ def pair_sheets(cases):
 # spaced repetition schedule, keyed to real case numbers
 # --------------------------------------------------------------------------
 
-def _plan(volume):
-    """Eleven days for one session. New cases on the left, recall on the right."""
-    s = volume
-    other = 3 - volume
-    rows = []
-    for day in range(1, 8):
-        lo, hi = 5 * day - 4, 5 * day
-        recall = "-" if day == 1 else (
-            "S%d-%02d to S%d-%02d, recall cards" % (s, max(1, lo - 10), s, hi - 5))
-        rows.append(("Day %d" % day,
-                     "S%d-%02d to S%d-%02d" % (s, lo, s, hi),
-                     "Cases cold, keys the same evening",
-                     recall))
+def _plan(records):
+    """Eighteen days across both sessions, generated from the real case ids so
+    the plan cannot drift from the bank."""
+    ids = {s: sorted(r["id"] for r in records if r["session"] == s)
+           for s in (1, 2)}
+    rows, day = [], 0
+
+    def span(session, lo, hi):
+        block = ids[session][lo:hi]
+        return "%s to %s" % (block[0], block[-1]) if len(block) > 1 else block[0]
+
+    for session in (1, 2):
+        n = len(ids[session])
+        step = 5
+        for start_i in range(0, n, step):
+            day += 1
+            done = start_i
+            recall = ("-" if done == 0 else
+                      "%s, missed items" % span(session, max(0, done - 10), done))
+            rows.append(("Day %d" % day,
+                         span(session, start_i, min(start_i + step, n)),
+                         "Cases cold, keys the same evening", recall))
+        day += 1
+        rows.append(("Day %d" % day, "Score Session %d" % session,
+                     "By item type, not just the total",
+                     "The two weakest columns, worked through"))
     rows += [
-        ("Day 8", "Repair", "The two weakest item-type columns",
-         "Condition cards and pharmacology"),
-        ("Day 9", "Repair", "Every item missed with high confidence",
+        ("Day %d" % (day + 1), "Repair",
+         "Every item missed with high confidence",
          "Rewrite each as one if-then rule"),
-        ("Day 10", "Timed run", "All 175 items in one 3.5 hour block",
-         "Score by item type, compare to the first pass"),
-        ("Day 11", "Consolidate", "Emergency gate and competing pairs, aloud",
-         "Formulas drilled, then Volume %d" % other),
+        ("Day %d" % (day + 2), "Timed run",
+         "Session 1 again, 175 items in 3.5 hours",
+         "Compare to the first pass by column"),
+        ("Day %d" % (day + 3), "Timed run",
+         "Session 2 again, under the same conditions",
+         "Score by item type"),
+        ("Day %d" % (day + 4), "Consolidate",
+         "Emergency gate and competing pairs, aloud",
+         "Formulas drilled, then stop"),
     ]
     return rows
 
 
-def schedule_sheets(volume):
+def schedule_sheets(records, guide=None):
     rows = "".join(
         '<tr><td class="d">%s</td><td>%s</td><td>%s</td><td class="w">%s</td></tr>'
-        % (esc(a), esc(b), esc(c), esc(d)) for a, b, c, d in _plan(volume))
+        % (esc(a), esc(b), esc(c), esc(d)) for a, b, c, d in _plan(records))
     body = (
-        '<h2>Eleven days</h2>'
-        '<p class="lede" style="margin-top:8px">One session, eleven days. Cases '
-        'are answered cold, once. Everything after that is recall, not rereading. '
-        'The right-hand column is the part people skip and the part that moves '
-        'the score.</p>'
+        '<h2>Eighteen days</h2>'
+        '<p class="lede" style="margin-top:8px">Both sessions, eighteen days, '
+        'generated from the case numbers in this book. Cases are answered cold, '
+        'once. Everything after that is recall, not rereading. The right-hand '
+        'column is the part people skip and the part that moves the score.</p>'
         '<table class="lined sched" style="margin-top:11px"><thead><tr><th>Day</th>'
         '<th>New</th><th>Work</th><th>Recall</th></tr></thead><tbody>%s</tbody>'
         '</table>'
-        '<div class="note"><b>Both volumes, three weeks</b>Run this volume, then '
-        'Volume %d on the same eleven-day shape. Compare the two score sheets by '
-        'item-type column, not by total. A total that rose while the treatment '
-        'column fell is a warning, not progress.</div>'
-        '<div class="callout"><b>If you have fewer than eleven days</b>Keep the '
+        '<div class="note"><b>Read the two score sheets side by side</b>Compare '
+        'them by item-type column, not by total. A total that rose while the '
+        'treatment column fell is a warning, not progress, because treatment '
+        'carries the largest share of the blueprint and decides TMOD '
+        'separately.</div>'
+        '<div class="callout"><b>If you have fewer than eighteen days</b>Keep the '
         'recall column and cut new cases, not the reverse. Ten cases reviewed to '
         'the point of recall beat thirty-five read once. With four days: the '
         'emergency gate, the competing pairs, and one timed half session.</div>'
-        % (rows, 3 - volume))
-    return [sheet(body, "Schedule", "Part 10 / Eleven days",
+        % rows)
+    return [sheet(body, "Schedule", "Part 10 / Eighteen days",
                   "Schedule &middot; {{PG}}")]
 
 

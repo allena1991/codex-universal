@@ -50,7 +50,7 @@ Related: items are not tagged by blueprint item type, so a candidate cannot see 
 
 ## What is in the rebuild
 
-The full guide, built from data rather than typed, printing as two volumes of 105 and 104 letter pages. Each volume carries the whole reference apparatus and one session, with the 35 cases first and the 35 teaching keys following in Part 9, so a session can be sat without a key on the facing page.
+The full guide, built from data rather than typed, printing as two complete books: a 178-page Study Manual ordered by clinical domain with each key on the page after its case, and a 181-page Exam Simulator ordered as sat with every key at the back. Both contain all 70 cases and all 350 items. Neither is an extract of the other.
 
 | | Previous edition | This edition |
 | --- | --- | --- |
@@ -65,13 +65,17 @@ The full guide, built from data rather than typed, printing as two volumes of 10
 | Self-certification | "Blueprint-verified" | dated verification table, three states |
 | Empty or filler pages | 3 of 120 | none |
 
-Every page is a fixed letter box with `overflow:hidden`, and `node tools/shoot.mjs` measures every page of both volumes in a real render and fails if any is clipped. The answer letters are generated to the distribution target after authoring, so the audit on page 4 of the manual is printed from the same build that produced the pages.
+Every page is a fixed letter box with `overflow:hidden`, and `node tools/shoot.mjs` measures every page of both books in a real render and fails if any is clipped. The answer letters are generated to the distribution target after authoring, so the audit on page 4 of the manual is printed from the same build that produced the pages.
 
-### Layout of each volume
+### Layout
 
 Part 1 front matter and key integrity, Part 2 the exam to scale with item types and pacing, Part 3 an eighteen-pattern emergency gate, Part 4 twenty-four condition cards, Part 5 pharmacology in three sheets, Part 6 optics and the law items, Part 7 competing pairs generated from the case data, Part 8 the session with a case index and a score-by-tag sheet, Part 9 the thirty-five teaching keys, and Part 10 the printed key for that session, an eleven-day schedule keyed to real case numbers, the recall deck, sources and a colophon.
 
-Parts 1 to 7 and Part 10 are identical in both volumes, so either can be picked up alone. The key-integrity audit shows both sessions in both volumes, because the letter distribution is a property of the whole bank.
+Parts 1 to 7 and the back matter are identical in both books. The key-integrity audit shows both sessions in both books, because the letter distribution is a property of the whole bank.
+
+### Two defects that shipped, and the checks added for them
+
+Ten Session 2 cases reached an exported PDF still carrying machine-generated placeholder text from `tools/stub.py`, because a content batch came back empty and the failure was not noticed. `schema.validate` now rejects any case containing that placeholder text, so the build cannot produce it again. The same stub file also introduced a paraphrased domain name, which split one domain into two groups in the index. Domains are now a closed list of seventeen in `schema.py` and anything else fails the build with a suggestion.
 
 ### What is still unconfirmed
 

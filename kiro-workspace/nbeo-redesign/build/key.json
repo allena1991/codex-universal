@@ -1,9 +1,10 @@
 {
  "built": "15 August 2026",
+ "guide": "NBEO Part II PAM/TMOD - Exam Simulator, as sat",
  "sessions": {
   "1": [
    {
-    "case": "S1-01",
+    "id": "S1-01",
     "title": "The swollen eyelid that hurts to move",
     "domain": "Lids, lacrimal, adnexa, orbit",
     "keys": [
@@ -22,7 +23,7 @@
     ]
    },
    {
-    "case": "S1-02",
+    "id": "S1-02",
     "title": "The pain that woke a lens wearer at four in the morning",
     "domain": "Contact lenses",
     "keys": [
@@ -41,7 +42,7 @@
     ]
    },
    {
-    "case": "S1-03",
+    "id": "S1-03",
     "title": "The eye that has been red twice before",
     "domain": "Cornea and refractive surgery",
     "keys": [
@@ -60,7 +61,7 @@
     ]
    },
    {
-    "case": "S1-04",
+    "id": "S1-04",
     "title": "Pain out of proportion to the slit lamp findings",
     "domain": "Cornea and refractive surgery",
     "keys": [
@@ -79,7 +80,7 @@
     ]
    },
    {
-    "case": "S1-05",
+    "id": "S1-05",
     "title": "The teenager whose glasses change at every visit",
     "domain": "Cornea and refractive surgery",
     "keys": [
@@ -98,7 +99,7 @@
     ]
    },
    {
-    "case": "S1-06",
+    "id": "S1-06",
     "title": "The rash that stopped at the middle of the forehead",
     "domain": "Systemic health",
     "keys": [
@@ -117,7 +118,7 @@
     ]
    },
    {
-    "case": "S1-07",
+    "id": "S1-07",
     "title": "Vision that faded again two years after surgery",
     "domain": "Lens, cataract, IOL, perioperative",
     "keys": [
@@ -136,7 +137,7 @@
     ]
    },
    {
-    "case": "S1-08",
+    "id": "S1-08",
     "title": "A red aching eye that cannot bear the sunlight",
     "domain": "Episclera, sclera, anterior uvea",
     "keys": [
@@ -155,7 +156,7 @@
     ]
    },
    {
-    "case": "S1-09",
+    "id": "S1-09",
     "title": "A boring pain that wakes her at three in the morning",
     "domain": "Episclera, sclera, anterior uvea",
     "keys": [
@@ -174,7 +175,7 @@
     ]
    },
    {
-    "case": "S1-10",
+    "id": "S1-10",
     "title": "Door frames that started to bend six weeks ago",
     "domain": "Retina, choroid, vitreous",
     "keys": [
@@ -193,7 +194,7 @@
     ]
    },
    {
-    "case": "S1-11",
+    "id": "S1-11",
     "title": "Reading vision that faded over two months",
     "domain": "Retina, choroid, vitreous",
     "keys": [
@@ -212,7 +213,7 @@
     ]
    },
    {
-    "case": "S1-12",
+    "id": "S1-12",
     "title": "Vision clouded over in one eye on waking",
     "domain": "Retina, choroid, vitreous",
     "keys": [
@@ -231,7 +232,7 @@
     ]
    },
    {
-    "case": "S1-13",
+    "id": "S1-13",
     "title": "Flashes on Friday, and spots ever since",
     "domain": "Retina, choroid, vitreous",
     "keys": [
@@ -250,7 +251,7 @@
     ]
    },
    {
-    "case": "S1-14",
+    "id": "S1-14",
     "title": "Everything went black in one eye at breakfast",
     "domain": "Emergencies and trauma",
     "keys": [
@@ -269,7 +270,7 @@
     ]
    },
    {
-    "case": "S1-15",
+    "id": "S1-15",
     "title": "A grey smudge in the middle of the page",
     "domain": "Retina, choroid, vitreous",
     "keys": [
@@ -288,7 +289,7 @@
     ]
    },
    {
-    "case": "S1-16",
+    "id": "S1-16",
     "title": "A drug the rheumatologist started five years ago",
     "domain": "Systemic health",
     "keys": [
@@ -307,7 +308,7 @@
     ]
    },
    {
-    "case": "S1-17",
+    "id": "S1-17",
     "title": "Pressures that crept up between two visits",
     "domain": "Glaucoma",
     "keys": [
@@ -326,7 +327,7 @@
     ]
    },
    {
-    "case": "S1-18",
+    "id": "S1-18",
     "title": "A red eye, a headache, and vomiting since evening",
     "domain": "Glaucoma",
     "keys": [
@@ -345,7 +346,7 @@
     ]
    },
    {
-    "case": "S1-19",
+    "id": "S1-19",
     "title": "Ache and redness in the eye that failed in spring",
     "domain": "Glaucoma",
     "keys": [
@@ -364,7 +365,7 @@
     ]
    },
    {
-    "case": "S1-20",
+    "id": "S1-20",
     "title": "Ache behind the eye, then the colours went flat",
     "domain": "Optic nerve and neuro-ophthalmic",
     "keys": [
@@ -383,7 +384,7 @@
     ]
    },
    {
-    "case": "S1-21",
+    "id": "S1-21",
     "title": "Vision gone on waking, and the scalp hurts to comb",
     "domain": "Optic nerve and neuro-ophthalmic",
     "keys": [
@@ -402,7 +403,7 @@
     ]
    },
    {
-    "case": "S1-22",
+    "id": "S1-22",
     "title": "Headaches worst on waking, with a whoosh in both ears",
     "domain": "Optic nerve and neuro-ophthalmic",
     "keys": [
@@ -421,7 +422,7 @@
     ]
    },
    {
-    "case": "S1-23",
+    "id": "S1-23",
     "title": "The lid that dropped with pain behind the eye",
     "domain": "Optic nerve and neuro-ophthalmic",
     "keys": [
@@ -440,7 +441,7 @@
     ]
    },
    {
-    "case": "S1-24",
+    "id": "S1-24",
     "title": "The smaller pupil that hides in the dark",
     "domain": "Optic nerve and neuro-ophthalmic",
     "keys": [
@@ -459,7 +460,7 @@
     ]
    },
    {
-    "case": "S1-25",
+    "id": "S1-25",
     "title": "The lid that sits lower by the evening",
     "domain": "Systemic health",
     "keys": [
@@ -478,7 +479,7 @@
     ]
    },
    {
-    "case": "S1-26",
+    "id": "S1-26",
     "title": "The print that slides together after twenty minutes",
     "domain": "Accommodation, vergence, oculomotor",
     "keys": [
@@ -497,7 +498,7 @@
     ]
    },
    {
-    "case": "S1-27",
+    "id": "S1-27",
     "title": "The eye that turns in over a picture book",
     "domain": "Amblyopia and strabismus",
     "keys": [
@@ -516,7 +517,7 @@
     ]
    },
    {
-    "case": "S1-28",
+    "id": "S1-28",
     "title": "The head tilt that started after the bicycle fall",
     "domain": "Accommodation, vergence, oculomotor",
     "keys": [
@@ -535,7 +536,7 @@
     ]
    },
    {
-    "case": "S1-29",
+    "id": "S1-29",
     "title": "The prescription that has moved twice this year",
     "domain": "Ametropia",
     "keys": [
@@ -554,7 +555,7 @@
     ]
    },
    {
-    "case": "S1-30",
+    "id": "S1-30",
     "title": "The new spectacles that double the print",
     "domain": "Ophthalmic optics and spectacles",
     "keys": [
@@ -573,7 +574,7 @@
     ]
    },
    {
-    "case": "S1-31",
+    "id": "S1-31",
     "title": "Clearer when the frame slides down her nose",
     "domain": "Ophthalmic optics and spectacles",
     "keys": [
@@ -592,7 +593,7 @@
     ]
    },
    {
-    "case": "S1-32",
+    "id": "S1-32",
     "title": "Gritty red eye on waking in a lens wearer",
     "domain": "Contact lenses",
     "keys": [
@@ -611,7 +612,7 @@
     ]
    },
    {
-    "case": "S1-33",
+    "id": "S1-33",
     "title": "The post she can no longer read",
     "domain": "Low vision",
     "keys": [
@@ -630,7 +631,7 @@
     ]
    },
    {
-    "case": "S1-34",
+    "id": "S1-34",
     "title": "Both eyes, dimmer colours and harder print",
     "domain": "Perceptual function and colour vision",
     "keys": [
@@ -649,7 +650,7 @@
     ]
    },
    {
-    "case": "S1-35",
+    "id": "S1-35",
     "title": "The after-hours call about flashes and floaters",
     "domain": "Emergencies and trauma",
     "keys": [
@@ -670,204 +671,204 @@
   ],
   "2": [
    {
-    "case": "S2-01",
-    "title": "Stub presentation for pseudomyopia",
-    "domain": "Cornea and refractive surgery",
+    "id": "S2-01",
+    "title": "Distance blur that arrived in the middle of exam term",
+    "domain": "Accommodation, vergence, oculomotor",
     "keys": [
-     "B",
-     "C",
-     "C",
-     "A, D, E",
-     "C"
-    ],
-    "types": [
-     "diagnosis",
-     "treatment",
-     "basic",
-     "diagnosis",
-     "treatment"
-    ]
-   },
-   {
-    "case": "S2-02",
-    "title": "Stub presentation for anisometropia",
-    "domain": "Retina, choroid, vitreous",
-    "keys": [
-     "B",
-     "B",
+     "E",
+     "A, B, E",
      "A",
-     "C, D, F",
+     "A",
      "D"
     ],
     "types": [
      "diagnosis",
-     "treatment",
-     "basic",
      "diagnosis",
-     "treatment"
+     "treatment",
+     "treatment",
+     "basic"
     ]
    },
    {
-    "case": "S2-03",
-    "title": "Stub presentation for vertical imbalance",
-    "domain": "Optic nerve and neuro-ophthalmic",
+    "id": "S2-02",
+    "title": "Print in one eye that looks smaller and further away",
+    "domain": "Ametropia",
     "keys": [
      "D",
      "D",
-     "C",
-     "B, C, E",
-     "B"
+     "C, D, E",
+     "E",
+     "E"
     ],
     "types": [
      "diagnosis",
-     "treatment",
      "basic",
-     "diagnosis",
-     "treatment"
+     "treatment",
+     "treatment",
+     "diagnosis"
     ]
    },
    {
-    "case": "S2-04",
-    "title": "Stub presentation for toric rotation",
-    "domain": "Glaucoma",
+    "id": "S2-03",
+    "title": "A line of print that separates in her new lenses",
+    "domain": "Ophthalmic optics and spectacles",
     "keys": [
+     "E",
      "C",
+     "B, C, D",
      "B",
-     "B",
-     "A, B, D",
-     "B"
+     "C"
     ],
     "types": [
      "diagnosis",
-     "treatment",
      "basic",
-     "diagnosis",
+     "treatment",
+     "treatment",
      "treatment"
     ]
    },
    {
-    "case": "S2-05",
-    "title": "Stub presentation for flat GP fit",
+    "id": "S2-04",
+    "title": "Vision that clears for a second after every blink",
     "domain": "Contact lenses",
     "keys": [
-     "C",
      "B",
      "D",
-     "A, C, F",
-     "E"
-    ],
-    "types": [
-     "diagnosis",
-     "treatment",
-     "basic",
-     "diagnosis",
-     "treatment"
-    ]
-   },
-   {
-    "case": "S2-06",
-    "title": "Stub presentation for RP-spectrum low vision",
-    "domain": "Lids, lacrimal, adnexa, orbit",
-    "keys": [
+     "A, B, C",
      "B",
-     "E",
-     "C",
-     "B, E, F",
      "A"
     ],
     "types": [
      "diagnosis",
      "treatment",
+     "treatment",
      "basic",
-     "diagnosis",
      "treatment"
     ]
    },
    {
-    "case": "S2-07",
-    "title": "Stub presentation for accommodative insufficiency",
-    "domain": "Episclera, sclera, anterior uvea",
+    "id": "S2-05",
+    "title": "A rigid lens that rides high and drops on down gaze",
+    "domain": "Contact lenses",
     "keys": [
-     "D",
      "E",
      "C",
-     "A, D, E",
-     "D"
+     "C",
+     "A",
+     "B, C"
     ],
     "types": [
      "diagnosis",
      "treatment",
      "basic",
-     "diagnosis",
-     "treatment"
+     "treatment",
+     "diagnosis"
     ]
    },
    {
-    "case": "S2-08",
-    "title": "Stub presentation for high AC/A esophoria",
-    "domain": "Emergencies and trauma",
+    "id": "S2-06",
+    "title": "Doorways he cannot find once the light goes",
+    "domain": "Low vision",
+    "keys": [
+     "E",
+     "E",
+     "A, E, F",
+     "B",
+     "E"
+    ],
+    "types": [
+     "diagnosis",
+     "treatment",
+     "treatment",
+     "basic",
+     "legal"
+    ]
+   },
+   {
+    "id": "S2-07",
+    "title": "Print that gives up twenty minutes into the evening",
+    "domain": "Accommodation, vergence, oculomotor",
+    "keys": [
+     "A",
+     "B",
+     "D",
+     "E",
+     "A, E"
+    ],
+    "types": [
+     "diagnosis",
+     "diagnosis",
+     "treatment",
+     "treatment",
+     "basic"
+    ]
+   },
+   {
+    "id": "S2-08",
+    "title": "Print that doubles at twenty minutes and clears on looking up",
+    "domain": "Accommodation, vergence, oculomotor",
     "keys": [
      "A",
      "C",
+     "C, D, E",
      "A",
-     "C, D, F",
      "C"
     ],
     "types": [
      "diagnosis",
-     "treatment",
      "basic",
-     "diagnosis",
-     "treatment"
+     "treatment",
+     "treatment",
+     "diagnosis"
     ]
    },
    {
-    "case": "S2-09",
-    "title": "Stub presentation for divergence insufficiency",
-    "domain": "Accommodation and vergence",
+    "id": "S2-09",
+    "title": "Double across the road, single across the table",
+    "domain": "Accommodation, vergence, oculomotor",
     "keys": [
-     "B",
+     "E",
      "D",
      "B",
-     "B, C, E",
-     "A"
+     "B",
+     "A, B, F"
     ],
     "types": [
      "diagnosis",
-     "treatment",
-     "basic",
      "diagnosis",
-     "treatment"
+     "treatment",
+     "treatment",
+     "legal"
     ]
    },
    {
-    "case": "S2-10",
-    "title": "Stub presentation for intermittent exotropia",
-    "domain": "Lens, cataract, IOL, perioperative",
+    "id": "S2-10",
+    "title": "An eye that swings out in bright sun",
+    "domain": "Amblyopia and strabismus",
     "keys": [
      "A",
-     "A",
-     "E",
-     "A, B, D",
-     "E"
+     "B, C, D",
+     "B",
+     "C",
+     "B"
     ],
     "types": [
      "diagnosis",
      "treatment",
-     "basic",
+     "treatment",
      "diagnosis",
      "treatment"
     ]
    },
    {
-    "case": "S2-11",
+    "id": "S2-11",
     "title": "Three months into treatment the colours went flat",
     "domain": "Optic nerve and neuro-ophthalmic",
     "keys": [
-     "A",
+     "E",
      "A, B, C",
-     "A",
-     "B",
+     "C",
+     "C",
      "D"
     ],
     "types": [
@@ -879,15 +880,15 @@
     ]
    },
    {
-    "case": "S2-12",
+    "id": "S2-12",
     "title": "The white reflex in the holiday photograph",
     "domain": "Retina, choroid, vitreous",
     "keys": [
+     "B",
      "E",
-     "C",
      "A, E, F",
-     "A",
-     "B"
+     "D",
+     "A"
     ],
     "types": [
      "diagnosis",
@@ -898,15 +899,15 @@
     ]
    },
    {
-    "case": "S2-13",
+    "id": "S2-13",
     "title": "The lump that keeps coming back in the same place",
     "domain": "Lids, lacrimal, adnexa, orbit",
     "keys": [
-     "B",
-     "E",
+     "D",
+     "A",
      "E",
      "C, D, E",
-     "E"
+     "A"
     ],
     "types": [
      "diagnosis",
@@ -917,15 +918,15 @@
     ]
    },
    {
-    "case": "S2-14",
+    "id": "S2-14",
     "title": "Watering since the first weeks of life",
     "domain": "Lids, lacrimal, adnexa, orbit",
     "keys": [
-     "C",
-     "A",
+     "B",
      "D",
+     "A",
      "B, C, D",
-     "B"
+     "D"
     ],
     "types": [
      "diagnosis",
@@ -936,15 +937,15 @@
     ]
    },
    {
-    "case": "S2-15",
+    "id": "S2-15",
     "title": "The eye that will not look up after football",
     "domain": "Emergencies and trauma",
     "keys": [
-     "D",
      "E",
      "C",
+     "A",
      "A, B, C",
-     "E"
+     "A"
     ],
     "types": [
      "diagnosis",
@@ -955,14 +956,14 @@
     ]
    },
    {
-    "case": "S2-16",
+    "id": "S2-16",
     "title": "Haze under the flap on the third day",
     "domain": "Cornea and refractive surgery",
     "keys": [
-     "B",
-     "B, C, D",
-     "B",
      "D",
+     "B, C, D",
+     "E",
+     "B",
      "D"
     ],
     "types": [
@@ -974,15 +975,15 @@
     ]
    },
    {
-    "case": "S2-17",
+    "id": "S2-17",
     "title": "Wet cement, and a cornea that has gone grey",
     "domain": "Emergencies and trauma",
     "keys": [
-     "C",
+     "A",
      "A, B, C",
-     "B",
-     "C",
-     "A"
+     "E",
+     "D",
+     "B"
     ],
     "types": [
      "treatment",
@@ -993,15 +994,15 @@
     ]
    },
    {
-    "case": "S2-18",
+    "id": "S2-18",
     "title": "A large epithelial defect that does not hurt",
     "domain": "Cornea and refractive surgery",
     "keys": [
      "D",
-     "E",
+     "C",
      "C",
      "D, E, F",
-     "A"
+     "E"
     ],
     "types": [
      "diagnosis",
@@ -1012,12 +1013,12 @@
     ]
    },
    {
-    "case": "S2-19",
+    "id": "S2-19",
     "title": "Pain and a lost view on the third day after surgery",
     "domain": "Lens, cataract, IOL, perioperative",
     "keys": [
-     "A",
-     "A",
+     "D",
+     "C",
      "D, E, F",
      "E",
      "A"
@@ -1031,14 +1032,14 @@
     ]
    },
    {
-    "case": "S2-20",
+    "id": "S2-20",
     "title": "A cloudy cornea the morning after routine surgery",
     "domain": "Lens, cataract, IOL, perioperative",
     "keys": [
-     "C",
+     "E",
      "D, E, F",
      "D",
-     "A",
+     "D",
      "E"
     ],
     "types": [
@@ -1050,13 +1051,13 @@
     ]
    },
    {
-    "case": "S2-21",
+    "id": "S2-21",
     "title": "The eye that bleeds a little every few months",
     "domain": "Lens, cataract, IOL, perioperative",
     "keys": [
-     "A",
-     "C, D, E",
      "B",
+     "C, D, E",
+     "D",
      "C",
      "B"
     ],
@@ -1069,15 +1070,15 @@
     ]
    },
    {
-    "case": "S2-22",
+    "id": "S2-22",
     "title": "A wobble in the vision nine years after surgery",
     "domain": "Lens, cataract, IOL, perioperative",
     "keys": [
-     "E",
-     "B, C, D",
-     "D",
      "B",
-     "C"
+     "B, C, D",
+     "A",
+     "E",
+     "D"
     ],
     "types": [
      "diagnosis",
@@ -1088,14 +1089,14 @@
     ]
    },
    {
-    "case": "S2-23",
+    "id": "S2-23",
     "title": "A haze in the vision beside an old scar",
     "domain": "Retina, choroid, vitreous",
     "keys": [
-     "B",
+     "C",
      "A, B, C",
      "C",
-     "C",
+     "B",
      "A"
     ],
     "types": [
@@ -1107,15 +1108,15 @@
     ]
    },
    {
-    "case": "S2-24",
+    "id": "S2-24",
     "title": "A crescent of cornea melting at the edge",
     "domain": "Cornea and refractive surgery",
     "keys": [
+     "D",
      "C",
-     "A",
      "A, E, F",
-     "A",
-     "A"
+     "E",
+     "C"
     ],
     "types": [
      "diagnosis",
@@ -1126,14 +1127,14 @@
     ]
    },
    {
-    "case": "S2-25",
+    "id": "S2-25",
     "title": "The upper field that went and did not come back",
     "domain": "Retina, choroid, vitreous",
     "keys": [
-     "B",
+     "A",
      "D",
-     "E",
      "C",
+     "A",
      "B, C"
     ],
     "types": [
@@ -1145,15 +1146,15 @@
     ]
    },
    {
-    "case": "S2-26",
+    "id": "S2-26",
     "title": "An aching eye that lost its field in five days",
     "domain": "Retina, choroid, vitreous",
     "keys": [
-     "E",
-     "D, E, F",
-     "E",
      "D",
-     "E"
+     "D, E, F",
+     "D",
+     "D",
+     "C"
     ],
     "types": [
      "diagnosis",
@@ -1164,15 +1165,15 @@
     ]
    },
    {
-    "case": "S2-27",
+    "id": "S2-27",
     "title": "The dark lesion that grew between two photographs",
     "domain": "Retina, choroid, vitreous",
     "keys": [
-     "D",
+     "C",
      "C, D, E",
      "E",
-     "E",
-     "D"
+     "B",
+     "A"
     ],
     "types": [
      "diagnosis",
@@ -1183,14 +1184,14 @@
     ]
    },
    {
-    "case": "S2-28",
+    "id": "S2-28",
     "title": "Two years of headache and a field she never noticed",
     "domain": "Optic nerve and neuro-ophthalmic",
     "keys": [
-     "E",
-     "E",
-     "A",
-     "E",
+     "C",
+     "B",
+     "C",
+     "C",
      "D, E"
     ],
     "types": [
@@ -1202,15 +1203,15 @@
     ]
    },
    {
-    "case": "S2-29",
+    "id": "S2-29",
     "title": "The eye that will not follow its partner across",
     "domain": "Accommodation, vergence, oculomotor",
     "keys": [
-     "D",
-     "E",
+     "C",
+     "B",
      "A, B, F",
-     "A",
-     "D"
+     "D",
+     "B"
     ],
     "types": [
      "diagnosis",
@@ -1221,15 +1222,15 @@
     ]
    },
    {
-    "case": "S2-30",
+    "id": "S2-30",
     "title": "The same half of the world gone in both eyes",
     "domain": "Optic nerve and neuro-ophthalmic",
     "keys": [
      "D",
-     "C",
-     "D",
+     "E",
+     "E",
      "D, E, F",
-     "E"
+     "C"
     ],
     "types": [
      "diagnosis",
@@ -1240,15 +1241,15 @@
     ]
    },
    {
-    "case": "S2-31",
+    "id": "S2-31",
     "title": "Vision that dropped like a blind for four minutes",
     "domain": "Systemic health",
     "keys": [
-     "D",
-     "A, E, F",
-     "A",
      "C",
-     "E"
+     "A, E, F",
+     "B",
+     "B",
+     "A"
     ],
     "types": [
      "diagnosis",
@@ -1259,15 +1260,15 @@
     ]
    },
    {
-    "case": "S2-32",
+    "id": "S2-32",
     "title": "The eye that took a squash ball twenty years ago",
     "domain": "Glaucoma",
     "keys": [
-     "D",
+     "B",
      "D, E, F",
+     "C",
      "E",
-     "A",
-     "B"
+     "C"
     ],
     "types": [
      "diagnosis",
@@ -1278,15 +1279,15 @@
     ]
    },
    {
-    "case": "S2-33",
+    "id": "S2-33",
     "title": "Both eyes blurred a week after a new tablet",
     "domain": "Glaucoma",
     "keys": [
-     "A",
+     "B",
      "C, D, E",
+     "A",
      "D",
-     "C",
-     "B"
+     "E"
     ],
     "types": [
      "diagnosis",
@@ -1297,15 +1298,15 @@
     ]
    },
    {
-    "case": "S2-34",
+    "id": "S2-34",
     "title": "Pressure that climbed again after a laser hole",
     "domain": "Glaucoma",
     "keys": [
-     "B",
+     "A",
      "B, C, D",
      "A",
-     "D",
-     "B"
+     "B",
+     "A"
     ],
     "types": [
      "diagnosis",
@@ -1316,15 +1317,15 @@
     ]
    },
    {
-    "case": "S2-35",
+    "id": "S2-35",
     "title": "The screening result he does not want to act on",
     "domain": "Glaucoma",
     "keys": [
      "B",
      "A, B",
-     "C",
-     "D",
-     "C"
+     "A",
+     "B",
+     "D"
     ],
     "types": [
      "basic",

@@ -1,8 +1,8 @@
 /* Render named sheets to preview/ as PNG, for review without opening the PDF.
    Labels are the data-screen-label values; tools/shoot.mjs --all lists them.
 
-   node tools/preview.mjs volume-1.html                     representative set
-   node tools/preview.mjs volume-1.html "Cover" "S1-14 key" specific sheets */
+   node tools/preview.mjs part-1-study-manual.html            representative set
+   node tools/preview.mjs part-2-exam-simulator.html "Cover"  specific sheets */
 import { chromium } from 'playwright';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
@@ -11,11 +11,10 @@ import { mkdirSync, existsSync } from 'node:fs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const DEFAULT = ['Cover', 'Key integrity', 'Exam map', 'Item types',
                  'Emergency gate 1', 'Conditions 2', 'Pharmacology 2',
-                 'Competing pairs 1', 'Session 1 divider', 'S1 case index',
-                 'S1 score sheet', 'S1-14 case', 'S1-14 key', 'S2-33 case',
-                 'S2-33 key', 'Answer key', 'Schedule', 'Colophon'];
+                 'Competing pairs 1', 'S1-14 case', 'S1-14 key',
+                 'Answer key', 'Schedule', 'Colophon'];
 const argv = process.argv.slice(2);
-const src = argv.length && argv[0].endsWith('.html') ? argv.shift() : 'volume-1.html';
+const src = argv.length && argv[0].endsWith('.html') ? argv.shift() : 'part-1-study-manual.html';
 const want = argv.length ? argv : DEFAULT;
 
 mkdirSync(resolve(root, 'preview'), { recursive: true });
@@ -36,8 +35,8 @@ for (const label of want) {
   if (!el) { console.log('missing sheet:', label); continue; }
   const n = String(numbers[label]).padStart(3, '0');
   const slug = label.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  const vol = src.match(/volume-(\d)/) ? `v${src.match(/volume-(\d)/)[1]}-` : '';
-  const file = resolve(root, `preview/${vol}p${n}-${slug}.png`);
+  const book = src.replace(/\.html$/, '').replace(/[^a-z0-9]+/gi, '-');
+  const file = resolve(root, `preview/${book}-p${n}-${slug}.png`);
   await el.screenshot({ path: file });
   console.log('wrote', file.replace(root + '/', ''));
 }

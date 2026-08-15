@@ -293,3 +293,8 @@ table.ans tfoot td{font-family:var(--t-mono);font-size:6.5pt;color:var(--ink3);
 .timing b{font-weight:600;color:var(--petrol);letter-spacing:.1em;text-transform:uppercase}
 .notelines{margin-top:7px}
 .notelines i{display:block;height:0.235in;border-bottom:1px dotted var(--rule)}
+
+/* Domain grouping rows in the Study Manual index. */
+table.idx td.dom{font-family:var(--t-mono);font-size:7pt;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--paper);
+  background:var(--petrol);padding:3px 6px}

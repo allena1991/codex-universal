@@ -36,6 +36,29 @@ def is_multi(item):
 BANNED = ("all of the above", "none of the above", "both a and b",
           "any of the above", "a and b", "options above")
 
+# The seventeen blueprint domains, spelled once. An index groups on this string,
+# so a paraphrase silently splits a domain in two. Validation rejects anything
+# not on this list rather than trusting every author to spell it the same way.
+DOMAINS = (
+    "Cornea and refractive surgery",
+    "Retina, choroid, vitreous",
+    "Optic nerve and neuro-ophthalmic",
+    "Lens, cataract, IOL, perioperative",
+    "Glaucoma",
+    "Contact lenses",
+    "Accommodation, vergence, oculomotor",
+    "Lids, lacrimal, adnexa, orbit",
+    "Episclera, sclera, anterior uvea",
+    "Emergencies and trauma",
+    "Systemic health",
+    "Ametropia",
+    "Amblyopia and strabismus",
+    "Ophthalmic optics and spectacles",
+    "Low vision",
+    "Perceptual function and colour vision",
+    "Visual and human development",
+)
+
 # Calibrated against a real Chromium render: see tools/shoot.mjs output.
 # Units are arbitrary "height points" per sheet of printable column.
 SHEET_BUDGET = 1000
@@ -85,6 +108,18 @@ def validate(cases, strict=True):
         if cid in seen:
             problems.append("%s: duplicate case id" % where)
         seen.add(cid)
+
+        if case.get("domain") and case["domain"] not in DOMAINS:
+            near = [d for d in DOMAINS
+                    if d.split(",")[0].split(" and ")[0].lower()
+                    in case["domain"].lower()]
+            problems.append("%s: domain %r is not one of the seventeen%s"
+                            % (where, case["domain"],
+                               ", did you mean %r" % near[0] if near else ""))
+
+        if "Stub" in json.dumps(case):
+            problems.append("%s: placeholder text from tools/stub.py is still "
+                            "in this case" % where)
 
         items = case.get("items") or []
         if not 4 <= len(items) <= 6:

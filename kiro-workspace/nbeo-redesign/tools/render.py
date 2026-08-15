@@ -120,7 +120,7 @@ def _item_html(item, number):
     )
 
 
-def case_sheets(case):
+def record_sheets(case):
     """The presented case: stem plus items. Splits if it cannot fit one sheet."""
     head = (
         '<div class="case-head">'
@@ -279,7 +279,7 @@ def fit_problems(cases):
                         problems.append("%s: %s %d chars, cap %d"
                                         % (tag, field, len(row[field]), CAPS[field]))
 
-        presented = len(case_sheets(case))
+        presented = len(record_sheets(case))
         keyed = len(key_sheets(case))
         if presented > 1:
             problems.append("%s: presented case needs %d sheets, trim the stem "

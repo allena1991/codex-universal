@@ -1,12 +1,20 @@
 # NBEO Part II PAM/TMOD Clinical Reasoning Manual
 
 A rebuilt replacement for a 120-page study guide whose answer key was 82% option A.
-Two volumes, 209 letter pages, 70 cases, 350 items, built from data rather than typed.
+70 cases, 350 items, 711 distractor explanations, built from data rather than typed.
 
-Each volume is complete: the whole reference apparatus, then one session. Within a
-volume the 35 cases come first and the 35 teaching keys follow in Part 9, so a
-session can be sat cold. In the single-file draft you turned the page and saw the
-answer, which is the one thing a practice bank must not do.
+**Two guides, both complete.** Each carries the whole reference apparatus, all 70
+cases, all 350 items and all 140 teaching-key pages. Neither is an extract of the
+other. They differ in order, because learning and testing want opposite orders:
+
+| | Pages | Order |
+| --- | --- | --- |
+| `NBEO PAM-TMOD Part 1 - Study Manual (by domain).pdf` | 178 | By clinical domain, each case followed by its own key |
+| `NBEO PAM-TMOD Part 2 - Exam Simulator (as sat).pdf` | 181 | As sat, session by session, every key at the back |
+
+In the Study Manual, cornea sits with cornea and the competing conditions land
+within a few pages of each other. In the Exam Simulator a session can be answered
+cold and timed, because no key is visible until Part 9.
 
 `AUDIT.md` is the case for the rebuild: what was wrong with the original, measured.
 `content/AUTHORING.md` is the contract every case is written against.
@@ -14,19 +22,26 @@ answer, which is the one thing a practice bank must not do.
 ## Build
 
 ```
-python3 tools/build.py                     # content -> volume-1.html, volume-2.html
-node tools/shoot.mjs                       # both volumes, fails if any page clips
-node tools/to_pdf.mjs volume-1.html "NBEO PAM-TMOD Manual - Volume 1, Session 1.pdf"
-node tools/to_pdf.mjs volume-2.html "NBEO PAM-TMOD Manual - Volume 2, Session 2.pdf"
-python3 tools/check_pdf.py "NBEO PAM-TMOD Manual - Volume 1, Session 1.pdf" 105
-python3 tools/check_pdf.py "NBEO PAM-TMOD Manual - Volume 2, Session 2.pdf" 104
+python3 tools/build.py                # both guides -> part-1-*.html, part-2-*.html
+node tools/shoot.mjs part-1-study-manual.html part-2-exam-simulator.html
+node tools/to_pdf.mjs part-1-study-manual.html   "NBEO PAM-TMOD Part 1 - Study Manual (by domain).pdf"
+node tools/to_pdf.mjs part-2-exam-simulator.html "NBEO PAM-TMOD Part 2 - Exam Simulator (as sat).pdf"
+python3 tools/check_pdf.py "NBEO PAM-TMOD Part 1 - Study Manual (by domain).pdf" 178
+python3 tools/check_pdf.py "NBEO PAM-TMOD Part 2 - Exam Simulator (as sat).pdf" 181
 ```
+
+What each guide contains is declared in `tools/guides.py`. Both read the same
+content directory, and the answer letters are generated across both sessions in
+one pass, so the two books always agree.
 
 All four must pass. `build.py` refuses to write if the answer key misses its
 distribution target, `shoot.mjs` exits non-zero if a single page is clipped, and
 `check_pdf.py` catches a substituted font, which looks correct on screen and
-wrong on paper. Answer letters are generated across both sessions at once, so
-both volumes always come from a single build.
+wrong on paper. `build.py` also refuses content that still contains placeholder
+text from `tools/stub.py`, and rejects any `domain` that is not one of the
+seventeen spelled out in `schema.py`. Both checks exist because both failures
+shipped once: ten cases of stub text reached a PDF, and a paraphrased domain
+name silently split a domain in two in the index.
 
 In this sandbox node is not on the default PATH:
 
@@ -83,8 +98,8 @@ with a 13pt reserve. `shoot.mjs` is what keeps the model honest: it measures
 
 | | |
 | --- | --- |
-| Volume 1, Session 1 | 105 pages, letter, 1.09 MB |
-| Volume 2, Session 2 | 104 pages, letter, 0.99 MB |
+| Study Manual | 178 pages, letter, 1.83 MB |
+| Exam Simulator | 181 pages, letter, 1.85 MB |
 | Cases and items | 70 cases, 350 items, all 17 blueprint domains |
 | Key, both sessions | A 19.6%, B 19.6%, C 20.7%, D 20.4%, E 19.6% |
 | Longest run of one letter | 3 |
