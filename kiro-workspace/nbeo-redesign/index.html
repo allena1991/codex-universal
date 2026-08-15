@@ -6,7 +6,7 @@
 <title>NBEO Part II PAM/TMOD - Clinical Reasoning Manual (redesign specimen)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#f7f3ec; --ink:#16130e; --ink2:#4d453a; --ink3:#7d7364;
@@ -15,7 +15,9 @@
   --red:#96200f; --red-tint:#f7e5df;
   --ochre:#9a7018; --ochre-tint:#f5ebd4;
   --t-display:'Instrument Serif',Georgia,serif;
-  --t-body:'Newsreader',Georgia,serif;
+  /* Static-weight faces only: Chromium's PDF export silently substitutes
+     Noto Sans for variable-axis fonts, which loses the body serif in print. */
+  --t-body:'Spectral',Georgia,serif;
   --t-mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
 }
 *{box-sizing:border-box}
@@ -667,7 +669,7 @@ table.dis td:nth-child(2){width:1.4in;font-weight:600}
       <tr><th>Spherical equivalent</th><td class="num">sph + cyl/2</td><td>Halve the cylinder with its own sign. -6.00 -2.00 x 180 gives -7.00 D.</td></tr>
       <tr><th>Transposition</th><td class="num">sph + cyl, flip, 90&deg;</td><td>New sphere is old sphere plus old cylinder, reverse the cylinder sign, rotate the axis by 90 degrees.</td></tr>
       <tr><th>Prentice rule</th><td class="num">&Delta; = cm &times; D</td><td>Decentration in centimetres. Base follows the thick edge for plus lenses, the thin edge for minus.</td></tr>
-      <tr><th>Vertex conversion</th><td class="num">F&#8322; = F&#8321;/(1 - dF&#8321;)</td><td>Distance in metres, signs preserved. Matters beyond about &plusmn;4.00 D.</td></tr>
+      <tr><th>Vertex conversion</th><td class="num">F2 = F1/(1 - dF1)</td><td>Distance in metres, signs preserved. Matters beyond about &plusmn;4.00 D.</td></tr>
       <tr><th>Kestenbaum estimate</th><td class="num">1 / acuity fraction</td><td>Starting magnification only. Refine by task, working distance, contrast, field, endurance.</td></tr>
       <tr><th>Equivalent viewing power</th><td class="num">1 / metres</td><td>10 cm working distance is 10 D.</td></tr>
       <tr><th>Hofstetter</th><td class="num">18.5 - 0.30&thinsp;age</td><td>Average. Minimum is 15 - 0.25&thinsp;age, maximum 25 - 0.40&thinsp;age. A screening comparison, not a diagnosis.</td></tr>
@@ -692,7 +694,7 @@ table.dis td:nth-child(2){width:1.4in;font-weight:600}
       <tr><td>Anisometropia -2.00 OD, -5.00 OS, 10 mm below centre</td><td class="num">2&Delta; and 5&Delta; base down: 3&Delta; imbalance</td></tr>
     </tbody>
   </table>
-  <p class="tiny" style="margin-top:5px">Marks are lost to sign errors in transposition and vertex, to forgetting that Prentice needs centimetres, and to quoting a magnification estimate as if it were a prescription. Write one line of working even when the answer looks obvious.</p>
+  <p class="tiny" style="margin-top:5px">Marks are lost to sign errors in transposition and vertex, to forgetting that Prentice needs centimetres, and to quoting a magnification estimate as a prescription. Write one line of working every time.</p>
 
   <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Formulas &amp; drills &middot; 10</span></div>
 </section>

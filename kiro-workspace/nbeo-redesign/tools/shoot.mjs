@@ -2,7 +2,7 @@
    and report console errors plus any sheet that overflows a letter page.
    Run: bunx node tools/shoot.mjs  (or: node tools/shoot.mjs) */
 import { chromium } from 'playwright';
-import { mkdirSync } from 'node:fs';
+import { mkdirSync, existsSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -10,7 +10,10 @@ import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 mkdirSync(resolve(root, 'preview'), { recursive: true });
 
-const browser = await chromium.launch();
+/* This image ships Chromium under PLAYWRIGHT_BROWSERS_PATH at a revision the
+   installed playwright package does not expect, so point at it explicitly. */
+const shipped = '/opt/playwright/chromium-1232/chrome-linux64/chrome';
+const browser = await chromium.launch(existsSync(shipped) ? { executablePath: shipped } : {});
 const page = await browser.newPage({ viewportSize: { width: 1100, height: 1400 }, deviceScaleFactor: 2 });
 const errors = [];
 page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });

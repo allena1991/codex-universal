@@ -28,7 +28,11 @@ Redesign of a 120-page NBEO Part II PAM/TMOD study guide.
 - `AUDIT.md` — the findings. The headline: the original answer key was 82% option A across 333 single-answer items, 95% in Session 2, with one unbroken run of 140 consecutive A answers. Also distractor quality, missing distractor rationales, unverifiable self-certification, and layout defects.
 - `tools/key_audit.py` — reproduces those numbers from the transcribed keys, and states the rebuild target.
 - `index.html` — a print-ready 16-sheet specimen at 8.5 x 11in: cover with contents, verification status, method, blueprint chart, item types and pacing, a two-page keyed emergency gate, condition cards, pharmacology, formulas and drills, a rebuilt case with item-type tags, a two-page teaching key with per-distractor analysis, a cut-line recall deck, and sources with link status.
+- `NBEO PAM-TMOD Clinical Reasoning Manual.pdf` — the printed manual. 16 pages, 8.5 x 11in, 0.27 MB, real text with embedded subsets, not images.
 - `preview/sheet-01.png` … `sheet-16.png` — rendered pages.
 - `tools/shoot.mjs` — renders each sheet and fails if any sheet clips its page. All 16 fit.
+- `tools/to_pdf.mjs` — prints the PDF through Chromium with `preferCSSPageSize`, since the document owns its page geometry.
+- `tools/check_pdf.py` — asserts 16 letter pages and that every intended family is embedded. It exists because the first export silently substituted Noto Sans for the whole body serif: Chromium would not embed the variable Newsreader file. The body face is now Spectral, which is static.
+- `tools/glyph_check.mjs` — finds characters no embedded family covers. `document.fonts.check` claimed full coverage; exporting a copy with single glyphs removed proved otherwise. One glyph still comes from a fallback face: U+0394, the delta in prism dioptres, which Spectral has no Greek coverage for. That is tolerated and documented in the checker.
 
 The specimen is a pattern, not the whole guide. Rolling it across 120 pages is mechanical once the key rebuild and distractor rewrite are agreed.
