@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chip</title>
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+<script src="support.js" defer></script>
+</head>
+<body>
+<div id="dc-root"></div>
+<x-dc>
+<span style="display:inline-flex;align-items:center;gap:6px;font:600 11px/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#fffdf8;background:#1f4e46;padding:7px 9px;border-radius:2px">{{ label }}</span>
+</x-dc>
+<script data-dc-script type="text/dc-logic">
+class Component extends DCLogic {}
+</script>
+</body>
+</html>

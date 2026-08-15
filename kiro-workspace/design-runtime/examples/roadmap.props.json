@@ -1,0 +1,15 @@
+{
+  "$preview": { "width": 568, "height": 520 },
+  "showOwners": {
+    "editor": "boolean",
+    "default": true,
+    "tsType": "boolean",
+    "section": "Content"
+  },
+  "blockedFirst": {
+    "editor": "boolean",
+    "default": false,
+    "tsType": "boolean",
+    "section": "Content"
+  }
+}

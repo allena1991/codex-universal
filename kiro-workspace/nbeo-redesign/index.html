@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NBEO Part II PAM/TMOD - Clinical Reasoning Manual (redesign specimen)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f7f3ec; --ink:#16130e; --ink2:#4d453a; --ink3:#7d7364;
+  --rule:#d6cebe; --rule2:#e7e0d3;
+  --petrol:#10484c; --petrol-tint:#e1eae7; --petrol-mid:#5c8b8b;
+  --red:#96200f; --red-tint:#f7e5df;
+  --ochre:#9a7018; --ochre-tint:#f5ebd4;
+  --t-display:'Instrument Serif',Georgia,serif;
+  --t-body:'Newsreader',Georgia,serif;
+  --t-mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;background:#ded8cc;font-family:var(--t-body);color:var(--ink);
+  font-size:10.5pt;line-height:1.42;text-wrap:pretty;font-optical-sizing:auto}
+a{color:var(--petrol);text-decoration:none;border-bottom:1px solid var(--petrol-mid)}
+
+.sheet{width:8.5in;height:11in;overflow:hidden;margin:0 auto 22px;background:var(--paper);
+  padding:0.5in 0.66in 0.34in;display:flex;flex-direction:column;
+  box-shadow:0 3px 16px -8px rgba(20,16,10,.45)}
+.rh{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1.5px solid var(--ink);padding-bottom:4px;margin-bottom:13px;flex:none}
+.rh .part{font-family:var(--t-mono);font-size:7.5pt;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--petrol)}
+.rh .pg{font-family:var(--t-mono);font-size:7.5pt;color:var(--ink3)}
+.rf{margin-top:auto;padding-top:9px;border-top:1px solid var(--rule);flex:none;
+  font-family:var(--t-mono);font-size:7pt;color:var(--ink3);
+  display:flex;justify-content:space-between;letter-spacing:.04em}
+
+h1,h2,h3,h4{margin:0;text-wrap:balance}
+h2{font-family:var(--t-display);font-size:25pt;line-height:1.02;font-weight:400;letter-spacing:-.01em}
+h3{font-family:var(--t-body);font-size:12.5pt;font-weight:600;margin:14px 0 6px;
+  padding-bottom:3px;border-bottom:1px solid var(--rule)}
+h3:first-of-type{margin-top:9px}
+h4{font-family:var(--t-mono);font-size:7.5pt;font-weight:600;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--petrol);margin:0 0 5px}
+p{margin:0 0 8px}
+.lede{font-size:12pt;line-height:1.38;color:var(--ink2);max-width:5.4in}
+.small{font-size:9.5pt;line-height:1.4;color:var(--ink2)}
+.tiny{font-family:var(--t-mono);font-size:7pt;line-height:1.5;color:var(--ink3);letter-spacing:.02em}
+strong{font-weight:600}
+.mono{font-family:var(--t-mono)}
+
+.cover{justify-content:space-between;padding:0.8in 0.72in 0.45in}
+.cover .eyebrow{font-family:var(--t-mono);font-size:8pt;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--red)}
+.cover h1{font-family:var(--t-display);font-size:64pt;line-height:.93;font-weight:400;
+  letter-spacing:-.02em;margin:12px 0 0}
+.cover h1 span{display:block;color:var(--petrol)}
+.cover .sub{font-size:14pt;line-height:1.32;color:var(--ink2);margin:16px 0 0;max-width:4.8in}
+.figstrip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1.5px solid var(--ink);
+  border-bottom:1.5px solid var(--ink);margin:26px 0}
+.figstrip div{padding:11px 10px 10px;border-right:1px solid var(--rule)}
+.figstrip div:last-child{border-right:0}
+.figstrip b{display:block;font-family:var(--t-display);font-size:28pt;line-height:1;font-weight:400}
+.figstrip span{font-family:var(--t-mono);font-size:6.5pt;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink3);display:block;margin-top:5px}
+.toc{columns:2;column-gap:24px;margin-top:4px}
+.toc div{display:grid;grid-template-columns:0.46in 1fr;gap:7px;padding:2.5px 0;
+  border-bottom:1px solid var(--rule2);break-inside:avoid;font-size:9.5pt;line-height:1.25}
+.toc b{font-family:var(--t-mono);font-size:7.5pt;font-weight:600;color:var(--petrol);padding-top:2px}
+.rule-red{height:5px;background:var(--red);width:1.9in}
+
+table{width:100%;border-collapse:collapse;font-size:9.5pt}
+thead th{font-family:var(--t-mono);font-size:7pt;font-weight:600;letter-spacing:.11em;
+  text-transform:uppercase;text-align:left;color:var(--paper);background:var(--ink);padding:5px 8px}
+td,tbody th{padding:5px 8px;border-bottom:1px solid var(--rule2);vertical-align:top;text-align:left;
+  line-height:1.34}
+tbody th{font-weight:600}
+tbody tr:last-child td,tbody tr:last-child th{border-bottom:0}
+table.lined tbody tr:nth-child(even){background:rgba(16,72,76,.04)}
+.num{font-family:var(--t-mono);font-size:9pt;white-space:nowrap}
+
+.chart{margin-top:4px}
+.crow{display:grid;grid-template-columns:2in 1fr 0.5in;align-items:center;gap:9px;
+  padding:2.5px 0;border-bottom:1px solid var(--rule2)}
+.crow:last-child{border-bottom:0}
+.crow .cl{font-size:9pt;line-height:1.2}
+.crow .cv{font-family:var(--t-mono);font-size:8.5pt;text-align:right;color:var(--ink2)}
+.track{position:relative;height:13px;background:repeating-linear-gradient(90deg,var(--rule2) 0 1px,transparent 1px 25%)}
+.band{position:absolute;top:3px;height:7px;background:var(--petrol-tint);
+  border-left:1px solid var(--petrol-mid);border-right:1px solid var(--petrol-mid)}
+.mark{position:absolute;top:0;width:3px;height:13px;background:var(--petrol)}
+.axis{display:grid;grid-template-columns:2in 1fr 0.5in;gap:9px;margin-top:3px}
+.axis .ticks{position:relative;height:10px}
+.axis .ticks span{position:absolute;transform:translateX(-50%);font-family:var(--t-mono);
+  font-size:6.5pt;color:var(--ink3)}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.card{border:1px solid var(--rule);background:#fffdf8;break-inside:avoid;
+  display:flex;flex-direction:column}
+.card .trap{flex:1;align-content:start}
+.card .ct{display:flex;justify-content:space-between;align-items:baseline;gap:8px;
+  padding:5px 9px;border-bottom:1px solid var(--rule)}
+.card .ct b{font-size:10.5pt;font-weight:600;line-height:1.12}
+.card .ct span{font-family:var(--t-mono);font-size:6pt;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink3);white-space:nowrap}
+.card dl{margin:0;padding:6px 9px 7px;display:grid;grid-template-columns:0.46in 1fr;gap:2px 7px}
+.card dt{font-family:var(--t-mono);font-size:6pt;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--petrol);padding-top:2px}
+.card dd{margin:0;font-size:8.5pt;line-height:1.32}
+.trap{display:grid;grid-template-columns:0.46in 1fr;gap:7px;padding:5px 9px;
+  background:var(--red-tint);border-top:1px solid rgba(150,32,15,.25)}
+.trap dt{font-family:var(--t-mono);font-size:6pt;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--red);padding-top:2px}
+.trap dd{margin:0;font-size:8.5pt;line-height:1.32;color:#5c1a0f}
+
+.ecard{border:1px solid rgba(150,32,15,.4);background:#fffdfb;break-inside:avoid;
+  display:flex;flex-direction:column}
+.ecard .never{flex:1}
+.ecard header{background:var(--red);color:#fdf3f0;padding:5px 9px;display:flex;
+  justify-content:space-between;align-items:baseline}
+.ecard header b{font-size:10.5pt;font-weight:600}
+.ecard header span{font-family:var(--t-mono);font-size:6pt;letter-spacing:.11em;
+  text-transform:uppercase;opacity:.85}
+.ecard .zone{padding:5px 9px;border-bottom:1px solid var(--rule2);font-size:8.5pt;line-height:1.32}
+.ecard .zone:last-child{border-bottom:0}
+.ecard .zone b{font-family:var(--t-mono);font-size:6pt;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;display:block;margin-bottom:1px;color:var(--ink3)}
+.ecard .never{background:rgba(150,32,15,.05)}
+.ecard .never b{color:var(--red)}
+
+.case-head{border-left:5px solid var(--petrol);padding:1px 0 1px 11px;margin:10px 0 9px}
+.case-head .cid{font-family:var(--t-mono);font-size:7pt;font-weight:600;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--petrol)}
+.case-head h3{border:0;margin:1px 0 0;padding:0;font-size:14pt}
+.stem{font-size:10pt;line-height:1.4;background:#fffdf8;border:1px solid var(--rule);
+  padding:7px 10px;margin-bottom:8px}
+table.tight td,table.tight th{padding:3px 8px}
+.item{break-inside:avoid;margin-bottom:5px}
+.item .q{display:flex;gap:8px;align-items:baseline;margin-bottom:4px}
+.item .n{font-family:var(--t-mono);font-size:8.5pt;font-weight:600;color:var(--paper);
+  background:var(--ink);padding:1px 5px;white-space:nowrap}
+.item .qt{font-size:10pt;line-height:1.3;font-weight:600;flex:1}
+.tag{font-family:var(--t-mono);font-size:6pt;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;padding:2px 4px;white-space:nowrap;border:1px solid var(--petrol-mid);
+  color:var(--petrol);background:var(--petrol-tint)}
+.tag.tx{border-color:var(--ochre);color:var(--ochre);background:var(--ochre-tint)}
+.tag.mr{border-color:var(--red);color:var(--red);background:var(--red-tint)}
+ol.opts{list-style:none;margin:0 0 4px;padding:0 0 0 30px;display:flex;flex-direction:column;gap:1px}
+ol.opts li{font-size:9.5pt;line-height:1.32;display:grid;grid-template-columns:0.2in 1fr;gap:5px}
+ol.opts li span{font-family:var(--t-mono);font-size:8.5pt;color:var(--ink2)}
+.capture{margin-left:30px;font-family:var(--t-mono);font-size:7pt;letter-spacing:.05em;
+  color:var(--ink3);border-top:1px dotted var(--rule);padding-top:2px}
+
+.rat{break-inside:avoid;margin-bottom:11px;border-bottom:1px solid var(--rule2);padding-bottom:9px}
+.rat:last-of-type{border-bottom:0}
+.rat .rh2{display:flex;gap:8px;align-items:baseline;margin-bottom:4px}
+.rat .rt{font-size:10pt;font-weight:600}
+.key{font-family:var(--t-mono);font-size:9pt;font-weight:600;background:var(--petrol);
+  color:#f2f8f6;padding:1px 6px;white-space:nowrap}
+.why{font-size:9.5pt;line-height:1.38;margin:0 0 5px}
+table.dis{font-size:8.5pt}
+table.dis thead th{background:var(--ink2);font-size:6.5pt}
+table.dis td:first-child{font-family:var(--t-mono);font-size:8pt;width:0.28in}
+table.dis td:nth-child(2){width:1.4in;font-weight:600}
+
+.cut{display:grid;grid-template-columns:1fr 1fr}
+.cut div{border:1px dashed var(--ink3);margin:-0.5px;padding:9px 11px;min-height:1.12in;
+  display:flex;flex-direction:column;justify-content:space-between;break-inside:avoid}
+.cut .p{font-size:10pt;line-height:1.2;font-weight:600}
+.cut .a{font-size:8pt;line-height:1.3;color:var(--ink2);border-top:1px solid var(--rule);
+  padding-top:5px;margin-top:6px}
+.cut .a b{color:var(--red);font-weight:600}
+
+.callout{border-left:4px solid var(--ochre);background:var(--ochre-tint);padding:7px 10px;
+  font-size:9.5pt;line-height:1.36;margin:10px 0}
+.callout b{font-family:var(--t-mono);font-size:7pt;letter-spacing:.1em;text-transform:uppercase;
+  display:block;margin-bottom:2px;color:#6d4c0c}
+.note{border-left:4px solid var(--petrol);background:var(--petrol-tint);padding:7px 10px;
+  font-size:9.5pt;line-height:1.36;margin:10px 0}
+.note b{font-family:var(--t-mono);font-size:7pt;letter-spacing:.1em;text-transform:uppercase;
+  display:block;margin-bottom:2px;color:var(--petrol)}
+.status{display:inline-block;font-family:var(--t-mono);font-size:6.5pt;font-weight:600;
+  letter-spacing:.07em;text-transform:uppercase;padding:2px 4px;white-space:nowrap}
+.ok{background:var(--petrol);color:#eff6f4}
+.unconf{background:var(--ochre-tint);color:#6d4c0c;border:1px solid var(--ochre)}
+.bad{background:var(--red);color:#fdf1ee}
+
+@media print{
+  body{background:#fff}
+  .sheet{margin:0;box-shadow:none;break-after:page;height:11in}
+  .sheet:last-child{break-after:auto}
+  a{color:var(--ink);border-bottom:0}
+}
+@media screen and (max-width:9in){
+  .sheet{width:100%;height:auto;padding:20px 18px}
+  .cover h1{font-size:42pt}
+  .grid2,.cut{grid-template-columns:1fr}
+  .crow,.axis{grid-template-columns:1.4in 1fr 0.45in}
+}
+</style>
+</head>
+<body>
+
+<!-- 01 COVER -->
+<section class="sheet cover" data-screen-label="01 Cover">
+  <div>
+    <div class="eyebrow">Second edition &middot; rebuilt key</div>
+    <h1>Clinical<br>Reasoning<span>Manual</span></h1>
+    <p class="sub">NBEO Part II PAM / TMOD. Illness scripts, an emergency gate, treatment grammar, and two 175-item case simulations with a balanced answer key.</p>
+    <div class="rule-red" style="margin-top:22px"></div>
+  </div>
+
+  <div>
+    <h4>In this manual</h4>
+    <div class="toc">
+      <div><b>2</b><span>Verification status and the key rebuild</span></div>
+      <div><b>3</b><span>Method: six passes, and the error log</span></div>
+      <div><b>4</b><span>Exam map: domain allocation</span></div>
+      <div><b>5</b><span>Item types, pacing, case algorithm</span></div>
+      <div><b>6-7</b><span>Emergency gate: twelve patterns</span></div>
+      <div><b>8</b><span>Condition cards: surface and adnexa</span></div>
+      <div><b>9</b><span>Pharmacology: anchor, caveat, monitor</span></div>
+      <div><b>10</b><span>Formulas and timed drills</span></div>
+      <div><b>11</b><span>Session 1, Case 1: five items</span></div>
+      <div><b>12-13</b><span>Teaching key with distractor analysis</span></div>
+      <div><b>14-15</b><span>Rapid recall, cut-line deck</span></div>
+      <div><b>16</b><span>Sources and link status</span></div>
+    </div>
+  </div>
+
+  <div>
+    <div class="figstrip">
+      <div><b>350</b><span>items, in cases of 3-6</span></div>
+      <div><b>175</b><span>items per session</span></div>
+      <div><b>3.5</b><span>hours per session</span></div>
+      <div><b>~120</b><span>TMOD items embedded</span></div>
+    </div>
+    <div class="grid2" style="gap:22px">
+      <div>
+        <h4>What changed in this edition</h4>
+        <p class="small" style="margin:0">The previous edition's answer key was 82% option A, and 95% in Session&nbsp;2. Every key has been rebuilt to an even letter spread, every item now carries four credible options, and every rationale explains the tempting wrong answer as well as the right one.</p>
+      </div>
+      <div>
+        <h4>Format facts, verified</h4>
+        <p class="small" style="margin:0">Item count, case size, session structure, timing, and the separate TMOD breakout decision were checked against NBEO's published exam page on 15&nbsp;August&nbsp;2026. Domain and item-type figures are transcribed and marked unconfirmed on page&nbsp;2.</p>
+      </div>
+    </div>
+    <p class="tiny" style="margin:18px 0 0">Independent educational resource. Not affiliated with, endorsed by, or derived from secure NBEO content. All cases, options, and rationales are original. No study resource can guarantee a passing score. Drug figures are exam anchors, not prescriptions: real care follows current labelling, local law, and the patient in front of you.</p>
+  </div>
+</section>
+
+<!-- 02 VERIFICATION -->
+<section class="sheet" data-screen-label="02 Verification">
+  <div class="rh"><span class="part">Front matter / Verification</span><span class="pg">2</span></div>
+  <h2>What is checked,<br>and what is not</h2>
+  <p class="lede" style="margin-top:9px">A guide that labels its own uncertainty is more useful than one that asserts it was verified. Every factual claim carries one of three states.</p>
+
+  <h3>Verification table</h3>
+  <table class="lined">
+    <thead><tr><th>Claim</th><th style="width:0.95in">State</th><th style="width:2.3in">Basis</th></tr></thead>
+    <tbody>
+      <tr><td>350 items, presented as cases of 3-6 items</td><td><span class="status ok">Verified</span></td><td>NBEO exam page, fetched 15 Aug 2026</td></tr>
+      <tr><td>Two sessions of 175 items, 3.5 hours each</td><td><span class="status ok">Verified</span></td><td>NBEO exam page</td></tr>
+      <tr><td>Approximately 120 TMOD items, separate breakout decision</td><td><span class="status ok">Verified</span></td><td>NBEO exam page</td></tr>
+      <tr><td>Delivered at Pearson centres; tutorial being updated</td><td><span class="status ok">Verified</span></td><td>NBEO exam page</td></tr>
+      <tr><td>Per-domain item ranges, 17 domains</td><td><span class="status unconf">Unconfirmed</span></td><td>Transcribed from prior edition. Content Matrix PDF resolves but was not machine-read</td></tr>
+      <tr><td>Item-type percentage bands</td><td><span class="status unconf">Unconfirmed</span></td><td>As above</td></tr>
+      <tr><td>Deep link to the Pearson tutorial</td><td><span class="status bad">Removed</span></td><td>URL did not resolve; reach it from the exam page</td></tr>
+    </tbody>
+  </table>
+
+  <h3>The defect this edition exists to fix</h3>
+  <table>
+    <thead><tr><th>Answer key</th><th style="width:1.1in">Session 1</th><th style="width:1.1in">Session 2</th><th style="width:1in">Both</th></tr></thead>
+    <tbody>
+      <tr><th>Single-answer items</th><td class="num">161</td><td class="num">172</td><td class="num">333</td></tr>
+      <tr><th>Correct answer was A</th><td class="num">67.1%</td><td class="num">95.3%</td><td class="num">81.7%</td></tr>
+      <tr><th>Longest run of one letter</th><td class="num">30</td><td class="num">140</td><td class="num">-</td></tr>
+      <tr><th>Letters never correct</th><td class="num">E</td><td class="num">D, E</td><td class="num">E</td></tr>
+    </tbody>
+  </table>
+  <div class="callout"><b>What that meant in practice</b>Answering A to every single-answer item scored 272/333, about 82%, without reading one stem. Session 2 alone scored 95%. The two sessions were also biased by different amounts, so a Session 1 score could not be compared with a Session 2 score, which broke the guide's own repair-and-confirm workflow.</div>
+  <div class="note"><b>Rebuild rule, auditable</b>Each letter A to E is correct on 18-22% of single-answer items in each session, no letter repeats more than three times consecutively, all five letters appear in both sessions, and option length is matched within each item. Re-run <span class="mono">tools/key_audit.py</span> after any edit to the bank.</div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Verification &middot; 2</span></div>
+</section>
+
+<!-- 03 METHOD -->
+<section class="sheet" data-screen-label="03 Method">
+  <div class="rh"><span class="part">Front matter / Method</span><span class="pg">3</span></div>
+  <h2>Six passes</h2>
+  <p class="lede" style="margin-top:9px">Reading this manual is not studying it. Retrieval under time pressure is what transfers to the exam room.</p>
+
+  <table>
+    <thead><tr><th style="width:1.05in">Pass</th><th>Work</th><th style="width:2.4in">Proof it worked</th></tr></thead>
+    <tbody>
+      <tr><th>1 &middot; Systems</th><td>Learn the algorithm, the emergency gate, the condition cards, the drug anchors.</td><td>You can state recognition, danger, next test, treatment, contraindication, follow-up, and failure trigger without looking.</td></tr>
+      <tr><th>2 &middot; Retrieval</th><td>Closed-book recall at roughly 1, 3, 7, 14, and 30 days, always from a changed prompt.</td><td>Successful recalls are logged. Hours are not.</td></tr>
+      <tr><th>3 &middot; Session 1</th><td>175 items, 210 minutes, uninterrupted, confidence marked on every item.</td><td>Scored by item type as well as total, with pacing and error categories written down.</td></tr>
+      <tr><th>4 &middot; Repair</th><td>High-confidence misses first. Each becomes one if-then rule.</td><td>Every false rule has a replacement you can recite.</td></tr>
+      <tr><th>5 &middot; Session 2</th><td>Second 175 items under identical conditions.</td><td>Weak item types improve; late-session accuracy holds.</td></tr>
+      <tr><th>6 &middot; Taper</th><td>Red flags, drugs, formulas, image algorithms, logistics.</td><td>No new content in the final 48 hours. Sleep protected.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Error log: seven fields, one line each</h3>
+  <table class="lined">
+    <tbody>
+      <tr><th style="width:1.35in">Concept</th><td>Short disease or decision label.</td></tr>
+      <tr><th>Answer contrast</th><td>What you chose against what was correct.</td></tr>
+      <tr><th>Error type</th><td>Knowledge, discrimination, image reading, management sequence, calculation, or misreading the stem.</td></tr>
+      <tr><th>False rule</th><td>The exact belief that produced the miss, written as a sentence.</td></tr>
+      <tr><th>New rule</th><td>One executable if-then replacement.</td></tr>
+      <tr><th>Next recall</th><td>Tomorrow for a high-confidence miss, three days for low-confidence, seven days after a success.</td></tr>
+      <tr><th>Transfer test</th><td>A changed patient or the competing diagnosis.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout"><b>Why score by item type</b>The blueprint weights treatment and management far above basic science, and TMOD is decided separately. A 74% total can hide a failing treatment score. Every item here is tagged, so scoring by tag takes two minutes and tells you what to repair.</div>
+  <div class="note"><b>Interleave, do not block</b>Study competing pairs together: episcleritis against scleritis, optic neuritis against ischaemic neuropathy, AMD against central serous, HSV against zoster, preseptal against orbital. The exam tests the discriminator, never the textbook description.</div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Method &middot; 3</span></div>
+</section>
+
+<!-- 04 EXAM MAP -->
+<section class="sheet" data-screen-label="04 Exam map">
+  <div class="rh"><span class="part">Part 1 / Exam map</span><span class="pg">4</span></div>
+  <h2>Know the target</h2>
+  <p class="lede" style="margin-top:9px">Band shows the published range. Bar shows this manual's 350-item allocation. Scale runs 0 to 44 items.</p>
+
+  <div class="chart">
+    <div class="crow"><div class="cl">Conjunctiva / cornea / refractive surgery</div><div class="track"><div class="band" style="left:75%;width:25%"></div><div class="mark" style="left:90.9%"></div></div><div class="cv">40</div></div>
+    <div class="crow"><div class="cl">Retina / choroid / vitreous</div><div class="track"><div class="band" style="left:75%;width:25%"></div><div class="mark" style="left:90.9%"></div></div><div class="cv">40</div></div>
+    <div class="crow"><div class="cl">Optic nerve / neuro-ophthalmic</div><div class="track"><div class="band" style="left:63.6%;width:22.7%"></div><div class="mark" style="left:79.5%"></div></div><div class="cv">35</div></div>
+    <div class="crow"><div class="cl">Lens / cataract / IOL / perioperative</div><div class="track"><div class="band" style="left:38.6%;width:25%"></div><div class="mark" style="left:56.8%"></div></div><div class="cv">25</div></div>
+    <div class="crow"><div class="cl">Glaucoma</div><div class="track"><div class="band" style="left:36.4%;width:25%"></div><div class="mark" style="left:56.8%"></div></div><div class="cv">25</div></div>
+    <div class="crow"><div class="cl">Contact lenses</div><div class="track"><div class="band" style="left:38.6%;width:25%"></div><div class="mark" style="left:45.5%"></div></div><div class="cv">20</div></div>
+    <div class="crow"><div class="cl">Accommodation / vergence / oculomotor</div><div class="track"><div class="band" style="left:45.5%;width:11.4%"></div><div class="mark" style="left:45.5%"></div></div><div class="cv">20</div></div>
+    <div class="crow"><div class="cl">Lids / lacrimal / adnexa / orbit</div><div class="track"><div class="band" style="left:25%;width:25%"></div><div class="mark" style="left:45.5%"></div></div><div class="cv">20</div></div>
+    <div class="crow"><div class="cl">Episclera / sclera / anterior uvea</div><div class="track"><div class="band" style="left:25%;width:25%"></div><div class="mark" style="left:45.5%"></div></div><div class="cv">20</div></div>
+    <div class="crow"><div class="cl">Emergencies / trauma</div><div class="track"><div class="band" style="left:25%;width:25%"></div><div class="mark" style="left:45.5%"></div></div><div class="cv">20</div></div>
+    <div class="crow"><div class="cl">Systemic health</div><div class="track"><div class="band" style="left:25%;width:25%"></div><div class="mark" style="left:45.5%"></div></div><div class="cv">20</div></div>
+    <div class="crow"><div class="cl">Ametropia</div><div class="track"><div class="band" style="left:25%;width:25%"></div><div class="mark" style="left:34.1%"></div></div><div class="cv">15</div></div>
+    <div class="crow"><div class="cl">Amblyopia / strabismus</div><div class="track"><div class="band" style="left:13.6%;width:25%"></div><div class="mark" style="left:34.1%"></div></div><div class="cv">15</div></div>
+    <div class="crow"><div class="cl">Ophthalmic optics / spectacles</div><div class="track"><div class="band" style="left:13.6%;width:25%"></div><div class="mark" style="left:22.7%"></div></div><div class="cv">10</div></div>
+    <div class="crow"><div class="cl">Low vision</div><div class="track"><div class="band" style="left:13.6%;width:25%"></div><div class="mark" style="left:22.7%"></div></div><div class="cv">10</div></div>
+    <div class="crow"><div class="cl">Perceptual function / colour vision</div><div class="track"><div class="band" style="left:13.6%;width:25%"></div><div class="mark" style="left:22.7%"></div></div><div class="cv">10</div></div>
+    <div class="crow"><div class="cl">Visual and human development</div><div class="track"><div class="band" style="left:0%;width:13.6%"></div><div class="mark" style="left:11.4%"></div></div><div class="cv">5</div></div>
+  </div>
+  <div class="axis"><div></div><div class="ticks"><span style="left:0">0</span><span style="left:25%">11</span><span style="left:50%">22</span><span style="left:75%">33</span><span style="left:100%">44</span></div><div></div></div>
+
+  <div class="note"><b>Read it this way</b>Cornea and retina alone can carry 88 items. Revision split evenly across 17 domains is misallocated by a factor of eight at the extremes. Development items usually arrive inside paediatric cases.</div>
+
+  <h3>Case conventions worth memorising</h3>
+  <table class="lined">
+    <tbody>
+      <tr><th style="width:1.1in">BVA</th><td>Best achievable or best-corrected acuity. If it is reduced, pinhole improvement has already been accounted for, so do not spend an item hunting refractive causes.</td></tr>
+      <tr><th>Near acuity</th><td>Assume 16 inches unless the case says otherwise.</td></tr>
+      <tr><th>Fields</th><td>Side by side: OD right, OS left. Stacked: OD above OS.</td></tr>
+      <tr><th>Images</th><td>Fundus, OCT, fields, angiography, ultrasound, radiology, anterior segment. Describe before diagnosing.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="figstrip" style="grid-template-columns:1fr 1fr;margin:13px 0 0">
+    <div style="padding:8px 10px 7px"><b>245</b><span>items &middot; normal health, disease, trauma</span></div>
+    <div style="padding:8px 10px 7px"><b>105</b><span>items &middot; refractive, sensory, oculomotor</span></div>
+  </div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Exam map &middot; 4</span></div>
+</section>
+
+<!-- 05 ITEM TYPES -->
+<section class="sheet" data-screen-label="05 Item types and pacing">
+  <div class="rh"><span class="part">Part 1 / Item types &amp; pacing</span><span class="pg">5</span></div>
+  <h2>Where the marks are</h2>
+
+  <h3>Item-type weighting and this manual's allocation</h3>
+  <table class="lined">
+    <thead><tr><th>Item type</th><th style="width:0.8in">Band</th><th style="width:0.9in">Here</th><th>What it actually asks</th></tr></thead>
+    <tbody>
+      <tr><th>Treatment / management</th><td class="num">40-57%</td><td class="num">163 &middot; 47%</td><td>Choice, mechanism, dose, schedule, duration, follow-up interval, education, prognosis, escalation.</td></tr>
+      <tr><th>Diagnosis</th><td class="num">26-34%</td><td class="num">113 &middot; 32%</td><td>Most likely diagnosis, the supporting datum, the missing datum, the next diagnostic test.</td></tr>
+      <tr><th>Basic science, applied</th><td class="num">11-17%</td><td class="num">59 &middot; 17%</td><td>Anatomy, physiology, pathophysiology, microbiology, optics, pharmacology, tied to this patient.</td></tr>
+      <tr><th>Legal / ethics / public health</th><td class="num">4-10%</td><td class="num">15 &middot; 4%</td><td>Duty, consent, refusal, records, delegation, telehealth, epidemiology, screening arithmetic.</td></tr>
+    </tbody>
+  </table>
+  <p class="tiny" style="margin-top:4px">Bands transcribed from the prior edition and marked unconfirmed on page 2. Allocation sums to 350.</p>
+
+  <h3>Pacing</h3>
+  <div class="grid2">
+    <div>
+      <table>
+        <thead><tr><th>Case</th><th>Budget</th><th>Move</th></tr></thead>
+        <tbody>
+          <tr><th class="num">3 items</th><td class="num">4 min</td><td>Read once, answer the direct items, flag one uncertainty.</td></tr>
+          <tr><th class="num">4 items</th><td class="num">5 min</td><td>Commit before option-hunting for rescue.</td></tr>
+          <tr><th class="num">5 items</th><td class="num">6 min</td><td>The typical unit. Do not reread the stem per item.</td></tr>
+          <tr><th class="num">6 items</th><td class="num">7 min</td><td>Diagnosis, threat, test, treatment, follow-up.</td></tr>
+        </tbody>
+      </table>
+      <p class="small" style="margin-top:6px">72 seconds per item. Checkpoints: item 50 by 60 minutes, item 100 by 120, item 150 by 180. Behind schedule means cut rereading, not standards.</p>
+    </div>
+    <div>
+      <div class="card">
+        <div class="ct"><b>Multiple-response discipline</b><span>all or none</span></div>
+        <dl>
+          <dt>Count</dt><dd>Underline the requested number before reading options.</dd>
+          <dt>Judge</dt><dd>Each option alone, true or false for this patient.</dd>
+          <dt>Prefer</dt><dd>Patient-specific over merely true.</dd>
+          <dt>Score</dt><dd>Every correct choice and no incorrect choice. A partial set earns zero.</dd>
+        </dl>
+        <div class="trap"><dt>Trap</dt><dd>Findings that prove the diagnosis are not the same as findings that measure organ function. Read which the item wants.</dd></div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Seven-step case algorithm</h3>
+  <table class="lined">
+    <tbody>
+      <tr><th style="width:1.15in" class="num">1 Frame</th><td>Age, laterality, tempo, pain, vision loss, systemic context, medications, risk behaviour.</td></tr>
+      <tr><th class="num">2 Threat gate</th><td>Could delay cost life, eye, or fellow eye? Run the twelve patterns on pages 6 and 7.</td></tr>
+      <tr><th class="num">3 Localise</th><td>Media, cornea and anterior segment, retina, optic nerve, post-chiasmal pathway, neuromuscular junction, orbit, binocular motor system.</td></tr>
+      <tr><th class="num">4 Build three</th><td>Most likely, most dangerous plausible, best mimic.</td></tr>
+      <tr><th class="num">5 Discriminate</th><td>The one finding or test that most changes probability or management. Not a panel.</td></tr>
+      <tr><th class="num">6 Treat in order</th><td>Stabilise, protect tissue and vision, treat cause, prevent recurrence and fellow-eye injury.</td></tr>
+      <tr><th class="num">7 Close the loop</th><td>Interval, measurable response, adverse effects, red flags, referral urgency, and what failure triggers.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Item types &amp; pacing &middot; 5</span></div>
+</section>
+
+<!-- 06 EMERGENCY GATE I -->
+<section class="sheet" data-screen-label="06 Emergency gate I">
+  <div class="rh"><span class="part">Part 2 / Emergency gate, 1 of 2</span><span class="pg">6</span></div>
+  <h2>Six patterns that<br>cannot wait</h2>
+  <p class="lede" style="margin-top:9px">Recognise, act, and know the specific thing that must not be done. The prohibition is examined as often as the treatment.</p>
+
+  <div class="grid2" style="margin-top:11px">
+    <div class="ecard">
+      <header><b>Chemical injury</b><span>surface</span></header>
+      <div class="zone"><b>Recognise</b>Exposure history. Do not wait for acuity or pH before acting.</div>
+      <div class="zone"><b>Do first</b>Irrigate immediately and copiously. Evert lids, sweep fornices for retained particles, continue until pH is neutral and stays neutral after a pause. Then grade limbal ischaemia and epithelial loss.</div>
+      <div class="zone never"><b>Never</b>Neutralise alkali with acid. Delay irrigation to find equipment.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Open globe</b><span>trauma</span></header>
+      <div class="zone"><b>Recognise</b>Full-thickness wound, Seidel, peaked pupil, uveal prolapse, low IOP with a mechanism.</div>
+      <div class="zone"><b>Do first</b>Rigid shield, nil by mouth, antiemetic and analgesia, tetanus and systemic antibiotics per protocol, CT orbits when appropriate, immediate surgical referral.</div>
+      <div class="zone never"><b>Never</b>Tonometry, gonioscopy, ultrasound, or any pressure on the globe.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Orbital cellulitis</b><span>orbit</span></header>
+      <div class="zone"><b>Recognise</b>Lid swelling plus any of: painful or restricted motility, proptosis, reduced acuity or colour, RAPD, raised IOP, fever, severe chemosis.</div>
+      <div class="zone"><b>Do first</b>Emergency department, contrast CT of orbits and sinuses, intravenous antibiotics, ophthalmology and ENT. Drain a subperiosteal abscess when vision or the apex is threatened.</div>
+      <div class="zone never"><b>Never</b>Call it preseptal until orbital signs have been actively excluded.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Microbial keratitis</b><span>cornea</span></header>
+      <div class="zone"><b>Recognise</b>Contact lens wear, epithelial defect over a stromal infiltrate, chamber reaction, pain, central location.</div>
+      <div class="zone"><b>Do first</b>Measure and photograph. Culture central, large, deep, atypical, post-surgical, or unresponsive ulcers. Intensive topical antimicrobial, review inside 24 hours.</div>
+      <div class="zone never"><b>Never</b>Send a central ulcer home on conjunctivitis dosing, or patch it.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Acute angle closure</b><span>glaucoma</span></header>
+      <div class="zone"><b>Recognise</b>Pain, halos, nausea, corneal oedema, shallow chamber, mid-dilated fixed pupil, very high IOP.</div>
+      <div class="zone"><b>Do first</b>Aqueous suppressants the patient can safely take, systemic acetazolamide if appropriate, control inflammation and nausea, then definitive iridotomy. Assess the fellow eye.</div>
+      <div class="zone never"><b>Never</b>Lead with pilocarpine at extreme pressure: an ischaemic sphincter will not respond.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Giant cell arteritis</b><span>systemic</span></header>
+      <div class="zone"><b>Recognise</b>Over 50 with new headache, jaw claudication, scalp tenderness, polymyalgia or constitutional symptoms, chalky pallid disc oedema.</div>
+      <div class="zone"><b>Do first</b>ESR, CRP, and platelets, and start high-dose systemic corticosteroid immediately. Temporal artery imaging or biopsy follows treatment.</div>
+      <div class="zone never"><b>Never</b>Let a normal ESR reassure you, or wait for biopsy. The fellow eye is what is at stake.</div>
+    </div>
+  </div>
+
+  <div class="note" style="margin-top:13px"><b>Continued on page 7</b>Retinal artery occlusion, tear and detachment, endophthalmitis, papilloedema, acute third-nerve palsy, painful Horner syndrome, and the treatment grammar that every management answer has to satisfy.</div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Emergency gate &middot; 6</span></div>
+</section>
+
+<!-- 07 EMERGENCY GATE II -->
+<section class="sheet" data-screen-label="07 Emergency gate II">
+  <div class="rh"><span class="part">Part 2 / Emergency gate, 2 of 2</span><span class="pg">7</span></div>
+  <h2>And six more</h2>
+
+  <div class="grid2" style="margin-top:11px">
+    <div class="ecard">
+      <header><b>Retinal artery occlusion</b><span>vascular</span></header>
+      <div class="zone"><b>Recognise</b>Sudden painless profound monocular loss, dense RAPD, retinal whitening or cherry-red spot.</div>
+      <div class="zone"><b>Do first</b>Treat as acute stroke: activate the emergency stroke pathway now, with carotid and cardiac source evaluation and a GCA screen by age.</div>
+      <div class="zone never"><b>Never</b>Spend the treatment window on ocular massage or other office manoeuvres.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Tear and detachment</b><span>retina</span></header>
+      <div class="zone"><b>Recognise</b>New flashes, shower of floaters, pigment in the vitreous, vitreous haemorrhage, curtain or field loss.</div>
+      <div class="zone"><b>Do first</b>Dilated peripheral examination with indentation, B-scan if the view is blocked, urgent retina referral. Macula-on detachment is the most time-critical.</div>
+      <div class="zone never"><b>Never</b>Accept a normal central OCT as evidence against a peripheral break.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Endophthalmitis</b><span>postoperative</span></header>
+      <div class="zone"><b>Recognise</b>Pain and severe acuity loss after surgery or injection, hypopyon, fibrin, vitritis, lost red reflex.</div>
+      <div class="zone"><b>Do first</b>Same-hour retina-level care: intraocular sampling then intravitreal antibiotics, with vitrectomy by severity.</div>
+      <div class="zone never"><b>Never</b>Treat it as routine postoperative inflammation, or wait for culture before treating.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Papilloedema</b><span>neuro</span></header>
+      <div class="zone"><b>Recognise</b>Bilateral disc oedema with headache, transient obscurations, pulsatile tinnitus, diplopia, possible sixth-nerve palsy.</div>
+      <div class="zone"><b>Do first</b>Urgent brain imaging including venous evaluation, then lumbar puncture with opening pressure when imaging makes it safe.</div>
+      <div class="zone never"><b>Never</b>Puncture before imaging, or dismiss true oedema as crowded discs without evidence.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Third-nerve palsy</b><span>neuro-vascular</span></header>
+      <div class="zone"><b>Recognise</b>Ptosis with the eye down and out; pupil involvement, pain, or an incomplete palsy raises compression.</div>
+      <div class="zone"><b>Do first</b>Emergency aneurysm-focused CTA or MRA and neurovascular referral. Modern practice images acute isolated palsies.</div>
+      <div class="zone never"><b>Never</b>Treat pupil sparing as proof against aneurysm in an acute palsy.</div>
+    </div>
+    <div class="ecard">
+      <header><b>Painful Horner syndrome</b><span>neuro-vascular</span></header>
+      <div class="zone"><b>Recognise</b>Acute ptosis and miosis, anisocoria greater in darkness, dilation lag, with head or neck pain.</div>
+      <div class="zone"><b>Do first</b>Emergency head and neck vascular imaging for carotid dissection.</div>
+      <div class="zone never"><b>Never</b>Delay imaging to complete pharmacologic localisation.</div>
+    </div>
+  </div>
+
+  <div class="note"><b>Treatment grammar, every time</b>Immediate action, drug or procedure, dose and form and schedule and duration, contraindication, patient education, follow-up interval, the measurable response, and the escalation trigger. An answer that names a drug but no interval or failure trigger is incomplete, and incomplete options are how these items are written.</div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Emergency gate &middot; 7</span></div>
+</section>
+
+<!-- 08 CONDITION CARDS -->
+<section class="sheet" data-screen-label="08 Condition cards">
+  <div class="rh"><span class="part">Part 3 / Condition cards</span><span class="pg">8</span></div>
+  <h2>Ocular surface<br>and adnexa</h2>
+  <p class="lede" style="margin-top:9px">Recall each card in one order: decisive pattern, confirming test, first action, trap. Then name the most dangerous mimic.</p>
+
+  <div class="grid2" style="margin-top:11px">
+    <div class="card">
+      <div class="ct"><b>Preseptal cellulitis</b><span>lids / orbit</span></div>
+      <dl>
+        <dt>Pattern</dt><dd>Lid erythema and oedema with normal acuity, pupils, colour, motility, and globe position.</dd>
+        <dt>Confirm</dt><dd>Clinical. Image when the examination is limited, severe, atypical, or orbital spread is possible.</dd>
+        <dt>Act</dt><dd>Oral antibiotic covering skin and sinus organisms, review inside 24-48 hours, written orbital red flags.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>In a febrile child with sinusitis this is a diagnosis of exclusion. Motility and colour are the gate.</dd></div>
+    </div>
+    <div class="card">
+      <div class="ct"><b>Dacryocystitis</b><span>lacrimal</span></div>
+      <dl>
+        <dt>Pattern</dt><dd>Tender erythematous swelling below the medial canthal tendon, with reflux or tearing.</dd>
+        <dt>Confirm</dt><dd>Clinical, culture the drainage, assess for orbital extension.</dd>
+        <dt>Act</dt><dd>Systemic antibiotics, warm compresses, drainage of an abscess, definitive lacrimal surgery once settled.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>Do not probe or irrigate through acutely infected tissue.</dd></div>
+    </div>
+    <div class="card">
+      <div class="ct"><b>Recurrent chalazion</b><span>lids</span></div>
+      <dl>
+        <dt>Pattern</dt><dd>Firm lesion returning to the same site, madarosis, yellow tarsal thickening, unilateral chronic blepharoconjunctivitis.</dd>
+        <dt>Confirm</dt><dd>Full-thickness biopsy with conjunctival mapping, not a third curettage.</dd>
+        <dt>Act</dt><dd>Urgent oculoplastic referral. Evert both lids, examine conjunctiva and regional nodes.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>Sebaceous carcinoma masquerades as chalazion and as blepharitis, and spreads pagetoid.</dd></div>
+    </div>
+    <div class="card">
+      <div class="ct"><b>Thyroid eye disease</b><span>orbit</span></div>
+      <dl>
+        <dt>Pattern</dt><dd>Lid retraction, proptosis, exposure, restrictive diplopia, apical crowding.</dd>
+        <dt>Confirm</dt><dd>Thyroid function, colour and pupil testing, fields, exophthalmometry; imaging when atypical or neuropathy is suspected.</dd>
+        <dt>Act</dt><dd>Surface protection, smoking cessation, urgent specialist care for optic neuropathy or corneal breakdown.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>Activity and severity are separate axes. Muscle belly enlargement with tendon sparing is the signature.</dd></div>
+    </div>
+    <div class="card">
+      <div class="ct"><b>Adenoviral keratoconjunctivitis</b><span>conjunctiva</span></div>
+      <dl>
+        <dt>Pattern</dt><dd>Follicles, watery discharge, preauricular node, high contagion; subepithelial infiltrates may follow.</dd>
+        <dt>Confirm</dt><dd>Clinical; rapid antigen testing helps in selected settings.</dd>
+        <dt>Act</dt><dd>Supportive care and strict hygiene. Corticosteroid only for visually significant infiltrates, monitored.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>Contagious period and instrument disinfection matter as much as the drop.</dd></div>
+    </div>
+    <div class="card">
+      <div class="ct"><b>Episcleritis vs scleritis</b><span>episclera / sclera</span></div>
+      <dl>
+        <dt>Pattern</dt><dd>Sectoral mobile vessels that blanch with phenylephrine, against deep violaceous non-blanching injection with boring pain and globe tenderness.</dd>
+        <dt>Confirm</dt><dd>Phenylephrine, palpation, B-scan for posterior disease, phenotype-directed systemic workup.</dd>
+        <dt>Act</dt><dd>Episcleritis: lubricant, cool compress, NSAID. Scleritis: systemic anti-inflammatory or immunomodulatory therapy, urgent specialist.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>Topical steroid alone is inadequate in scleritis and dangerous if the cause is infectious.</dd></div>
+    </div>
+  </div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Condition cards &middot; 8</span></div>
+</section>
+
+<!-- 09 PHARMACOLOGY -->
+<section class="sheet" data-screen-label="09 Pharmacology">
+  <div class="rh"><span class="part">Part 4 / Pharmacology</span><span class="pg">9</span></div>
+  <h2>Anchor, caveat, monitor</h2>
+  <p class="lede" style="margin-top:7px">A memorised dose used in the wrong tissue or the wrong host is a wrong answer.</p>
+
+  <h3>Antimicrobial anchors</h3>
+  <table class="lined tight">
+    <thead><tr><th style="width:1.35in">Indication</th><th>Anchor</th><th style="width:2in">Caveat that gets examined</th></tr></thead>
+    <tbody>
+      <tr><th>Bacterial keratitis</th><td>Topical fluoroquinolone for small peripheral ulcers; fortified therapy for severe, central, deep, or resistant disease. Load every 5-15 minutes, then hourly.</td><td>Culture first when central, large, deep, atypical, or unresponsive. Do not wait for results to treat.</td></tr>
+      <tr><th>HSV epithelial keratitis</th><td>Oral aciclovir 400&nbsp;mg five times daily, or valaciclovir 500&nbsp;mg three times daily, 7-10 days. Topical ganciclovir 0.15% is an alternative.</td><td>No steroid over an active epithelial ulcer. Steroid belongs to immune stromal or endothelial disease, with antiviral cover.</td></tr>
+      <tr><th>Herpes zoster ophthalmicus</th><td>Valaciclovir 1&nbsp;g three times daily, or aciclovir 800&nbsp;mg five times daily, 7-10 days, renally adjusted.</td><td>Ocular disease lags the rash. A quiet first examination does not end surveillance.</td></tr>
+      <tr><th>Fungal keratitis</th><td>Natamycin 5% hourly initially for filamentous organisms, prolonged course, cornea specialist involved.</td><td>Corticosteroid accelerates progression. Vegetative trauma and feathery margins are the clues.</td></tr>
+      <tr><th>Acanthamoeba keratitis</th><td>Intensive biguanide therapy, PHMB 0.02% or chlorhexidine 0.02%, often with a diamidine, for months.</td><td>Pain out of proportion, water exposure. Early disease is mislabelled HSV.</td></tr>
+      <tr><th>Hyperacute conjunctivitis</th><td>Systemic ceftriaxone-based treatment per current CDC guidance, saline lavage, STI testing, partner management.</td><td>Copious purulence with corneal risk is an emergency, not a drop problem.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Contraindication anchors</h3>
+  <div class="grid2">
+    <div class="card">
+      <div class="ct"><b>Topical beta-blocker</b><span>caution</span></div>
+      <dl>
+        <dt>Avoid</dt><dd>Bronchospastic asthma or COPD, bradycardia, heart block, decompensated heart failure.</dd>
+        <dt>Reduce</dt><dd>Punctal occlusion and lid closure lower systemic absorption.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>A resting pulse in the low 50s is in the stem for a reason.</dd></div>
+    </div>
+    <div class="card">
+      <div class="ct"><b>Alpha-2 agonist</b><span>caution</span></div>
+      <dl>
+        <dt>Avoid</dt><dd>Brimonidine in infants and very young children: CNS depression and apnoea.</dd>
+        <dt>Expect</dt><dd>Fatigue, dry mouth, late follicular allergy, hypotension.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>Check interacting systemic drugs before prescribing.</dd></div>
+    </div>
+    <div class="card">
+      <div class="ct"><b>Miotic</b><span>caution</span></div>
+      <dl>
+        <dt>Avoid</dt><dd>Susceptible peripheral retina, active inflammation, ciliochoroidal effusion mechanisms.</dd>
+        <dt>Expect</dt><dd>Brow ache, induced myopia, poor night vision.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>Useless with an ischaemic sphincter, harmful in topiramate-type effusion.</dd></div>
+    </div>
+    <div class="card">
+      <div class="ct"><b>Topical corticosteroid</b><span>caution</span></div>
+      <dl>
+        <dt>Avoid</dt><dd>Active HSV epithelial disease, fungal and Acanthamoeba keratitis, uncontrolled bacterial infection.</dd>
+        <dt>Monitor</dt><dd>IOP, epithelial healing, cataract, and the taper.</dd>
+      </dl>
+      <div class="trap"><dt>Trap</dt><dd>Name tissue, cause, dose, and monitoring, or the answer is incomplete.</dd></div>
+    </div>
+  </div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Pharmacology &middot; 9</span></div>
+</section>
+
+<!-- 10 FORMULAS -->
+<section class="sheet" data-screen-label="10 Formulas and drills">
+  <div class="rh"><span class="part">Part 5 / Formulas &amp; drills</span><span class="pg">10</span></div>
+  <h2>Arithmetic, fast</h2>
+  <p class="lede" style="margin-top:7px">The fastest marks on the exam, and the easiest to lose to a sign error.</p>
+
+  <h3>Formulas</h3>
+  <table class="lined">
+    <thead><tr><th style="width:1.6in">Name</th><th style="width:1.5in">Form</th><th>Use and sign discipline</th></tr></thead>
+    <tbody>
+      <tr><th>Spherical equivalent</th><td class="num">sph + cyl/2</td><td>Halve the cylinder with its own sign. -6.00 -2.00 x 180 gives -7.00 D.</td></tr>
+      <tr><th>Transposition</th><td class="num">sph + cyl, flip, 90&deg;</td><td>New sphere is old sphere plus old cylinder, reverse the cylinder sign, rotate the axis by 90 degrees.</td></tr>
+      <tr><th>Prentice rule</th><td class="num">&Delta; = cm &times; D</td><td>Decentration in centimetres. Base follows the thick edge for plus lenses, the thin edge for minus.</td></tr>
+      <tr><th>Vertex conversion</th><td class="num">F&#8322; = F&#8321;/(1 - dF&#8321;)</td><td>Distance in metres, signs preserved. Matters beyond about &plusmn;4.00 D.</td></tr>
+      <tr><th>Kestenbaum estimate</th><td class="num">1 / acuity fraction</td><td>Starting magnification only. Refine by task, working distance, contrast, field, endurance.</td></tr>
+      <tr><th>Equivalent viewing power</th><td class="num">1 / metres</td><td>10 cm working distance is 10 D.</td></tr>
+      <tr><th>Hofstetter</th><td class="num">18.5 - 0.30&thinsp;age</td><td>Average. Minimum is 15 - 0.25&thinsp;age, maximum 25 - 0.40&thinsp;age. A screening comparison, not a diagnosis.</td></tr>
+      <tr><th>Gradient AC/A</th><td class="num">&Delta;phoria / &Delta;D</td><td>State the sign convention before you calculate.</td></tr>
+      <tr><th>Screening arithmetic</th><td class="num">TP/(TP+FN)</td><td>Sensitivity. Specificity is TN/(TN+FP). PPV rises with prevalence; NPV falls.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Drills: cover the right column</h3>
+  <table>
+    <thead><tr><th>Prompt</th><th style="width:3.1in">Working and answer</th></tr></thead>
+    <tbody>
+      <tr><td>Transpose +2.00 -3.00 x 180</td><td class="num">-1.00 +3.00 x 090</td></tr>
+      <tr><td>Spherical equivalent of -4.00 -2.00 x 090</td><td class="num">-4.00 + (-1.00) = -5.00 D</td></tr>
+      <tr><td>4 mm decentration through +5.00 D</td><td class="num">0.4 &times; 5 = 2&Delta;</td></tr>
+      <tr><td>-10.00 D spectacle at 12 mm, to the corneal plane</td><td class="num">-10/(1 - (0.012 &times; -10)) = -8.93 D</td></tr>
+      <tr><td>Starting magnification for 20/160</td><td class="num">160/20 = 8&times;</td></tr>
+      <tr><td>Hofstetter average amplitude at age 20</td><td class="num">18.5 - 6.0 = 12.5 D</td></tr>
+      <tr><td>Hydroxychloroquine 400 mg daily at 60 kg</td><td class="num">6.67 mg/kg, above the 5 mg/kg threshold</td></tr>
+      <tr><td>Soft toric rotated 10&deg; left of a 180 axis</td><td class="num">LARS: order 010</td></tr>
+      <tr><td>GP steepened 0.50 D, over-refraction -0.50 D, from -3.00 D</td><td class="num">SAM: -3.00 -0.50 -0.50 = -4.00 D</td></tr>
+      <tr><td>Anisometropia -2.00 OD, -5.00 OS, 10 mm below centre</td><td class="num">2&Delta; and 5&Delta; base down: 3&Delta; imbalance</td></tr>
+    </tbody>
+  </table>
+  <p class="tiny" style="margin-top:5px">Marks are lost to sign errors in transposition and vertex, to forgetting that Prentice needs centimetres, and to quoting a magnification estimate as if it were a prescription. Write one line of working even when the answer looks obvious.</p>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Formulas &amp; drills &middot; 10</span></div>
+</section>
+
+<!-- 11 SIMULATION CASE -->
+<section class="sheet" data-screen-label="11 Simulation case">
+  <div class="rh"><span class="part">Session 1 / Case 1 of 35</span><span class="pg">11</span></div>
+  <div class="case-head">
+    <div class="cid">Case S1-01 &middot; lids, lacrimal, adnexa, orbit &middot; 5 items</div>
+    <h3>The swollen eyelid that hurts to move</h3>
+  </div>
+
+  <p class="stem">A 13-year-old boy has three days of worsening left eyelid swelling and frontal headache, after a week of purulent nasal discharge. Temperature 38.4&nbsp;&deg;C. BVA 20/20 OD, 20/40 OS. Mild left RAPD, red saturation 60% OS, 3&nbsp;mm proptosis, tense chemosis, and painful restriction of elevation and abduction. IOP 17 OD, 27 OS. Cornea clear, chamber quiet, fundus normal both eyes.</p>
+
+  <div class="item">
+    <div class="q"><span class="n">1</span><span class="qt">What is the most likely diagnosis?</span><span class="tag">Diagnosis</span></div>
+    <ol class="opts">
+      <li><span>A</span><div>Preseptal cellulitis with reactive chemosis</div></li>
+      <li><span>B</span><div>Idiopathic orbital inflammatory syndrome</div></li>
+      <li><span>C</span><div>Cavernous sinus thrombosis complicating sinusitis</div></li>
+      <li><span>D</span><div>Orbital cellulitis of ethmoid sinus origin</div></li>
+      <li><span>E</span><div>Orbital rhabdomyosarcoma with secondary inflammation</div></li>
+    </ol>
+    <div class="capture">ANSWER ______ &nbsp;&nbsp; CONFIDENCE&nbsp; L &middot; M &middot; H</div>
+  </div>
+
+  <div class="item">
+    <div class="q"><span class="n">2</span><span class="qt">Which three findings measure optic nerve or orbital function, as opposed to supporting the infective diagnosis?</span><span class="tag mr">Select 3</span></div>
+    <ol class="opts">
+      <li><span>A</span><div>Temperature 38.4&nbsp;&deg;C</div></li>
+      <li><span>B</span><div>Left RAPD</div></li>
+      <li><span>C</span><div>Red saturation reduced to 60% OS</div></li>
+      <li><span>D</span><div>Purulent nasal discharge for one week</div></li>
+      <li><span>E</span><div>IOP 27 mmHg OS</div></li>
+      <li><span>F</span><div>BVA 20/40 OS</div></li>
+    </ol>
+    <div class="capture">ANSWER ______ &nbsp;&nbsp; CONFIDENCE&nbsp; L &middot; M &middot; H</div>
+  </div>
+
+  <div class="item">
+    <div class="q"><span class="n">3</span><span class="qt">What is the most appropriate next step?</span><span class="tag tx">Treatment</span></div>
+    <ol class="opts">
+      <li><span>A</span><div>Oral amoxicillin-clavulanate, nasal decongestant, and review in 24 hours</div></li>
+      <li><span>B</span><div>Same-day emergency referral: contrast CT of orbits and sinuses, intravenous antibiotics, ophthalmology and ENT</div></li>
+      <li><span>C</span><div>Outpatient MRI within 48 hours, then decide on admission</div></li>
+      <li><span>D</span><div>Intravenous antibiotics arranged for the following morning, with oral cover overnight</div></li>
+      <li><span>E</span><div>Oral corticosteroid with topical antibiotic to settle the orbital swelling</div></li>
+    </ol>
+    <div class="capture">ANSWER ______ &nbsp;&nbsp; CONFIDENCE&nbsp; L &middot; M &middot; H</div>
+  </div>
+
+  <div class="item">
+    <div class="q"><span class="n">4</span><span class="qt">Which anatomic route most commonly explains this presentation?</span><span class="tag">Basic science</span></div>
+    <ol class="opts">
+      <li><span>A</span><div>Direct spread across the lamina papyracea from the ethmoid sinus</div></li>
+      <li><span>B</span><div>Retrograde thrombophlebitis through valveless facial and ophthalmic veins</div></li>
+      <li><span>C</span><div>Extension through the optic canal from the sphenoid sinus</div></li>
+      <li><span>D</span><div>Ascending infection through the nasolacrimal duct from the inferior meatus</div></li>
+      <li><span>E</span><div>Haematogenous seeding from occult bacteraemia</div></li>
+    </ol>
+    <div class="capture">ANSWER ______ &nbsp;&nbsp; CONFIDENCE&nbsp; L &middot; M &middot; H</div>
+  </div>
+
+  <div class="item">
+    <div class="q"><span class="n">5</span><span class="qt">He is admitted on intravenous antibiotics. Which change over 18 hours most supports surgical drainage?</span><span class="tag tx">Treatment</span></div>
+    <ol class="opts">
+      <li><span>A</span><div>Temperature settles after two doses while lid oedema persists</div></li>
+      <li><span>B</span><div>CT shows a 4&nbsp;mm medial subperiosteal collection with acuity and motility improving</div></li>
+      <li><span>C</span><div>Acuity falls to 20/80 with worsening colour and an abscess crowding the orbital apex</div></li>
+      <li><span>D</span><div>Blood cultures grow a fully sensitive organism</div></li>
+      <li><span>E</span><div>Chemosis increases while pupils, colour, and acuity stay stable</div></li>
+    </ol>
+    <div class="capture">ANSWER ______ &nbsp;&nbsp; CONFIDENCE&nbsp; L &middot; M &middot; H</div>
+  </div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Session 1, Case 1 &middot; 11</span></div>
+</section>
+
+<!-- 12 RATIONALE I -->
+<section class="sheet" data-screen-label="12 Teaching key I">
+  <div class="rh"><span class="part">Session 1 / Teaching key, Case 1</span><span class="pg">12</span></div>
+  <h2>Case S1-01 &middot; why</h2>
+  <p class="lede" style="margin-top:9px">Review order: wrong answers, then low-confidence correct answers, then high-confidence misses.</p>
+
+  <div class="rat" style="margin-top:11px">
+    <div class="rh2"><span class="key">1 &middot; D</span><span class="rt">Orbital cellulitis of ethmoid sinus origin</span></div>
+    <p class="why">Proptosis, painful restricted motility, RAPD, reduced colour and acuity, and raised IOP place the disease behind the septum. Fever with a week of purulent rhinorrhoea in a child names the source.</p>
+    <table class="dis">
+      <thead><tr><th>Opt</th><th>Distractor</th><th>Tempting because</th><th>Ruled out by</th></tr></thead>
+      <tbody>
+        <tr><td>C</td><td>Cavernous sinus thrombosis</td><td>It is the correct escalation of this exact infection, and it also produces proptosis, chemosis, and reduced vision.</td><td>Signs are strictly unilateral, with no multiple cranial neuropathy, no V1-V2 sensory loss, and no bilateral progression.</td></tr>
+        <tr><td>A</td><td>Preseptal cellulitis</td><td>The visible finding is a swollen lid, and preseptal disease is far more common at this age.</td><td>Preseptal disease preserves acuity, pupils, colour, motility, and globe position. Four of the five are abnormal here.</td></tr>
+        <tr><td>E</td><td>Rhabdomyosarcoma</td><td>Rapid proptosis in a child is the classic teaching phrase for it.</td><td>Fever, purulent sinus disease, and a three-day course fit infection; tumour proptosis is not febrile and not this fast.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rat">
+    <div class="rh2"><span class="key">2 &middot; B, C, F</span><span class="rt">RAPD, red desaturation, reduced BVA</span></div>
+    <p class="why">The item asks for afferent function, not for evidence of infection. RAPD, dyschromatopsia, and reduced best acuity each measure optic nerve conduction directly.</p>
+    <table class="dis">
+      <thead><tr><th>Opt</th><th>Distractor</th><th>Tempting because</th><th>Ruled out by</th></tr></thead>
+      <tbody>
+        <tr><td>E</td><td>IOP 27 mmHg</td><td>It is genuinely abnormal, and raised orbital pressure is the thing threatening the nerve.</td><td>It measures orbital pressure, not nerve function. Normalising it would not tell you the nerve had recovered.</td></tr>
+        <tr><td>A, D</td><td>Fever, purulent discharge</td><td>They confirm infection and drive the diagnosis.</td><td>Neither measures the eye. A child can be febrile with an entirely normal afferent system.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rat">
+    <div class="rh2"><span class="key">3 &middot; B</span><span class="rt">Same-day emergency referral, imaging, intravenous antibiotics</span></div>
+    <p class="why">Orbital cellulitis with afferent dysfunction threatens the eye, and through intracranial extension, life. Imaging, intravenous therapy, and surgical availability have to be arranged together, today.</p>
+    <table class="dis">
+      <thead><tr><th>Opt</th><th>Distractor</th><th>Tempting because</th><th>Ruled out by</th></tr></thead>
+      <tbody>
+        <tr><td>D</td><td>Intravenous antibiotics tomorrow morning</td><td>It correctly identifies that intravenous therapy is needed and feels like a workable compromise with access.</td><td>The overnight delay is where vision is lost. The decision point is the RAPD, and it exists now.</td></tr>
+        <tr><td>C</td><td>Outpatient MRI in 48 hours</td><td>MRI is the better soft-tissue modality, so it reads as the more thorough answer.</td><td>Contrast CT answers the urgent questions faster: sinus disease, subperiosteal collection, apical crowding, bone.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Teaching key, Case 1 &middot; 12</span></div>
+</section>
+
+<!-- 13 RATIONALE II -->
+<section class="sheet" data-screen-label="13 Teaching key II">
+  <div class="rh"><span class="part">Session 1 / Teaching key, Case 1</span><span class="pg">13</span></div>
+  <h2>Case S1-01 &middot; why,<br>continued</h2>
+
+  <div class="rat" style="margin-top:11px">
+    <div class="rh2"><span class="key">4 &middot; A</span><span class="rt">Lamina papyracea from the ethmoid sinus</span></div>
+    <p class="why">The medial orbital wall is paper-thin and perforated by vessels, which makes contiguous ethmoid spread the usual route and explains why abduction and elevation are restricted first.</p>
+    <table class="dis">
+      <thead><tr><th>Opt</th><th>Distractor</th><th>Tempting because</th><th>Ruled out by</th></tr></thead>
+      <tbody>
+        <tr><td>B</td><td>Valveless venous spread</td><td>It is a real mechanism, and it is how mid-face infection reaches the cavernous sinus.</td><td>It is not the common route from paranasal sinusitis and does not explain a medially localised collection.</td></tr>
+        <tr><td>C</td><td>Optic canal from the sphenoid</td><td>Sphenoid disease is genuinely dangerous and sits next to the apex.</td><td>Sphenoid involvement is much less common in children and would present with early apical signs rather than medial restriction.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rat">
+    <div class="rh2"><span class="key">5 &middot; C</span><span class="rt">Falling acuity and colour with an abscess crowding the apex</span></div>
+    <p class="why">Drainage is driven by function and location, not by the presence of a collection. Deteriorating afferent function with apical involvement is the indication; so is failure to improve on adequate therapy.</p>
+    <table class="dis">
+      <thead><tr><th>Opt</th><th>Distractor</th><th>Tempting because</th><th>Ruled out by</th></tr></thead>
+      <tbody>
+        <tr><td>B</td><td>4 mm collection, function improving</td><td>An abscess on imaging feels like a surgical finding by definition.</td><td>Small medial collections in children often resolve on antibiotics while function improves. Imaging alone does not decide.</td></tr>
+        <tr><td>E</td><td>Increasing chemosis, stable function</td><td>It looks like clinical deterioration.</td><td>Surface swelling without afferent change is not a reason to open an orbit.</td></tr>
+        <tr><td>A</td><td>Fever settles, lid oedema persists</td><td>Persistent swelling feels like treatment failure.</td><td>Defervescence with stable function is the expected early response. Lid oedema lags by days.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout"><b>If-then rules from this case</b>If lid swelling comes with any abnormality of acuity, colour, pupil, motility, or globe position, then it is orbital until imaging and examination say otherwise. If an abscess is present but function is improving, then continue medical therapy and reassess. If function is falling, then drain, whatever the size on the scan.</div>
+
+  <div class="note"><b>Item-type score for this case</b>Two treatment, one diagnosis, one basic science, one multiple-response. Record it that way. Across the session, a treatment score below your diagnosis score is the single most common failing pattern, because treatment items carry the largest share of the blueprint and the TMOD decision.</div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Teaching key, Case 1 &middot; 13</span></div>
+</section>
+
+<!-- 14 RECALL I -->
+<section class="sheet" data-screen-label="14 Recall cards I">
+  <div class="rh"><span class="part">Part 6 / Rapid recall, 1 of 2</span><span class="pg">14</span></div>
+  <h2>Cut-line recall deck</h2>
+  <p class="lede" style="margin-top:9px">Cut on the dashed lines. Ten seconds per prompt, answered aloud. Misses go back into tomorrow's pile.</p>
+
+  <div class="cut" style="margin-top:11px">
+    <div><div class="p">Painful red eye in a contact lens wearer</div><div class="a">Microbial keratitis until the slit lamp says otherwise. Measure it, culture if central, treat intensively, review inside 24 hours. <b>Never patch.</b></div></div>
+    <div><div class="p">Pain out of proportion, water exposure, poor antibiotic response</div><div class="a">Acanthamoeba. Culture, PCR, or confocal, repeated if suspicion persists. Ring infiltrate is late, not required. <b>Steroid makes it worse.</b></div></div>
+    <div><div class="p">Lid swelling plus painful restricted motility</div><div class="a">Orbital cellulitis. Emergency department, contrast CT of orbits and sinuses, intravenous antibiotics, ENT. <b>Colour and motility are the gate.</b></div></div>
+    <div><div class="p">Over 50, profound loss, chalky pallid disc oedema</div><div class="a">Arteritic AION. ESR, CRP, platelets, and immediate high-dose systemic steroid. <b>A normal ESR does not clear it.</b></div></div>
+    <div><div class="p">Sudden painless profound monocular loss</div><div class="a">Retinal artery occlusion, an acute stroke syndrome. Stroke pathway now, embolic source workup, GCA screen by age. <b>No office massage.</b></div></div>
+    <div><div class="p">Flashes, shower of floaters, pigment in the vitreous</div><div class="a">Retinal break until the periphery has been examined with indentation. <b>A normal central OCT proves nothing.</b></div></div>
+  </div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Rapid recall &middot; 14</span></div>
+</section>
+
+<!-- 15 RECALL II -->
+<section class="sheet" data-screen-label="15 Recall cards II">
+  <div class="rh"><span class="part">Part 6 / Rapid recall, 2 of 2</span><span class="pg">15</span></div>
+  <h2>Deck, continued</h2>
+
+  <div class="cut" style="margin-top:11px">
+    <div><div class="p">New distortion with subretinal fluid in an older patient</div><div class="a">Neovascular AMD until proven otherwise. Urgent retina referral for anti-VEGF. <b>Good acuity is a reason to treat quickly, not to wait.</b></div></div>
+    <div><div class="p">Bilateral myopic shift with uniformly shallow chambers on a new drug</div><div class="a">Ciliochoroidal effusion, commonly topiramate. Stop the drug with the prescriber, suppress aqueous, cycloplege. <b>Not pupillary block: no iridotomy, no miotics.</b></div></div>
+    <div><div class="p">Acute ptosis and miosis after neck pain</div><div class="a">Painful Horner: carotid dissection until imaged. Emergency head and neck vascular imaging. <b>Do not wait to finish localisation drops.</b></div></div>
+    <div><div class="p">Recurrent chalazion at the same site with lash loss</div><div class="a">Sebaceous carcinoma. Full-thickness biopsy with conjunctival mapping, examine nodes. <b>Not a third curettage.</b></div></div>
+    <div><div class="p">Multiple-response item</div><div class="a">Count the requested number, judge each option alone, choose patient-specific over generally true. <b>Partial sets score zero.</b></div></div>
+    <div><div class="p">High-confidence miss</div><div class="a">Top of the error log. Name the false rule, write the replacement as one if-then sentence, retest tomorrow from a changed stem.</div></div>
+  </div>
+
+  <div class="callout"><b>Final 48 hours</b>Red flags, drug contraindications, formulas, image algorithms, and logistics only. No new content. Between the two sessions, do not autopsy Session 1: eat, hydrate, reset, and start the second session on pacing.</div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Rapid recall &middot; 15</span></div>
+</section>
+
+<!-- 16 SOURCES -->
+<section class="sheet" data-screen-label="16 Sources">
+  <div class="rh"><span class="part">Back matter / Sources</span><span class="pg">16</span></div>
+  <h2>Sources and status</h2>
+  <p class="lede" style="margin-top:9px">Official NBEO documents control scope and weighting. Everything below was checked on 15 August 2026, and link status is recorded so a reader can tell what was actually opened.</p>
+
+  <h3>Official</h3>
+  <table class="lined">
+    <thead><tr><th style="width:0.75in">Status</th><th>Document</th></tr></thead>
+    <tbody>
+      <tr><td><span class="status ok">Read</span></td><td>NBEO. Part II PAM/TMOD exam information. <a href="https://optometry.org/exams/part-ii-pam-tmod/">optometry.org/exams/part-ii-pam-tmod</a> &mdash; source for item count, case size, session structure, timing, TMOD breakout, and delivery.</td></tr>
+      <tr><td><span class="status unconf">Resolves</span></td><td>NBEO. Part II Content Matrix, PDF dated May 2026. Link returns 200; content not machine-read for this edition, so domain ranges remain unconfirmed.</td></tr>
+      <tr><td><span class="status unconf">Resolves</span></td><td>NBEO. Part II PAM Content Outline and TMOD Content Outline, PDFs dated May 2026.</td></tr>
+      <tr><td><span class="status unconf">Resolves</span></td><td>NBEO. PAM Sample Cases and Test Day Instructions, PDFs dated May 2026.</td></tr>
+      <tr><td><span class="status bad">Dead</span></td><td>Pearson VUE tutorial deep link. Did not resolve; NBEO states the tutorial is being updated. Reach it from the exam page.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Clinical anchors</h3>
+  <p class="small">Mac Grory B, et al. Management of central retinal artery occlusion. <em>Stroke</em> 2021;52:e282-e294. &middot; Marmor MF, et al. Recommendations on screening for chloroquine and hydroxychloroquine retinopathy, 2016 revision. <em>Ophthalmology</em> 2016;123:1386-1394. &middot; Herpetic Eye Disease Study Group. <em>N Engl J Med</em> 1998;339:300-306. &middot; Beck RW, et al. Corticosteroids in acute optic neuritis. <em>N Engl J Med</em> 1992;326:581-588. &middot; AREDS2 Research Group. <em>JAMA</em> 2013;309:2005-2015. &middot; CDC. Sexually transmitted infections treatment guidelines, 2021. &middot; American Diabetes Association. Standards of care in diabetes.</p>
+
+  <h3>Learning method</h3>
+  <p class="small">Dunlosky J, et al. Improving students' learning with effective learning techniques. <em>Psychol Sci Public Interest</em> 2013;14:4-58. &middot; Roediger HL, Karpicke JD. Test-enhanced learning. <em>Psychol Sci</em> 2006;17:249-255.</p>
+
+  <div class="note"><b>Known limits of this edition</b>Domain ranges and item-type bands are transcribed, not confirmed against the current matrix. This specimen contains one rebuilt case, not all seventy. Clinical anchors are exam-oriented simplifications: verify labelling, dose, interactions, and local law before treating a patient.</div>
+  <div class="callout"><b>Originality and independence</b>Every case, option, rationale, table, and diagram here is original. Nothing reproduces NBEO secure items or copyrighted case images. This is an independent resource, not endorsed by NBEO, and no resource can guarantee a passing score.</div>
+
+  <div class="rf"><span>Clinical Reasoning Manual &middot; PAM/TMOD</span><span>Sources &middot; 16</span></div>
+</section>
+
+</body>
+</html>
