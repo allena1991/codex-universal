@@ -1,0 +1,366 @@
+<h1 class="chapter"><span class="num">Chapter 11 &#183; Optics I</span><span class="t">Geometrical and physical optics</span></h1>
+
+<div class="tags">
+  <span class="tag">Ametropia &#183; 29&#8211;39 items</span>
+  <span class="tag">Ophthalmic optics / spectacles &#183; 17&#8211;25 items</span>
+  <span class="tag">Contact lenses</span>
+  <span class="tag">Low vision</span>
+</div>
+
+<div class="opener">
+  <div class="obj">
+    <span class="label">Answer these cold before reading</span>
+    <ol>
+      <li>Write the vergence equation, the surface power equation, and the thick lens equivalent power equation.</li>
+      <li>Give Prentice rule and convert 1 prism dioptre to degrees.</li>
+      <li>State the power of a lens in an oblique meridian and transpose a prescription in both directions.</li>
+      <li>Define Abbe number and rank common lens materials by it.</li>
+      <li>State the Rayleigh criterion and compute the diffraction limit for a 3 mm pupil.</li>
+      <li>Give the wavelength and tissue interaction for six ophthalmic lasers.</li>
+    </ol>
+  </div>
+  <div class="wt">
+    <span class="label">Blueprint weight</span>
+    <span class="big">~19%</span>
+    <span class="sub">Optics across all four sub-disciplines is the second largest block on the exam after systemic health.</span>
+  </div>
+</div>
+
+<h2>Core equations</h2>
+
+<div class="box hy">
+  <span class="label">The equation set you must be able to write from memory</span>
+  <table class="compact sub">
+    <thead><tr><th style="width:1.85in">Relationship</th><th>Equation</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td class="rowhead">Reduced vergence</td><td class="mono">L = n / l</td><td>l in metres; n is the index of the medium the light is in. Dioptres.</td></tr>
+      <tr><td class="rowhead">Vergence (paraxial) equation</td><td class="mono">L&#8242; = L + F</td><td>The single most useful equation in optics. Track light left to right; incoming vergence plus surface power equals outgoing vergence.</td></tr>
+      <tr><td class="rowhead">Power of a refracting surface</td><td class="mono">F = (n&#8242; &#8722; n) / r</td><td>r in metres, positive if the centre of curvature is to the right.</td></tr>
+      <tr><td class="rowhead">Thin lens power</td><td class="mono">F = 1 / f&#8242;</td><td>f&#8242; is the secondary focal length in metres, in air.</td></tr>
+      <tr><td class="rowhead">Lensmaker (thin, in air)</td><td class="mono">F = (n &#8722; 1)(1/r<sub>1</sub> &#8722; 1/r<sub>2</sub>)</td><td>Explains why higher index gives the same power with flatter curves and thinner edges.</td></tr>
+      <tr><td class="rowhead">Thick lens equivalent power</td><td class="mono">F<sub>e</sub> = F<sub>1</sub> + F<sub>2</sub> &#8722; (t/n)F<sub>1</sub>F<sub>2</sub></td><td>t is centre thickness in metres, n the lens index. The subtracted term is why a thick plus lens is weaker than the sum of its surfaces.</td></tr>
+      <tr><td class="rowhead">Back vertex power</td><td class="mono">F<sub>v</sub> = F<sub>e</sub> / (1 &#8722; (t/n)F<sub>1</sub>)</td><td>The power a lensmeter reads and the number written on a spectacle prescription.</td></tr>
+      <tr><td class="rowhead">Effective power at a new vertex distance</td><td class="mono">F<sub>new</sub> = F / (1 &#8722; dF)</td><td>d in metres, positive if the lens moves <em>toward</em> the eye. Matters above about <span class="v">&#177;4 D</span>.</td></tr>
+      <tr><td class="rowhead">Transverse magnification</td><td class="mono">m = L / L&#8242; = &#8722;(n l&#8242;) / (n&#8242; l)</td><td>Negative m means inverted.</td></tr>
+      <tr><td class="rowhead">Mirror focal length</td><td class="mono">f = r / 2, F = &#8722;2n / r</td><td>A convex mirror (e.g. the cornea) forms a virtual, minified, upright image: the basis of keratometry and of Hirschberg testing.</td></tr>
+      <tr><td class="rowhead">Snell law</td><td class="mono">n sin&#952; = n&#8242; sin&#952;&#8242;</td><td>&#160;</td></tr>
+      <tr><td class="rowhead">Critical angle</td><td class="mono">sin&#952;<sub>c</sub> = n&#8242; / n</td><td>Cornea to air: <span class="v">~46&#176;</span>. This is why the angle cannot be seen without a goniolens and why fibre optics work.</td></tr>
+      <tr><td class="rowhead">Prism deviation (thin prism)</td><td class="mono">&#916; = 100 (n &#8722; 1) tan A</td><td>A is the apical angle. Light deviates <strong>toward the base</strong>; the image displaces <strong>toward the apex</strong>.</td></tr>
+      <tr><td class="rowhead">Prentice rule</td><td class="mono">&#916; = c (cm) &#215; F (D)</td><td>Decentration in centimetres times lens power gives induced prism. Base direction: for a plus lens, base is toward the direction of decentration relative to the optical centre.</td></tr>
+      <tr><td class="rowhead">Prism dioptre to degrees</td><td class="mono">1 &#916; = 0.57&#176;; 1&#176; &#8776; 1.75 &#916;</td><td>1 &#916; displaces the image 1 cm at 1 m.</td></tr>
+      <tr><td class="rowhead">Power in an oblique meridian</td><td class="mono">F<sub>&#952;</sub> = F<sub>sph</sub> + F<sub>cyl</sub> sin<sup>2</sup>&#952;</td><td>&#952; is measured from the cylinder axis.</td></tr>
+      <tr><td class="rowhead">Spherical equivalent</td><td class="mono">SE = sphere + cyl/2</td><td>The power at the circle of least confusion.</td></tr>
+      <tr><td class="rowhead">Simple magnifier</td><td class="mono">M = F / 4</td><td>Conventional (trade) magnification, referenced to a 25 cm working distance.</td></tr>
+      <tr><td class="rowhead">Telescope magnification</td><td class="mono">M = &#8722;F<sub>eyepiece</sub> / F<sub>objective</sub></td><td>Galilean uses a minus eyepiece (upright image, short, small field). Keplerian (astronomical) uses a plus eyepiece with prisms to re-invert (brighter, wider field, longer).</td></tr>
+      <tr><td class="rowhead">Abbe (constringence) number</td><td class="mono">V = (n<sub>d</sub> &#8722; 1) / (n<sub>F</sub> &#8722; n<sub>C</sub>)</td><td><strong>Higher V means less chromatic dispersion.</strong></td></tr>
+      <tr><td class="rowhead">Rayleigh resolution criterion</td><td class="mono">&#952; = 1.22 &#955; / d</td><td>&#952; in radians, d = pupil diameter. Gives about <span class="v">1 arcmin</span> at a <span class="v">2&#8211;2.5 mm</span> pupil, which corresponds to 20/20.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Refractive indices to memorise</h3>
+
+<table class="compact">
+  <caption>Indices of refraction</caption>
+  <thead><tr><th>Medium</th><th class="c">n</th><th>Medium</th><th class="c">n</th></tr></thead>
+  <tbody>
+    <tr><td>Air (vacuum)</td><td class="c mono">1.000</td><td>Tears</td><td class="c mono">1.336</td></tr>
+    <tr><td>Water</td><td class="c mono">1.333</td><td>Aqueous and vitreous</td><td class="c mono">1.336</td></tr>
+    <tr><td>Cornea</td><td class="c mono">1.376</td><td>Lens (cortex to nucleus)</td><td class="c mono">1.386&#8211;1.406</td></tr>
+    <tr><td>CR-39 plastic</td><td class="c mono">1.498</td><td>Crown glass</td><td class="c mono">1.523</td></tr>
+    <tr><td>Trivex</td><td class="c mono">1.53</td><td>Polycarbonate</td><td class="c mono">1.586</td></tr>
+    <tr><td>High index plastic</td><td class="c mono">1.60 / 1.67 / 1.74</td><td>PMMA (contact lens)</td><td class="c mono">1.49</td></tr>
+    <tr><td>Keratometer assumed index</td><td class="c mono">1.3375</td><td>Silicone oil</td><td class="c mono">1.405</td></tr>
+  </tbody>
+</table>
+
+<div class="box trap">
+  <span class="label">Abbe number, and the polycarbonate trade-off</span>
+  <p>Crown glass V &#8776; <span class="v">59</span>; CR-39 V &#8776; <span class="v">58</span>;
+  Trivex V &#8776; <span class="v">43&#8211;45</span>; polycarbonate V &#8776; <span class="v">30</span>;
+  1.67 high index V &#8776; <span class="v">32</span>; 1.74 V &#8776; <span class="v">33</span>.</p>
+  <p><strong>Polycarbonate has the best impact resistance and the worst chromatic dispersion of the common
+  materials.</strong> That is the trade-off in a high-prescription patient who notices colour fringing at
+  the lens periphery: Trivex gives comparable impact safety with a better Abbe number and lower specific
+  gravity, at slightly greater thickness. Polycarbonate remains mandatory in monocular patients, children,
+  and sports eyewear.</p>
+</div>
+
+<h2>Astigmatism, the conoid of Sturm, and transposition</h2>
+
+<pre class="dia">
+                 CONOID OF STURM (with-the-rule astigmatism)
+   incoming
+   parallel      vertical meridian focuses FIRST (steeper, more power)
+   light   |     |                    |                    |
+   ------->|     |  horizontal line   |  CIRCLE of LEAST   |  vertical line
+           |     |  focus             |  CONFUSION         |  focus
+           |     |  (from vertical    |  = spherical       |  (from horizontal
+           |     |   meridian)        |    equivalent      |   meridian)
+                 +--------------------+--------------------+
+                 <-------- interval of Sturm ------------->
+</pre>
+
+<ul>
+  <li>The <strong>circle of least confusion</strong> sits at the dioptric midpoint of the two focal lines,
+  which is why the <strong>spherical equivalent = sphere + cyl/2</strong>.</li>
+  <li><strong>With-the-rule</strong>: steeper (more powerful) meridian is vertical, so minus cylinder axis is
+  near <span class="v">180&#176;</span>. Typical in youth.
+  <strong>Against-the-rule</strong>: minus cyl axis near <span class="v">90&#176;</span>, typical with age
+  and after superior-incision cataract surgery.
+  <strong>Oblique</strong>: axis between <span class="v">30&#8211;60&#176;</span> or
+  <span class="v">120&#8211;150&#176;</span>.</li>
+  <li><strong>Regular astigmatism</strong> has two perpendicular principal meridians and is correctable with
+  a cylinder. <strong>Irregular astigmatism</strong> does not, and requires a rigid contact lens or
+  wavefront-guided correction.</li>
+  <li><strong>Lenticular versus corneal</strong>: compare refractive cylinder with keratometric cylinder.
+  Residual (internal) astigmatism averages about <span class="v">0.50 D against the rule</span>, the basis
+  of the <strong>Javal rule</strong>: total astigmatism &#8776; 1.25 &#215; corneal astigmatism &#8722;
+  0.50 &#215; 90.</li>
+</ul>
+
+<div class="algo">
+  <span class="label">Transposition, in three steps</span>
+  <ol>
+    <li><strong>Add</strong> the sphere and the cylinder algebraically to get the new sphere.</li>
+    <li><strong>Change the sign</strong> of the cylinder.</li>
+    <li><strong>Rotate the axis by 90&#176;</strong> (add 90 if the axis is 90 or less, subtract 90 if greater).</li>
+  </ol>
+</div>
+
+<p class="small"><em>Worked example.</em>
+<span class="v">&#8722;2.00 &#8722;1.50 &#215; 180</span> becomes
+<span class="v">&#8722;3.50 +1.50 &#215; 090</span>.
+And <span class="v">+1.25 +0.75 &#215; 135</span> becomes
+<span class="v">+2.00 &#8722;0.75 &#215; 045</span>.
+Check by confirming the two principal meridian powers are unchanged: in the first example the
+<span class="v">180</span> meridian is <span class="v">&#8722;2.00</span> and the <span class="v">090</span>
+meridian is <span class="v">&#8722;3.50</span> in both forms.</p>
+
+<h2>Aberrations</h2>
+
+<table>
+  <caption>Monochromatic and chromatic aberrations</caption>
+  <thead><tr><th style="width:1.5in">Aberration</th><th>Mechanism</th><th>Ophthalmic manifestation and management</th></tr></thead>
+  <tbody>
+    <tr><td class="rowhead">Spherical aberration</td><td>Peripheral rays refract more strongly than paraxial rays</td>
+      <td>Night myopia and halos with a large pupil; reduced by an aspheric lens surface, a smaller pupil, or aspheric IOL design. The normal cornea has positive spherical aberration partly offset by the negative aberration of the young lens.</td></tr>
+    <tr><td class="rowhead">Coma</td><td>Off-axis point images become comet-shaped; asymmetric aberration</td>
+      <td>Prominent in <strong>keratoconus</strong> and after decentred refractive surgery; a leading cause of monocular ghosting that spectacles cannot correct.</td></tr>
+    <tr><td class="rowhead">Oblique (radial or marginal) astigmatism</td><td>Off-axis rays meet a tilted surface</td>
+      <td>Blur in the spectacle periphery; controlled by <strong>corrected-curve (best-form) lens design</strong> using Tscherning ellipse base curves.</td></tr>
+    <tr><td class="rowhead">Curvature of field</td><td>Image surface is curved, not flat</td><td>Also managed by best-form design.</td></tr>
+    <tr><td class="rowhead">Distortion</td><td>Magnification varies with field angle</td>
+      <td><strong>Pincushion</strong> in plus (aphakic) lenses and <strong>barrel</strong> in minus lenses. Aphakic spectacles also produce the <strong>ring scotoma (jack-in-the-box phenomenon)</strong> from prismatic effect at the lens edge.</td></tr>
+    <tr><td class="rowhead">Longitudinal (axial) chromatic aberration</td><td>Dispersion: short wavelengths refract more</td>
+      <td>The eye has about <span class="v">2 D</span> of chromatic aberration between the ends of the visible spectrum. This is the basis of the <strong>duochrome (bichrome) test</strong>: with red and green targets, a myope (or over-minused patient) sees <strong>green clearer</strong> and a hyperope sees red clearer. "RAM-GAP": <strong>R</strong>ed <strong>A</strong>dd <strong>M</strong>inus, <strong>G</strong>reen <strong>A</strong>dd <strong>P</strong>lus.</td></tr>
+    <tr><td class="rowhead">Transverse (lateral) chromatic aberration</td><td>Dispersion off-axis, producing coloured fringes</td>
+      <td>Worse with low Abbe number and with looking away from the optical centre; the practical complaint in polycarbonate.</td></tr>
+    <tr><td class="rowhead">Higher-order aberrations (Zernike)</td><td>Trefoil, quadrafoil, secondary astigmatism, spherical aberration terms</td>
+      <td>Quantified by wavefront aberrometry as <strong>RMS error</strong>; the target of wavefront-guided ablation and custom lenses. Only about <span class="v">10&#8211;15%</span> of ocular blur in a typical eye is higher order.</td></tr>
+    <tr><td class="rowhead">Diffraction</td><td>Fundamental wave limit at any aperture</td>
+      <td>Sets the theoretical acuity ceiling. Combined with aberrations, optimum optical performance occurs at a pupil of about <span class="v">2&#8211;3 mm</span>: smaller pupils lose to diffraction, larger pupils lose to aberration.</td></tr>
+  </tbody>
+</table>
+
+<h2>The schematic and reduced eye</h2>
+
+<table class="compact">
+  <caption>Gullstrand and reduced eye values worth knowing</caption>
+  <thead><tr><th style="width:2.0in">Parameter</th><th class="c">Value</th></tr></thead>
+  <tbody>
+    <tr><td class="rowhead">Total dioptric power (unaccommodated)</td><td class="c mono">+58.6 to +60 D</td></tr>
+    <tr><td class="rowhead">Corneal contribution</td><td class="c mono">~+43 D (two thirds to 70%)</td></tr>
+    <tr><td class="rowhead">Lens contribution</td><td class="c mono">~+19 D</td></tr>
+    <tr><td class="rowhead">Reduced (single-surface) eye power</td><td class="c mono">+60 D, n = 1.336</td></tr>
+    <tr><td class="rowhead">Anterior focal point of the eye</td><td class="c mono">~17 mm in front of the cornea</td></tr>
+    <tr><td class="rowhead">Posterior focal length</td><td class="c mono">~22.6 mm</td></tr>
+    <tr><td class="rowhead">Nodal point to retina</td><td class="c mono">~17 mm</td></tr>
+    <tr><td class="rowhead">Retinal image size per degree</td><td class="c mono">~0.29 mm / degree</td></tr>
+    <tr><td class="rowhead">Axial length</td><td class="c mono">~24 mm (23&#8211;24)</td></tr>
+    <tr><td class="rowhead">1 mm axial length change</td><td class="c mono">~3 D of refractive change</td></tr>
+    <tr><td class="rowhead">1 D of spectacle change at the eye's far point</td><td class="c mono">~0.3 mm axial length</td></tr>
+  </tbody>
+</table>
+
+<div class="box pearl">
+  <span class="label">Why the far point concept solves refraction problems</span>
+  <p>The <strong>far point</strong> is the object point conjugate to the retina with accommodation relaxed.
+  A correcting lens must place its <strong>secondary focal point at the eye's far point</strong>. For a
+  <span class="v">&#8722;5.00 D</span> myope, the far point is <span class="v">20 cm</span> in front of the eye;
+  for a <span class="v">+5.00 D</span> hyperope it is <span class="v">20 cm</span> <em>behind</em> the eye
+  (virtual). Every vertex distance, effective power, and contact-lens-versus-spectacle question is answered
+  by asking where the far point is and where the lens's focal point falls.</p>
+</div>
+
+<h2>Physical optics</h2>
+
+<h3>Wave properties</h3>
+
+<ul>
+  <li>Speed of light in vacuum <span class="v">3 &#215; 10<sup>8</sup> m/s</span>;
+  in a medium, v = c/n. Frequency does not change with medium; <strong>wavelength does</strong>.</li>
+  <li>Visible spectrum <span class="v">380&#8211;760 nm</span>. Violet-blue short, red long.
+  <strong>Photon energy E = h&#957; = hc/&#955;</strong>, so shorter wavelengths carry more energy: the
+  reason UV is phototoxic and infrared is thermally damaging.</li>
+  <li><strong>Interference</strong>: coherent waves add. <strong>Anti-reflection coating</strong> requires a
+  layer of <strong>optical thickness &#955;/4</strong> and refractive index equal to
+  <strong>&#8730;n<sub>lens</sub></strong> so the two reflections cancel. High index materials reflect more
+  light (about <span class="v">4%</span> per surface at n = 1.5, more at 1.74) so AR coating benefits them
+  most.</li>
+  <li><strong>Diffraction</strong>: an aperture spreads light into an <strong>Airy disc</strong>. Resolution
+  &#952; = 1.22&#955;/d. With &#955; = <span class="v">555 nm</span> and d = <span class="v">3 mm</span>,
+  &#952; &#8776; <span class="v">2.3 &#215; 10<sup>&#8722;4</sup></span> radians &#8776;
+  <span class="v">0.78 arcmin</span>, slightly better than 20/20. Diffractive multifocal IOLs use concentric
+  steps to split light between two orders.</li>
+  <li><strong>Polarisation</strong>: unpolarised light becomes linearly polarised by reflection at the
+  <strong>Brewster angle</strong> (tan&#952;<sub>B</sub> = n&#8242;/n; about <span class="v">53&#176;</span> for
+  air to glass). Because glare reflected from horizontal surfaces is horizontally polarised, sunglasses use
+  a <strong>vertical</strong> transmission axis. Crossed polarisers are the basis of the
+  <strong>Titmus and Randot stereotests</strong>, vectographic acuity charts, and of the
+  <strong>Haidinger brush</strong> entoptic phenomenon used to test macular fixation.</li>
+  <li><strong>Scatter</strong>: <strong>Rayleigh</strong> scatter varies as
+  <span class="v">1/&#955;<sup>4</sup></span> (blue sky, blue irides with little stromal melanin, and the
+  faint blue of a normal cornea). <strong>Mie</strong> scatter occurs from particles comparable to the
+  wavelength and is relatively wavelength-independent (the white of a cataract or a scarred cornea).
+  The <strong>Tyndall effect</strong> is the visualisation of scatter by a narrow beam, which is exactly how
+  the slit lamp reveals aqueous cells and flare.</li>
+</ul>
+
+<h3>Photometry</h3>
+
+<table class="compact">
+  <caption>Radiometric and photometric units</caption>
+  <thead><tr><th style="width:1.4in">Quantity</th><th style="width:1.15in">Unit</th><th>Meaning</th></tr></thead>
+  <tbody>
+    <tr><td class="rowhead">Luminous intensity</td><td>candela (cd)</td><td>Source output per solid angle. Base SI unit.</td></tr>
+    <tr><td class="rowhead">Luminous flux</td><td>lumen (lm)</td><td>Total output; 1 lm = 1 cd &#183; sr.</td></tr>
+    <tr><td class="rowhead">Illuminance</td><td>lux (lm/m<sup>2</sup>) or foot-candle</td>
+      <td>Light <em>falling on</em> a surface. Follows the <strong>inverse square law</strong>. 1 foot-candle &#8776; <span class="v">10.76 lux</span>. Recommended chart illuminance is <span class="v">80&#8211;320 cd/m&#178;</span> for a projected or printed chart.</td></tr>
+    <tr><td class="rowhead">Luminance</td><td>cd/m<sup>2</sup> (nit) or apostilb</td>
+      <td>Light <em>leaving</em> a surface: the physical correlate of perceived brightness. Perimetric backgrounds are set at <span class="v">31.5 asb</span> (about <span class="v">10 cd/m&#178;</span>), and stimulus intensity is expressed in decibels relative to the maximum, so <strong>higher dB means a dimmer stimulus</strong>.</td></tr>
+    <tr><td class="rowhead">Troland</td><td>td</td><td>Retinal illuminance: luminance &#215; pupil area, accounting for pupil size.</td></tr>
+  </tbody>
+</table>
+
+<h3>Lasers</h3>
+
+<div class="box hy">
+  <span class="label">Ophthalmic lasers: wavelength, interaction, and use</span>
+  <table class="compact sub">
+    <thead><tr><th style="width:1.35in">Laser</th><th class="c" style="width:0.85in">Wavelength</th><th style="width:1.15in">Interaction</th><th>Clinical use</th></tr></thead>
+    <tbody>
+      <tr><td class="rowhead">Argon blue-green / green</td><td class="c mono">488 / 514 nm</td><td>Photocoagulation (thermal)</td><td>Panretinal photocoagulation, focal macular treatment, laser trabeculoplasty, iridotomy in dark irides. Blue is now avoided because xanthophyll absorbs it.</td></tr>
+      <tr><td class="rowhead">Frequency-doubled Nd:YAG (KTP)</td><td class="c mono">532 nm</td><td>Photocoagulation</td><td>Modern replacement for argon green; well absorbed by haemoglobin and melanin.</td></tr>
+      <tr><td class="rowhead">Yellow dye / micropulse</td><td class="c mono">577 nm</td><td>Photocoagulation, subthreshold</td><td>Macular treatment with less collateral damage; central serous chorioretinopathy.</td></tr>
+      <tr><td class="rowhead">Krypton red / diode</td><td class="c mono">647 / 810 nm</td><td>Photocoagulation, deeper penetration</td><td>Treatment through vitreous haemorrhage or media opacity; transscleral cyclophotocoagulation (810 nm diode); retinopathy of prematurity.</td></tr>
+      <tr><td class="rowhead">Nd:YAG (Q-switched)</td><td class="c mono">1064 nm</td><td><strong>Photodisruption</strong>: plasma formation and shock wave</td><td>Posterior capsulotomy, peripheral iridotomy, vitreolysis, membranectomy. Non-thermal.</td></tr>
+      <tr><td class="rowhead">Excimer (argon fluoride)</td><td class="c mono">193 nm</td><td><strong>Photoablation</strong>: breaks molecular bonds directly</td><td>PRK, LASIK, PTK. The short wavelength is why there is minimal thermal spread to adjacent tissue.</td></tr>
+      <tr><td class="rowhead">Femtosecond (Nd:glass)</td><td class="c mono">1053 nm</td><td>Photodisruption at ultrashort pulse</td><td>LASIK flaps, SMILE lenticules, intrastromal ring channels, capsulotomy and lens fragmentation in FLACS.</td></tr>
+      <tr><td class="rowhead">Verteporfin PDT</td><td class="c mono">689 nm</td><td><strong>Photochemical</strong>: activates a photosensitiser</td><td>Chronic central serous chorioretinopathy, polypoidal choroidal vasculopathy, circumscribed choroidal haemangioma.</td></tr>
+      <tr><td class="rowhead">CO<sub>2</sub></td><td class="c mono">10 600 nm</td><td>Photovaporisation</td><td>Lid and adnexal surgery; strongly absorbed by water.</td></tr>
+    </tbody>
+  </table>
+  <p>Laser light has three defining properties: <strong>monochromaticity, coherence (temporal and spatial),
+  and collimation</strong>. Production requires <strong>population inversion</strong> in a gain medium,
+  pumped by an external energy source, within an optical cavity. Energy delivered depends on power, spot
+  size, and duration; <strong>irradiance is inversely proportional to the square of the spot
+  diameter</strong>, which is why halving spot size quadruples the effect at the same power.</p>
+</div>
+
+<h3>Fluorescence and imaging optics</h3>
+
+<table class="compact">
+  <caption>Diagnostic imaging physics</caption>
+  <thead><tr><th style="width:1.35in">Modality</th><th>Physics and key numbers</th></tr></thead>
+  <tbody>
+    <tr><td class="rowhead">Fluorescein angiography</td>
+      <td>Sodium fluorescein absorbs <strong>blue at 465&#8211;490 nm</strong> and emits <strong>green at 520&#8211;530 nm</strong>; an exciter filter and a barrier filter isolate the emission. About <span class="v">70&#8211;80%</span> is protein-bound, so the free fraction leaks from incompetent vessels. Phases: choroidal flush at <span class="v">~10&#8211;12 s</span>, arterial, arteriovenous, venous, then recirculation and late phase. Fluoresces yellow-green through a cobalt filter at the slit lamp, which is the same physics used for tear break-up and Seidel testing.</td></tr>
+    <tr><td class="rowhead">Indocyanine green angiography</td>
+      <td>Absorbs <span class="v">~805 nm</span>, emits <span class="v">~835 nm</span> (infrared). Because it is <span class="v">98%</span> protein bound and infrared penetrates blood, exudate, and pigment, it images the <strong>choroidal circulation</strong>: polypoidal vasculopathy, occult CNV, central serous chorioretinopathy, and white dot syndromes. Contains iodine: contraindicated in iodine or shellfish allergy and in significant hepatic disease.</td></tr>
+    <tr><td class="rowhead">Optical coherence tomography</td>
+      <td><strong>Low-coherence interferometry</strong> using near-infrared light around <span class="v">840 nm</span> (or <span class="v">1050 nm</span> for swept-source, giving deeper choroidal penetration). Axial resolution <span class="v">~5 &#181;m</span>, determined by the light source bandwidth, not the pupil. Spectral-domain uses a spectrometer and a fixed reference arm; swept-source uses a tunable laser. OCT angiography detects motion contrast from flowing erythrocytes and requires no dye.</td></tr>
+    <tr><td class="rowhead">Ultrasound</td>
+      <td>Sound velocity <span class="v">1532 m/s</span> in aqueous and vitreous, <span class="v">1641 m/s</span> in the lens, <span class="v">~1550 m/s</span> average for a phakic eye. <strong>A-scan</strong> (<span class="v">8&#8211;10 MHz</span>) for biometry and tissue reflectivity; <strong>B-scan</strong> (<span class="v">10 MHz</span>) for two-dimensional structure; <strong>ultrasound biomicroscopy</strong> (<span class="v">50&#8211;80 MHz</span>) for angle and ciliary body at the cost of penetration. Higher frequency means better resolution and less penetration, always. Immersion A-scan avoids the corneal compression error of contact technique.</td></tr>
+    <tr><td class="rowhead">Optical biometry (IOLMaster, Lenstar)</td>
+      <td>Partial coherence interferometry or swept-source; measures to the <strong>RPE</strong> rather than the internal limiting membrane, so values are calibrated to be comparable to immersion ultrasound. More reproducible, and it fails in dense cataract or macular pathology preventing fixation.</td></tr>
+    <tr><td class="rowhead">Corneal topography and tomography</td>
+      <td>Placido disc reflection maps the <em>anterior</em> surface only. Scheimpflug photography and OCT-based tomography image both surfaces plus pachymetry, which is essential for detecting posterior elevation in early ectasia.</td></tr>
+  </tbody>
+</table>
+
+<h3>Ophthalmic instrument optics</h3>
+
+<table class="compact">
+  <caption>How each instrument works optically</caption>
+  <thead><tr><th style="width:1.5in">Instrument</th><th>Optical principle</th></tr></thead>
+  <tbody>
+    <tr><td class="rowhead">Direct ophthalmoscope</td><td>Forms an <strong>erect, virtual, ~15&#215;</strong> magnified image; field of view only about <span class="v">7&#8211;10&#176;</span>; magnification varies with the patient's refractive error (larger in myopia, smaller in hyperopia).</td></tr>
+    <tr><td class="rowhead">Binocular indirect ophthalmoscopy</td>
+      <td>The condensing lens forms a <strong>real, inverted, laterally reversed aerial image</strong>. Magnification &#8776; <span class="v">60 / F<sub>lens</sub></span>: a <span class="v">20 D</span> lens gives about <span class="v">3&#215;</span> with a wide field; a <span class="v">30 D</span> lens gives about <span class="v">2&#215;</span> with a wider field and shorter working distance. <strong>Higher lens power means lower magnification and a larger field.</strong></td></tr>
+    <tr><td class="rowhead">Fundus biomicroscopy lenses</td>
+      <td>Non-contact <span class="v">78 D</span> and <span class="v">90 D</span> lenses give an inverted, reversed image; the <span class="v">78 D</span> gives more magnification, the <span class="v">90 D</span> a wider field. Contact lenses (Goldmann three-mirror, Hruby) neutralise corneal power.</td></tr>
+    <tr><td class="rowhead">Slit lamp</td><td>An illumination system in Koehler configuration plus a <strong>Galilean telescope</strong> in each ocular, with a convergent objective; magnification typically <span class="v">6&#8211;40&#215;</span>. The illumination and observation systems are coupled to a common pivot.</td></tr>
+    <tr><td class="rowhead">Gonioscopy lens</td>
+      <td>Overcomes the <strong>critical angle at the cornea-air interface (~46&#176;)</strong>. Indirect lenses (Goldmann, Zeiss four-mirror, Posner, Sussman) use a mirror so you view the <em>opposite</em> quadrant; the direct Koeppe lens gives an upright view.</td></tr>
+    <tr><td class="rowhead">Keratometer</td>
+      <td>Treats the cornea as a <strong>convex mirror</strong> and measures the size of the reflected image of a target of known size at a known distance, converting radius to power with the fictitious index <span class="v">1.3375</span>. Measures a paracentral <span class="v">~3 mm</span> zone, which is why it misses central irregularity.</td></tr>
+    <tr><td class="rowhead">Retinoscope</td>
+      <td>A streak (or spot) projected into the eye; the reflex from the retina is observed. <strong>With motion</strong> means the far point is behind the peephole (need plus); <strong>against motion</strong> means it is between the eye and the peephole (need minus). At neutrality the far point coincides with the peephole, so you subtract the <strong>working distance dioptric value</strong> (<span class="v">1.50 D</span> at 67 cm, <span class="v">2.00 D</span> at 50 cm).</td></tr>
+    <tr><td class="rowhead">Lensmeter (focimeter)</td><td>Measures <strong>back vertex power</strong> by a Badal optometer arrangement; the target moves until the emerging bundle is collimated.</td></tr>
+    <tr><td class="rowhead">Applanation tonometer</td><td>Two prisms split the fluorescein ring into semicircles displaced by exactly half the ring diameter, so the inner edges touch when the applanated area equals <span class="v">7.35 mm&#178;</span>.</td></tr>
+    <tr><td class="rowhead">Specular microscope / pachymeter</td><td>Specular reflection from the endothelium-aqueous interface; optical pachymetry uses the split-image doubling principle, ultrasonic uses time-of-flight.</td></tr>
+  </tbody>
+</table>
+
+<div class="drill">
+  <span class="label">Retrieval practice: calculations</span>
+  <span class="hint">Do these on paper. Numerical fluency is what separates a pass from a struggle in this section.</span>
+  <ol>
+    <li>An object sits 25 cm in front of a <span class="v">+8.00 D</span> thin lens in air. Where is the image and what is the magnification?</li>
+    <li>A <span class="v">&#8722;9.00 D</span> spectacle lens is worn at a <span class="v">14 mm</span> vertex distance. What contact lens power is equivalent?</li>
+    <li>A patient wears <span class="v">+6.00 D</span> and is decentred <span class="v">4 mm</span> nasally from the optical centre in each eye. How much prism is induced, and in which direction?</li>
+    <li>Transpose <span class="v">&#8722;3.25 +2.00 &#215; 065</span>.</li>
+    <li>What is the power of <span class="v">&#8722;1.00 &#8722;3.00 &#215; 180</span> in the 60&#176; meridian?</li>
+    <li>Give the spherical equivalent of <span class="v">+2.50 &#8722;1.50 &#215; 090</span>.</li>
+    <li>A biconvex lens has surface powers of <span class="v">+10.00 D</span> and <span class="v">+6.00 D</span>, centre thickness <span class="v">6 mm</span>, index 1.5. What is the equivalent power?</li>
+    <li>Compute the critical angle for the cornea (n = 1.376) to air.</li>
+    <li>Using the Rayleigh criterion at 555 nm, what pupil size gives 1 arcmin of resolution?</li>
+    <li>A patient reports the red letters are clearer on duochrome. What is the refractive status of the current lens, and what do you do?</li>
+    <li>What is the magnification of a <span class="v">+16.00 D</span> hand magnifier in conventional terms?</li>
+    <li>A Galilean telescope has a <span class="v">+30 D</span> objective and a <span class="v">&#8722;90 D</span> eyepiece. What is its magnification and image orientation?</li>
+  </ol>
+  <div class="answers">
+    <span class="label">Key</span>
+    <ol>
+      <li>L = 1/(&#8722;0.25) = &#8722;4.00 D; L&#8242; = &#8722;4 + 8 = +4.00 D, so l&#8242; = +25 cm (real, right of lens). m = L/L&#8242; = &#8722;4/+4 = <strong>&#8722;1.00</strong>, i.e. same size, inverted.</li>
+      <li>F<sub>new</sub> = F / (1 &#8722; dF) = &#8722;9 / (1 &#8722; (0.014)(&#8722;9)) = &#8722;9 / 1.126 = <strong>&#8722;7.99, so &#8722;8.00 D</strong>. Moving a minus lens closer requires <em>less</em> minus.</li>
+      <li>&#916; = 0.4 cm &#215; 6.00 D = <strong>2.4 &#916; per eye</strong>. Decentring a plus lens nasally moves the optical centre nasally, giving <strong>base-in</strong> prism in each eye, so 4.8 &#916; base-in total.</li>
+      <li><span class="v">&#8722;1.25 &#8722;2.00 &#215; 155</span>.</li>
+      <li>&#952; is measured from the cylinder axis (180), so &#952; = 60&#176;. F = &#8722;1.00 + (&#8722;3.00)(sin<sup>2</sup>60) = &#8722;1.00 + (&#8722;3.00)(0.75) = <strong>&#8722;3.25 D</strong>.</li>
+      <li>+2.50 + (&#8722;1.50/2) = <strong>+1.75 D</strong>.</li>
+      <li>F<sub>e</sub> = 10 + 6 &#8722; (0.006/1.5)(10)(6) = 16 &#8722; (0.004)(60) = 16 &#8722; 0.24 = <strong>+15.76 D</strong>.</li>
+      <li>sin&#952;<sub>c</sub> = 1.000/1.376 = 0.7267, &#952;<sub>c</sub> = <strong>46.6&#176;</strong>.</li>
+      <li>1 arcmin = 2.909 &#215; 10<sup>&#8722;4</sup> rad. d = 1.22&#955;/&#952; = 1.22(555 &#215; 10<sup>&#8722;9</sup>)/2.909 &#215; 10<sup>&#8722;4</sup> = <strong>2.33 mm</strong>.</li>
+      <li>Red clearer means the eye is effectively under-minused or over-plussed: the current lens leaves the patient <strong>myopic relative to the target</strong>. Add minus (RAM: Red Add Minus) until they equalise or green is just barely clearer.</li>
+      <li>M = F/4 = 16/4 = <strong>4&#215;</strong>.</li>
+      <li>M = &#8722;F<sub>e</sub>/F<sub>o</sub> = &#8722;(&#8722;90)/(+30) = <strong>3&#215;, and the image is upright</strong> (a Galilean telescope gives an erect image).</li>
+    </ol>
+  </div>
+</div>
+
+<div class="recap">
+  <span class="label">Chapter recap</span>
+  <ol>
+    <li>L&#8242; = L + F solves most problems; F = (n&#8242; &#8722; n)/r for surfaces; F<sub>e</sub> = F<sub>1</sub> + F<sub>2</sub> &#8722; (t/n)F<sub>1</sub>F<sub>2</sub> for thick lenses.</li>
+    <li>Prentice: &#916; = c(cm) &#215; F; 1 &#916; = 0.57&#176;; light bends to the base, images shift to the apex.</li>
+    <li>Transposition: add algebraically, flip the sign, rotate 90&#176;. Spherical equivalent is sphere plus half the cylinder.</li>
+    <li>Abbe number is dispersion resistance: polycarbonate is the toughest and the most dispersive.</li>
+    <li>Aberrations: spherical for halos, coma for keratoconus, oblique astigmatism for best-form design, chromatic for duochrome (RAM-GAP).</li>
+    <li>Reduced eye: +60 D, n = 1.336, nodal point 17 mm from retina, 0.29 mm per degree, 1 mm equals 3 D.</li>
+    <li>Rayleigh 1.22&#955;/d gives 1 arcmin at about 2.3 mm; optimum pupil is 2 to 3 mm.</li>
+    <li>Rayleigh scatter for blue, Mie for white, Tyndall for the slit lamp beam.</li>
+    <li>Laser interactions: photocoagulation thermal, photodisruption at 1064 nm, photoablation at 193 nm, photochemical at 689 nm.</li>
+    <li>BIO magnification &#8776; 60/F: higher lens power gives less magnification and more field.</li>
+  </ol>
+</div>

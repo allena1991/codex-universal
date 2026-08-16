@@ -1,0 +1,8 @@
+# Official NBEO source documents used for grounding. Not redistributed:
+# download the current versions yourself from optometry.org.
+sources/
+
+# Render debugging artefacts
+dist/*.debug.html
+preview/
+__pycache__/
